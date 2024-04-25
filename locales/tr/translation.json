@@ -1,0 +1,466 @@
+{
+  "home": "Ana Sayfa",
+  "eggs": "Yumurtalar",
+  "nefties": "Neftieler",
+  "tier_list": "Seviye Listesi",
+  "explore_all": "Hepsini Keşfet",
+  "what_is_a_neftie": "<Neftie>Neftie</Neftie> Nedir?",
+  "neftie_desc": "Neftieler, Tokane'nin doğal sakinleridir, vahşi doğasında özgürce dolaşan büyülü yaratıklardır. <bold><sotlink>Seekers of Tokané</sotlink></bold> oyununda onlara sahip olabilir ve kullanabilirsiniz, oyun <bold><aurorylink>Aurory</aurorylink></bold> tarafından sunulmuştur.",
+  "element": "Element",
+  "more": "Daha Fazla",
+  "strong_against": "Karşı Güçlü",
+  "weak_against": "Karşı Zayıf",
+  "neutral_against": "Karşı Nötr",
+  "marketplace": "Pazar Yeri",
+  "expeditions": "Seferler",
+  "lands": "Araziler",
+  "obtainable_from": "Buradan Elde Edilebilir:",
+  "login_with_discord": "Discord ile Giriş Yap",
+  "logout": "Çıkış Yap",
+  "elements": {
+    "lightning": "yıldırım",
+    "air": "hava",
+    "earth": "toprak",
+    "water": "su",
+    "fire": "ateş",
+    "plant": "bitki"
+  },
+  "neftie_list": {
+    "bitebit": {
+      "description": "Bitebit her işin ustasıdır, hızlı yakın dövüş saldırılarıyla coşku yaratır. Çeşitli yetenekleri her durumda işinize yarayacaktır!",
+      "element": "yıldırım",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "YILDIRIM ADIMLAR I",
+          "description": "Bu tur eyleminde bir saldırıyı %100 ihtimalle savuşturma şansı."
+        },
+        {
+          "name": "ÇÜRÜK SÜRÜNGEN I",
+          "description": "Rakibe 2 tur boyunca Zehir uygular. Her tur sonunda, Zehir maksimum HP'nin %13'ü kadar zarar verir."
+        },
+        {
+          "name": "GÖK GÜRÜLTÜSÜ YUMRUĞU II",
+          "description": "60 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "FIRTINA KIRICININ HEYECANI III",
+          "description": "Saldırınız 3 tur boyunca 3 aşama artar. Ardından, 65 Güç ile Uzak Saldırı yapar."
+        }
+      ]
+    },
+    "dipking": {
+      "description": "Dipking yüksek maliyetli yeteneklere sahiptir, endişelenmeyin; kaçınma hareketleri kullanarak yeterince uzun süre dayanabilirse, patlayıcı hasar verebilir!",
+      "element": "su",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "SİSLİ ADIMLAR II",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, Saldırınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "TEMİZLEYİCİ DALGA I",
+          "description": "Rakibin üzerindeki durum etkilerini temizler."
+        },
+        {
+          "name": "SEL II",
+          "description": "100 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "GELGİT III",
+          "description": "85 Güç ile Yakın Saldırı yapar. Mevcut HP'niz rakibin HP'sinden düşükse, iki kat hasar verir."
+        }
+      ]
+    },
+    "dinobit": {
+      "description": "Dinobit, Neftiler arasında en yüksek HP'ye sahiptir ve bunu avantajınıza kullanabilirsiniz çünkü sağlığı rakibininkini aştığında daha fazla hasar verirsiniz!",
+      "element": "toprak",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "ÇAMUR ÇEKİCİ II",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, Saldırınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "KAYA DUVARI II",
+          "description": "2 tur boyunca maksimum HP'nizin %20'si kadar bir Kalkan oluşturur."
+        },
+        {
+          "name": "YERE SERME I",
+          "description": "Saldırı yerine Savunmanızı kullanarak 30 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "CANLILIK VURUŞU I",
+          "description": "45 Güç ile Yakın Saldırı yapar. Mevcut HP'niz rakibininkinden yüksekse, ek bir Yakın Saldırı yapar."
+        }
+      ]
+    },
+    "number-9": {
+      "description": "Number 9, coşku yaratma ve saldırılarını güçlendirme yeteneklerinin çeşitliliği ile tanınır. Laneti etkisini göstermeden önce dikkatli olun!",
+      "element": "ateş",
+      "skills": [
+        {
+          "name": "KIRILGANLIK AKIŞI I",
+          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
+        },
+        {
+          "name": "YETİŞME YUMRUĞU I",
+          "description": "30 Güç ile Yakın Saldırı yapar. Mevcut Coşkunuz rakibinkinden düşükse, 3 Coşku kazanır."
+        },
+        {
+          "name": "PATLAYICI KARŞILIK I",
+          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
+        },
+        {
+          "name": "YANIK ISIRIK II",
+          "description": "85 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "PATLATMA III",
+          "description": "Rakibe Lanet uygular. 2 tur sonunda, Lanet rakibin maksimum HP'sinin %30'u kadar hasar verir. Laneti yeniden uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikir ve Lanet süresini sıfırlamaz."
+        }
+      ]
+    },
+    "axobubble": {
+      "description": "Axobubble, savunmasını feda ederek coşku biriktirir ancak rakibine verilen hasarın bir kısmını yansıtır. Doğru an geldiğinde, arenayı suyla doldurarak zafer kazanır!",
+      "element": "su",
+      "skills": [
+        {
+          "name": "KIRILGANLIK AKIŞI I",
+          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
+        },
+        {
+          "name": "KABARCIK ZİNCİRİ II",
+          "description": "Bu turda alınan hasarın %65'ini rakibe yansıtır. Geri kalan hasarı siz alırsınız."
+        },
+        {
+          "name": "TEMİZLEYİCİ GELGİT I",
+          "description": "Hem kendinizin hem de rakibin üzerindeki durum etkilerini temizler."
+        },
+        {
+          "name": "DENİZSEL TERSİNE ÇEVİRME I",
+          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 75 Güç ile Karşı Saldırı yapar."
+        },
+        {
+          "name": "VOLT DALGASI III",
+          "description": "115 Güç ile Uzaktan Saldırı yapar."
+        }
+      ]
+    },
+    "unika": {
+      "description": "Unika savunmayı önceliklendirir ve güçlendirildiğinde, kendini korkutucu bir hasar vericiye dönüştürür. Sıkı bir savaşa hazır olun!",
+      "element": "toprak",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
+        },
+        {
+          "name": "TAŞ DERİ I",
+          "description": "2 tur boyunca Savunmanız 2 aşama artar. Rakibin Savunması 2 tur boyunca 1 aşama düşer."
+        },
+        {
+          "name": "ÇÜRÜK SÜRÜNGEN I",
+          "description": "Rakibe 2 tur boyunca Zehir uygular. Her tur sonunda, Zehir maksimum HP'nin %13'ü kadar zarar verir."
+        },
+        {
+          "name": "YERE SERME I",
+          "description": "Saldırı yerine Savunmanızı kullanarak 30 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "KAYA VURUŞU II",
+          "description": "45 Güç ile Uzaktan Saldırı yapar. Savunmanız rakibinkinden yüksekse, ek bir Uzaktan Saldırı yapar."
+        }
+      ]
+    },
+    "zzoo": {
+      "description": "Zzoo, saldırıları savuşturarak, hassas karşı saldırılar yaparak ve doğru anda rüzgarın tam gücünü kullanarak rakipleri yenmek için savunma stratejisi kullanır!",
+      "element": "toprak",
+      "skills": [
+        {
+          "name": "ENERJİLENDİRİCİ YANSITMA I",
+          "description": "Bu turda alınan hasarın %30'unu rakibe yansıtır. Geri kalan hasarı siz alırsınız. Tetiklenirse, 3 Coşku kazanır."
+        },
+        {
+          "name": "HAVADAN KESİŞ II",
+          "description": "30 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "PATLAYICI KARŞILIK I",
+          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
+        },
+        {
+          "name": "FLORAN'IN AYNASI I",
+          "description": "Bu turda alınan hasarın %85'ini rakibe yansıtır. Geri kalan hasarı siz alırsınız."
+        },
+        {
+          "name": "SİLFOR'UN ARINMASI III",
+          "description": "Üzerinizdeki durum etkilerini temizler. Ardından, 150 Güç ile Uzaktan Saldırı yapar."
+        }
+      ]
+    },
+    "block-choy": {
+      "description": "Block Choy, hayat çalma ve zehir kullanarak rakipleri zamanla yıpratarak ve sonunda savaşı kazanarak dayanıklılıkla donatılmıştır!",
+      "element": "bitki",
+      "skills": [
+        {
+          "name": "AKIŞKAN VURUŞ I",
+          "description": "20 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "FİDAN VURUŞU II",
+          "description": "30 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "NANELİ KORUMA I",
+          "description": "2 tur boyunca maksimum HP'nizin %15'i kadar bir Kalkan oluşturur."
+        },
+        {
+          "name": "VAMPİR KÖK I",
+          "description": "70 Güç ile Uzaktan Saldırı yapar. Verilen hasarın %35'ini hayat olarak çalar."
+        },
+        {
+          "name": "BOĞUCU KÖKLER II",
+          "description": "Rakibe 5 tur boyunca Zehir uygular. Her tur sonunda, Zehir rakibin maksimum HP'nin %13'ü kadar zarar verir."
+        }
+      ]
+    },
+    "shiba-ignite": {
+      "description": "Shiba Ignite, hayat çalmak için kullanılabilecek önemli bir HP'ye sahiptir ve bu, coşkusunu artırır. Bu, sağlığı rakibinkinden düşük olduğunda iki kat hasar vermesini sağlar!",
+      "element": "ateş",
+      "skills": [
+        {
+          "name": "HAYAT ÇALMA RİTÜELİ I",
+          "description": "Kendine 10 Güç saldırısı yapar."
+        },
+        {
+          "name": "AURANY'NIN ÖFKESİ II",
+          "description": "Bu turda vurulursanız, 2 tur boyunca Saldırınız 2 aşama artar."
+        },
+        {
+          "name": "PATLAYICI KARŞILIK I",
+          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
+        },
+        {
+          "name": "ALEVLI ÇILGINLIK II",
+          "description": "60 Güç ile Uzaktan Saldırı yapar. Mevcut HP'niz rakibinkinden düşükse, iki kat hasar verir."
+        },
+        {
+          "name": "DEPREM I",
+          "description": "105 Güç ile Yakın Saldırı yapar. Verilen hasarın %15'i kadar Geri Tepme alırsınız."
+        }
+      ]
+    },
+    "raccoin": {
+      "description": "Raccoin, kurnaz doğası ve sakin tavırlarıyla bilinir, çevikliği ve gölgeli, sakin dinlenme yerlerine olan sevgisiyle tanınır.",
+      "element": "hava",
+      "skills": [
+        {
+          "name": "CANLILIK HIRSIZLIĞI I",
+          "description": "10 Güç ile Yakın Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar. Rakibin Hızı 2 tur boyunca 1 aşama düşer."
+        },
+        {
+          "name": "ŞANSLI REFLEKSLER II",
+          "description": "Savuştur ve bu turda bir Yakın Saldırı tarafından vurulursanız 40 Güç ile Karşı Saldırı yapar. Tetiklenirse, rakibin Savunmasını 2 tur boyunca 2 aşama düşürür."
+        },
+        {
+          "name": "İYİ TALİH I",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, üzerinizdeki durum etkilerini temizler."
+        },
+        {
+          "name": "BOŞ VERMEK II",
+          "description": "Maksimum HP'nizin %15'i kadar kendinizi iyileştirir. Hızınız 2 tur boyunca 2 aşama düşer."
+        },
+        {
+          "name": "ATEŞE HAZIR III",
+          "description": "70 Güç ile Yakın Saldırı yapar. Hızınız rakibinkinden yüksekse, Hızınızı kullanarak Saldırı yerine 35 Güç ile ek bir Yakın Saldırı yapar."
+        }
+      ]
+    },
+    "shibark": {
+      "description": "Shibark geniş arazilerde dolaşır, hazineleri koklar ve gururla topraklarını güçlü ulumalarıyla iddia eder.",
+      "element": "toprak",
+      "skills": [
+        {
+          "name": "DELİRTEÇ ULUMA I",
+          "description": "Saldırınız 1 tur boyunca 1 aşama artar. Rakibin Saldırısı 1 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "DAYANIKLILIK II",
+          "description": "Bu turda alınan bir saldırıdan gelen hasarın %50'sini savuşturur. Tetiklenirse, 2 Coşku kazanır."
+        },
+        {
+          "name": "ALEV KIVILCIMI I",
+          "description": "25 Güç ile Uzaktan Saldırı yapar. Saldırınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "KAYALI TAKİP II",
+          "description": "Yüksek öncelikli 50 Güç ile Yakın Saldırı yapar. Bu saldırı reaktif yeteneklerden önce gelir ve neredeyse her zaman ilk sıradadır."
+        },
+        {
+          "name": "KASVETLİ DİŞ III",
+          "description": "120 Güç ile Yakın Saldırı yapar. İsabet ederse, rakibe Lanet uygular. Tur sonunda, Lanet rakibin maksimum HP'sinin %10'u kadar hasar verir. Laneti yeniden uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikir ve Lanet süresini sıfırlamaz."
+        }
+      ]
+    },
+    "unikirin": {
+      "description": "Unikirin'in her adımı elektrik enerjisinin çıtırtısıyla yankılanır, vahşi ve evcilleştirilemez ruhunun bir kanıtıdır.",
+      "element": "yıldırım",
+      "skills": [
+        {
+          "name": "ŞARJ I",
+          "description": "2 tur boyunca Hızınız 1 aşama düşer."
+        },
+        {
+          "name": "YILDIRIM ADIMLARI I",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur."
+        },
+        {
+          "name": "ALEV MAKİNESİ I",
+          "description": "80 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "GÖK GÜRÜLTÜSÜ VURUŞU II",
+          "description": "70 Güç ile Uzaktan Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "ELEKTRİKSEL AŞIRI YÜK II",
+          "description": "Hızınız şu anda düşürülmüşse, 135 Güç ile Uzaktan Saldırı yapar. Ardından, Hızınızı temizler."
+        }
+      ]
+    },
+    "chocomint": {
+      "description": "Chocomint, Neftiler arasında en hızlılardan biridir, hızını kullanarak kaçınma ve kesin karşı saldırılar yapmak için bu avantajı en iyi şekilde kullanın. Rakibinizi yenmek için güneşin gücünü kullanın!",
+      "element": "bitki",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "SU JETİ I",
+          "description": "30 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "YILDIRIM ADIMLARI I",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur."
+        },
+        {
+          "name": "ETER KASIRGASI I",
+          "description": "Rakibin Saldırısını 3 tur boyunca 3 aşama düşürür."
+        },
+        {
+          "name": "GÜNEŞ PATLAMASI III",
+          "description": "155 Güç ile Uzaktan Saldırı yapar."
+        }
+      ]
+    },
+    "cybertooth": {
+      "description": "Cybertooth, kalın derisini savunmasını güçlendirmek için kullanır, yetenekleriyle düşmanları zayıflatıp avantaj elde ederek önemli hasarlar verir.",
+      "element": "hava",
+      "skills": [
+        {
+          "name": "ENERJİK VURUŞ I",
+          "description": "20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "SU OKU I",
+          "description": "30 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "ZEPHYRA'NIN KORUMASI I",
+          "description": "2 tur boyunca maksimum HP'nizin %20'sine eşit bir Kalkan oluşturur."
+        },
+        {
+          "name": "KIRILAN RÜZGAR II",
+          "description": "Rakibin kalkanını temizler, ardından 105 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "DENGELİ KAYMA II",
+          "description": "2 tur boyunca Savunmanızı ve Saldırınızı 2 aşama artırır. Rakibin Savunması ve Saldırısı 2 aşama düşürülür."
+        }
+      ]
+    },
+    "wassie": {
+      "description": "Wassie, yeteneklerini kullanarak hızını artırıp önemli hasarlar veren çevik bir Nefti'dir.",
+      "element": "yıldırım",
+      "skills": [
+        {
+          "name": "ZAYIFLATAN AKIŞ I",
+          "description": "2 tur boyunca Saldırınız 1 aşama düşürülür."
+        },
+        {
+          "name": "YAKALAMA YUMRUĞU I",
+          "description": "Mevcut Coşkunuz rakibinkinden düşükse, 30 Güç ile Yakın Saldırı yapar ve 3 Coşku kazanırsınız."
+        },
+        {
+          "name": "GÖKYÜZÜ DANSI II",
+          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturma şansı. Tetiklenirse, Hızınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "GÖK GÜRÜLTÜSÜ VURUŞU II",
+          "description": "70 Güç ile Uzaktan Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar."
+        },
+        {
+          "name": "PARILTI VOLTI III",
+          "description": "Saldırı yerine Hızınızı kullanarak 70 Güç ile Yakın Saldırı yapar."
+        }
+      ]
+    },
+    "dracurve": {
+      "description": "Dracurve, istatistiklerdeki ve durum etkilerindeki değişikliklerle savaşın seyrini belirler. Dikkatli olun, çünkü birkaç stratejik seçim hızla yıkıma yol açabilir.",
+      "element": "yıldırım",
+      "skills": [
+        {
+          "name": "EJDERHA KÜKREMESİ II",
+          "description": "1 tur boyunca Saldırınız artar ve Savunmanız düşer, ardından 20 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "HAVADAN KESİŞ II",
+          "description": "30 Güç ile Uzaktan Saldırı yapar."
+        },
+        {
+          "name": "GÖK GÜRÜLTÜSÜ ÖLÇEĞİ II",
+          "description": "2 tur boyunca maksimum HP'nizin %15'ine eşit bir Kalkan oluşturur. Savunmanız 2 tur boyunca 2 aşama artar."
+        },
+        {
+          "name": "YANIK ISIRIK II",
+          "description": "85 Güç ile Yakın Saldırı yapar."
+        },
+        {
+          "name": "GÖK GÜRÜLTÜSÜNÜN YIKIMI II",
+          "description": "40 Güç ile Uzaktan Saldırı yapar. Aktif bir Kalkanınız varsa, 2 tur boyunca maksimum HP'nizin %25'ine eşit Kalkanınızı yükseltir. Ardından 90 Güç ile Uzaktan Saldırı yapar."
+        }
+      ]
+    }
+  },
+  "egg_list": {
+    "everglade": {
+      "description": "Everglade Yumurtası, yıldırım çarpması sonucu etrafında saçların diken diken olmasına neden olan bir elektromanyetik alan oluşturur."
+    },
+    "prairie": {
+      "description": "Ilıman bir iklime sahip bölgede bulunan bu yumurta, çatlamaya hazır olana kadar kendini bitki kökleriyle korur."
+    },
+    "cliff": {
+      "description": "Bu yumurtaları çatlatmak zordur, ama içlerinden sadece en güçlü Neftieler ortaya çıkar!"
+    },
+    "quantum": {
+      "description": "Kuantum Yumurtası, gizemli bir harikadır, parlak kabuğu uzak ve inanılmaz yerlerin renklerini yansıtır, içinde saklı gizemli yaratığı sürekli değişen bir şekilde ima eder."
+    },
+    "genesis": {
+      "description": "Bu yumurta, blockchain'in kendisi tarafından yaratıldığı söylentileri arasındadır, ilk Neftieleri tanıtmak için bir araç olarak hizmet eder. Tokane ekosistemi daha fazla dengeye ulaştıkça, erişilebilirliği azalır."
+    },
+    "draconic": {
+      "description": "Bir jilet kadar keskin kabuğa sahip Draconic Yumurtası, acemi Arayıcıları içinde saklı olan güç konusunda uyarır."
+    }
+  }
+}

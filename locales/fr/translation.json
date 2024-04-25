@@ -1,0 +1,466 @@
+{
+  "home": "Accueil",
+  "eggs": "Œufs",
+  "nefties": "Nefties",
+  "tier_list": "Liste de niveaux",
+  "explore_all": "Explorer tout",
+  "what_is_a_neftie": "Qu'est-ce qu'un <Neftie>Neftie?</Neftie>",
+  "neftie_desc": "Les Nefties sont les habitants naturels de Tokane, des créatures magiques qui errent librement dans ses étendues sauvages. Vous pouvez les posséder et les utiliser dans le jeu <bold><sotlink>Les chercheurs de Tokané</sotlink></bold> par <bold><aurorylink>Aurory</aurorylink></bold>.",
+  "element": "Élément",
+  "more": "Plus",
+  "strong_against": "Fort contre",
+  "weak_against": "Faible contre",
+  "neutral_against": "Neutre contre",
+  "marketplace": "Marché",
+  "expeditions": "Expéditions",
+  "lands": "Terres",
+  "obtainable_from": "Obtenable de :",
+  "login_with_discord": "Se connecter avec Discord",
+  "logout": "Se déconnecter",
+  "elements": {
+    "lightning": "foudre",
+    "air": "air",
+    "earth": "terre",
+    "water": "eau",
+    "fire": "feu",
+    "plant": "plante"
+  },
+  "neftie_list": {
+    "bitebit": {
+      "description": "Bitebit est un touche-à-tout, comptant sur des frappes en mêlée rapides pour générer de l'enthousiasme. Son arsenal diversifié d'aptitudes est sûr d'être utile dans toutes les situations !",
+      "element": "foudre",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "PAS FULGUROUS I",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+        },
+        {
+          "name": "VIGNE PUTRIDE I",
+          "description": "Inflige Poison à l'adversaire pour 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max."
+        },
+        {
+          "name": "COUP DE TONNERRE II",
+          "description": "Effectuez une attaque de mêlée de 60 de puissance."
+        },
+        {
+          "name": "ZÈLE DU BRISORAGE III",
+          "description": "Votre Attaque est augmentée de 3 niveaux pour 3 tours. Ensuite, effectuez une attaque à distance de 65 de puissance."
+        }
+      ]
+    },
+    "dipking": {
+      "description": "Dipking dispose d'aptitudes à coût élevé, mais ne vous inquiétez pas ; si vous pouvez tenir assez longtemps en utilisant des actions évasives, il peut libérer des dégâts explosifs !",
+      "element": "eau",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "PAS BRUMEUX II",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Attaque est augmentée de 1 niveau pour 2 tours."
+        },
+        {
+          "name": "VAGUE DE PURIFICATION I",
+          "description": "Nettoie les effets de statut sur l'adversaire."
+        },
+        {
+          "name": "DÉLUGE II",
+          "description": "Effectuez une attaque à distance de 100 de puissance."
+        },
+        {
+          "name": "RISSURE III",
+          "description": "Effectuez une attaque de mêlée de 85 de puissance. Si vos HP actuels sont inférieurs à ceux de l'adversaire, infligez le double des dégâts."
+        }
+      ]
+    },
+    "dinobit": {
+      "description": "Dinobit possède le plus haut HP parmi les Nefties, et vous pouvez utiliser cela à votre avantage puisque vous infligez plus de dégâts lorsque sa santé dépasse celle de son adversaire !",
+      "element": "terre",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "MARTÈLE-BOUE II",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Attaque est augmentée de 1 niveau pour 2 tours."
+        },
+        {
+          "name": "MUR DE ROCHE II",
+          "description": "Levez un Bouclier égal à 20% de votre HP max pour 2 tours."
+        },
+        {
+          "name": "COUP DE FORCE I",
+          "description": "Effectuez une attaque de mêlée de 30 de puissance en utilisant votre Défense au lieu de l'Attaque."
+        },
+        {
+          "name": "FRAPPE DE VITALITÉ I",
+          "description": "Effectuez une attaque de mêlée de 45 de puissance. Si vos HP actuels sont supérieurs à ceux de l'adversaire, effectuez une attaque de mêlée supplémentaire."
+        }
+      ]
+    },
+    "number-9": {
+      "description": "Le numéro 9 est connu pour sa variété d'aptitudes pour générer de l'enthousiasme et améliorer ses attaques. Surveillez vos arrières avant que sa malédiction ne prenne effet !",
+      "element": "feu",
+      "skills": [
+        {
+          "name": "FLUX DE FRAGILITÉ I",
+          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+        },
+        {
+          "name": "COUP DE RATTRAPAGE I",
+          "description": "Effectuez une attaque de mêlée de 30 de puissance. Si votre Enthousiasme actuel est inférieur à celui de l'adversaire, gagnez 3 d'Enthousiasme."
+        },
+        {
+          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
+          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+        },
+        {
+          "name": "MORSURE BRÛLANTE II",
+          "description": "Effectuez une attaque de mêlée de 85 de puissance."
+        },
+        {
+          "name": "DÉTONATION III",
+          "description": "Infligez une Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige 30% du HP max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+        }
+      ]
+    },
+    "axobubble": {
+      "description": "Axobubble sacrifie sa défense pour construire de l'enthousiasme mais réfléchit une partie des dégâts infligés à son adversaire. Lorsque le moment est venu, il inonde l'arène pour gagner !",
+      "element": "eau",
+      "skills": [
+        {
+          "name": "FLUX DE FRAGILITÉ I",
+          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+        },
+        {
+          "name": "CHAÎNE DE BULLES II",
+          "description": "Réfléchissez 65% des dégâts infligés à l'adversaire lors de cette action de tour. Vous prenez les dégâts restants."
+        },
+        {
+          "name": "MARÉE PURIFICATRICE I",
+          "description": "Nettoie les effets de statut sur vous et l'adversaire."
+        },
+        {
+          "name": "RENVERSEMENT MARIN I",
+          "description": "Esquivez une fois et effectuez une Contre-Attaque de 75 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+        },
+        {
+          "name": "SURGE DE VOLTS III",
+          "description": "Effectuez une attaque à distance de 115 de puissance."
+        }
+      ]
+    },
+    "unika": {
+      "description": "Unika privilégie la défense et, une fois renforcée, se transforme en un redoutable distributeur de dégâts. Préparez-vous pour un combat serré !",
+      "element": "terre",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+        },
+        {
+          "name": "PEAU DE PIERRE I",
+          "description": "Votre Défense est augmentée de 2 niveaux pour 2 tours. La Défense de l'adversaire est réduite d'un niveau pour 2 tours."
+        },
+        {
+          "name": "VIGNE PUTRIDE I",
+          "description": "Inflige Poison à l'adversaire pour 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max."
+        },
+        {
+          "name": "COUP DE FORCE I",
+          "description": "Effectuez une attaque de mêlée de 30 de puissance en utilisant votre Défense au lieu de l'Attaque."
+        },
+        {
+          "name": "COUP DE BOULDER II",
+          "description": "Effectuez une attaque à distance de 45 de puissance. Si votre Défense est supérieure à celle de l'adversaire, effectuez une attaque à distance supplémentaire."
+        }
+      ]
+    },
+    "zzoo": {
+      "description": "Zzoo utilise une stratégie défensive pour vaincre les adversaires en déviant les attaques, contre-attaquant avec précision, et utilisant toute la force du vent au bon moment pour sécuriser la victoire !",
+      "element": "terre",
+      "skills": [
+        {
+          "name": "RÉFLEXION ÉNERGISANTE I",
+          "description": "Réfléchissez à l'adversaire 30% des dégâts infligés lors de cette action de tour. Vous prenez les dégâts restants. Si déclenché, gagnez 3 d'Enthousiasme."
+        },
+        {
+          "name": "LAME AÉRIENNE II",
+          "description": "Effectuez une attaque à distance de 30 de puissance."
+        },
+        {
+          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
+          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+        },
+        {
+          "name": "MIROIR DE FLORAN I",
+          "description": "Réfléchissez à l'adversaire 85% des dégâts infligés lors de cette action de tour. Vous prenez les dégâts restants."
+        },
+        {
+          "name": "PURGE DE SYLPHOR III",
+          "description": "Nettoyez vos effets de statut. Ensuite, effectuez une attaque à distance de 150 de puissance."
+        }
+      ]
+    },
+    "block-choy": {
+      "description": "Block Choy est bien équipé pour survivre aux adversaires grâce au vol de vie et à l'utilisation de poison, infligeant des dégâts au fil du temps et gagnant finalement le combat !",
+      "element": "plante",
+      "skills": [
+        {
+          "name": "FRAPPE FLUIDE I",
+          "description": "Effectuez une attaque à distance de 20 de puissance."
+        },
+        {
+          "name": "GIFLE DE JEUNE POUSSE II",
+          "description": "Effectuez une attaque de mêlée de 30 de puissance."
+        },
+        {
+          "name": "PROTECTION MENTHOLÉE I",
+          "description": "Levez un Bouclier égal à 15% de votre HP max pour 2 tours."
+        },
+        {
+          "name": "RACINE VAMPIRIQUE I",
+          "description": "Effectuez une attaque à distance de 70 de puissance. Vol de vie de 35% des dégâts infligés."
+        },
+        {
+          "name": "RACINES ÉTRANGLANTES II",
+          "description": "Inflige Poison à l'adversaire pour 5 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max de l'adversaire."
+        }
+      ]
+    },
+    "shiba-ignite": {
+      "description": "Shiba Ignite se vante d'un HP substantiel qui peut être utilisé pour le tapage de vie, augmentant son enthousiasme. Cela lui permet d'infliger le double des dégâts lorsque sa santé est inférieure à celle de l'adversaire !",
+      "element": "feu",
+      "skills": [
+        {
+          "name": "RITUEL DE TAPAGE DE VIE I",
+          "description": "Auto-attaque de 10 de puissance."
+        },
+        {
+          "name": "RAGE D'AURANY II",
+          "description": "Si vous êtes touché lors de cette action de tour, votre Attaque est augmentée de 2 niveaux pour 2 tours."
+        },
+        {
+          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
+          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+        },
+        {
+          "name": "DÉCHAÎNEMENT ARDENT II",
+          "description": "Effectuez une attaque à distance de 60 de puissance. Si vos HP actuels sont inférieurs à ceux de l'adversaire, infligez le double des dégâts."
+        },
+        {
+          "name": "TREMBLEMENT DE TERRE I",
+          "description": "Effectuez une attaque de mêlée de 105 de puissance. Vous prenez 15% des dégâts infligés comme Recul."
+        }
+      ]
+    },
+    "raccoin": {
+      "description": "Raccoin, avec sa nature rusée et son comportement décontracté, est célèbre pour son agilité et son amour pour les endroits ombragés et tranquilles.",
+      "element": "air",
+      "skills": [
+        {
+          "name": "VOL DE VIGUEUR I",
+          "description": "Effectuez une attaque de mêlée de 10 de puissance. Votre Vitesse est augmentée de 1 pour 2 tours. La Vitesse de l'adversaire est réduite de 1 pour 2 tours."
+        },
+        {
+          "name": "RÉFLEXES CHANCEUX II",
+          "description": "Esquivez puis effectuez une Contre-Attaque de 40 de puissance si vous êtes touché par une attaque de mêlée lors de cette action de tour. Si déclenché, réduisez la Défense de l'adversaire de 2 pour 2 tours."
+        },
+        {
+          "name": "BONNE FORTUNE I",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, nettoyez vos effets de statut."
+        },
+        {
+          "name": "PARESSER II",
+          "description": "Soignez-vous de 15% de votre HP max. Votre Vitesse est réduite de 2 pour 2 tours."
+        },
+        {
+          "name": "MOTIVÉ III",
+          "description": "Effectuez une attaque de mêlée de 70 de puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque de mêlée supplémentaire de 35 de puissance en utilisant votre Vitesse au lieu de l'Attaque."
+        }
+      ]
+    },
+    "shibark": {
+      "description": "Shibark erre à travers des terres vastes, flairant des trésors et revendiquant fièrement son territoire avec de puissants hurlements.",
+      "element": "terre",
+      "skills": [
+        {
+          "name": "HURLEMENT FRÉNÉTIQUE I",
+          "description": "Votre Attaque est augmentée de 1 pour 1 tour. L'Attaque de l'adversaire est augmentée de 1 pour 1 tour."
+        },
+        {
+          "name": "ENDURER II",
+          "description": "Dévie 50% des dégâts reçus par une attaque lors de cette action de tour. Si déclenché, gagnez 2 d'Enthousiasme."
+        },
+        {
+          "name": "ÉTINCELLE DE FLAMME I",
+          "description": "Effectuez une attaque à distance de 25 de puissance. Votre Attaque est augmentée de 1 niveau pour 2 tours."
+        },
+        {
+          "name": "POURSUITE ROCHEUSE II",
+          "description": "Effectuez une attaque de mêlée à haute priorité de 50 de puissance. Cette attaque précède les capacités réactives et passe presque toujours en premier."
+        },
+        {
+          "name": "CROCS FUNESTES III",
+          "description": "Effectuez une attaque de mêlée de 120 de puissance. Si cela touche, infligez une Malédiction à l'adversaire. À la fin du tour, la Malédiction inflige 10% du HP max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+        }
+      ]
+    },
+    "unikirin": {
+      "description": "Chaque pas d'Unikirin résonne avec le crépitement de l'énergie électrique, un témoignage de son esprit sauvage et indompté.",
+      "element": "foudre",
+      "skills": [
+        {
+          "name": "RECHARGE I",
+          "description": "Votre Vitesse est réduite de 1 pour 2 tours."
+        },
+        {
+          "name": "PAS FULGUROUS I",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+        },
+        {
+          "name": "LANCE-FLAMMES I",
+          "description": "Effectuez une attaque à distance de 80 de puissance."
+        },
+        {
+          "name": "FRAPPE DE TONNERRE II",
+          "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pour 2 tours."
+        },
+        {
+          "name": "SURCHARGE ÉLECTRIQUE II",
+          "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 135 de puissance. Ensuite, nettoyez votre Vitesse."
+        }
+      ]
+    },
+    "chocomint": {
+      "description": "Chocomint figure parmi les Nefties les plus rapides, alors tirez le meilleur parti de sa vitesse pour esquiver et contre-attaquer avec précision. Exploitez la puissance du soleil pour vaincre votre adversaire !",
+      "element": "plante",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "ÉCLAIR AQUATIQUE I",
+          "description": "Effectuez une attaque à distance de 30 de puissance."
+        },
+        {
+          "name": "PAS FULGUROUS I",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+        },
+        {
+          "name": "TOURBILLON D'ÉTHER I",
+          "description": "L'Attaque de l'adversaire est réduite de 3 niveaux pour 3 tours."
+        },
+        {
+          "name": "EXPLOSION SOLAIRE III",
+          "description": "Effectuez une attaque à distance de 155 de puissance."
+        }
+      ]
+    },
+    "cybertooth": {
+      "description": "Cybertooth utilise sa peau épaisse pour renforcer ses défenses, affaiblissant habilement les ennemis avec ses capacités pour obtenir un avantage et infliger des dégâts significatifs.",
+      "element": "air",
+      "skills": [
+        {
+          "name": "COUP D'ÉNERGIE I",
+          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "ÉCLAIR AQUATIQUE I",
+          "description": "Effectuez une attaque à distance de 30 de puissance."
+        },
+        {
+          "name": "PROTECTION DE ZÉPHYRA I",
+          "description": "Levez un Bouclier égal à 20% de votre HP max pour 2 tours."
+        },
+        {
+          "name": "VENT DÉVASTATEUR II",
+          "description": "Nettoyez le bouclier de l'adversaire, puis effectuez une attaque à distance de 105 de puissance."
+        },
+        {
+          "name": "CHANGEMENT D'ÉQUILIBRE II",
+          "description": "Votre Défense et Attaque sont augmentées de 2 pour 2 tours. La Défense et l'Attaque de l'adversaire sont réduites de 2 pour 2 tours."
+        }
+      ]
+    },
+    "wassie": {
+      "description": "Wassie est un Neftie agile connu pour exploiter ses capacités pour améliorer sa vitesse et infliger des dégâts substantiels.",
+      "element": "foudre",
+      "skills": [
+        {
+          "name": "FLUX AFFAIBLISSANT I",
+          "description": "Votre Attaque est réduite d'un niveau pour 2 tours."
+        },
+        {
+          "name": "COUP DE RATTRAPAGE I",
+          "description": "Effectuez une attaque de mêlée de 30 de puissance. Si votre Enthousiasme actuel est inférieur à celui de l'adversaire, gagnez 3 d'Enthousiasme."
+        },
+        {
+          "name": "DANSE DU CIEL II",
+          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Vitesse est augmentée de 1 pour 2 tours."
+        },
+        {
+          "name": "FRAPPE DE TONNERRE II",
+          "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée d'un niveau pour 2 tours."
+        },
+        {
+          "name": "ÉCLAIR FLASH III",
+          "description": "Effectuez une attaque de mêlée de 70 de puissance en utilisant votre Vitesse au lieu de l'Attaque."
+        }
+      ]
+    },
+    "dracurve": {
+      "description": "Dracurve dicte le cours de la bataille avec des changements de stats et des effets de statut. Exercez la prudence, car quelques choix stratégiques peuvent rapidement ouvrir la voie à la dévastation.",
+      "element": "foudre",
+      "skills": [
+        {
+          "name": "RUGISSEMENT DRACONIQUE II",
+          "description": "Votre Attaque est augmentée et votre Défense est réduite de 1 pour 1 tour. Ensuite, effectuez une attaque de mêlée de 20 de puissance."
+        },
+        {
+          "name": "LAME AÉRIENNE II",
+          "description": "Effectuez une attaque à distance de 30 de puissance."
+        },
+        {
+          "name": "ÉCAILLE DE TONNERRE II",
+          "description": "Levez un Bouclier égal à 15% de votre HP max pour 2 tours. Votre Défense est augmentée de 2 pour 2 tours."
+        },
+        {
+          "name": "MORSURE BRÛLANTE II",
+          "description": "Effectuez une attaque de mêlée de 85 de puissance."
+        },
+        {
+          "name": "DÉCHAÎNEMENT DU SEIGNEUR DU TONNERRE II",
+          "description": "Effectuez une attaque à distance de 40 de puissance. Si vous avez un Bouclier actif, améliorez votre Bouclier égal à 25% de votre HP max pour 2 tours. Ensuite, effectuez une attaque à distance de 90 de puissance."
+        }
+      ]
+    }
+  },
+  "egg_list": {
+    "everglade": {
+      "description": "L'œuf des Everglades est frappé par la foudre et crée un champ électromagnétique qui fait se dresser les cheveux sur la tête à proximité."
+    },
+    "prairie": {
+      "description": "Trouvé dans un climat tempéré, cet œuf utilise les racines des plantes pour se protéger jusqu'à ce qu'il soit prêt à éclore."
+    },
+    "cliff": {
+      "description": "Ces œufs sont difficiles à fendre, mais de l'intérieur, n'émergent que les Nefties les plus forts !"
+    },
+    "quantum": {
+      "description": "L'œuf Quantique est une merveille énigmatique, sa coquille brillante reflétant les couleurs de lieux lointains et incroyables, taquinant la créature mystérieuse et changeante cachée à l'intérieur."
+    },
+    "genesis": {
+      "description": "Cet œuf est réputé être une création de la blockchain elle-même, servant de moyen pour introduire ses premiers Nefties. Sa disponibilité diminue à mesure que l'écosystème de Tokane atteint un plus grand équilibre."
+    },
+    "draconic": {
+      "description": "Avec une coquille aussi tranchante qu'une lame de rasoir, l'Œuf Draconique envoie un avertissement aux Chercheurs novices, les mettant en garde contre le pouvoir caché à l'intérieur."
+    }
+  }
+}
