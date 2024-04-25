@@ -1,100 +1,35 @@
 "use client";
-import React from "react";
-import { useSession, signIn, signOut } from "next-auth/react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
-import { LayoutDashboard, Play } from "lucide-react";
-import { useTranslation } from "react-i18next";
+import { Button } from "@/components/ui/button";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { LANGUAGE } from "@/lib/data/constants";
-import { usePathname } from "next/navigation";
-import MobileMenu from "../mobile-menu";
+import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
+import { GripHorizontal, LayoutDashboard, Play } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const Sidebar = () => {
-  const { data: session } = useSession();
-  const { t, i18n } = useTranslation();
-  const router = useRouter();
-  const pathname = usePathname();
+export default function MobileMenu() {
+  const { t } = useTranslation();
 
   return (
-    <div className="w-full lg:w-[15rem] border-r font-ibmplex p-2">
-      <div className="text-center text-2xl cursor-pointer p-2 flex justify-between items-center">
-        <div>
-          <strong> NEFTIE</strong>.APP
-        </div>
-        <div className="-mt-[2px]">
-          <DropdownMenu>
-            <DropdownMenuTrigger>
-              <img
-                src={`/images/flags/${i18n.language}.svg`}
-                className="w-[20px]"
-                alt={i18n.language}
-              />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="">
-              {LANGUAGE.map((lang) => {
-                return (
-                  <DropdownMenuItem
-                    key={lang.code}
-                    onClick={(e) => {
-                      let newPath;
-                      if (i18n.language !== "en") {
-                        newPath = newPath = pathname.replace(
-                          /^\/[a-z]{2}\/?/,
-                          `/${lang.code}/`
-                        );
-
-                        i18n.changeLanguage(lang.code);
-                        return router.push(newPath);
-                      } else {
-                        i18n.changeLanguage(lang.code);
-                        return router.push(`/${lang.code}${pathname}`);
-                      }
-                    }}
-                  >
-                    <img
-                      src={`/images/flags/${lang.code}.svg`}
-                      className="w-[20px] mr-2"
-                      alt={i18n.language}
-                    />{" "}
-                    {lang.value}
-                  </DropdownMenuItem>
-                );
-              })}
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-      </div>
-      {!session ? (
-        <div
-          onClick={() => signIn("discord")}
-          className="bg-[#5d6af3] p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold mt-3 mb-4 cursor-pointer text-xs"
-        >
-          <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
-          {t("translation:login_with_discord")}
-        </div>
-      ) : (
-        <div
-          className="bg-destructive p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold text-xs mt-3 mb-4 cursor-pointer font-semibold"
-          onClick={() => signOut()}
-        >
-          {t("translation:logout")}
-        </div>
-      )}
-      <div className="mt-4 hidden lg:block">
+    <>
+      <div className="lg:hidden fixed inset-x-0 bottom-0 h-[3.2rem] bg-background border-t flex items-center justify-around shadow-md z-[100]">
         <Link href="/">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+          <Button
+            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            size="icon"
+            variant="ghost"
+          >
             <LayoutDashboard size={18} /> {t("translation:home")}
-          </div>
+          </Button>
         </Link>
+
         <Link href="/eggs">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
+          <Button
+            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            size="icon"
+            variant="ghost"
+          >
             <svg
               width="18px"
               height="18px"
@@ -106,12 +41,17 @@ const Sidebar = () => {
                 d="M23.8359 10.4671L21.6437 10.9045L21.7248 13.0806L18.3829 13.999L17.8507 15.5402L15.7644 16.851L15.6558 16.8102L17.1837 14.5945L17.1287 13.0806L20.4018 11.2969L19.5835 9.24343L21.6038 7.03051C19.981 5.17868 17.9827 4 15.8194 4C10.3967 3.99864 6 11.4019 6 18.2682C6 25.1345 10.3967 28.8627 15.8194 28.8627C21.2421 28.8627 25.6388 25.1345 25.6388 18.2682C25.6388 15.5933 24.9718 12.8353 23.8359 10.4671Z"
                 fill="currentColor"
               ></path>
-            </svg>{" "}
+            </svg>
             {t("translation:eggs")}
-          </div>
+          </Button>
         </Link>
+
         <Link href="/nefties">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
+          <Button
+            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            size="icon"
+            variant="ghost"
+          >
             <svg
               width="18px"
               height="18px"
@@ -141,10 +81,14 @@ const Sidebar = () => {
               </g>
             </svg>{" "}
             {t("translation:nefties")}
-          </div>
+          </Button>
         </Link>
         <Link href="/tier-list">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
+          <Button
+            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            size="icon"
+            variant="ghost"
+          >
             <svg
               width={"18px"}
               height={"18px"}
@@ -162,20 +106,27 @@ const Sidebar = () => {
               />
             </svg>
             {t("translation:tier_list")}
-          </div>
+          </Button>
         </Link>
         <Link href="/videos">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
+          <Button
+            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            size="icon"
+            variant="ghost"
+          >
             <Play className="w-[1.125rem]" />
             {t("translation:videos")}
-          </div>
+          </Button>
         </Link>
+        {/* <Drawer>
+          <DrawerTrigger>
+            <GripHorizontal size={24} className={`mx-auto`} />
+          </DrawerTrigger>
+          <DrawerContent className="w-full pb-12 px-4">
+            <div className="pt-4 flex flex-col"></div>
+          </DrawerContent>
+        </Drawer> */}
       </div>
-      <div className="lg:hidden">
-        <MobileMenu />
-      </div>
-    </div>
+    </>
   );
-};
-
-export default Sidebar;
+}

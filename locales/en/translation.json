@@ -467,6 +467,32 @@
           "description": "Perform a Ranged attack of 40 Power. If you have an active Shield, upgrade your Shield equal to 25% of your max HP for 2 turns. Then, perform a Ranged attack of 90 Power."
         }
       ]
+    },
+    "bloomtail": {
+      "description": "Bloomtail is a spirited Neftie fueled by the flower adorning its back. It is said that the flower occasionally affects its movements, adding an intriguing twist to its nature!",
+      "element": "plant",
+      "skills": [
+        {
+          "name": "FLOWING STRIKE I",
+          "description": "Perform a Ranged attack of 20 Power."
+        },
+        {
+          "name": "TOXIC BOUQUET I",
+          "description": "Inflict Poison to you and the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+        },
+        {
+          "name": "SYMBIOTIC SLASH II",
+          "description": "Perform a Melee attack of 45 Power. Deal double damage if the opponent is currently Poisoned."
+        },
+        {
+          "name": "DESPERATE RIPOSTE II",
+          "description": "Dodge if you are hit this turn action. If you are currently Poisoned, also perform a Counter Attack of 50 Power."
+        },
+        {
+          "name": "VAMPIRIC BLOOM III",
+          "description": "Perform a Ranged attack of 80 Power. If the attack is Strong against the target, Lifesteal 50% of the damage dealt."
+        }
+      ]
     }
   },
   "egg_list": {
@@ -487,6 +513,9 @@
     },
     "draconic": {
       "description": "With a shell as sharp as a razor blade, the Draconic Egg sends a warning to novice Seekers, cautioning them about the power concealed within."
+    },
+    "bloomer": {
+      "description": "This egg emanates a sweet fragrance, enchanting all who catch a whiff, but where did it come from? No one knows, yet it captivates all who see it!"
     }
   },
   "errors": {

@@ -52,7 +52,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
           </div>
         </div>
       </div>
-      <div className="skills flex lg:flex-wrap gap-2 my-6">
+      <div className="skills flex flex-wrap lg:flex-nowrap gap-2 my-6">
         {neftie?.skills.map((skill, index) => {
           const skills = t(`translation:neftie_list.${neftie?.slug}.skills`, {
             returnObjects: true,

@@ -82,7 +82,7 @@ const VideosPage: NextPage = () => {
         )}
       </div>
       <PostNewVideo isOpen={isPostVideoOpen} setIsOpen={setIsPostVideoOpen} />
-      <div className="w-full">
+      <div className="w-full ml-4">
         {videos &&
           videos.length > 0 &&
           videos.map((video) => {

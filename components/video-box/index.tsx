@@ -28,8 +28,13 @@ const VideoBox: FC<{ video: VideoAttributes }> = ({ video }) => {
           <img src={video.thumbnail} alt={video.name} className="max-w-full" />
           <div>
             <CardTitle>{video.name}</CardTitle>
-            <CardDescription className="mt-4">
-              {t("translation:language")}: {video.locale},{" "}
+            <CardDescription className="mt-4 flex gap-2">
+              {t("translation:language")}:{" "}
+              <img
+                src={`/images/flags/${video.locale}.svg`}
+                className="w-[20px] mr-2"
+                alt={"video locale"}
+              />
               {t("translation:category")}:{" "}
               {t(
                 `translation:video_categories.${video.VideoCategories[0].name}`
