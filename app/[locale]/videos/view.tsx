@@ -2,6 +2,7 @@
 
 import PostNewVideo from "@/components/post-new-video";
 import { Button } from "@/components/ui/button";
+import VideoBox from "@/components/video-box";
 import { useEggs } from "@/providers/EggsProvider";
 import { useVideos } from "@/providers/VideosProvider";
 import { Video } from "lucide-react";
@@ -13,8 +14,16 @@ import { useTranslation } from "react-i18next";
 const VideosPage: NextPage = () => {
   const { t } = useTranslation();
   const { data: session } = useSession();
-  const { videoCategories } = useVideos();
   const [isPostVideoOpen, setIsPostVideoOpen] = useState<boolean>(false);
+  const { videoCategories, setFilter, filter, videos } = useVideos();
+
+  const handleCategoryClick = (categoryId: number | "all") => {
+    if (categoryId === "all") {
+      setFilter("en", null); // Reset filter
+    } else {
+      setFilter("en", categoryId);
+    }
+  };
 
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll">
@@ -31,9 +40,14 @@ const VideosPage: NextPage = () => {
           {t("translation:videos_page_desc")}
         </h3>
       </div>
-      <div className="pl-4 flex justify-between mt-4 flex-wrap">
-        <div className="flex gap-4">
-          <div className="bg-secondary px-3 rounded-sm py-2 cursor-pointer !bg-black hover:bg-black text-sm leading-[1.5rem]">
+      <div className="pl-4 flex flex-col lg:flex-row justify-between mt-4 flex-wrap">
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div
+            className={`bg-secondary px-3 rounded-sm py-2 cursor-pointer ${
+              filter.categoryId === null ? "!bg-black" : ""
+            } hover:bg-black text-sm leading-[1.5rem]`}
+            onClick={() => handleCategoryClick("all")}
+          >
             {t("translation:all")}
           </div>
           {videoCategories &&
@@ -45,7 +59,10 @@ const VideosPage: NextPage = () => {
               return (
                 <div
                   key={cat.name}
-                  className="bg-secondary px-3 rounded-sm py-2 cursor-pointer hover:bg-black text-sm leading-[1.5rem]"
+                  onClick={() => handleCategoryClick(cat.id)}
+                  className={`bg-secondary px-3 rounded-sm py-2 cursor-pointer hover:bg-black text-sm leading-[1.5rem] ${
+                    filter.categoryId === cat.id ? "!bg-black" : ""
+                  }`}
                 >
                   {titleTranslationKey}
                 </div>
@@ -53,7 +70,7 @@ const VideosPage: NextPage = () => {
             })}
         </div>
         {session && session.user && (
-          <div className="post-video">
+          <div className="post-video lg:mt-0 mt-4">
             <Button
               variant={"secondary"}
               className="flex gap-2"
@@ -65,6 +82,13 @@ const VideosPage: NextPage = () => {
         )}
       </div>
       <PostNewVideo isOpen={isPostVideoOpen} setIsOpen={setIsPostVideoOpen} />
+      <div className="w-full">
+        {videos &&
+          videos.length > 0 &&
+          videos.map((video) => {
+            return <VideoBox video={video} key={video.id} />;
+          })}
+      </div>
     </div>
   );
 };

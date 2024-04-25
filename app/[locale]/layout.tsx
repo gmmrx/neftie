@@ -50,9 +50,9 @@ export default async function RootLayout({
                 {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
                   <div className="bg-page-bg">
-                    <div className="flex">
+                    <div className="flex flex-col lg:flex-row">
                       <Sidebar />
-                      <div className="bg-[#161618] w-[calc(100%-240px)]">
+                      <div className="bg-[#161618] w-full lg:w-[calc(100%-240px)]">
                         {children}
                       </div>
                     </div>

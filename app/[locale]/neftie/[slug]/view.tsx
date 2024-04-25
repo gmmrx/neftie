@@ -26,7 +26,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
   if (nefties.length > 0 && !neftie) {
     return (
       <div className="text-center pt-10 text-xl font-semibold">
-       {t('translation:errors.cant_found_neftie')}
+        {t("translation:errors.cant_found_neftie")}
       </div>
     );
   }
@@ -34,7 +34,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
   const url = neftie?.image;
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh]">
-      <div className="w-full rounded-sm p-2 flex gap-4 items-center">
+      <div className="w-full rounded-sm p-2 flex flex-wrap lg:justify-start justify-center gap-4 items-center">
         <div
           style={{ backgroundImage: `url(${url})` }}
           className={`rounded-full w-[150px] h-[150px] object-cover bg-center bg-[length:170%_180%]`}
@@ -52,7 +52,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
           </div>
         </div>
       </div>
-      <div className="skills flex gap-2 my-6">
+      <div className="skills flex flex-wrap gap-2 my-6">
         {neftie?.skills.map((skill, index) => {
           const skills = t(`translation:neftie_list.${neftie?.slug}.skills`, {
             returnObjects: true,
@@ -76,8 +76,8 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
           );
         })}
       </div>
-      <div className="vsat flex gap-6">
-        <div className="goodat border border-[#007f39] ml-1 rounded-md w-[33%]">
+      <div className="vsat flex flex-col lg:flex-row gap-6">
+        <div className="goodat border border-[#007f39] ml-1 rounded-md w-full lg:w-[33%]">
           <div className="bg-[#007f39] p-2 text-sm text-ibmplex uppercase mb-1">
             {t("translation:strong_against")}
           </div>
@@ -109,7 +109,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             })}
         </div>
 
-        <div className="goodat border border-[#8d0000] ml-1 rounded-md w-[33%]">
+        <div className="goodat border border-[#8d0000] ml-1 rounded-md w-full lg:w-[33%]">
           <div className="bg-[#8d0000] p-2 text-sm text-ibmplex uppercase">
             {t("translation:weak_against")}
           </div>
@@ -141,7 +141,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             })}
         </div>
 
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll">
+        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll w-full lg:w-[33%]">
           <div className="bg-secondary p-2 text-sm text-ibmplex uppercase">
             {t("translation:neutral_against")}
           </div>

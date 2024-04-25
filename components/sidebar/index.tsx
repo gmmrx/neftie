@@ -22,7 +22,7 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="w-[15rem] border-r font-ibmplex p-2">
+    <div className="w-full lg:w-[15rem] border-r font-ibmplex p-2">
       <div className="text-center text-2xl cursor-pointer p-2 flex justify-between items-center">
         <div>
           <strong> NEFTIE</strong>.APP

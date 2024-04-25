@@ -1,5 +1,5 @@
 import { models } from "@/lib/db";
-import NextAuth from "next-auth";
+import NextAuth from "next-auth/next";
 import DiscordProvider from "next-auth/providers/discord";
 
 export const authOptions = {};

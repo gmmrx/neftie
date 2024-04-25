@@ -3,15 +3,22 @@ import { models } from "@/lib/db";
 
 async function handleGet(req: NextRequest) {
   const language = req.nextUrl.searchParams.get("locale");
-  const catId = req.nextUrl.searchParams.get("cat");
+  const catId = req.nextUrl.searchParams.get("catId");
   try {
+    const categoryFilter = catId ? parseInt(catId, 10) : null;
     const videos = await models.Video.findAll({
-      where: language ? { locale: language, status: 'APPROVED' } : { status: 'APPROVED' }, // Apply locale filter if specified
+      where: {
+        locale: language || "en", // Default to English if no locale is provided
+        status: "APPROVED",
+      },
       include: [
         {
           model: models.VideoCategory,
-          required: false, // False ensures videos are returned even if they don't match the category filter, but this should be true to match your requirements
-          through: { where: catId ? { category_id: catId } : {} }, // Exclude junction table attributes
+          required: !!categoryFilter, // Only join if a category ID is provided
+          where: categoryFilter ? { id: categoryFilter } : {}, // Apply category filter
+          through: {
+            attributes: [], // Exclude attributes from the junction table if not needed
+          },
         },
       ],
     });

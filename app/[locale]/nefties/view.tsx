@@ -51,14 +51,14 @@ const ListNefties: NextPage = () => {
           {t("translation:nefties_page_desc")}
         </h3>
       </div>
-      <div className="filter-area flex gap-6 ml-4 mb-4 mt-6 border-b pb-4 items-center">
+      <div className="filter-area flex flex-col lg:flex-row gap-6 ml-4 mb-4 mt-6 border-b pb-4 items-center">
         <Input
           placeholder={t("translation:search_nefties")}
-          className="rounded-none max-w-[150px] transition-all focus:max-w-[250px]"
+          className="rounded-none w-full lg:max-w-[150px] transition-all lg:focus:max-w-[250px]"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <div className="flex uppercase">
+        <div className="flex flex-wrap uppercase">
           <Button
             variant="default"
             className={`rounded-none uppercase text-xs ${

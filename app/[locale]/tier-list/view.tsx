@@ -71,21 +71,21 @@ const TierListNefties: NextPage = ({ data }) => {
       {session && session.user && session.user.isAuroryMember && (
         <TierListVote />
       )}
-      <div className="flex gap-2 w-full mt-6 ml-4">
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll">
+      <div className="flex gap-2 w-full flex-col lg:flex-row mt-6 lg:ml-4">
+        <div className="goodat border ml-1 rounded-md w-full lg:w-[33%] max-h-[31.25rem] overflow-x-scroll">
           <div className="bg-[#529900] p-2 text-base text-ibmplex uppercase text-white text-center">
             S Tier
           </div>
           {nefties && nefties.length > 0 && TierList("sTier", "82, 153, 0")}
         </div>
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll">
+        <div className="goodat border ml-1 rounded-md w-full lg:w-[33%] max-h-[31.25rem] overflow-x-scroll">
           <div className="bg-[#af4f00] p-2 text-base text-ibmplex uppercase text-white text-center">
             A Tier
           </div>
           {nefties && nefties.length > 0 && TierList("aTier", "175, 79, 0")}
         </div>
 
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll">
+        <div className="goodat border ml-1 rounded-md w-full lg:w-[33%] max-h-[31.25rem] overflow-x-scroll">
           <div className="bg-[#990000] p-2 text-base text-ibmplex uppercase text-white text-center">
             B Tier
           </div>
