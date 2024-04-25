@@ -1,5 +1,6 @@
 import { NextAuthOptions } from "next-auth";
 import DiscordProvider from "next-auth/providers/discord";
+import { models } from "./db";
 
 export const authOptions: NextAuthOptions = {
   providers: [
