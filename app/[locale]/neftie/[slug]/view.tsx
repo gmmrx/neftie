@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 type UserProfileProps = {
-  neftie: Neftie | undefined;
+  slug: string | undefined;
 };
 
 const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
