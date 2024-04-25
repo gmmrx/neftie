@@ -1,8 +1,9 @@
 import { type NextRequest, NextResponse as Response } from "next/server";
 import { models } from "@/lib/db";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+
 import { getServerSession } from "next-auth/next";
 import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
+import { authOptions } from "@/lib/authOptions";
 
 async function handlePost(req: NextRequest) {
   const session = await getServerSession(authOptions);
