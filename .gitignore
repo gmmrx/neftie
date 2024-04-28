@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+bfg-1.14.0.jar
 
 # testing
 /coverage
