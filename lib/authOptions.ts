@@ -45,7 +45,7 @@ export const authOptions: NextAuthOptions = {
           .then(function (myJson) {
             // AURORY GUILD ID 836601552130801676
             const checkUsersAuroryMembership = myJson.find(
-              (guild) => guild.name === "Aurory Project"
+              (guild) => guild.name === "Aurory"
             );
 
             if (checkUsersAuroryMembership) {
@@ -56,6 +56,7 @@ export const authOptions: NextAuthOptions = {
         token.username = user.name;
         token.id = dbUser?.dataValues.id;
         token.isAuroryMember = isUserMemberOfAuroryDiscord;
+        token.isAdmin = user?.name === "gummer1111";
       }
       return token;
     },
@@ -64,6 +65,7 @@ export const authOptions: NextAuthOptions = {
         session.user.username = token.username;
         session.user.id = token?.id;
         session.user.isAuroryMember = token.isAuroryMember;
+        session.user.isAdmin = token.isAdmin;
       }
 
       return session;

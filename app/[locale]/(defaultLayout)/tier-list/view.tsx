@@ -14,8 +14,8 @@ const TierListNefties: NextPage = ({ data }) => {
   const { t } = useTranslation();
   const { nefties } = useNefties();
   const { data: session } = useSession();
-
-  const TierList = (tierName, rgb) => {
+  console.log(session);
+  const TierList = (tierName: string, rgb: string) => {
     const items = data[tierName];
 
     if (!items) return null;
