@@ -1,8 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+This project uses NextJS (App Directory), PostgreSQL, Sequelize, TailwindCSS.
+
+To setup this project in your local machine;
+
+- Create a `.env` file by referencing `.env.examples`. Fill in the necessary details. We suggest using ([Supabase](https://supabase.com)) for quick database setup.
+- Once you've configured the `.env` file and connected to your database, locate and run the `syncAndForceDB()` function only once to create the database tables.
+- You're all set! Start the development server using one of the following commands:
 
 ```bash
 npm run dev
@@ -16,21 +20,17 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Translations
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Our primary objective is to support multiple languages comprehensively. Currently, translations are powered by AI and refined through user feedback. Please report any translation inaccuracies or suggest new languages by opening a GitHub issue.
 
-## Learn More
+## Developer's Note
 
-To learn more about Next.js, take a look at the following resources:
+In this initial version, I aimed for simplicity to facilitate user onboarding. While I've endeavored to address every aspect single-handedly, some TypeScript errors remain unresolved. Your contributions and feedback are highly valued and crucial for the app's evolution. Feel free to dive in and help improve our project!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### To-Do List
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] Discord Bot for checking holder status
+- [ ] Require holder status for `Tier List`voting
+- [ ] Management System
