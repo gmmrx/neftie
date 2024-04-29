@@ -39,3 +39,15 @@ export default async function initTranslations(
     t: i18nInstance.t,
   };
 }
+
+export async function useTranslation(lng, ns, options = {}) {
+  const i18nextInstance = await initTranslations(lng, ns);
+  return {
+    t: i18nextInstance.i18n.getFixedT(
+      lng,
+      Array.isArray(ns) ? ns[0] : ns,
+      options.keyPrefix
+    ),
+    i18n: i18nextInstance.i18n,
+  };
+}

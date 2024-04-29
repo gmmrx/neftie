@@ -15,6 +15,7 @@
   "videos_page_desc": "A dynamic hub where the community comes together to share their most engaging moments in Seekers of Tokane. From in-depth tutorials that guide you through complex challenges to hilarious clips that capture the unpredictability of the game, every video is a glimpse into the diverse experiences of our players. Dive into the categories, explore user-submitted content, and perhaps find the inspiration to share your own adventures with us!",
   "element": "Element",
   "more": "More",
+  "back": "Back",
   "strong_against": "Strong Against",
   "weak_against": "Weak Against",
   "neutral_against": "Neutral Against",
@@ -561,5 +562,27 @@
     "category_required": "You have to select a category.",
     "posted_success": "Your video successfully submitted. It'll appear in Videos page as soon as it get approved.",
     "issue_with_posting": "Encountered an issue while adding video to database"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - The Title",
+      "description": "Neftie App Description"
+    },
+    "eggs": {
+      "title": "Neftie App - Discover Eggs",
+      "description": "List all the Eggs related to Aurory"
+    },
+    "nefties": {
+      "title": "Neftie App - Nefties",
+      "description": "Neftie App Nefties"
+    },
+    "tier_list": {
+      "title": "Neftie App - Tier List",
+      "description": "Neftie App Description"
+    },
+    "videos": {
+      "title": "Neftie App - Videos",
+      "description": "Nefite App Description"
+    }
   }
 }

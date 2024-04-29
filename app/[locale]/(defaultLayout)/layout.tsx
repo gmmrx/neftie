@@ -1,10 +1,10 @@
 import Sidebar from "@/components/sidebar";
-import "../globals.css";
-import "../nprogress.css";
+import "../../globals.css";
+import "../../nprogress.css";
 import { SessionProvider } from "next-auth/react";
 import Providers from "@/components/providers";
-import initTranslations from "../i18n";
-import TranslationProvider from "./TranslationProvider";
+import initTranslations from "../../i18n";
+import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
 
 const i18nNamespaces = ["translation"];

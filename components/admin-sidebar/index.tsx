@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { LayoutDashboard, Play } from "lucide-react";
+import { ChevronLeft, LayoutDashboard, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -16,7 +16,7 @@ import { LANGUAGE } from "@/lib/data/constants";
 import { usePathname } from "next/navigation";
 import MobileMenu from "../mobile-menu";
 
-const Sidebar = () => {
+const AdminSidebar = () => {
   const { data: session } = useSession();
   const { t, i18n } = useTranslation();
   const router = useRouter();
@@ -89,11 +89,16 @@ const Sidebar = () => {
       )}
       <div className="mt-4 hidden lg:block">
         <Link href="/">
+          <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm uppercase mb-6">
+            <ChevronLeft size={18} /> {t("translation:back")}
+          </div>
+        </Link>
+        <Link href="/admin">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
             <LayoutDashboard size={18} /> {t("translation:home")}
           </div>
         </Link>
-        <Link href="/eggs">
+        <Link href="/admin">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
             <svg
               width="18px"
@@ -110,7 +115,7 @@ const Sidebar = () => {
             {t("translation:eggs")}
           </div>
         </Link>
-        <Link href="/nefties">
+        <Link href="/admin">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
             <svg
               width="18px"
@@ -143,46 +148,17 @@ const Sidebar = () => {
             {t("translation:nefties")}
           </div>
         </Link>
-        <Link href="/tier-list">
-          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-            <svg
-              width={"18px"}
-              height={"18px"}
-              viewBox="0 0 32 32"
-              fill={"white"}
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M28 12.0653L24.3445 22.6867L8.20038 21.4929L7.13202 21.3893L4 12.0653L5.13532 10.2463L9.74356 14.1198L10.0449 13.9941L15.4263 5H16.5737L22.0403 14.0821L22.366 14.0664L27.4795 10.7804L28 12.0653Z"
-                fill={"white"}
-              />
-              <path
-                d="M7.60989 22.96L8.29169 25.1654L22.8226 27L23.7418 24.3611L7.60989 22.96Z"
-                fill={"white"}
-              />
-            </svg>
-            {t("translation:tier_list")}
-          </div>
-        </Link>
-        <Link href="/videos">
+
+        <Link href="/admin/videos">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
             <Play className="w-[1.125rem]" />
             {t("translation:videos")}
           </div>
         </Link>
-        {session && session.user.isAdmin && (
-          <Link href="/admin">
-            <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-              Admin
-            </div>
-          </Link>
-        )}
       </div>
-      <div className="lg:hidden">
-        <MobileMenu />
-      </div>
+      <div className="lg:hidden">{/* <MobileMenu /> */}</div>
     </div>
   );
 };
 
-export default Sidebar;
+export default AdminSidebar;

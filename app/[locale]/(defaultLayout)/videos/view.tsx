@@ -15,13 +15,14 @@ const VideosPage: NextPage = () => {
   const { t } = useTranslation();
   const { data: session } = useSession();
   const [isPostVideoOpen, setIsPostVideoOpen] = useState<boolean>(false);
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
   const { videoCategories, setFilter, filter, videos } = useVideos();
 
   const handleCategoryClick = (categoryId: number | "all") => {
     if (categoryId === "all") {
-      setFilter("en", null); // Reset filter
+      setFilter(selectedLanguage, null); // Reset filter
     } else {
-      setFilter("en", categoryId);
+      setFilter(selectedLanguage, categoryId);
     }
   };
 
