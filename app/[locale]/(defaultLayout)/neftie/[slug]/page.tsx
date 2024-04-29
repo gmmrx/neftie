@@ -10,7 +10,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   return <SingleNeftie slug={params.slug} />;
 }
 export async function generateMetadata(
-  { params }: { params: { slug: string } },
+  { params }: { params: { slug: string; locale: string } },
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   return {

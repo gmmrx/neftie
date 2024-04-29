@@ -2,6 +2,7 @@ import "server-only";
 import { Metadata, ResolvingMetadata } from "next";
 
 import ListNefties from "./view";
+import { useTranslation } from "@/app/i18n";
 
 export const fetchCache = "force-no-store";
 
@@ -9,12 +10,14 @@ export default async function Page() {
   return <ListNefties />;
 }
 export async function generateMetadata(
-  { params }: { params: { slug: string } },
+  { params }: { params: { locale: string } },
   parent: ResolvingMetadata
 ): Promise<Metadata> {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { t } = await useTranslation(params.locale, "translation", {});
   return {
-    title: `Nefties List`,
-    description: `List of Nefties of Seekers of Tokane game`,
+    title: t("translation:page_information:nefties.title"),
+    description: t("translation:page_information:nefties.description"),
   };
 }
 

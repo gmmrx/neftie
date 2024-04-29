@@ -562,5 +562,27 @@
     "category_required": "You have to select a category.",
     "posted_success": "Your video successfully submitted. It'll appear in Videos page as soon as it get approved.",
     "issue_with_posting": "Encountered an issue while adding video to database"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - The Title",
+      "description": "Neftie App Description"
+    },
+    "eggs": {
+      "title": "Neftie App - Discover Eggs",
+      "description": "List all the Eggs related to Aurory"
+    },
+    "nefties": {
+      "title": "Neftie App - Nefties",
+      "description": "Neftie App Nefties"
+    },
+    "tier_list": {
+      "title": "Neftie App - Tier List",
+      "description": "Neftie App Description"
+    },
+    "videos": {
+      "title": "Neftie App - Videos",
+      "description": "Nefite App Description"
+    }
   }
 }
