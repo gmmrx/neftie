@@ -6,6 +6,7 @@ To setup this project in your local machine;
 
 - Create a `.env` file by referencing `.env.examples`. Fill in the necessary details. We suggest using ([Supabase](https://supabase.com)) for quick database setup.
 - Once you've configured the `.env` file and connected to your database, locate and run the `syncAndForceDB()` function only once to create the database tables.
+- Do not forget to update `config.json` file.
 - You're all set! Start the development server using one of the following commands:
 
 ```bash
