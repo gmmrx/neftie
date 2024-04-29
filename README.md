@@ -34,4 +34,6 @@ In this initial version, I aimed for simplicity to facilitate user onboarding. W
 - [ ] Discord Bot for checking holder status
 - [ ] Better auth handling with Next Auth
 - [ ] Require holder status for `Tier List`voting
-- [ ] Management system
+- [ ] Egg management system
+- [ ] Neftie management system
+- [ ] Videos management system
