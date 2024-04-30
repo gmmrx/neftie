@@ -1,5 +1,6 @@
 import { useTranslation } from "@/app/i18n";
 import NeftieListHome from "@/components/neftie-list-home";
+import RecentVideosBox from "@/components/recent-videos-box";
 import WhatIsNeftieBox from "@/components/what-is-neftie-box";
 import { syncAndForceDB } from "@/lib/create-tables";
 import { Metadata, ResolvingMetadata } from "next";
@@ -12,6 +13,7 @@ export default async function Home() {
       <div className="mt-4 flex gap-2 w-full flex-wrap md:justify-between">
         <NeftieListHome />
       </div>
+      <RecentVideosBox />
     </main>
   );
 }

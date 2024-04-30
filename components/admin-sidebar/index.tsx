@@ -14,7 +14,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { LANGUAGE } from "@/lib/data/constants";
 import { usePathname } from "next/navigation";
-import MobileMenu from "../mobile-menu";
 
 const AdminSidebar = () => {
   const { data: session } = useSession();

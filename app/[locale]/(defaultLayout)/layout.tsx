@@ -39,12 +39,12 @@ export default async function RootLayout({
         />
       </head>
       <body>
-        <Providers>
-          <TranslationProvider
-            locale={locale}
-            resources={resources}
-            namespaces={i18nNamespaces}
-          >
+        <TranslationProvider
+          locale={locale}
+          resources={resources}
+          namespaces={i18nNamespaces}
+        >
+          <Providers locale={locale}>
             <div className="w-full mt-0 mb-0 bg-page-bg">
               <div className="bg-page-bg">
                 {/* <div className="bg-secondary">MENU</div> */}
@@ -61,8 +61,8 @@ export default async function RootLayout({
               </div>
             </div>
             <Toaster />
-          </TranslationProvider>
-        </Providers>
+          </Providers>
+        </TranslationProvider>
 
         <script
           type="application/ld+json"

@@ -52,11 +52,12 @@ export const authOptions: NextAuthOptions = {
               isUserMemberOfAuroryDiscord = true;
             }
           });
+        const adminsArr = process.env.ADMINS?.split(",");
 
         token.username = user.name;
         token.id = dbUser?.dataValues.id;
         token.isAuroryMember = isUserMemberOfAuroryDiscord;
-        token.isAdmin = user?.name === "gummer1111";
+        token.isAdmin = adminsArr?.find((admin) => admin === user.name);
       }
       return token;
     },

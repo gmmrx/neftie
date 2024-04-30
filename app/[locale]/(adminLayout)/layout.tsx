@@ -40,7 +40,7 @@ export default async function RootLayout({
         />
       </head>
       <body>
-        <Providers>
+        <Providers locale={locale}>
           <TranslationProvider
             locale={locale}
             resources={resources}
