@@ -10,12 +10,24 @@ import { NextPage } from "next";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import {
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { LANGUAGE } from "@/lib/data/constants";
 
 const VideosPage: NextPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { data: session } = useSession();
   const [isPostVideoOpen, setIsPostVideoOpen] = useState<boolean>(false);
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>(
+    i18n.language
+  );
   const { videoCategories, setFilter, filter, videos } = useVideos();
 
   const handleCategoryClick = (categoryId: number | "all") => {
@@ -24,6 +36,11 @@ const VideosPage: NextPage = () => {
     } else {
       setFilter(selectedLanguage, categoryId);
     }
+  };
+
+  const handleLanguageClick = (langCode: string) => {
+    setSelectedLanguage(langCode);
+    setFilter(langCode, filter.categoryId);
   };
 
   return (
@@ -69,6 +86,34 @@ const VideosPage: NextPage = () => {
                 </div>
               );
             })}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="secondary" className="flex items-center gap-2">
+                Language:{" "}
+                <img
+                  src={`/images/flags/${selectedLanguage}.svg`}
+                  className="w-[20px]"
+                  alt={selectedLanguage}
+                />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              {LANGUAGE.map((item) => (
+                <DropdownMenuItem
+                  key={item.code}
+                  className="flex gap-2 items-center"
+                  onClick={() => handleLanguageClick(item.code)}
+                >
+                  <img
+                    src={`/images/flags/${item.code}.svg`}
+                    className="w-[20px]"
+                    alt={i18n.language}
+                  />{" "}
+                  {item.value}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
         {session && session.user && (
           <div className="post-video lg:mt-0 mt-4">
@@ -83,7 +128,7 @@ const VideosPage: NextPage = () => {
         )}
       </div>
       <PostNewVideo isOpen={isPostVideoOpen} setIsOpen={setIsPostVideoOpen} />
-      <div className="w-full ml-4">
+      <div className="w-full ml-4 flex gap-4 flex-wrap">
         {videos &&
           videos.length > 0 &&
           videos.map((video) => {

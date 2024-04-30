@@ -1,3 +1,4 @@
+"use client";
 import { VideoAttributes } from "@/models/Videos";
 import { VideoCategoryAttributes } from "@/models/VideoCategories";
 import axios from "axios";
@@ -17,14 +18,18 @@ const VideosContext = createContext<{
 } | null>(null);
 
 type VideosProviderProps = {
+  locale: string;
   children: ReactNode;
 };
-const VideosProvider: React.FC<VideosProviderProps> = ({ children }) => {
+const VideosProvider: React.FC<VideosProviderProps> = ({
+  locale,
+  children,
+}) => {
   const [videos, setVideos] = useState<VideoAttributes[]>([]);
   const [filter, setInternalFilter] = useState<{
     locale: string;
     categoryId: number | null;
-  }>({ locale: "en", categoryId: null });
+  }>({ locale: locale, categoryId: null });
   const [videoCategories, setVideoCategories] = useState<
     VideoCategoryAttributes[]
   >([]);
@@ -55,7 +60,7 @@ const VideosProvider: React.FC<VideosProviderProps> = ({ children }) => {
         console.error("Failed to fetch videos", error);
       }
     };
-    console.log(filter);
+
     fetchVideos();
   }, [filter]);
 

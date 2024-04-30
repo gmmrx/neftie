@@ -1,3 +1,4 @@
+"use client";
 import { EggsAttributes } from "@/models/Eggs";
 import { NeftiesAttributes } from "@/models/Nefties";
 import axios from "axios";
