@@ -1,466 +1,589 @@
 {
-  "home": "Accueil",
-  "eggs": "Œufs",
+  "home": "Home",
+  "eggs": "Eggs",
   "nefties": "Nefties",
-  "tier_list": "Liste de niveaux",
-  "explore_all": "Explorer tout",
-  "what_is_a_neftie": "Qu'est-ce qu'un <Neftie>Neftie?</Neftie>",
-  "neftie_desc": "Les Nefties sont les habitants naturels de Tokane, des créatures magiques qui errent librement dans ses étendues sauvages. Vous pouvez les posséder et les utiliser dans le jeu <bold><sotlink>Les chercheurs de Tokané</sotlink></bold> par <bold><aurorylink>Aurory</aurorylink></bold>.",
-  "element": "Élément",
-  "more": "Plus",
-  "strong_against": "Fort contre",
-  "weak_against": "Faible contre",
-  "neutral_against": "Neutre contre",
-  "marketplace": "Marché",
-  "expeditions": "Expéditions",
-  "lands": "Terres",
-  "obtainable_from": "Obtenable de :",
-  "login_with_discord": "Se connecter avec Discord",
-  "logout": "Se déconnecter",
+  "nefties_page_desc": "Dive into the vibrant world of Nefties, where each character brings its unique flair to the adventure. Our Nefties page is designed to showcase the full spectrum of these captivating characters, offering you an in-depth look at their strengths, elements.",
+  "tier_list": "Tier List",
+  "explore_all": "Explore All",
+  "what_is_a_neftie": "What is a <Neftie>Neftie?</Neftie>",
+  "neftie_desc": "Nefties are the natural inhabitants of Tokane, magical creatures that roam free in its wilderness. You can own & use them in <bold><sotlink>Seekers of Tokané</sotlink></bold> game by <bold><aurorylink>Aurory</aurorylink></bold>.",
+  "what_is_an_egg": "What is an <Neftie>Egg?</Neftie>",
+  "egg_desc": "Eggs are where Nefties are coming from. You get the Egg, you hatch it, you get your new Neftie! Eggs can be found at Marketplace, Expeditions or Lands in Seekers of Tokané.",
+  "what_is_a_tier_list": "What is a <Neftie>Tier List?</Neftie>",
+  "tier_list_desc": "A tier list is a ranking system that categorizes Nefties based on their effectiveness, strength, or popularity. These rankings are divided into tiers, with the highest performers placed in the S-tier, followed by A and B.",
+  "videos": "Videos",
+  "videos_page_desc": "A dynamic hub where the community comes together to share their most engaging moments in Seekers of Tokane. From in-depth tutorials that guide you through complex challenges to hilarious clips that capture the unpredictability of the game, every video is a glimpse into the diverse experiences of our players. Dive into the categories, explore user-submitted content, and perhaps find the inspiration to share your own adventures with us!",
+  "element": "Element",
+  "more": "More",
+  "back": "Back",
+  "strong_against": "Strong Against",
+  "weak_against": "Weak Against",
+  "neutral_against": "Neutral Against",
+  "marketplace": "Marketplace",
+  "expeditions": "Expeditions",
+  "lands": "Lands",
+  "obtainable_from": "Obtainable from:",
+  "login_with_discord": "Login with Discord",
+  "logout": "Logout",
+  "post_your_tier_list": "Post Your Tier List",
+  "tier_list_voting": "Tier List Voting",
+  "type_and_choose": "Type and choose Nefties for each Tier List. Please do remember that you can vote only for once for each Patch.",
+  "current_patch": "Current Patch",
+  "post": "Post",
+  "select_x_tier_neftie": "Select {{ x }} TIER Nefties",
+  "select_neftie_for_each_tier": "Please select a Neftie for each Tier",
+  "select_tier_for_each_neftie": "Please select a tier for each Neftie",
+  "close": "Close",
+  "all": "All",
+  "search_nefties": "Search Nefties...",
+  "next_step": "Next Step",
+  "language": "Language",
+  "category": "Category",
+  "select_a_language": "Select a Language",
+  "select_a_category": "Select a Category",
+  "upload_video": "Upload Video",
+  "safe_for_children": "Safe for Children",
+  "safe_for_children_desc": "Aurory makes games for all ages, we'd like to be sure if your contents are good for our small supporters so we can filter them",
   "elements": {
-    "lightning": "foudre",
+    "lightning": "lightning",
     "air": "air",
-    "earth": "terre",
-    "water": "eau",
-    "fire": "feu",
-    "plant": "plante"
+    "earth": "earth",
+    "water": "water",
+    "fire": "fire",
+    "plant": "plant"
   },
   "neftie_list": {
     "bitebit": {
-      "description": "Bitebit est un touche-à-tout, comptant sur des frappes en mêlée rapides pour générer de l'enthousiasme. Son arsenal diversifié d'aptitudes est sûr d'être utile dans toutes les situations !",
-      "element": "foudre",
+      "description": "Bitebit is a jack of all trades, relying on swift melee strikes to generate hype. Its diverse arsenal of abilities is sure to be useful in any situation!",
+      "element": "lightning",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+          "name": "ENERGETIC JAB I",
+          "description": "Perform a Melee attack of 20 Power."
         },
         {
-          "name": "PAS FULGUROUS I",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+          "name": "FULGUROUS STEPS I",
+          "description": "100% chance of dodging one attack this turn action."
         },
         {
-          "name": "VIGNE PUTRIDE I",
-          "description": "Inflige Poison à l'adversaire pour 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max."
+          "name": "PUTRID VINE I",
+          "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
         },
         {
-          "name": "COUP DE TONNERRE II",
-          "description": "Effectuez une attaque de mêlée de 60 de puissance."
+          "name": "THUNDER PUNCH II",
+          "description": "Perform a Melee attack of 60 Power."
         },
         {
-          "name": "ZÈLE DU BRISORAGE III",
-          "description": "Votre Attaque est augmentée de 3 niveaux pour 3 tours. Ensuite, effectuez une attaque à distance de 65 de puissance."
+          "name": "STORMBREAKER'S ZEAL III",
+          "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 65 Power."
         }
       ]
     },
     "dipking": {
-      "description": "Dipking dispose d'aptitudes à coût élevé, mais ne vous inquiétez pas ; si vous pouvez tenir assez longtemps en utilisant des actions évasives, il peut libérer des dégâts explosifs !",
-      "element": "eau",
+      "description": "Dipking features high-cost abilities, but don't worry; if you can hold out long enough using evasive actions, it can unleash explosive damage!",
+      "element": "water",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+          "name": "ENERGETIC JAB I",
+          "description": "Perform a Melee attack of 20 Power."
         },
         {
-          "name": "PAS BRUMEUX II",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Attaque est augmentée de 1 niveau pour 2 tours."
+          "name": "MISTY STEPS II",
+          "description": "100% chance of dodging one attack this turn action. If triggered, your Attack is raised by 1 stage for 2 turns."
         },
         {
-          "name": "VAGUE DE PURIFICATION I",
-          "description": "Nettoie les effets de statut sur l'adversaire."
+          "name": "CLEANSING WAVE I",
+          "description": "Cleanse status effects on the opponent."
         },
         {
-          "name": "DÉLUGE II",
-          "description": "Effectuez une attaque à distance de 100 de puissance."
+          "name": "DELUGE II",
+          "description": "Perform a Ranged attack of 100 Power."
         },
         {
-          "name": "RISSURE III",
-          "description": "Effectuez une attaque de mêlée de 85 de puissance. Si vos HP actuels sont inférieurs à ceux de l'adversaire, infligez le double des dégâts."
+          "name": "RIPTIDE III",
+          "description": "Perform a Melee attack of 85 Power. If your current HP is lower than the opponent, deal double damage."
         }
       ]
     },
     "dinobit": {
-      "description": "Dinobit possède le plus haut HP parmi les Nefties, et vous pouvez utiliser cela à votre avantage puisque vous infligez plus de dégâts lorsque sa santé dépasse celle de son adversaire !",
-      "element": "terre",
+      "description": "Dinobit has the highest HP among the Nefties, and you can use this to your advantage since you deal more damage when its health surpasses that of its opponent!",
+      "element": "earth",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+          "name": "ENERGETIC JAB I",
+          "description": "Perform a Melee attack of 20 Power."
         },
         {
-          "name": "MARTÈLE-BOUE II",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Attaque est augmentée de 1 niveau pour 2 tours."
+          "name": "MUDHAMMER II",
+          "description": "100% chance of dodging one attack this turn action. If triggered, your Attack is raised by 1 stage for 2 turns."
         },
         {
-          "name": "MUR DE ROCHE II",
-          "description": "Levez un Bouclier égal à 20% de votre HP max pour 2 tours."
+          "name": "ROCK WALL II",
+          "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
         },
         {
-          "name": "COUP DE FORCE I",
-          "description": "Effectuez une attaque de mêlée de 30 de puissance en utilisant votre Défense au lieu de l'Attaque."
+          "name": "KNOCKDOWN I",
+          "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
         },
         {
-          "name": "FRAPPE DE VITALITÉ I",
-          "description": "Effectuez une attaque de mêlée de 45 de puissance. Si vos HP actuels sont supérieurs à ceux de l'adversaire, effectuez une attaque de mêlée supplémentaire."
+          "name": "VITALITY STRIKE I",
+          "description": "Perform a Melee attack of 45 Power. If your current HP is higher than the opponent, perform an additional Melee attack."
         }
       ]
     },
     "number-9": {
-      "description": "Le numéro 9 est connu pour sa variété d'aptitudes pour générer de l'enthousiasme et améliorer ses attaques. Surveillez vos arrières avant que sa malédiction ne prenne effet !",
-      "element": "feu",
+      "description": "Number 9 is known for its variety of abilities to generate hype and enhance its attacks. Watch your back before its curse takes effect!",
+      "element": "fire",
       "skills": [
         {
-          "name": "FLUX DE FRAGILITÉ I",
-          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+          "name": "FRAGILITY FLUX I",
+          "description": "Your Defense is dropped by 1 stage for 2 turns."
         },
         {
-          "name": "COUP DE RATTRAPAGE I",
-          "description": "Effectuez une attaque de mêlée de 30 de puissance. Si votre Enthousiasme actuel est inférieur à celui de l'adversaire, gagnez 3 d'Enthousiasme."
+          "name": "CATCH UP PUNCH I",
+          "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype."
         },
         {
-          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
-          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+          "name": "EXPLOSIVE COUNTER I",
+          "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
         },
         {
-          "name": "MORSURE BRÛLANTE II",
-          "description": "Effectuez une attaque de mêlée de 85 de puissance."
+          "name": "SCORCHING BITE II",
+          "description": "Perform a Melee attack of 85 Power."
         },
         {
-          "name": "DÉTONATION III",
-          "description": "Infligez une Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige 30% du HP max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+          "name": "DETONATE III",
+          "description": "Inflict Curse to the opponent. After a countdown of 2 turns, Curse deals 30% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
         }
       ]
     },
     "axobubble": {
-      "description": "Axobubble sacrifie sa défense pour construire de l'enthousiasme mais réfléchit une partie des dégâts infligés à son adversaire. Lorsque le moment est venu, il inonde l'arène pour gagner !",
-      "element": "eau",
+      "description": "Axobubble sacrifices his defense to build up hype but reflects a portion of the damage dealt to his opponent. When the right moment arrives, he floods the arena to win!",
+      "element": "water",
       "skills": [
         {
-          "name": "FLUX DE FRAGILITÉ I",
-          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+          "name": "FRAGILITY FLUX I",
+          "description": "Your Defense is dropped by 1 stage for 2 turns."
         },
         {
-          "name": "CHAÎNE DE BULLES II",
-          "description": "Réfléchissez 65% des dégâts infligés à l'adversaire lors de cette action de tour. Vous prenez les dégâts restants."
+          "name": "BUBBLECHAIN II",
+          "description": "Reflect back to the opponent 65% of the damage dealt this turn action. You take the remaining damage."
         },
         {
-          "name": "MARÉE PURIFICATRICE I",
-          "description": "Nettoie les effets de statut sur vous et l'adversaire."
+          "name": "CLEANSING TIDE I",
+          "description": "Cleanse status effects on you and the opponent."
         },
         {
-          "name": "RENVERSEMENT MARIN I",
-          "description": "Esquivez une fois et effectuez une Contre-Attaque de 75 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+          "name": "MARINE REVERSAL I",
+          "description": "Dodge once and perform a Counter Attack of 75 Power if you are targeted by an attack this turn action."
         },
         {
-          "name": "SURGE DE VOLTS III",
-          "description": "Effectuez une attaque à distance de 115 de puissance."
+          "name": "VOLT SURGE III",
+          "description": "Perform a Ranged attack of 115 Power."
         }
       ]
     },
     "unika": {
-      "description": "Unika privilégie la défense et, une fois renforcée, se transforme en un redoutable distributeur de dégâts. Préparez-vous pour un combat serré !",
-      "element": "terre",
+      "description": "Unika prioritizes defense, and when enhanced, it transforms into a formidable damage dealer. Get ready for a tight battle!",
+      "element": "earth",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Votre Défense est réduite d'un niveau pour 2 tours."
+          "name": "ENERGETIC JAB I",
+          "description": "Your Defense is dropped by 1 stage for 2 turns."
         },
         {
-          "name": "PEAU DE PIERRE I",
-          "description": "Votre Défense est augmentée de 2 niveaux pour 2 tours. La Défense de l'adversaire est réduite d'un niveau pour 2 tours."
+          "name": "STONE SKIN I",
+          "description": "Your Defense is raised by 2 stage for 2 turns. The opponent's Defense is dropped by 1 stage for 2 turns."
         },
         {
-          "name": "VIGNE PUTRIDE I",
-          "description": "Inflige Poison à l'adversaire pour 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max."
+          "name": "PUTRID VINE I",
+          "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
         },
         {
-          "name": "COUP DE FORCE I",
-          "description": "Effectuez une attaque de mêlée de 30 de puissance en utilisant votre Défense au lieu de l'Attaque."
+          "name": "KNOCKDOWN I",
+          "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
         },
         {
-          "name": "COUP DE BOULDER II",
-          "description": "Effectuez une attaque à distance de 45 de puissance. Si votre Défense est supérieure à celle de l'adversaire, effectuez une attaque à distance supplémentaire."
+          "name": "BOULDER BASH II",
+          "description": "Perform a Ranged attack of 45 Power. If your Defense is higher than the opponent, perform an additional Ranged attack."
         }
       ]
     },
     "zzoo": {
-      "description": "Zzoo utilise une stratégie défensive pour vaincre les adversaires en déviant les attaques, contre-attaquant avec précision, et utilisant toute la force du vent au bon moment pour sécuriser la victoire !",
-      "element": "terre",
+      "description": "Zzoo employs a defensive strategy to defeat opponents by deflecting attacks, countering with precision, and using the full force of the wind at the right moment to secure victory!",
+      "element": "earth",
       "skills": [
         {
-          "name": "RÉFLEXION ÉNERGISANTE I",
-          "description": "Réfléchissez à l'adversaire 30% des dégâts infligés lors de cette action de tour. Vous prenez les dégâts restants. Si déclenché, gagnez 3 d'Enthousiasme."
+          "name": "ENERGIZING REFLECTION I",
+          "description": "Reflect back to the opponent 30% of the damage dealt this turn action. You take the remaining damage. If triggered, earn 3 Hype."
         },
         {
-          "name": "LAME AÉRIENNE II",
-          "description": "Effectuez une attaque à distance de 30 de puissance."
+          "name": "AERIAL SLASH II",
+          "description": "Perform a Ranged attack of 30 Power."
         },
         {
-          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
-          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+          "name": "EXPLOSIVE COUNTER I",
+          "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
         },
         {
-          "name": "MIROIR DE FLORAN I",
-          "description": "Réfléchissez à l'adversaire 85% des dégâts infligés lors de cette action de tour. Vous prenez les dégâts restants."
+          "name": "FLORAN'S MIRROR I",
+          "description": "Reflect back to the opponent 85% of the damage dealt this turn action. You take the remaining damage."
         },
         {
-          "name": "PURGE DE SYLPHOR III",
-          "description": "Nettoyez vos effets de statut. Ensuite, effectuez une attaque à distance de 150 de puissance."
+          "name": "SYLPHOR'S PURGE III",
+          "description": "Cleanse your status effects. Then, perform a Ranged attack of 150 Power."
         }
       ]
     },
     "block-choy": {
-      "description": "Block Choy est bien équipé pour survivre aux adversaires grâce au vol de vie et à l'utilisation de poison, infligeant des dégâts au fil du temps et gagnant finalement le combat !",
-      "element": "plante",
+      "description": "Block Choy is well-equipped to outlast opponents through life-stealing and the use of poison, inflicting damage over time and ultimately winning a fight!",
+      "element": "plant",
       "skills": [
         {
-          "name": "FRAPPE FLUIDE I",
-          "description": "Effectuez une attaque à distance de 20 de puissance."
+          "name": "FLOWING STRIKE I",
+          "description": "Perform a Ranged attack of 20 Power."
         },
         {
-          "name": "GIFLE DE JEUNE POUSSE II",
-          "description": "Effectuez une attaque de mêlée de 30 de puissance."
+          "name": "SAPLING SMACK II",
+          "description": "Perform a Melee attack of 30 Power."
         },
         {
-          "name": "PROTECTION MENTHOLÉE I",
-          "description": "Levez un Bouclier égal à 15% de votre HP max pour 2 tours."
+          "name": "MINTY PROTECTION I",
+          "description": "Raise a Shield equal to 15% of your max HP for 2 turns."
         },
         {
-          "name": "RACINE VAMPIRIQUE I",
-          "description": "Effectuez une attaque à distance de 70 de puissance. Vol de vie de 35% des dégâts infligés."
+          "name": "VAMPIRIC ROOT I",
+          "description": "Perform a Ranged attack of 70 Power. Lifesteal 35% of the damage dealt."
         },
         {
-          "name": "RACINES ÉTRANGLANTES II",
-          "description": "Inflige Poison à l'adversaire pour 5 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 13% du HP max de l'adversaire."
+          "name": "STRANGLING ROOTS II",
+          "description": "Inflict Poison to the opponent for 5 turns. At the end of each turn, Poison deals damage equal to 13% of the opponent's max HP."
         }
       ]
     },
     "shiba-ignite": {
-      "description": "Shiba Ignite se vante d'un HP substantiel qui peut être utilisé pour le tapage de vie, augmentant son enthousiasme. Cela lui permet d'infliger le double des dégâts lorsque sa santé est inférieure à celle de l'adversaire !",
-      "element": "feu",
+      "description": "Shiba Ignite boasts substantial HP that can be used for life-tapping, boosting its hype. This empowers it to deal double damage when its health falls below the opponent's!",
+      "element": "fire",
       "skills": [
         {
-          "name": "RITUEL DE TAPAGE DE VIE I",
-          "description": "Auto-attaque de 10 de puissance."
+          "name": "LIFE TAP RITUAL I",
+          "description": "Self attack of 10 Power."
         },
         {
-          "name": "RAGE D'AURANY II",
-          "description": "Si vous êtes touché lors de cette action de tour, votre Attaque est augmentée de 2 niveaux pour 2 tours."
+          "name": "AURANY'S RAGE II",
+          "description": "If you are hit this turn action, your Attack is raised by 2 stages for 2 turns."
         },
         {
-          "name": "CONTRE-ATTAQUE EXPLOSIVE I",
-          "description": "Esquivez une fois et effectuez une Contre-Attaque de 40 de puissance si vous êtes ciblé par une attaque lors de cette action de tour."
+          "name": "EXPLOSIVE COUNTER I",
+          "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
         },
         {
-          "name": "DÉCHAÎNEMENT ARDENT II",
-          "description": "Effectuez une attaque à distance de 60 de puissance. Si vos HP actuels sont inférieurs à ceux de l'adversaire, infligez le double des dégâts."
+          "name": "FIERY RAMPAGE II",
+          "description": "Perform a Ranged attack of 60 Power. If your current HP is lower than the opponent, deal double damage."
         },
         {
-          "name": "TREMBLEMENT DE TERRE I",
-          "description": "Effectuez une attaque de mêlée de 105 de puissance. Vous prenez 15% des dégâts infligés comme Recul."
+          "name": "EARTHQUAKE I",
+          "description": "Perform a Melee attack of 105 Power. You take 15% of the damage dealt as Recoil."
         }
       ]
     },
     "raccoin": {
-      "description": "Raccoin, avec sa nature rusée et son comportement décontracté, est célèbre pour son agilité et son amour pour les endroits ombragés et tranquilles.",
+      "description": "Raccoin, with its sly nature and laid-back demeanor, is famed for its agility and love for shady, tranquil resting spots.",
       "element": "air",
       "skills": [
         {
-          "name": "VOL DE VIGUEUR I",
-          "description": "Effectuez une attaque de mêlée de 10 de puissance. Votre Vitesse est augmentée de 1 pour 2 tours. La Vitesse de l'adversaire est réduite de 1 pour 2 tours."
+          "name": "VIGOR HEIST I",
+          "description": "Perform a Melee attack of 10 Power. Your Speed is raised by 1 for 2 turns. The opponent's Speed is dropped by 1 for 2 turns."
         },
         {
-          "name": "RÉFLEXES CHANCEUX II",
-          "description": "Esquivez puis effectuez une Contre-Attaque de 40 de puissance si vous êtes touché par une attaque de mêlée lors de cette action de tour. Si déclenché, réduisez la Défense de l'adversaire de 2 pour 2 tours."
+          "name": "LUCKY REFLEXES II",
+          "description": "Dodge and then perform a Counter Attack of 40 Power if you are hit by a Melee attack this turn action. If triggered, drop the opponent's Defense by 2 for 2 turns."
         },
         {
-          "name": "BONNE FORTUNE I",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, nettoyez vos effets de statut."
+          "name": "GOOD FORTUNE I",
+          "description": "100% chance of dodging one attack this turn action. If triggered, Cleanse status effects on yourself."
         },
         {
-          "name": "PARESSER II",
-          "description": "Soignez-vous de 15% de votre HP max. Votre Vitesse est réduite de 2 pour 2 tours."
+          "name": "SLACK OFF II",
+          "description": "Heal yourself of 15% of your max HP. Your Speed is dropped by 2 for 2 turns."
         },
         {
-          "name": "MOTIVÉ III",
-          "description": "Effectuez une attaque de mêlée de 70 de puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque de mêlée supplémentaire de 35 de puissance en utilisant votre Vitesse au lieu de l'Attaque."
+          "name": "FIRED UP III",
+          "description": "Perform a Melee attack of 70 Power. If your Speed is higher than the opponent, perform an additional Melee attack of 35 Power using your Speed instead of Attack."
         }
       ]
     },
     "shibark": {
-      "description": "Shibark erre à travers des terres vastes, flairant des trésors et revendiquant fièrement son territoire avec de puissants hurlements.",
-      "element": "terre",
+      "description": "Shibark wanders through expansive lands, sniffing out treasures and proudly claiming its territory with mighty howls.",
+      "element": "earth",
       "skills": [
         {
-          "name": "HURLEMENT FRÉNÉTIQUE I",
-          "description": "Votre Attaque est augmentée de 1 pour 1 tour. L'Attaque de l'adversaire est augmentée de 1 pour 1 tour."
+          "name": "FRENZIED HOWL I",
+          "description": "Your Attack is raised by 1 for 1 turn. The opponent's Attack is raised by 1 for 1 turn."
         },
         {
-          "name": "ENDURER II",
-          "description": "Dévie 50% des dégâts reçus par une attaque lors de cette action de tour. Si déclenché, gagnez 2 d'Enthousiasme."
+          "name": "ENDURE II",
+          "description": "Deflect 50% of the damage taken by one attack this turn action. If triggered, earn 2 Hype."
         },
         {
-          "name": "ÉTINCELLE DE FLAMME I",
-          "description": "Effectuez une attaque à distance de 25 de puissance. Votre Attaque est augmentée de 1 niveau pour 2 tours."
+          "name": "FLAME SPARK I",
+          "description": "Perform a Ranged attack of 25 Power. Your Attack is raised by 1 stage for 2 turns."
         },
         {
-          "name": "POURSUITE ROCHEUSE II",
-          "description": "Effectuez une attaque de mêlée à haute priorité de 50 de puissance. Cette attaque précède les capacités réactives et passe presque toujours en premier."
+          "name": "ROCKY PURSUIT II",
+          "description": "Perform a high priority Melee attack of 50 Power. This attack goes before reactive abilities and almost always goes first."
         },
         {
-          "name": "CROCS FUNESTES III",
-          "description": "Effectuez une attaque de mêlée de 120 de puissance. Si cela touche, infligez une Malédiction à l'adversaire. À la fin du tour, la Malédiction inflige 10% du HP max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+          "name": "GRIM FANG III",
+          "description": "Perform a Melee attack of 120 Power. If it hits, inflict Curse on the opponent. At the end of the turn, Curse deals 10% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
         }
       ]
     },
     "unikirin": {
-      "description": "Chaque pas d'Unikirin résonne avec le crépitement de l'énergie électrique, un témoignage de son esprit sauvage et indompté.",
-      "element": "foudre",
+      "description": "Each step Unikirin takes resonates with the crackle of electric energy, a testament to its wild and untamed spirit.",
+      "element": "lightning",
       "skills": [
         {
           "name": "RECHARGE I",
-          "description": "Votre Vitesse est réduite de 1 pour 2 tours."
+          "description": "Your Speed is dropped by 1 for 2 turns."
         },
         {
-          "name": "PAS FULGUROUS I",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+          "name": "FULGUROUS STEPS I",
+          "description": "100% chance of dodging one attack this turn action."
         },
         {
-          "name": "LANCE-FLAMMES I",
-          "description": "Effectuez une attaque à distance de 80 de puissance."
+          "name": "FLAMETHROWER I",
+          "description": "Perform a Ranged attack of 80 power."
         },
         {
-          "name": "FRAPPE DE TONNERRE II",
-          "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pour 2 tours."
+          "name": "THUNDER STRIKE II",
+          "description": "Perform a Ranged attack of 70 Power. Your Speed is raised by 1 stage for 2 turns."
         },
         {
-          "name": "SURCHARGE ÉLECTRIQUE II",
-          "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 135 de puissance. Ensuite, nettoyez votre Vitesse."
+          "name": "ELECTRICAL OVERLOAD II",
+          "description": "If your Speed is currently dropped, perform a Ranged attack of 135 Power. Then, Cleanse your Speed."
         }
       ]
     },
     "chocomint": {
-      "description": "Chocomint figure parmi les Nefties les plus rapides, alors tirez le meilleur parti de sa vitesse pour esquiver et contre-attaquer avec précision. Exploitez la puissance du soleil pour vaincre votre adversaire !",
-      "element": "plante",
+      "description": "Chocomint ranks among the swiftest Nefties, so make the most of its speed to evade and counter with precision. Harness the might of the sun to defeat your opponent!",
+      "element": "plant",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+          "name": "ENERGETIC JAB I",
+          "description": "Perform a Melee attack of 20 Power."
         },
         {
-          "name": "ÉCLAIR AQUATIQUE I",
-          "description": "Effectuez une attaque à distance de 30 de puissance."
+          "name": "AQUA BOLT I",
+          "description": "Perform a Ranged attack of 30 Power."
         },
         {
-          "name": "PAS FULGUROUS I",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour."
+          "name": "FULGUROUS STEPS I",
+          "description": "100% chance of dodging one attack this turn action."
         },
         {
-          "name": "TOURBILLON D'ÉTHER I",
-          "description": "L'Attaque de l'adversaire est réduite de 3 niveaux pour 3 tours."
+          "name": "ETHER WHIRLWIND I",
+          "description": "The opponent's Attack is dropped by 3 stages for 3 turns."
         },
         {
-          "name": "EXPLOSION SOLAIRE III",
-          "description": "Effectuez une attaque à distance de 155 de puissance."
+          "name": "SUN BLAST III",
+          "description": "Perform a Ranged attack of 155 Power."
         }
       ]
     },
     "cybertooth": {
-      "description": "Cybertooth utilise sa peau épaisse pour renforcer ses défenses, affaiblissant habilement les ennemis avec ses capacités pour obtenir un avantage et infliger des dégâts significatifs.",
+      "description": "Cybertooth uses its thick hide to fortify its defenses, skillfully weakening foes with its abilities to gain an advantage and deal significant damage.",
       "element": "air",
       "skills": [
         {
-          "name": "COUP D'ÉNERGIE I",
-          "description": "Effectuez une attaque de mêlée de 20 de puissance."
+          "name": "ENERGETIC JAB I",
+          "description": "Perform a Melee attack of 20 Power."
         },
         {
-          "name": "ÉCLAIR AQUATIQUE I",
-          "description": "Effectuez une attaque à distance de 30 de puissance."
+          "name": "AQUA BOLT I",
+          "description": "Perform a Ranged attack of 30 Power."
         },
         {
-          "name": "PROTECTION DE ZÉPHYRA I",
-          "description": "Levez un Bouclier égal à 20% de votre HP max pour 2 tours."
+          "name": "ZEPHYRA'S PROTECTION I",
+          "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
         },
         {
-          "name": "VENT DÉVASTATEUR II",
-          "description": "Nettoyez le bouclier de l'adversaire, puis effectuez une attaque à distance de 105 de puissance."
+          "name": "SHATTERING WIND II",
+          "description": "Cleanse the opponent's shield, then perform a Ranged attack of 105 Power."
         },
         {
-          "name": "CHANGEMENT D'ÉQUILIBRE II",
-          "description": "Votre Défense et Attaque sont augmentées de 2 pour 2 tours. La Défense et l'Attaque de l'adversaire sont réduites de 2 pour 2 tours."
+          "name": "BALANCE SHIFT II",
+          "description": "Your Defense and Attack are raised by 2 for 2 turns. The opponent's Defense and Attack are dropped by 2 for 2 turns."
         }
       ]
     },
     "wassie": {
-      "description": "Wassie est un Neftie agile connu pour exploiter ses capacités pour améliorer sa vitesse et infliger des dégâts substantiels.",
-      "element": "foudre",
+      "description": "Wassie is a nimble Neftie known for harnessing its abilities to enhance its speed and inflict substantial damage.",
+      "element": "lightning",
       "skills": [
         {
-          "name": "FLUX AFFAIBLISSANT I",
-          "description": "Votre Attaque est réduite d'un niveau pour 2 tours."
+          "name": "ENFEEBLING FLUX I",
+          "description": "Your Attack is dropped by 1 stage for 2 turns."
         },
         {
-          "name": "COUP DE RATTRAPAGE I",
-          "description": "Effectuez une attaque de mêlée de 30 de puissance. Si votre Enthousiasme actuel est inférieur à celui de l'adversaire, gagnez 3 d'Enthousiasme."
+          "name": "CATCH UP PUNCH I",
+          "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype. "
         },
         {
-          "name": "DANSE DU CIEL II",
-          "description": "100% de chances d'esquiver une attaque lors de cette action de tour. Si déclenché, votre Vitesse est augmentée de 1 pour 2 tours."
+          "name": "SKYDANCE II",
+          "description": "100% chance of dodging one attack this turn action. If triggered, your Speed is raised by 1 for 2 turns."
         },
         {
-          "name": "FRAPPE DE TONNERRE II",
-          "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée d'un niveau pour 2 tours."
+          "name": "THUNDER STRIKE II",
+          "description": "Perform a Ranged attack of 70 Power. Your Speed is raised by 1 stage for 2 turns."
         },
         {
-          "name": "ÉCLAIR FLASH III",
-          "description": "Effectuez une attaque de mêlée de 70 de puissance en utilisant votre Vitesse au lieu de l'Attaque."
+          "name": "FLASH VOLT III",
+          "description": "Perform a Melee attack of 70 Power using your Speed instead of Attack."
         }
       ]
     },
     "dracurve": {
-      "description": "Dracurve dicte le cours de la bataille avec des changements de stats et des effets de statut. Exercez la prudence, car quelques choix stratégiques peuvent rapidement ouvrir la voie à la dévastation.",
-      "element": "foudre",
+      "description": "Dracurve dictates the course of battle with shifts in stats and status effects. Exercise caution, for a few strategic choices can swiftly pave the way to devastation.",
+      "element": "lightning",
       "skills": [
         {
-          "name": "RUGISSEMENT DRACONIQUE II",
-          "description": "Votre Attaque est augmentée et votre Défense est réduite de 1 pour 1 tour. Ensuite, effectuez une attaque de mêlée de 20 de puissance."
+          "name": "DRACONIC ROAR II",
+          "description": "Your Attack is raised and your Defense is dropped by 1 for 1 turn. Then, perform a Melee attack of 20 Power."
         },
         {
-          "name": "LAME AÉRIENNE II",
-          "description": "Effectuez une attaque à distance de 30 de puissance."
+          "name": "AERIAL SLASH II",
+          "description": "Perform a Ranged attack of 30 Power."
         },
         {
-          "name": "ÉCAILLE DE TONNERRE II",
-          "description": "Levez un Bouclier égal à 15% de votre HP max pour 2 tours. Votre Défense est augmentée de 2 pour 2 tours."
+          "name": "THUNDER SCALE II",
+          "description": "Raise a Shield equal to 15% of your max HP for 2 turns. Your Defense is raised by 2 for 2 turns."
         },
         {
-          "name": "MORSURE BRÛLANTE II",
-          "description": "Effectuez une attaque de mêlée de 85 de puissance."
+          "name": "SCORCHING BITE II",
+          "description": "Perform a Melee attack of 85 Power."
         },
         {
-          "name": "DÉCHAÎNEMENT DU SEIGNEUR DU TONNERRE II",
-          "description": "Effectuez une attaque à distance de 40 de puissance. Si vous avez un Bouclier actif, améliorez votre Bouclier égal à 25% de votre HP max pour 2 tours. Ensuite, effectuez une attaque à distance de 90 de puissance."
+          "name": "THUNDERLORD'S RAMPAGE II",
+          "description": "Perform a Ranged attack of 40 Power. If you have an active Shield, upgrade your Shield equal to 25% of your max HP for 2 turns. Then, perform a Ranged attack of 90 Power."
+        }
+      ]
+    },
+    "bloomtail": {
+      "description": "Bloomtail is a spirited Neftie fueled by the flower adorning its back. It is said that the flower occasionally affects its movements, adding an intriguing twist to its nature!",
+      "element": "plant",
+      "skills": [
+        {
+          "name": "FLOWING STRIKE I",
+          "description": "Perform a Ranged attack of 20 Power."
+        },
+        {
+          "name": "TOXIC BOUQUET I",
+          "description": "Inflict Poison to you and the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+        },
+        {
+          "name": "SYMBIOTIC SLASH II",
+          "description": "Perform a Melee attack of 45 Power. Deal double damage if the opponent is currently Poisoned."
+        },
+        {
+          "name": "DESPERATE RIPOSTE II",
+          "description": "Dodge if you are hit this turn action. If you are currently Poisoned, also perform a Counter Attack of 50 Power."
+        },
+        {
+          "name": "VAMPIRIC BLOOM III",
+          "description": "Perform a Ranged attack of 80 Power. If the attack is Strong against the target, Lifesteal 50% of the damage dealt."
         }
       ]
     }
   },
   "egg_list": {
     "everglade": {
-      "description": "L'œuf des Everglades est frappé par la foudre et crée un champ électromagnétique qui fait se dresser les cheveux sur la tête à proximité."
+      "description": "The Everglade Egg is lightning-struck and creates an electromagnetic field that causes hair to stand on end when nearby."
     },
     "prairie": {
-      "description": "Trouvé dans un climat tempéré, cet œuf utilise les racines des plantes pour se protéger jusqu'à ce qu'il soit prêt à éclore."
+      "description": "Found in a temperate climate, this egg utilizes plant roots to shield itself until it is ready to hatch."
     },
     "cliff": {
-      "description": "Ces œufs sont difficiles à fendre, mais de l'intérieur, n'émergent que les Nefties les plus forts !"
+      "description": "These eggs are tough to crack, but from within, emerge only the strongest Nefties!"
     },
     "quantum": {
-      "description": "L'œuf Quantique est une merveille énigmatique, sa coquille brillante reflétant les couleurs de lieux lointains et incroyables, taquinant la créature mystérieuse et changeante cachée à l'intérieur."
+      "description": "The Quantum Egg is an enigmatic marvel, its shiny shell mirroring the colors of far-off and incredible places, teasing at the everchanging mysterious creature tucked inside."
     },
     "genesis": {
-      "description": "Cet œuf est réputé être une création de la blockchain elle-même, servant de moyen pour introduire ses premiers Nefties. Sa disponibilité diminue à mesure que l'écosystème de Tokane atteint un plus grand équilibre."
+      "description": "This egg is rumored to be a creation of the blockchain itself, serving as a means to introduce its initial Nefties. Its availability diminishes as the Tokane ecosystem achieves greater balance."
     },
     "draconic": {
-      "description": "Avec une coquille aussi tranchante qu'une lame de rasoir, l'Œuf Draconique envoie un avertissement aux Chercheurs novices, les mettant en garde contre le pouvoir caché à l'intérieur."
+      "description": "With a shell as sharp as a razor blade, the Draconic Egg sends a warning to novice Seekers, cautioning them about the power concealed within."
+    },
+    "bloomer": {
+      "description": "This egg emanates a sweet fragrance, enchanting all who catch a whiff, but where did it come from? No one knows, yet it captivates all who see it!"
     }
-  }
+  },
+  "errors": {
+    "already_voted_tier": "You already voted for this patch.",
+    "cant_add_record": "Something went wrong while creating a record for your vote.",
+    "something_went_wrong": "Something went wrong please refresh the page and try again.",
+    "cant_found_neftie": "Please check Neftie name again, we do not have that neftie in our database :/",
+    "enter_valid_youtube_url": "Please enter a valid YouTube url",
+    "couldnt_get_video_information": "We couldn't fetch your video details. Please try again :("
+  },
+  "success": {
+    "thanks_for_voting": "Your vote is saved. Thanks for voting and contributing. 😍"
+  },
+  "video_categories": {
+    "tutorials": {
+      "title": "Tutorials",
+      "desc": "This is where tutorials will be added"
+    },
+    "official_stream_recordings": {
+      "title": "Official Streams & Recordings",
+      "desc": "Contains official streams and recordings"
+    },
+    "funny_moments": {
+      "title": "Funny Moments",
+      "desc": "Funny Moments from Seekers of Tokane"
+    },
+    "cringe_moments": {
+      "title": "Cringe Moments",
+      "desc": "Cringe Moments from Seekers of Tokane"
+    }
+  },
+  "post_a_video": "Post a Video",
+  "video_form": {
+    "enter_youtube_link": "Enter YouTube Link",
+    "youtube_link_desc": "For us to get more information about your video you need to upload it to YouTube and paste the link below",
+    "video_details": "Video Details",
+    "video_details_desc": "Please fill the form and update if necessary and hit Submit button. You'll be able to see the video after it got approved.",
+    "name_required": "Video title is required.",
+    "video_title": "Video title",
+    "video_description": "Video description",
+    "description_required": "Video description is required.",
+    "language_required": "You have to select the language of the Video.",
+    "category_required": "You have to select a category.",
+    "posted_success": "Your video successfully submitted. It'll appear in Videos page as soon as it get approved.",
+    "issue_with_posting": "Encountered an issue while adding video to database"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - The Title",
+      "description": "Neftie App Description"
+    },
+    "eggs": {
+      "title": "Neftie App - Discover Eggs",
+      "description": "List all the Eggs related to Aurory"
+    },
+    "nefties": {
+      "title": "Neftie App - Nefties",
+      "description": "Neftie App Nefties"
+    },
+    "tier_list": {
+      "title": "Neftie App - Tier List",
+      "description": "Neftie App Description"
+    },
+    "videos": {
+      "title": "Neftie App - Videos",
+      "description": "Nefite App Description"
+    }
+  },
+  "recently_added_videos": "Recently Added Videos"
 }
