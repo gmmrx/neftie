@@ -37,7 +37,7 @@ export class EggsNefties
       },
       {
         sequelize,
-        tableName: "EggsNefties",
+        tableName: "eggs_nefties",
         modelName: "EggsNefties",
         schema: "public",
         timestamps: false, // Assuming no need for createdAt/updatedAt, adjust as necessary

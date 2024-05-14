@@ -69,7 +69,7 @@ export class UserTierList
       },
       {
         sequelize,
-        tableName: "userTierLists", // Name the table as you see fit
+        tableName: "user_tier_lists", // Name the table as you see fit
         modelName: "UserTierList",
         timestamps: true,
       }
