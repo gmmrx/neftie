@@ -13,7 +13,6 @@ import {
 import { Button } from "../ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { useState } from "react";
-import { useSession } from "next-auth/react";
 import axios from "axios";
 import { Input } from "../ui/input";
 import NewVideoForm from "./new-video-form";

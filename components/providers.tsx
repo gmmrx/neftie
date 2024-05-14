@@ -7,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { Suspense } from "react";
 import VideosProvider from "@/providers/VideosProvider";
 import AdminVideosProvider from "@/providers/AdminVideosProvider";
+import EventsProvider from "@/providers/EventsProvider";
 
 const Providers = ({ locale, children }) => {
   return (
@@ -21,11 +22,13 @@ const Providers = ({ locale, children }) => {
 
         <SessionProvider>
           <AdminVideosProvider>
-            <VideosProvider locale={locale}>
-              <NeftiesProvider>
-                <EggsProvider>{children}</EggsProvider>
-              </NeftiesProvider>
-            </VideosProvider>
+            <EventsProvider locale={locale}>
+              <VideosProvider locale={locale}>
+                <NeftiesProvider>
+                  <EggsProvider>{children}</EggsProvider>
+                </NeftiesProvider>
+              </VideosProvider>
+            </EventsProvider>
           </AdminVideosProvider>
         </SessionProvider>
       </Suspense>

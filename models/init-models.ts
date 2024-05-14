@@ -7,6 +7,8 @@ import { UserTierList } from "./UserTierList"; // Adjust the path as necessary
 import { VideoCategory } from "./VideoCategories";
 import { Video } from "./Videos";
 import { VideoCategoryList } from "./VideoCategoryList";
+import { Events } from "./Events";
+import { EventDetails } from "./EventDetails";
 
 export function initModels(sequelize: Sequelize) {
   Nefties.initModel(sequelize);
@@ -17,6 +19,8 @@ export function initModels(sequelize: Sequelize) {
   VideoCategory.initModel(sequelize);
   Video.initModel(sequelize);
   VideoCategoryList.initModel(sequelize);
+  Events.initModel(sequelize);
+  EventDetails.initModel(sequelize);
 
   Nefties.belongsToMany(Eggs, {
     through: EggsNefties,
@@ -45,7 +49,8 @@ export function initModels(sequelize: Sequelize) {
     foreignKey: "category_id",
     otherKey: "video_id",
   });
-
+  EventDetails.belongsTo(Events, { foreignKey: "eventId", as: "event" });
+  Events.hasOne(EventDetails, { foreignKey: "eventId", as: "details" });
   return {
     Nefties: sequelize.models.Nefties,
     Eggs: sequelize.models.Eggs,
@@ -55,5 +60,7 @@ export function initModels(sequelize: Sequelize) {
     Video: sequelize.models.Video,
     VideoCategory: sequelize.models.VideoCategory,
     VideoCategoryList: sequelize.models.VideoCategoryList,
+    Events: sequelize.models.Events,
+    EventDetails: sequelize.models.EventDetails,
   };
 }

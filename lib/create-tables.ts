@@ -9,11 +9,10 @@ export async function syncAndForceDB() {
   // await models.Video.sync({ force: true, alter: true });
   // await models.VideoCategoryList.sync({ force: true, alter: true });
   // await models.Nefties.sync({ force: true, alter: true });
-
+  // await models.Events.sync({ force: true, alter: true });
+  // await models.EventDetails.sync({ force: true, alter: true });
   // await models.Eggs.sync({ force: true, alter: true });
-
   // await models.EggsNefties.sync({ force: true, alter: true });
-
   // await models.VideoCategory.bulkCreate([
   //   {
   //     name: "tutorials.title",
@@ -36,11 +35,9 @@ export async function syncAndForceDB() {
   //     slug: "cringe-moments",
   //   },
   // ]);
-
   // for (const neftie of NeftieList) {
   //   await models.Nefties.create({ ...neftie });
   // }
-
   // for (const egg of example_eggs) {
   //   await models.Eggs.create({ ...egg });
   // }

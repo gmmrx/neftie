@@ -13,6 +13,8 @@
   "tier_list_desc": "A tier list is a ranking system that categorizes Nefties based on their effectiveness, strength, or popularity. These rankings are divided into tiers, with the highest performers placed in the S-tier, followed by A and B.",
   "videos": "Videos",
   "videos_page_desc": "A dynamic hub where the community comes together to share their most engaging moments in Seekers of Tokane. From in-depth tutorials that guide you through complex challenges to hilarious clips that capture the unpredictability of the game, every video is a glimpse into the diverse experiences of our players. Dive into the categories, explore user-submitted content, and perhaps find the inspiration to share your own adventures with us!",
+  "events": "Events",
+  "events_page_desc": "Stay up-to-date with all the latest happenings in Seekers of Tokané. Learn about all official & fan-organized events and be a part of the vibrant Aurory community.",
   "element": "Element",
   "more": "More",
   "back": "Back",
@@ -563,6 +565,29 @@
     "posted_success": "Your video successfully submitted. It'll appear in Videos page as soon as it get approved.",
     "issue_with_posting": "Encountered an issue while adding video to database"
   },
+  "create_event": "Create Event",
+  "event_form": {
+    "title": "Create New Event",
+    "event_details_desc": "Please fill the form and update if necessary and hit Submit button. You'll be able to see the event after it got approved.",
+    "event_name": "Event Name",
+    "name_required": "Event name is required",
+    "event_details": "Event Details",
+    "dates_required": "You must select starts at and ends at date",
+    "pick_start_date": "Pick a Start Date",
+    "pick_end_date": "Pick an End Date",
+    "order_required": "You have to give an order for prize",
+    "prize_required": "You have to give prize for order",
+    "at_least_one_prize": "You have to add at least one prize",
+    "prizes": "Event Prizes",
+    "add_prize": "Add Prize",
+    "discord_url": "Discord URL",
+    "event_rules": "Event Rules",
+    "rule_required": "Rule is required",
+    "at_least_one_rule": "We need at least 1 rule for event",
+    "rules": "Event Rules",
+    "rule": "Rule",
+    "add_rule": "Add Rule"
+  },
   "page_information": {
     "home": {
       "title": "Neftie App - Your Magical Companions Dex: Discover, Collect, and Explore!",
@@ -589,5 +614,9 @@
       "description": "Stay up-to-date with all the latest happenings in Seekers of Tokané. Learn about all official & fan-organized events and be a part of the vibrant Aurory community."
     }
   },
-  "recently_added_videos": "Recently Added Videos"
+  "recently_added_videos": "Recently Added Videos",
+  "submit": "Submit",
+  "prize": "Prize",
+  "prize_explanation": "First input is for order (1, 2, 3), second input is for the reward",
+  "status": "Status"
 }

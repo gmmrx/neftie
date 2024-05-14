@@ -16,7 +16,7 @@ export default function MobileMenu() {
       <div className="lg:hidden fixed inset-x-0 bottom-0 h-[3.2rem] bg-background border-t flex items-center justify-around shadow-md z-[100]">
         <Link href="/">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -24,31 +24,9 @@ export default function MobileMenu() {
           </Button>
         </Link>
 
-        <Link href="/eggs">
-          <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
-            size="icon"
-            variant="ghost"
-          >
-            <svg
-              width="18px"
-              height="18px"
-              fill="currentColor"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.8359 10.4671L21.6437 10.9045L21.7248 13.0806L18.3829 13.999L17.8507 15.5402L15.7644 16.851L15.6558 16.8102L17.1837 14.5945L17.1287 13.0806L20.4018 11.2969L19.5835 9.24343L21.6038 7.03051C19.981 5.17868 17.9827 4 15.8194 4C10.3967 3.99864 6 11.4019 6 18.2682C6 25.1345 10.3967 28.8627 15.8194 28.8627C21.2421 28.8627 25.6388 25.1345 25.6388 18.2682C25.6388 15.5933 24.9718 12.8353 23.8359 10.4671Z"
-                fill="currentColor"
-              ></path>
-            </svg>
-            {t("translation:eggs")}
-          </Button>
-        </Link>
-
         <Link href="/nefties">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block   flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -85,7 +63,7 @@ export default function MobileMenu() {
         </Link>
         <Link href="/tier-list">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -108,24 +86,50 @@ export default function MobileMenu() {
             {t("translation:tier_list")}
           </Button>
         </Link>
-        <Link href="/videos">
-          <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
-            size="icon"
-            variant="ghost"
-          >
-            <Play className="w-[1.125rem]" />
-            {t("translation:videos")}
-          </Button>
-        </Link>
-        {/* <Drawer>
+
+        <Drawer>
           <DrawerTrigger>
             <GripHorizontal size={24} className={`mx-auto`} />
           </DrawerTrigger>
-          <DrawerContent className="w-full pb-12 px-4">
-            <div className="pt-4 flex flex-col"></div>
+          <DrawerContent className="w-full pb-24 px-4">
+            <div className="pt-4 flex flex-row w-full items-start justify-start">
+              <Link href="/eggs" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <svg
+                    width="18px"
+                    height="18px"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="mr-4"
+                  >
+                    <path
+                      d="M23.8359 10.4671L21.6437 10.9045L21.7248 13.0806L18.3829 13.999L17.8507 15.5402L15.7644 16.851L15.6558 16.8102L17.1837 14.5945L17.1287 13.0806L20.4018 11.2969L19.5835 9.24343L21.6038 7.03051C19.981 5.17868 17.9827 4 15.8194 4C10.3967 3.99864 6 11.4019 6 18.2682C6 25.1345 10.3967 28.8627 15.8194 28.8627C21.2421 28.8627 25.6388 25.1345 25.6388 18.2682C25.6388 15.5933 24.9718 12.8353 23.8359 10.4671Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  {t("translation:eggs")}
+                </Button>
+              </Link>
+            </div>
+            <div className="pt-4 flex flex-row w-full">
+              <Link href="/videos" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <Play className="w-[1.125rem] mr-4" />
+                  {t("translation:videos")}
+                </Button>
+              </Link>
+            </div>
           </DrawerContent>
-        </Drawer> */}
+        </Drawer>
       </div>
     </>
   );
