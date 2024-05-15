@@ -10,16 +10,6 @@ import { NextPage } from "next";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { LANGUAGE } from "@/lib/data/constants";
 import PostNewEvent from "@/components/post-new-event";
 import { useEvents } from "@/providers/EventsProvider";
 import EventBox from "@/components/event-box";

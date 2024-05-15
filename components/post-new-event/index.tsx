@@ -102,11 +102,16 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
     try {
       setIsLoading(true);
       const createNewEvent = await axios.post(`/api/events`, formData);
+      return toast({
+        description: t("translation:event_form.posted_success"),
+      });
     } catch {
+      return toast({
+        description: t("translation:event_form.issue_posting"),
+      });
     } finally {
       setIsLoading(false);
     }
-    console.log(formData);
   };
 
   return (
@@ -159,6 +164,41 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
                           editorState={field.value}
                           updateEditorState={field.onChange}
                         />
+                      </FormControl>
+                      <FormMessage className="text-[0.7rem] text-right" />
+                    </FormItem>
+                  )}
+                />
+              </div>
+              <div className="my-6">
+                <FormField
+                  control={form.control}
+                  name="language"
+                  disabled={isLoading}
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormControl>
+                        <Select
+                          onValueChange={field.onChange}
+                          defaultValue={field.value}
+                        >
+                          <FormControl>
+                            <SelectTrigger className="text-base">
+                              <SelectValue
+                                placeholder={t("translation:select_a_language")}
+                              />
+                            </SelectTrigger>
+                          </FormControl>
+                          <SelectContent>
+                            <SelectGroup className="scroll-smooth">
+                              {LANGUAGE.map((item) => (
+                                <SelectItem key={item.code} value={item.code}>
+                                  {item.code}
+                                </SelectItem>
+                              ))}
+                            </SelectGroup>
+                          </SelectContent>
+                        </Select>
                       </FormControl>
                       <FormMessage className="text-[0.7rem] text-right" />
                     </FormItem>
@@ -390,7 +430,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
                   <Button
                     type="button"
                     variant="secondary"
-                    onClick={() => appendRule("Rule 1")}
+                    onClick={() => appendRule("Rule")}
                     disabled={isLoading}
                   >
                     {t("translation:event_form.add_rule")}
@@ -434,41 +474,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
                   </div>
                 ))}
               </div>
-              <div className="my-6">
-                <FormField
-                  control={form.control}
-                  name="language"
-                  disabled={isLoading}
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormControl>
-                        <Select
-                          onValueChange={field.onChange}
-                          defaultValue={field.value}
-                        >
-                          <FormControl>
-                            <SelectTrigger className="text-base">
-                              <SelectValue
-                                placeholder={t("translation:select_a_language")}
-                              />
-                            </SelectTrigger>
-                          </FormControl>
-                          <SelectContent>
-                            <SelectGroup className="scroll-smooth">
-                              {LANGUAGE.map((item) => (
-                                <SelectItem key={item.code} value={item.code}>
-                                  {item.code}
-                                </SelectItem>
-                              ))}
-                            </SelectGroup>
-                          </SelectContent>
-                        </Select>
-                      </FormControl>
-                      <FormMessage className="text-[0.7rem] text-right" />
-                    </FormItem>
-                  )}
-                />
-              </div>
+
               <DialogFooter className="sm:justify-start !justify-between">
                 <DialogClose asChild>
                   <Button

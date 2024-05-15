@@ -21,15 +21,13 @@ const Providers = ({ locale, children }) => {
         />
 
         <SessionProvider>
-          <AdminVideosProvider>
-            <EventsProvider locale={locale}>
-              <VideosProvider locale={locale}>
-                <NeftiesProvider>
-                  <EggsProvider>{children}</EggsProvider>
-                </NeftiesProvider>
-              </VideosProvider>
-            </EventsProvider>
-          </AdminVideosProvider>
+          <EventsProvider locale={locale}>
+            <VideosProvider locale={locale}>
+              <NeftiesProvider>
+                <EggsProvider>{children}</EggsProvider>
+              </NeftiesProvider>
+            </VideosProvider>
+          </EventsProvider>
         </SessionProvider>
       </Suspense>
     </>

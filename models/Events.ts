@@ -5,6 +5,7 @@ import * as Sequelize from "sequelize";
 export interface EventsAttributes {
   id: number;
   name: string;
+  slug: string;
   startsAt: Date;
   endsAt: Date;
   isOfficial: boolean;
@@ -17,6 +18,7 @@ export class Events
 {
   id!: number;
   name!: string;
+  slug!: string;
   startsAt!: Date;
   endsAt!: Date;
   isOfficial!: boolean;
@@ -32,6 +34,10 @@ export class Events
           autoIncrement: true,
         },
         name: {
+          type: DataTypes.STRING,
+          allowNull: false,
+        },
+        slug: {
           type: DataTypes.STRING,
           allowNull: false,
         },

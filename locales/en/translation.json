@@ -586,7 +586,9 @@
     "at_least_one_rule": "We need at least 1 rule for event",
     "rules": "Event Rules",
     "rule": "Rule",
-    "add_rule": "Add Rule"
+    "add_rule": "Add Rule",
+    "posted_success": "Your event successfully submitted. It'll appear in Events page as soon as it get approved.",
+    "issue_with_posting": "Encountered an issue while adding event to database"
   },
   "page_information": {
     "home": {
@@ -612,11 +614,22 @@
     "events": {
       "title": "Neftie App - Join the Adventure: Explore Official and Community Events!",
       "description": "Stay up-to-date with all the latest happenings in Seekers of Tokané. Learn about all official & fan-organized events and be a part of the vibrant Aurory community."
+    },
+    "single_event": {
+      "title": "Neftie App - More Details About {{ event }} Event",
+      "description": "See more details about {{ event }}, learn and earn more & fast"
     }
   },
   "recently_added_videos": "Recently Added Videos",
   "submit": "Submit",
   "prize": "Prize",
   "prize_explanation": "First input is for order (1, 2, 3), second input is for the reward",
-  "status": "Status"
+  "status": "Status",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "prizes": "Prizes",
+  "rules": "Rules",
+  "finished": "Ended",
+  "incoming": "Not started yet",
+  "ongoing": "Started"
 }

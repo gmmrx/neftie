@@ -116,7 +116,7 @@ export default function MobileMenu() {
                 </Button>
               </Link>
             </div>
-            <div className="pt-4 flex flex-row w-full">
+            <div className="pt-2 flex flex-row w-full">
               <Link href="/videos" className="w-full">
                 <Button
                   className={`rounded-sm block flex w-full items-center justify-start`}
@@ -125,6 +125,38 @@ export default function MobileMenu() {
                 >
                   <Play className="w-[1.125rem] mr-4" />
                   {t("translation:videos")}
+                </Button>
+              </Link>
+            </div>
+            <div className="pt-2 flex flex-row w-full">
+              <Link href="/videos" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <svg
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    className="mr-4"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.85499 3.83185L5.62516 7.91717L26.7518 9.02631L27 4.62673L26.191 3.73018L6.5537 3L5.8458 3.83185H5.85499ZM21.0242 7.11305L12.4191 6.59545L12.9524 5.12584L20.5921 5.48631L21.0242 7.11305Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M7.3995 11.2261L24.8855 11.9378L24.3982 26.6338L23.8926 27.1422L7.05015 26.8279L6.86628 26.6154L7.3995 11.2261ZM5.62516 9.30359L5 27.2901L6.21354 28.658L24.6465 29L26.2186 27.4102L26.7885 10.1539L5.62516 9.30359Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M16.8504 13.5923L18.0731 17.2339L21.9528 18.6665L21.9712 19.0547L19.0384 21.6982L19.2683 24.9886L19.1304 25.3768L15.7656 23.6299C15.6277 23.5375 12.2628 24.8223 12.2628 24.8223L11.7572 24.7391L12.3732 20.5891L10.1759 17.5851L10.6264 17.2432L14.3038 16.8642L16.3448 13.8418L16.8504 13.6015V13.5923Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  {t("translation:events")}
                 </Button>
               </Link>
             </div>
