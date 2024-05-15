@@ -48,13 +48,13 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             </span>
           </div>
           <div className="font-normal mt-1 text-sm max-w-[600px]">
-            {t(`translation:neftie_list.${neftie?.description}`)}
+            {t(`nefties:${neftie?.description}`)}
           </div>
         </div>
       </div>
       <div className="skills flex flex-wrap lg:flex-nowrap gap-2 my-6">
         {neftie?.skills.map((skill, index) => {
-          const skills = t(`translation:neftie_list.${neftie?.slug}.skills`, {
+          const skills = t(`nefties:${neftie?.slug}.skills`, {
             returnObjects: true,
           });
 

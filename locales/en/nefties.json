@@ -1,0 +1,444 @@
+{
+  "bitebit": {
+    "description": "Bitebit is a jack of all trades, relying on swift melee strikes to generate hype. Its diverse arsenal of abilities is sure to be useful in any situation!",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "FULGUROUS STEPS I",
+        "description": "100% chance of dodging one attack this turn action."
+      },
+      {
+        "name": "PUTRID VINE I",
+        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+      },
+      {
+        "name": "THUNDER PUNCH II",
+        "description": "Perform a Melee attack of 60 Power."
+      },
+      {
+        "name": "STORMBREAKER'S ZEAL III",
+        "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 65 Power."
+      }
+    ]
+  },
+  "dipking": {
+    "description": "Dipking features high-cost abilities, but don't worry; if you can hold out long enough using evasive actions, it can unleash explosive damage!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "MISTY STEPS II",
+        "description": "100% chance of dodging one attack this turn action. If triggered, your Attack is raised by 1 stage for 2 turns."
+      },
+      {
+        "name": "CLEANSING WAVE I",
+        "description": "Cleanse status effects on the opponent."
+      },
+      {
+        "name": "DELUGE II",
+        "description": "Perform a Ranged attack of 100 Power."
+      },
+      {
+        "name": "RIPTIDE III",
+        "description": "Perform a Melee attack of 85 Power. If your current HP is lower than the opponent, deal double damage."
+      }
+    ]
+  },
+  "dinobit": {
+    "description": "Dinobit has the highest HP among the Nefties, and you can use this to your advantage since you deal more damage when its health surpasses that of its opponent!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "MUDHAMMER II",
+        "description": "100% chance of dodging one attack this turn action. If triggered, your Attack is raised by 1 stage for 2 turns."
+      },
+      {
+        "name": "ROCK WALL II",
+        "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
+      },
+      {
+        "name": "KNOCKDOWN I",
+        "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
+      },
+      {
+        "name": "VITALITY STRIKE I",
+        "description": "Perform a Melee attack of 45 Power. If your current HP is higher than the opponent, perform an additional Melee attack."
+      }
+    ]
+  },
+  "number-9": {
+    "description": "Number 9 is known for its variety of abilities to generate hype and enhance its attacks. Watch your back before its curse takes effect!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "FRAGILITY FLUX I",
+        "description": "Your Defense is dropped by 1 stage for 2 turns."
+      },
+      {
+        "name": "CATCH UP PUNCH I",
+        "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype."
+      },
+      {
+        "name": "EXPLOSIVE COUNTER I",
+        "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
+      },
+      {
+        "name": "SCORCHING BITE II",
+        "description": "Perform a Melee attack of 85 Power."
+      },
+      {
+        "name": "DETONATE III",
+        "description": "Inflict Curse to the opponent. After a countdown of 2 turns, Curse deals 30% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
+      }
+    ]
+  },
+  "axobubble": {
+    "description": "Axobubble sacrifices his defense to build up hype but reflects a portion of the damage dealt to his opponent. When the right moment arrives, he floods the arena to win!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "FRAGILITY FLUX I",
+        "description": "Your Defense is dropped by 1 stage for 2 turns."
+      },
+      {
+        "name": "BUBBLECHAIN II",
+        "description": "Reflect back to the opponent 65% of the damage dealt this turn action. You take the remaining damage."
+      },
+      {
+        "name": "CLEANSING TIDE I",
+        "description": "Cleanse status effects on you and the opponent."
+      },
+      {
+        "name": "MARINE REVERSAL I",
+        "description": "Dodge once and perform a Counter Attack of 75 Power if you are targeted by an attack this turn action."
+      },
+      {
+        "name": "VOLT SURGE III",
+        "description": "Perform a Ranged attack of 115 Power."
+      }
+    ]
+  },
+  "unika": {
+    "description": "Unika prioritizes defense, and when enhanced, it transforms into a formidable damage dealer. Get ready for a tight battle!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Your Defense is dropped by 1 stage for 2 turns."
+      },
+      {
+        "name": "STONE SKIN I",
+        "description": "Your Defense is raised by 2 stage for 2 turns. The opponent's Defense is dropped by 1 stage for 2 turns."
+      },
+      {
+        "name": "PUTRID VINE I",
+        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+      },
+      {
+        "name": "KNOCKDOWN I",
+        "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
+      },
+      {
+        "name": "BOULDER BASH II",
+        "description": "Perform a Ranged attack of 45 Power. If your Defense is higher than the opponent, perform an additional Ranged attack."
+      }
+    ]
+  },
+  "zzoo": {
+    "description": "Zzoo employs a defensive strategy to defeat opponents by deflecting attacks, countering with precision, and using the full force of the wind at the right moment to secure victory!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGIZING REFLECTION I",
+        "description": "Reflect back to the opponent 30% of the damage dealt this turn action. You take the remaining damage. If triggered, earn 3 Hype."
+      },
+      {
+        "name": "AERIAL SLASH II",
+        "description": "Perform a Ranged attack of 30 Power."
+      },
+      {
+        "name": "EXPLOSIVE COUNTER I",
+        "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
+      },
+      {
+        "name": "FLORAN'S MIRROR I",
+        "description": "Reflect back to the opponent 85% of the damage dealt this turn action. You take the remaining damage."
+      },
+      {
+        "name": "SYLPHOR'S PURGE III",
+        "description": "Cleanse your status effects. Then, perform a Ranged attack of 150 Power."
+      }
+    ]
+  },
+  "block-choy": {
+    "description": "Block Choy is well-equipped to outlast opponents through life-stealing and the use of poison, inflicting damage over time and ultimately winning a fight!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FLOWING STRIKE I",
+        "description": "Perform a Ranged attack of 20 Power."
+      },
+      {
+        "name": "SAPLING SMACK II",
+        "description": "Perform a Melee attack of 30 Power."
+      },
+      {
+        "name": "MINTY PROTECTION I",
+        "description": "Raise a Shield equal to 15% of your max HP for 2 turns."
+      },
+      {
+        "name": "VAMPIRIC ROOT I",
+        "description": "Perform a Ranged attack of 70 Power. Lifesteal 35% of the damage dealt."
+      },
+      {
+        "name": "STRANGLING ROOTS II",
+        "description": "Inflict Poison to the opponent for 5 turns. At the end of each turn, Poison deals damage equal to 13% of the opponent's max HP."
+      }
+    ]
+  },
+  "shiba-ignite": {
+    "description": "Shiba Ignite boasts substantial HP that can be used for life-tapping, boosting its hype. This empowers it to deal double damage when its health falls below the opponent's!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "LIFE TAP RITUAL I",
+        "description": "Self attack of 10 Power."
+      },
+      {
+        "name": "AURANY'S RAGE II",
+        "description": "If you are hit this turn action, your Attack is raised by 2 stages for 2 turns."
+      },
+      {
+        "name": "EXPLOSIVE COUNTER I",
+        "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
+      },
+      {
+        "name": "FIERY RAMPAGE II",
+        "description": "Perform a Ranged attack of 60 Power. If your current HP is lower than the opponent, deal double damage."
+      },
+      {
+        "name": "EARTHQUAKE I",
+        "description": "Perform a Melee attack of 105 Power. You take 15% of the damage dealt as Recoil."
+      }
+    ]
+  },
+  "raccoin": {
+    "description": "Raccoin, with its sly nature and laid-back demeanor, is famed for its agility and love for shady, tranquil resting spots.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "VIGOR HEIST I",
+        "description": "Perform a Melee attack of 10 Power. Your Speed is raised by 1 for 2 turns. The opponent's Speed is dropped by 1 for 2 turns."
+      },
+      {
+        "name": "LUCKY REFLEXES II",
+        "description": "Dodge and then perform a Counter Attack of 40 Power if you are hit by a Melee attack this turn action. If triggered, drop the opponent's Defense by 2 for 2 turns."
+      },
+      {
+        "name": "GOOD FORTUNE I",
+        "description": "100% chance of dodging one attack this turn action. If triggered, Cleanse status effects on yourself."
+      },
+      {
+        "name": "SLACK OFF II",
+        "description": "Heal yourself of 15% of your max HP. Your Speed is dropped by 2 for 2 turns."
+      },
+      {
+        "name": "FIRED UP III",
+        "description": "Perform a Melee attack of 70 Power. If your Speed is higher than the opponent, perform an additional Melee attack of 35 Power using your Speed instead of Attack."
+      }
+    ]
+  },
+  "shibark": {
+    "description": "Shibark wanders through expansive lands, sniffing out treasures and proudly claiming its territory with mighty howls.",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "FRENZIED HOWL I",
+        "description": "Your Attack is raised by 1 for 1 turn. The opponent's Attack is raised by 1 for 1 turn."
+      },
+      {
+        "name": "ENDURE II",
+        "description": "Deflect 50% of the damage taken by one attack this turn action. If triggered, earn 2 Hype."
+      },
+      {
+        "name": "FLAME SPARK I",
+        "description": "Perform a Ranged attack of 25 Power. Your Attack is raised by 1 stage for 2 turns."
+      },
+      {
+        "name": "ROCKY PURSUIT II",
+        "description": "Perform a high priority Melee attack of 50 Power. This attack goes before reactive abilities and almost always goes first."
+      },
+      {
+        "name": "GRIM FANG III",
+        "description": "Perform a Melee attack of 120 Power. If it hits, inflict Curse on the opponent. At the end of the turn, Curse deals 10% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
+      }
+    ]
+  },
+  "unikirin": {
+    "description": "Each step Unikirin takes resonates with the crackle of electric energy, a testament to its wild and untamed spirit.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RECHARGE I",
+        "description": "Your Speed is dropped by 1 for 2 turns."
+      },
+      {
+        "name": "FULGUROUS STEPS I",
+        "description": "100% chance of dodging one attack this turn action."
+      },
+      {
+        "name": "FLAMETHROWER I",
+        "description": "Perform a Ranged attack of 80 power."
+      },
+      {
+        "name": "THUNDER STRIKE II",
+        "description": "Perform a Ranged attack of 70 Power. Your Speed is raised by 1 stage for 2 turns."
+      },
+      {
+        "name": "ELECTRICAL OVERLOAD II",
+        "description": "If your Speed is currently dropped, perform a Ranged attack of 135 Power. Then, Cleanse your Speed."
+      }
+    ]
+  },
+  "chocomint": {
+    "description": "Chocomint ranks among the swiftest Nefties, so make the most of its speed to evade and counter with precision. Harness the might of the sun to defeat your opponent!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "AQUA BOLT I",
+        "description": "Perform a Ranged attack of 30 Power."
+      },
+      {
+        "name": "FULGUROUS STEPS I",
+        "description": "100% chance of dodging one attack this turn action."
+      },
+      {
+        "name": "ETHER WHIRLWIND I",
+        "description": "The opponent's Attack is dropped by 3 stages for 3 turns."
+      },
+      {
+        "name": "SUN BLAST III",
+        "description": "Perform a Ranged attack of 155 Power."
+      }
+    ]
+  },
+  "cybertooth": {
+    "description": "Cybertooth uses its thick hide to fortify its defenses, skillfully weakening foes with its abilities to gain an advantage and deal significant damage.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "ENERGETIC JAB I",
+        "description": "Perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "AQUA BOLT I",
+        "description": "Perform a Ranged attack of 30 Power."
+      },
+      {
+        "name": "ZEPHYRA'S PROTECTION I",
+        "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
+      },
+      {
+        "name": "SHATTERING WIND II",
+        "description": "Cleanse the opponent's shield, then perform a Ranged attack of 105 Power."
+      },
+      {
+        "name": "BALANCE SHIFT II",
+        "description": "Your Defense and Attack are raised by 2 for 2 turns. The opponent's Defense and Attack are dropped by 2 for 2 turns."
+      }
+    ]
+  },
+  "wassie": {
+    "description": "Wassie is a nimble Neftie known for harnessing its abilities to enhance its speed and inflict substantial damage.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "ENFEEBLING FLUX I",
+        "description": "Your Attack is dropped by 1 stage for 2 turns."
+      },
+      {
+        "name": "CATCH UP PUNCH I",
+        "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype. "
+      },
+      {
+        "name": "SKYDANCE II",
+        "description": "100% chance of dodging one attack this turn action. If triggered, your Speed is raised by 1 for 2 turns."
+      },
+      {
+        "name": "THUNDER STRIKE II",
+        "description": "Perform a Ranged attack of 70 Power. Your Speed is raised by 1 stage for 2 turns."
+      },
+      {
+        "name": "FLASH VOLT III",
+        "description": "Perform a Melee attack of 70 Power using your Speed instead of Attack."
+      }
+    ]
+  },
+  "dracurve": {
+    "description": "Dracurve dictates the course of battle with shifts in stats and status effects. Exercise caution, for a few strategic choices can swiftly pave the way to devastation.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "DRACONIC ROAR II",
+        "description": "Your Attack is raised and your Defense is dropped by 1 for 1 turn. Then, perform a Melee attack of 20 Power."
+      },
+      {
+        "name": "AERIAL SLASH II",
+        "description": "Perform a Ranged attack of 30 Power."
+      },
+      {
+        "name": "THUNDER SCALE II",
+        "description": "Raise a Shield equal to 15% of your max HP for 2 turns. Your Defense is raised by 2 for 2 turns."
+      },
+      {
+        "name": "SCORCHING BITE II",
+        "description": "Perform a Melee attack of 85 Power."
+      },
+      {
+        "name": "THUNDERLORD'S RAMPAGE II",
+        "description": "Perform a Ranged attack of 40 Power. If you have an active Shield, upgrade your Shield equal to 25% of your max HP for 2 turns. Then, perform a Ranged attack of 90 Power."
+      }
+    ]
+  },
+  "bloomtail": {
+    "description": "Bloomtail is a spirited Neftie fueled by the flower adorning its back. It is said that the flower occasionally affects its movements, adding an intriguing twist to its nature!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FLOWING STRIKE I",
+        "description": "Perform a Ranged attack of 20 Power."
+      },
+      {
+        "name": "TOXIC BOUQUET I",
+        "description": "Inflict Poison to you and the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+      },
+      {
+        "name": "SYMBIOTIC SLASH II",
+        "description": "Perform a Melee attack of 45 Power. Deal double damage if the opponent is currently Poisoned."
+      },
+      {
+        "name": "DESPERATE RIPOSTE II",
+        "description": "Dodge if you are hit this turn action. If you are currently Poisoned, also perform a Counter Attack of 50 Power."
+      },
+      {
+        "name": "VAMPIRIC BLOOM III",
+        "description": "Perform a Ranged attack of 80 Power. If the attack is Strong against the target, Lifesteal 50% of the damage dealt."
+      }
+    ]
+  }
+}

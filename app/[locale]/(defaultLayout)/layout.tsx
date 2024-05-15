@@ -7,7 +7,7 @@ import initTranslations from "../../i18n";
 import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
 
-const i18nNamespaces = ["translation"];
+const i18nNamespaces = ["translation", "nefties"];
 
 export default async function RootLayout({
   children,

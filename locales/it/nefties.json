@@ -1,0 +1,392 @@
+{
+  "bitebit": {
+    "description": "Bitebit è un asso in tutti i mestieri, affidandosi a rapidi colpi corpo a corpo per generare hype. La sua vasta gamma di abilità è sicuramente utile in qualsiasi situazione!",
+    "element": "fulmine",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "PASSI FULGURI I",
+        "description": "Probabilità del 100% di schivare un attacco questa azione."
+      },
+      {
+        "name": "VITE PUTRIDA I",
+        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+      },
+      {
+        "name": "PUGNO DEL TUONO II",
+        "description": "Esegui un attacco corpo a corpo di Potenza 60."
+      },
+      {
+        "name": "ZELO DEL DISTRUTTORE DI TEMPESTE III",
+        "description": "La tua Attacco aumenta di 3 stadi per 3 turni. Poi, esegui un attacco a distanza di Potenza 65."
+      }
+    ]
+  },
+  "dipking": {
+    "description": "Dipking presenta abilità a costo elevato, ma non preoccuparti; se riesci a resistere abbastanza a lungo usando azioni evasive, può infliggere danni esplosivi!",
+    "element": "acqua",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "PASSI NEBBIOSI II",
+        "description": "Probabilità del 100% di schivare un attacco questa azione. Se attivato, il tuo Attacco aumenta di 1 stadio per 2 turni."
+      },
+      {
+        "name": "ONDA PURIFICANTE I",
+        "description": "Pulisci gli effetti di status sull'avversario."
+      },
+      {
+        "name": "PIENA II",
+        "description": "Esegui un attacco a distanza di Potenza 100."
+      },
+      {
+        "name": "MAREMOTO III",
+        "description": "Esegui un attacco corpo a corpo di Potenza 85. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+      }
+    ]
+  },
+  "dinobit": {
+    "description": "Dinobit ha gli HP più alti tra i Nefties, e puoi sfruttare questo a tuo vantaggio dato che infliggi più danni quando la sua salute supera quella del suo avversario!",
+    "element": "terra",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "MARTELLO DI FANGO II",
+        "description": "Probabilità del 100% di schivare un attacco questa azione. Se attivato, il tuo Attacco aumenta di 1 stadio per 2 turni."
+      },
+      {
+        "name": "MURO DI ROCCIA II",
+        "description": "Alza uno scudo pari al 20% dei tuoi HP massimi per 2 turni."
+      },
+      {
+        "name": "ABBATTIMENTO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 30 usando la tua Difesa invece dell'Attacco."
+      },
+      {
+        "name": "COLPO VITALE I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 45. Se i tuoi HP attuali sono superiori a quelli dell'avversario, esegui un attacco corpo a corpo aggiuntivo."
+      }
+    ]
+  },
+  "number-9": {
+    "description": "Il Numero 9 è noto per la sua varietà di abilità per generare hype e potenziare i suoi attacchi. Fai attenzione prima che la sua maledizione abbia effetto!",
+    "element": "fuoco",
+    "skills": [
+      {
+        "name": "FLUSSO DI FRAGILITÀ I",
+        "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
+      },
+      {
+        "name": "COLPO RIMONTA I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 30. Se il tuo Hype attuale è inferiore a quello dell'avversario, guadagni 3 Hype."
+      },
+      {
+        "name": "CONTRO ESPLOSIVO I",
+        "description": "Schiva una volta e esegui un Contrattacco di Potenza 40 se sei bersagliato da un attacco questa azione."
+      },
+      {
+        "name": "MORSA FRIBANTE II",
+        "description": "Esegui un attacco corpo a corpo di Potenza 85."
+      },
+      {
+        "name": "DETONAZIONE III",
+        "description": "Infliggi la Maledizione all'avversario. Dopo un conto alla rovescia di 2 turni, la Maledizione infligge il 30% degli HP massimi dell'avversario. Reapplicare la Maledizione aumenta i danni iniziali della Maledizione del 50%. Questo effetto può accumularsi e non resetta la durata della Maledizione."
+      }
+    ]
+  },
+  "axobubble": {
+    "description": "Axobubble sacrifica la sua difesa per accumulare hype ma riflette una parte dei danni inflitti al suo avversario. Quando arriva il momento giusto, inonda l'arena per vincere!",
+    "element": "acqua",
+    "skills": [
+      {
+        "name": "FLUSSO DI FRAGILITÀ I",
+        "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
+      },
+      {
+        "name": "CATENA DI BOLLE II",
+        "description": "Rifletti indietro all'avversario il 65% dei danni inflitti questa azione. Tu subisci i danni rimanenti."
+      },
+      {
+        "name": "MAREA PURIFICANTE I",
+        "description": "Pulisci gli effetti di status su di te e sull'avversario."
+      },
+      {
+        "name": "INVERSIONE MARINA I",
+        "description": "Schiva una volta e esegui un Contrattacco di Potenza 75 se sei bersagliato da un attacco questa azione."
+      },
+      {
+        "name": "SBARCO DI CORRENTE III",
+        "description": "Esegui un attacco a distanza di Potenza 115."
+      }
+    ]
+  },
+  "unika": {
+    "description": "Unika privilegia la difesa e, quando potenziata, si trasforma in un formidabile distruttore di danni. Preparati per una battaglia serrata!",
+    "element": "terra",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
+      },
+      {
+        "name": "PELLICOLA DI PIETRA I",
+        "description": "La tua Difesa aumenta di 2 stadi per 2 turni. La Difesa dell'avversario diminuisce di 1 stadio per 2 turni."
+      },
+      {
+        "name": "VITE PUTRIDA I",
+        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+      },
+      {
+        "name": "ABBATTIMENTO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 30 usando la tua Difesa invece dell'Attacco."
+      },
+      {
+        "name": "SCHIANTO DEL MASSO II",
+        "description": "Esegui un attacco a distanza di Potenza 45. Se la tua Difesa è superiore a quella dell'avversario, esegui un attacco a distanza aggiuntivo."
+      }
+    ]
+  },
+  "zzoo": {
+    "description": "Zzoo impiega una strategia difensiva per sconfiggere gli avversari deviando gli attacchi, contrattaccando con precisione e utilizzando tutta la forza del vento al momento giusto per assicurarsi la vittoria!",
+    "element": "terra",
+    "skills": [
+      {
+        "name": "RIFLESSIONE ENERGICA I",
+        "description": "Rifletti all'avversario il 30% dei danni inflitti questa azione. Tu subisci i danni rimanenti. Se attivato, guadagna 3 Hype."
+      },
+      {
+        "name": "AFFETTO AEREO II",
+        "description": "Esegui un attacco a distanza di Potenza 30."
+      },
+      {
+        "name": "CONTRO ESPLOSIVO I",
+        "description": "Schiva una volta e esegui un Contrattacco di Potenza 40 se sei bersagliato da un attacco questa azione."
+      },
+      {
+        "name": "SPECCHIO DI FLORAN I",
+        "description": "Rifletti all'avversario l'85% dei danni inflitti questa azione. Tu subisci i danni rimanenti."
+      },
+      {
+        "name": "PURGA DI SILFO III",
+        "description": "Pulisci i tuoi effetti di status. Poi, esegui un attacco a distanza di Potenza 150."
+      }
+    ]
+  },
+  "block-choy": {
+    "description": "Block Choy è ben attrezzato per resistere agli avversari attraverso il furto di vita e l'uso del veleno, infliggendo danni nel tempo e vincendo alla fine una lotta!",
+    "element": "pianta",
+    "skills": [
+      {
+        "name": "COLPO FLUENTE I",
+        "description": "Esegui un attacco a distanza di Potenza 20."
+      },
+      {
+        "name": "SCOPPIO DI GERMALI II",
+        "description": "Esegui un attacco corpo a corpo di Potenza 30."
+      },
+      {
+        "name": "PROTEZIONE MINTY I",
+        "description": "Alza uno scudo pari al 15% dei tuoi HP massimi per 2 turni."
+      },
+      {
+        "name": "RADICE VAMPIRICA I",
+        "description": "Esegui un attacco a distanza di Potenza 70. Assorbi il 35% dei danni inflitti."
+      },
+      {
+        "name": "RADICI STRANGOLANTI II",
+        "description": "Infliggi Avvelenamento all'avversario per 5 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi dell'avversario."
+      }
+    ]
+  },
+  "shiba-ignite": {
+    "description": "Shiba Ignite vanta HP sostanziali che possono essere utilizzati per succhiare la vita, potenziando il suo hype. Ciò gli permette di infliggere danni doppi quando la sua salute scende sotto quella dell'avversario!",
+    "element": "fuoco",
+    "skills": [
+      {
+        "name": "RITUALE DI SUCCHIAVITA I",
+        "description": "Auto-attacco di Potenza 10."
+      },
+      {
+        "name": "IRA DI AURANY II",
+        "description": "Se sei colpito questa azione, il tuo Attacco aumenta di 2 stadi per 2 turni."
+      },
+      {
+        "name": "CONTRO ESPLOSIVO I",
+        "description": "Schiva una volta e esegui un Contrattacco di Potenza 40 se sei bersagliato da un attacco questa azione."
+      },
+      {
+        "name": "RAGGIO INFUOCATO II",
+        "description": "Esegui un attacco a distanza di Potenza 60. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+      },
+      {
+        "name": "TERREMOTO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 105. Tu subisci il 15% dei danni inflitti come Contraccolpo."
+      }
+    ]
+  },
+  "raccoin": {
+    "description": "Raccoin, con la sua natura astuta e il suo atteggiamento rilassato, è famoso per la sua agilità e l'amore per luoghi tranquilli e ombreggiati.",
+    "element": "aria",
+    "skills": [
+      {
+        "name": "RAPINA VIGORE I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 10. La tua Velocità aumenta di 1 per 2 turni. La Velocità dell'avversario diminuisce di 1 per 2 turni."
+      },
+      {
+        "name": "RIFLESSI FORTUNATI II",
+        "description": "Schiva e poi esegui un Contrattacco di Potenza 40 se sei colpito da un attacco corpo a corpo questa azione. Se attivato, diminuisci la Difesa dell'avversario di 2 per 2 turni."
+      },
+      {
+        "name": "FORTUNA BUONA I",
+        "description": "Probabilità del 100% di schivare un attacco questa azione. Se attivato, pulisci gli effetti di status su di te."
+      },
+      {
+        "name": "SVARIONE II",
+        "description": "Guarisci del 15% dei tuoi HP massimi. La tua Velocità diminuisce di 2 per 2 turni."
+      },
+      {
+        "name": "ENTUSIASMO III",
+        "description": "Esegui un attacco corpo a corpo di Potenza 70. Se la tua Velocità è superiore a quella dell'avversario, esegui un attacco corpo a corpo aggiuntivo di Potenza 35 usando la tua Velocità invece dell'Attacco."
+      }
+    ]
+  },
+  "shibark": {
+    "description": "Shibark vaga per terre vaste, fiutando tesori e rivendicando orgogliosamente il suo territorio con potenti ululati.",
+    "element": "terra",
+    "skills": [
+      {
+        "name": "ULULATO INFEROCITO I",
+        "description": "Il tuo Attacco aumenta di 1 per 1 turno. L'Attacco dell'avversario aumenta di 1 per 1 turno."
+      },
+      {
+        "name": "RESISTENZA II",
+        "description": "Difletti il 50% dei danni subiti da un attacco questa azione. Se attivato, guadagna 2 Hype."
+      },
+      {
+        "name": "SCINTILLA FOCOSA I",
+        "description": "Esegui un attacco a distanza di Potenza 25. Il tuo Attacco aumenta di 1 stadio per 2 turni."
+      },
+      {
+        "name": "INSEGUIMENTO ROCCIOSO II",
+        "description": "Esegui un attacco corpo a corpo ad alta priorità di Potenza 50. Questo attacco va prima delle abilità reattive e quasi sempre va per primo."
+      },
+      {
+        "name": "ZANNA FUNEBRE III",
+        "description": "Esegui un attacco corpo a corpo di Potenza 120. Se colpisce, infliggi Maledizione all'avversario. Alla fine del turno, la Maledizione infligge il 10% degli HP massimi dell'avversario. Riapplicare la Maledizione aumenta il danno iniziale della Maledizione del 50%. Questo effetto può accumularsi e non resetta la durata della Maledizione."
+      }
+    ]
+  },
+  "unikirin": {
+    "description": "Ogni passo di Unikirin risuona con il crepitio dell'energia elettrica, testimonianza del suo spirito selvaggio e indomito.",
+    "element": "fulmine",
+    "skills": [
+      {
+        "name": "RIGENERAZIONE I",
+        "description": "La tua Velocità diminuisce di 1 per 2 turni."
+      },
+      {
+        "name": "PASSI FULMINEI I",
+        "description": "Probabilità del 100% di schivare un attacco questa azione."
+      },
+      {
+        "name": "LANCIAFIADE I",
+        "description": "Esegui un attacco a distanza di Potenza 80."
+      },
+      {
+        "name": "COLPO DI TUONO II",
+        "description": "Esegui un attacco a distanza di Potenza 70. La tua Velocità aumenta di 1 stadio per 2 turni."
+      },
+      {
+        "name": "SOVRACCARICO ELETTRICO II",
+        "description": "Se la tua Velocità è attualmente diminuita, esegui un attacco a distanza di Potenza 135. Poi, pulisci la tua Velocità."
+      }
+    ]
+  },
+  "chocomint": {
+    "description": "Chocomint si classifica tra i Nefties più veloci, quindi sfrutta al meglio la tua velocità per evitare e contrattaccare con precisione. Sfrutta la potenza del sole per sconfiggere il tuo avversario!",
+    "element": "pianta",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "FRECCIA D'ACQUA I",
+        "description": "Esegui un attacco a distanza di Potenza 30."
+      },
+      {
+        "name": "PASSI FULMINEI I",
+        "description": "Probabilità del 100% di schivare un attacco questa azione."
+      },
+      {
+        "name": "TURBINIO ETHEREO I",
+        "description": "La Difesa dell'avversario diminuisce di 3 stadi per 3 turni."
+      },
+      {
+        "name": "ESPLOSIONE SOLARE III",
+        "description": "Esegui un attacco a distanza di Potenza 155."
+      }
+    ]
+  },
+  "cybertooth": {
+    "description": "Cybertooth utilizza la sua pelle spessa per fortificare le sue difese, indebolendo abilmente i nemici con le sue abilità per ottenere un vantaggio e infliggere danni significativi.",
+    "element": "aria",
+    "skills": [
+      {
+        "name": "COLPO ENERGETICO I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "FRECCIA D'ACQUA I",
+        "description": "Esegui un attacco a distanza di Potenza 30."
+      },
+      {
+        "name": "PROTEZIONE DI ZEPHYR I",
+        "description": "La tua Difesa aumenta di 2 stadi per 3 turni."
+      },
+      {
+        "name": "FIATO GELIDO II",
+        "description": "Probabilità del 70% di Congelamento per 2 turni."
+      },
+      {
+        "name": "FURIA DELLA FENICE II",
+        "description": "Ripristina il 50% dei tuoi HP massimi. Poi, esegui un attacco corpo a corpo di Potenza 70."
+      }
+    ]
+  },
+  "diggydum": {
+    "description": "Diggydum è noto per la sua forza inarrestabile, scavando e scagliando massi contro i nemici. La sua potenza è tale da frantumare chiunque osi sfidarla!",
+    "element": "terra",
+    "skills": [
+      {
+        "name": "COLPO FLUENTE I",
+        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+      },
+      {
+        "name": "MORDIBENE I",
+        "description": "Esegui un attacco a distanza di Potenza 35."
+      },
+      {
+        "name": "ACCIAIOZZO II",
+        "description": "La tua Difesa aumenta di 2 stadi per 3 turni."
+      },
+      {
+        "name": "VITE PUTRIDA I",
+        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+      },
+      {
+        "name": "FRACASSO DI ROCCIA II",
+        "description": "Esegui un attacco corpo a corpo di Potenza 100. Il tuo Attacco aumenta di 1 stadio per 1 turno."
+      }
+    ]
+  }
+}

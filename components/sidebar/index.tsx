@@ -42,20 +42,29 @@ const Sidebar = () => {
                 return (
                   <DropdownMenuItem
                     key={lang.code}
-                    onClick={(e) => {
-                      let newPath;
-                      if (i18n.language !== "en") {
-                        newPath = newPath = pathname.replace(
-                          /^\/[a-z]{2}\/?/,
-                          `/${lang.code}/`
-                        );
+                    onClick={() => {
+                      let newPath = pathname;
 
-                        i18n.changeLanguage(lang.code);
-                        return router.push(newPath);
-                      } else {
-                        i18n.changeLanguage(lang.code);
-                        return router.push(`/${lang.code}${pathname}`);
+                      if (i18n.language !== "en" && lang.code === "en") {
+                        // Remove the language code when switching to English
+                        newPath = pathname.replace(/^\/[a-z]{2}(\/|$)/, "/en/");
+                      } else if (i18n.language === "en" && lang.code !== "en") {
+                        // Add the new language code when switching from English to another language
+                        newPath = `/${lang.code}${pathname}`;
+                      } else if (i18n.language !== "en" && lang.code !== "en") {
+                        // Replace the existing language code with the new one when switching between non-English languages
+                        newPath = pathname.replace(
+                          /^\/[a-z]{2}(\/|$)/,
+                          `/${lang.code}$1`
+                        );
                       }
+
+                      // Ensure there's no trailing slash causing a 404
+
+                      console.log("Final new path:", newPath);
+
+                      i18n.changeLanguage(lang.code);
+                      router.replace(newPath);
                     }}
                   >
                     <img
