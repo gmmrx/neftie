@@ -17,9 +17,9 @@ export const ElementList: Element[] = [
   },
   {
     name: "lightning",
-    good_against: ["air", "water"],
-    bad_against: ["earth", "plant"],
-    neutral_against: ["fire"],
+    good_against: ["air"],
+    bad_against: ["earth"],
+    neutral_against: ["fire", "water", "plant"],
   },
   {
     name: "air",
@@ -42,8 +42,8 @@ export const ElementList: Element[] = [
   {
     name: "water",
     good_against: ["fire"],
-    bad_against: ["plant", "lightning"],
-    neutral_against: ["earth", "air"],
+    bad_against: ["plant"],
+    neutral_against: ["earth", "air", "lightning"],
   },
 ];
 
