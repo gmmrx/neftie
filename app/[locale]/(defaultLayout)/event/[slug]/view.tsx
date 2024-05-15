@@ -32,7 +32,7 @@ const EventPage: NextPage = ({ eventData }) => {
         } else if (type === "text" && format === 1) {
           result += `<strong>${child.text}</strong>`;
         } else {
-          result += '<span style="font-weight: bold">Unknown Node</span>';
+          result += `<span style="font-weight: bold">${child.text}</span>`;
         }
       });
     }
