@@ -16,7 +16,7 @@ export default function MobileMenu() {
       <div className="lg:hidden fixed inset-x-0 bottom-0 h-[3.2rem] bg-background border-t flex items-center justify-around shadow-md z-[100]">
         <Link href="/">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -24,31 +24,9 @@ export default function MobileMenu() {
           </Button>
         </Link>
 
-        <Link href="/eggs">
-          <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
-            size="icon"
-            variant="ghost"
-          >
-            <svg
-              width="18px"
-              height="18px"
-              fill="currentColor"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.8359 10.4671L21.6437 10.9045L21.7248 13.0806L18.3829 13.999L17.8507 15.5402L15.7644 16.851L15.6558 16.8102L17.1837 14.5945L17.1287 13.0806L20.4018 11.2969L19.5835 9.24343L21.6038 7.03051C19.981 5.17868 17.9827 4 15.8194 4C10.3967 3.99864 6 11.4019 6 18.2682C6 25.1345 10.3967 28.8627 15.8194 28.8627C21.2421 28.8627 25.6388 25.1345 25.6388 18.2682C25.6388 15.5933 24.9718 12.8353 23.8359 10.4671Z"
-                fill="currentColor"
-              ></path>
-            </svg>
-            {t("translation:eggs")}
-          </Button>
-        </Link>
-
         <Link href="/nefties">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block   flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -85,7 +63,7 @@ export default function MobileMenu() {
         </Link>
         <Link href="/tier-list">
           <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
+            className={`rounded-sm block flex flex-col items-center`}
             size="icon"
             variant="ghost"
           >
@@ -108,24 +86,82 @@ export default function MobileMenu() {
             {t("translation:tier_list")}
           </Button>
         </Link>
-        <Link href="/videos">
-          <Button
-            className={`rounded-sm block hover:bg-destructive flex flex-col items-center`}
-            size="icon"
-            variant="ghost"
-          >
-            <Play className="w-[1.125rem]" />
-            {t("translation:videos")}
-          </Button>
-        </Link>
-        {/* <Drawer>
+
+        <Drawer>
           <DrawerTrigger>
             <GripHorizontal size={24} className={`mx-auto`} />
           </DrawerTrigger>
-          <DrawerContent className="w-full pb-12 px-4">
-            <div className="pt-4 flex flex-col"></div>
+          <DrawerContent className="w-full pb-24 px-4">
+            <div className="pt-4 flex flex-row w-full items-start justify-start">
+              <Link href="/eggs" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <svg
+                    width="18px"
+                    height="18px"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="mr-4"
+                  >
+                    <path
+                      d="M23.8359 10.4671L21.6437 10.9045L21.7248 13.0806L18.3829 13.999L17.8507 15.5402L15.7644 16.851L15.6558 16.8102L17.1837 14.5945L17.1287 13.0806L20.4018 11.2969L19.5835 9.24343L21.6038 7.03051C19.981 5.17868 17.9827 4 15.8194 4C10.3967 3.99864 6 11.4019 6 18.2682C6 25.1345 10.3967 28.8627 15.8194 28.8627C21.2421 28.8627 25.6388 25.1345 25.6388 18.2682C25.6388 15.5933 24.9718 12.8353 23.8359 10.4671Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  {t("translation:eggs")}
+                </Button>
+              </Link>
+            </div>
+            <div className="pt-2 flex flex-row w-full">
+              <Link href="/videos" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <Play className="w-[1.125rem] mr-4" />
+                  {t("translation:videos")}
+                </Button>
+              </Link>
+            </div>
+            <div className="pt-2 flex flex-row w-full">
+              <Link href="/videos" className="w-full">
+                <Button
+                  className={`rounded-sm block flex w-full items-center justify-start`}
+                  size="icon"
+                  variant="ghost"
+                >
+                  <svg
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    className="mr-4"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.85499 3.83185L5.62516 7.91717L26.7518 9.02631L27 4.62673L26.191 3.73018L6.5537 3L5.8458 3.83185H5.85499ZM21.0242 7.11305L12.4191 6.59545L12.9524 5.12584L20.5921 5.48631L21.0242 7.11305Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M7.3995 11.2261L24.8855 11.9378L24.3982 26.6338L23.8926 27.1422L7.05015 26.8279L6.86628 26.6154L7.3995 11.2261ZM5.62516 9.30359L5 27.2901L6.21354 28.658L24.6465 29L26.2186 27.4102L26.7885 10.1539L5.62516 9.30359Z"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M16.8504 13.5923L18.0731 17.2339L21.9528 18.6665L21.9712 19.0547L19.0384 21.6982L19.2683 24.9886L19.1304 25.3768L15.7656 23.6299C15.6277 23.5375 12.2628 24.8223 12.2628 24.8223L11.7572 24.7391L12.3732 20.5891L10.1759 17.5851L10.6264 17.2432L14.3038 16.8642L16.3448 13.8418L16.8504 13.6015V13.5923Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  {t("translation:events")}
+                </Button>
+              </Link>
+            </div>
           </DrawerContent>
-        </Drawer> */}
+        </Drawer>
       </div>
     </>
   );

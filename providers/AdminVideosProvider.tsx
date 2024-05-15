@@ -23,13 +23,10 @@ const AdminVideosProvider: React.FC<AdminVideosProviderProps> = ({
   const [videos, setVideos] = useState<VideoAttributes[]>([]);
 
   useEffect(() => {
-    console.log("fetch????")
     const fetchVideos = async () => {
       try {
-        console.log("fetch??2??")
         const response = await axios.get(`/api/admin/videos`);
         setVideos(response.data.data);
-        console.log(response)
       } catch (error) {
         console.error("Failed to fetch videos", error);
       }

@@ -14,17 +14,15 @@ const TierListNefties: NextPage = ({ data }) => {
   const { t } = useTranslation();
   const { nefties } = useNefties();
   const { data: session } = useSession();
-  console.log(session);
   const TierList = (tierName: string, rgb: string) => {
     const items = data[tierName];
 
     if (!items) return null;
-    // Calculate step decrement for opacity based on the number of items
 
     return (
       <div className="space-y-2">
         {items.map((item, index) => {
-          const opacityValue = 1 - index * 0.1; // This will calculate the opacity from 1 to 0.1
+          const opacityValue = 1 - index * 0.1;
 
           const selectedNeftie = nefties.find((neftie) => neftie.id === item);
           const neftieImageUrl = selectedNeftie?.image;
