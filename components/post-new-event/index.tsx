@@ -53,7 +53,7 @@ const newEventSchema = z.object({
   prizes: z
     .array(
       z.object({
-        order: z.number().min(1, { message: "event_form.order_required" }),
+        order: z.string().min(1, { message: "event_form.order_required" }),
         prize: z.string().min(1, { message: "event_form.prize_required" }),
         currency: z.enum(["USD", "AURY"]),
       })
@@ -76,7 +76,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
       name: "",
       description: "",
       discord_url: "https://discord.gg/aurory-project-836601552130801676",
-      prizes: [{ order: 1, prize: "0", currency: "AURY" }],
+      prizes: [{ order: "1", prize: "0", currency: "AURY" }],
       rules: ["Rule 1"],
     },
   });
@@ -357,7 +357,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
                             <FormControl>
                               <Input
                                 {...field}
-                                type="number"
+                                type="text"
                                 className="h-[50px] text-base"
                                 disabled={isLoading}
                                 placeholder={t("translation:prize_order")}
@@ -378,7 +378,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
                             <FormControl>
                               <Input
                                 {...field}
-                                type="number"
+                                type="text"
                                 className="h-[50px] text-base"
                                 disabled={isLoading}
                                 placeholder={t("translation:prize_value")}
