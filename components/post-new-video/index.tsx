@@ -28,8 +28,7 @@ const PostNewVideo = ({ isOpen, setIsOpen }) => {
   const getInformationFromYouTube = async () => {
     setIsLoading(true);
     const youtubeLinkRegex =
-      /^(?:https?:\/\/)?(?:www\.|m\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w\-]+)(?:[\&\?][\w\=\&]+)*$/;
-
+      /^(?:https?:\/\/)?(?:www\.|m\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w\-]+)(?:[&?][\w=&]*)?$/;
     const match = youtubeUrl.match(youtubeLinkRegex);
 
     if (match) {
