@@ -52,6 +52,7 @@ const AdminSidebar = () => {
                         i18n.changeLanguage(lang.code);
                         return router.push(newPath);
                       } else {
+                        console.log("it else?")
                         i18n.changeLanguage(lang.code);
                         return router.push(`/${lang.code}${pathname}`);
                       }

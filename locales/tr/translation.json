@@ -1,22 +1,51 @@
 {
   "home": "Ana Sayfa",
   "eggs": "Yumurtalar",
-  "nefties": "Neftieler",
-  "tier_list": "Seviye Listesi",
+  "nefties": "Nefties",
+  "nefties_page_desc": "Her karakterin maceraya kendine özgü bir hava kattığı Nefties'in canlı dünyasına dalın. Nefties sayfamız, bu büyüleyici karakterlerin tam spektrumunu sergilemek için tasarlandı ve onların güçlerine, elementlerine derinlemesine bir bakış sunuyor.",
+  "tier_list": "Sıralama Listesi",
   "explore_all": "Hepsini Keşfet",
-  "what_is_a_neftie": "<Neftie>Neftie</Neftie> Nedir?",
-  "neftie_desc": "Neftieler, Tokane'nin doğal sakinleridir, vahşi doğasında özgürce dolaşan büyülü yaratıklardır. <bold><sotlink>Seekers of Tokané</sotlink></bold> oyununda onlara sahip olabilir ve kullanabilirsiniz, oyun <bold><aurorylink>Aurory</aurorylink></bold> tarafından sunulmuştur.",
+  "what_is_a_neftie": "Neftie Nedir?",
+  "neftie_desc": "Nefties, Tokane'nin doğal sakinleridir, bu büyülü yaratıklar doğada serbestçe dolaşırlar. <bold><sotlink>Seekers of Tokané</sotlink></bold> oyununda sahip olabilir ve <bold><aurorylink>Aurory</aurorylink></bold> tarafından kullanabilirsiniz.",
+  "what_is_an_egg": "Yumurta Nedir?",
+  "egg_desc": "Nefties yumurtalardan gelir. Yumurtayı alırsınız, kuluçkaya yatırırsınız ve yeni Neftie'nizi elde edersiniz! Yumurtalar Seekers of Tokané oyununda Marketplace, Expeditions veya Lands'te bulunabilir.",
+  "what_is_a_tier_list": "Sıralama Listesi Nedir?",
+  "tier_list_desc": "Sıralama listesi, Nefties'leri etkili olmalarına, güçlerine veya popülerliklerine göre kategorize eden bir sıralama sistemidir. Bu sıralamalar, en yüksek performans gösterenlerin S-tier'e yerleştirildiği, ardından A ve B'nin geldiği kategorilere ayrılmıştır.",
+  "videos": "Videolar",
+  "videos_page_desc": "Seekers of Tokane oyunundaki en eğlenceli anlarını paylaşmak için topluluğun bir araya geldiği dinamik bir merkez. Karmaşık zorlukları aşmanıza rehberlik eden detaylı öğreticilerden, oyunun öngörülemezliğini yakalayan komik kliplere kadar her video, oyuncularımızın çeşitli deneyimlerine bir bakış sunar. Kategorilere dalın, kullanıcı gönderilerini keşfedin ve belki de kendi maceralarınızı bizimle paylaşmak için ilham bulun!",
+  "events": "Etkinlikler",
+  "events_page_desc": "Seekers of Tokané'deki tüm son gelişmelerden haberdar olun. Tüm resmi ve hayran organizasyonlu etkinlikleri öğrenin ve canlı Aurory topluluğunun bir parçası olun.",
   "element": "Element",
   "more": "Daha Fazla",
-  "strong_against": "Karşı Güçlü",
-  "weak_against": "Karşı Zayıf",
-  "neutral_against": "Karşı Nötr",
-  "marketplace": "Pazar Yeri",
-  "expeditions": "Seferler",
-  "lands": "Araziler",
-  "obtainable_from": "Buradan Elde Edilebilir:",
+  "back": "Geri",
+  "strong_against": "Güçlü Karşı",
+  "weak_against": "Zayıf Karşı",
+  "neutral_against": "Nötr Karşı",
+  "marketplace": "Marketplace",
+  "expeditions": "Expeditions",
+  "lands": "Lands",
+  "obtainable_from": "Şuradan Elde Edilebilir:",
   "login_with_discord": "Discord ile Giriş Yap",
   "logout": "Çıkış Yap",
+  "post_your_tier_list": "Sıralama Listenizi Paylaşın",
+  "tier_list_voting": "Sıralama Listesi Oylaması",
+  "type_and_choose": "Her Sıralama Listesi için Nefties'leri yazın ve seçin. Lütfen her Patch için yalnızca bir kez oy kullanabileceğinizi unutmayın.",
+  "current_patch": "Mevcut Patch",
+  "post": "Paylaş",
+  "select_x_tier_neftie": "{{ x }} TIER Nefties seçin",
+  "select_neftie_for_each_tier": "Lütfen her Sıralama için bir Neftie seçin",
+  "select_tier_for_each_neftie": "Lütfen her Neftie için bir sıralama seçin",
+  "close": "Kapat",
+  "all": "Tümü",
+  "search_nefties": "Nefties Ara...",
+  "next_step": "Sonraki Adım",
+  "language": "Dil",
+  "category": "Kategori",
+  "select_a_language": "Bir Dil Seçin",
+  "select_a_category": "Bir Kategori Seçin",
+  "upload_video": "Video Yükle",
+  "safe_for_children": "Çocuklar İçin Güvenli",
+  "safe_for_children_desc": "Aurory her yaş için oyunlar yapar, içeriklerinizin küçük destekçilerimiz için uygun olduğundan emin olmak isteriz, böylece onları filtreleyebiliriz.",
   "elements": {
     "lightning": "yıldırım",
     "air": "hava",
@@ -25,442 +54,138 @@
     "fire": "ateş",
     "plant": "bitki"
   },
-  "neftie_list": {
-    "bitebit": {
-      "description": "Bitebit her işin ustasıdır, hızlı yakın dövüş saldırılarıyla coşku yaratır. Çeşitli yetenekleri her durumda işinize yarayacaktır!",
-      "element": "yıldırım",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "YILDIRIM ADIMLAR I",
-          "description": "Bu tur eyleminde bir saldırıyı %100 ihtimalle savuşturma şansı."
-        },
-        {
-          "name": "ÇÜRÜK SÜRÜNGEN I",
-          "description": "Rakibe 2 tur boyunca Zehir uygular. Her tur sonunda, Zehir maksimum HP'nin %13'ü kadar zarar verir."
-        },
-        {
-          "name": "GÖK GÜRÜLTÜSÜ YUMRUĞU II",
-          "description": "60 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "FIRTINA KIRICININ HEYECANI III",
-          "description": "Saldırınız 3 tur boyunca 3 aşama artar. Ardından, 65 Güç ile Uzak Saldırı yapar."
-        }
-      ]
-    },
-    "dipking": {
-      "description": "Dipking yüksek maliyetli yeteneklere sahiptir, endişelenmeyin; kaçınma hareketleri kullanarak yeterince uzun süre dayanabilirse, patlayıcı hasar verebilir!",
-      "element": "su",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "SİSLİ ADIMLAR II",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, Saldırınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "TEMİZLEYİCİ DALGA I",
-          "description": "Rakibin üzerindeki durum etkilerini temizler."
-        },
-        {
-          "name": "SEL II",
-          "description": "100 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "GELGİT III",
-          "description": "85 Güç ile Yakın Saldırı yapar. Mevcut HP'niz rakibin HP'sinden düşükse, iki kat hasar verir."
-        }
-      ]
-    },
-    "dinobit": {
-      "description": "Dinobit, Neftiler arasında en yüksek HP'ye sahiptir ve bunu avantajınıza kullanabilirsiniz çünkü sağlığı rakibininkini aştığında daha fazla hasar verirsiniz!",
-      "element": "toprak",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "ÇAMUR ÇEKİCİ II",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, Saldırınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "KAYA DUVARI II",
-          "description": "2 tur boyunca maksimum HP'nizin %20'si kadar bir Kalkan oluşturur."
-        },
-        {
-          "name": "YERE SERME I",
-          "description": "Saldırı yerine Savunmanızı kullanarak 30 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "CANLILIK VURUŞU I",
-          "description": "45 Güç ile Yakın Saldırı yapar. Mevcut HP'niz rakibininkinden yüksekse, ek bir Yakın Saldırı yapar."
-        }
-      ]
-    },
-    "number-9": {
-      "description": "Number 9, coşku yaratma ve saldırılarını güçlendirme yeteneklerinin çeşitliliği ile tanınır. Laneti etkisini göstermeden önce dikkatli olun!",
-      "element": "ateş",
-      "skills": [
-        {
-          "name": "KIRILGANLIK AKIŞI I",
-          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
-        },
-        {
-          "name": "YETİŞME YUMRUĞU I",
-          "description": "30 Güç ile Yakın Saldırı yapar. Mevcut Coşkunuz rakibinkinden düşükse, 3 Coşku kazanır."
-        },
-        {
-          "name": "PATLAYICI KARŞILIK I",
-          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
-        },
-        {
-          "name": "YANIK ISIRIK II",
-          "description": "85 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "PATLATMA III",
-          "description": "Rakibe Lanet uygular. 2 tur sonunda, Lanet rakibin maksimum HP'sinin %30'u kadar hasar verir. Laneti yeniden uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikir ve Lanet süresini sıfırlamaz."
-        }
-      ]
-    },
-    "axobubble": {
-      "description": "Axobubble, savunmasını feda ederek coşku biriktirir ancak rakibine verilen hasarın bir kısmını yansıtır. Doğru an geldiğinde, arenayı suyla doldurarak zafer kazanır!",
-      "element": "su",
-      "skills": [
-        {
-          "name": "KIRILGANLIK AKIŞI I",
-          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
-        },
-        {
-          "name": "KABARCIK ZİNCİRİ II",
-          "description": "Bu turda alınan hasarın %65'ini rakibe yansıtır. Geri kalan hasarı siz alırsınız."
-        },
-        {
-          "name": "TEMİZLEYİCİ GELGİT I",
-          "description": "Hem kendinizin hem de rakibin üzerindeki durum etkilerini temizler."
-        },
-        {
-          "name": "DENİZSEL TERSİNE ÇEVİRME I",
-          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 75 Güç ile Karşı Saldırı yapar."
-        },
-        {
-          "name": "VOLT DALGASI III",
-          "description": "115 Güç ile Uzaktan Saldırı yapar."
-        }
-      ]
-    },
-    "unika": {
-      "description": "Unika savunmayı önceliklendirir ve güçlendirildiğinde, kendini korkutucu bir hasar vericiye dönüştürür. Sıkı bir savaşa hazır olun!",
-      "element": "toprak",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "2 tur boyunca Savunmanız 1 aşama düşer."
-        },
-        {
-          "name": "TAŞ DERİ I",
-          "description": "2 tur boyunca Savunmanız 2 aşama artar. Rakibin Savunması 2 tur boyunca 1 aşama düşer."
-        },
-        {
-          "name": "ÇÜRÜK SÜRÜNGEN I",
-          "description": "Rakibe 2 tur boyunca Zehir uygular. Her tur sonunda, Zehir maksimum HP'nin %13'ü kadar zarar verir."
-        },
-        {
-          "name": "YERE SERME I",
-          "description": "Saldırı yerine Savunmanızı kullanarak 30 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "KAYA VURUŞU II",
-          "description": "45 Güç ile Uzaktan Saldırı yapar. Savunmanız rakibinkinden yüksekse, ek bir Uzaktan Saldırı yapar."
-        }
-      ]
-    },
-    "zzoo": {
-      "description": "Zzoo, saldırıları savuşturarak, hassas karşı saldırılar yaparak ve doğru anda rüzgarın tam gücünü kullanarak rakipleri yenmek için savunma stratejisi kullanır!",
-      "element": "toprak",
-      "skills": [
-        {
-          "name": "ENERJİLENDİRİCİ YANSITMA I",
-          "description": "Bu turda alınan hasarın %30'unu rakibe yansıtır. Geri kalan hasarı siz alırsınız. Tetiklenirse, 3 Coşku kazanır."
-        },
-        {
-          "name": "HAVADAN KESİŞ II",
-          "description": "30 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "PATLAYICI KARŞILIK I",
-          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
-        },
-        {
-          "name": "FLORAN'IN AYNASI I",
-          "description": "Bu turda alınan hasarın %85'ini rakibe yansıtır. Geri kalan hasarı siz alırsınız."
-        },
-        {
-          "name": "SİLFOR'UN ARINMASI III",
-          "description": "Üzerinizdeki durum etkilerini temizler. Ardından, 150 Güç ile Uzaktan Saldırı yapar."
-        }
-      ]
-    },
-    "block-choy": {
-      "description": "Block Choy, hayat çalma ve zehir kullanarak rakipleri zamanla yıpratarak ve sonunda savaşı kazanarak dayanıklılıkla donatılmıştır!",
-      "element": "bitki",
-      "skills": [
-        {
-          "name": "AKIŞKAN VURUŞ I",
-          "description": "20 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "FİDAN VURUŞU II",
-          "description": "30 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "NANELİ KORUMA I",
-          "description": "2 tur boyunca maksimum HP'nizin %15'i kadar bir Kalkan oluşturur."
-        },
-        {
-          "name": "VAMPİR KÖK I",
-          "description": "70 Güç ile Uzaktan Saldırı yapar. Verilen hasarın %35'ini hayat olarak çalar."
-        },
-        {
-          "name": "BOĞUCU KÖKLER II",
-          "description": "Rakibe 5 tur boyunca Zehir uygular. Her tur sonunda, Zehir rakibin maksimum HP'nin %13'ü kadar zarar verir."
-        }
-      ]
-    },
-    "shiba-ignite": {
-      "description": "Shiba Ignite, hayat çalmak için kullanılabilecek önemli bir HP'ye sahiptir ve bu, coşkusunu artırır. Bu, sağlığı rakibinkinden düşük olduğunda iki kat hasar vermesini sağlar!",
-      "element": "ateş",
-      "skills": [
-        {
-          "name": "HAYAT ÇALMA RİTÜELİ I",
-          "description": "Kendine 10 Güç saldırısı yapar."
-        },
-        {
-          "name": "AURANY'NIN ÖFKESİ II",
-          "description": "Bu turda vurulursanız, 2 tur boyunca Saldırınız 2 aşama artar."
-        },
-        {
-          "name": "PATLAYICI KARŞILIK I",
-          "description": "Bir kereye mahsus savuşturur ve bu turda hedef alınırsanız 40 Güç ile Karşı Saldırı yapar."
-        },
-        {
-          "name": "ALEVLI ÇILGINLIK II",
-          "description": "60 Güç ile Uzaktan Saldırı yapar. Mevcut HP'niz rakibinkinden düşükse, iki kat hasar verir."
-        },
-        {
-          "name": "DEPREM I",
-          "description": "105 Güç ile Yakın Saldırı yapar. Verilen hasarın %15'i kadar Geri Tepme alırsınız."
-        }
-      ]
-    },
-    "raccoin": {
-      "description": "Raccoin, kurnaz doğası ve sakin tavırlarıyla bilinir, çevikliği ve gölgeli, sakin dinlenme yerlerine olan sevgisiyle tanınır.",
-      "element": "hava",
-      "skills": [
-        {
-          "name": "CANLILIK HIRSIZLIĞI I",
-          "description": "10 Güç ile Yakın Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar. Rakibin Hızı 2 tur boyunca 1 aşama düşer."
-        },
-        {
-          "name": "ŞANSLI REFLEKSLER II",
-          "description": "Savuştur ve bu turda bir Yakın Saldırı tarafından vurulursanız 40 Güç ile Karşı Saldırı yapar. Tetiklenirse, rakibin Savunmasını 2 tur boyunca 2 aşama düşürür."
-        },
-        {
-          "name": "İYİ TALİH I",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur. Tetiklenirse, üzerinizdeki durum etkilerini temizler."
-        },
-        {
-          "name": "BOŞ VERMEK II",
-          "description": "Maksimum HP'nizin %15'i kadar kendinizi iyileştirir. Hızınız 2 tur boyunca 2 aşama düşer."
-        },
-        {
-          "name": "ATEŞE HAZIR III",
-          "description": "70 Güç ile Yakın Saldırı yapar. Hızınız rakibinkinden yüksekse, Hızınızı kullanarak Saldırı yerine 35 Güç ile ek bir Yakın Saldırı yapar."
-        }
-      ]
-    },
-    "shibark": {
-      "description": "Shibark geniş arazilerde dolaşır, hazineleri koklar ve gururla topraklarını güçlü ulumalarıyla iddia eder.",
-      "element": "toprak",
-      "skills": [
-        {
-          "name": "DELİRTEÇ ULUMA I",
-          "description": "Saldırınız 1 tur boyunca 1 aşama artar. Rakibin Saldırısı 1 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "DAYANIKLILIK II",
-          "description": "Bu turda alınan bir saldırıdan gelen hasarın %50'sini savuşturur. Tetiklenirse, 2 Coşku kazanır."
-        },
-        {
-          "name": "ALEV KIVILCIMI I",
-          "description": "25 Güç ile Uzaktan Saldırı yapar. Saldırınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "KAYALI TAKİP II",
-          "description": "Yüksek öncelikli 50 Güç ile Yakın Saldırı yapar. Bu saldırı reaktif yeteneklerden önce gelir ve neredeyse her zaman ilk sıradadır."
-        },
-        {
-          "name": "KASVETLİ DİŞ III",
-          "description": "120 Güç ile Yakın Saldırı yapar. İsabet ederse, rakibe Lanet uygular. Tur sonunda, Lanet rakibin maksimum HP'sinin %10'u kadar hasar verir. Laneti yeniden uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikir ve Lanet süresini sıfırlamaz."
-        }
-      ]
-    },
-    "unikirin": {
-      "description": "Unikirin'in her adımı elektrik enerjisinin çıtırtısıyla yankılanır, vahşi ve evcilleştirilemez ruhunun bir kanıtıdır.",
-      "element": "yıldırım",
-      "skills": [
-        {
-          "name": "ŞARJ I",
-          "description": "2 tur boyunca Hızınız 1 aşama düşer."
-        },
-        {
-          "name": "YILDIRIM ADIMLARI I",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur."
-        },
-        {
-          "name": "ALEV MAKİNESİ I",
-          "description": "80 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "GÖK GÜRÜLTÜSÜ VURUŞU II",
-          "description": "70 Güç ile Uzaktan Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "ELEKTRİKSEL AŞIRI YÜK II",
-          "description": "Hızınız şu anda düşürülmüşse, 135 Güç ile Uzaktan Saldırı yapar. Ardından, Hızınızı temizler."
-        }
-      ]
-    },
-    "chocomint": {
-      "description": "Chocomint, Neftiler arasında en hızlılardan biridir, hızını kullanarak kaçınma ve kesin karşı saldırılar yapmak için bu avantajı en iyi şekilde kullanın. Rakibinizi yenmek için güneşin gücünü kullanın!",
-      "element": "bitki",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "SU JETİ I",
-          "description": "30 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "YILDIRIM ADIMLARI I",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturur."
-        },
-        {
-          "name": "ETER KASIRGASI I",
-          "description": "Rakibin Saldırısını 3 tur boyunca 3 aşama düşürür."
-        },
-        {
-          "name": "GÜNEŞ PATLAMASI III",
-          "description": "155 Güç ile Uzaktan Saldırı yapar."
-        }
-      ]
-    },
-    "cybertooth": {
-      "description": "Cybertooth, kalın derisini savunmasını güçlendirmek için kullanır, yetenekleriyle düşmanları zayıflatıp avantaj elde ederek önemli hasarlar verir.",
-      "element": "hava",
-      "skills": [
-        {
-          "name": "ENERJİK VURUŞ I",
-          "description": "20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "SU OKU I",
-          "description": "30 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "ZEPHYRA'NIN KORUMASI I",
-          "description": "2 tur boyunca maksimum HP'nizin %20'sine eşit bir Kalkan oluşturur."
-        },
-        {
-          "name": "KIRILAN RÜZGAR II",
-          "description": "Rakibin kalkanını temizler, ardından 105 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "DENGELİ KAYMA II",
-          "description": "2 tur boyunca Savunmanızı ve Saldırınızı 2 aşama artırır. Rakibin Savunması ve Saldırısı 2 aşama düşürülür."
-        }
-      ]
-    },
-    "wassie": {
-      "description": "Wassie, yeteneklerini kullanarak hızını artırıp önemli hasarlar veren çevik bir Nefti'dir.",
-      "element": "yıldırım",
-      "skills": [
-        {
-          "name": "ZAYIFLATAN AKIŞ I",
-          "description": "2 tur boyunca Saldırınız 1 aşama düşürülür."
-        },
-        {
-          "name": "YAKALAMA YUMRUĞU I",
-          "description": "Mevcut Coşkunuz rakibinkinden düşükse, 30 Güç ile Yakın Saldırı yapar ve 3 Coşku kazanırsınız."
-        },
-        {
-          "name": "GÖKYÜZÜ DANSI II",
-          "description": "Bu turda bir saldırıyı %100 ihtimalle savuşturma şansı. Tetiklenirse, Hızınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "GÖK GÜRÜLTÜSÜ VURUŞU II",
-          "description": "70 Güç ile Uzaktan Saldırı yapar. Hızınız 2 tur boyunca 1 aşama artar."
-        },
-        {
-          "name": "PARILTI VOLTI III",
-          "description": "Saldırı yerine Hızınızı kullanarak 70 Güç ile Yakın Saldırı yapar."
-        }
-      ]
-    },
-    "dracurve": {
-      "description": "Dracurve, istatistiklerdeki ve durum etkilerindeki değişikliklerle savaşın seyrini belirler. Dikkatli olun, çünkü birkaç stratejik seçim hızla yıkıma yol açabilir.",
-      "element": "yıldırım",
-      "skills": [
-        {
-          "name": "EJDERHA KÜKREMESİ II",
-          "description": "1 tur boyunca Saldırınız artar ve Savunmanız düşer, ardından 20 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "HAVADAN KESİŞ II",
-          "description": "30 Güç ile Uzaktan Saldırı yapar."
-        },
-        {
-          "name": "GÖK GÜRÜLTÜSÜ ÖLÇEĞİ II",
-          "description": "2 tur boyunca maksimum HP'nizin %15'ine eşit bir Kalkan oluşturur. Savunmanız 2 tur boyunca 2 aşama artar."
-        },
-        {
-          "name": "YANIK ISIRIK II",
-          "description": "85 Güç ile Yakın Saldırı yapar."
-        },
-        {
-          "name": "GÖK GÜRÜLTÜSÜNÜN YIKIMI II",
-          "description": "40 Güç ile Uzaktan Saldırı yapar. Aktif bir Kalkanınız varsa, 2 tur boyunca maksimum HP'nizin %25'ine eşit Kalkanınızı yükseltir. Ardından 90 Güç ile Uzaktan Saldırı yapar."
-        }
-      ]
-    }
-  },
   "egg_list": {
     "everglade": {
-      "description": "Everglade Yumurtası, yıldırım çarpması sonucu etrafında saçların diken diken olmasına neden olan bir elektromanyetik alan oluşturur."
+      "description": "Everglade Yumurtası yıldırım çarpmış ve yakınında saçların diken diken olmasına neden olan bir elektromanyetik alan yaratır."
     },
     "prairie": {
-      "description": "Ilıman bir iklime sahip bölgede bulunan bu yumurta, çatlamaya hazır olana kadar kendini bitki kökleriyle korur."
+      "description": "Ilıman bir iklimde bulunan bu yumurta, çatlamaya hazır olana kadar bitki köklerini kullanarak kendini korur."
     },
     "cliff": {
-      "description": "Bu yumurtaları çatlatmak zordur, ama içlerinden sadece en güçlü Neftieler ortaya çıkar!"
+      "description": "Bu yumurtalar kırılması zor olsa da, içlerinden yalnızca en güçlü Nefties çıkar!"
     },
     "quantum": {
-      "description": "Kuantum Yumurtası, gizemli bir harikadır, parlak kabuğu uzak ve inanılmaz yerlerin renklerini yansıtır, içinde saklı gizemli yaratığı sürekli değişen bir şekilde ima eder."
+      "description": "Quantum Yumurtası, parlak kabuğu uzak ve inanılmaz yerlerin renklerini yansıtan, içinde sürekli değişen gizemli yaratığı işaret eden esrarengiz bir harikadır."
     },
     "genesis": {
-      "description": "Bu yumurta, blockchain'in kendisi tarafından yaratıldığı söylentileri arasındadır, ilk Neftieleri tanıtmak için bir araç olarak hizmet eder. Tokane ekosistemi daha fazla dengeye ulaştıkça, erişilebilirliği azalır."
+      "description": "Bu yumurtanın, ilk Nefties'lerini tanıtmak için bir araç olarak hizmet eden blockchain'in kendisinin bir yaratımı olduğu söyleniyor. Tokane ekosistemi daha büyük bir dengeye ulaştıkça mevcudiyeti azalır."
     },
     "draconic": {
-      "description": "Bir jilet kadar keskin kabuğa sahip Draconic Yumurtası, acemi Arayıcıları içinde saklı olan güç konusunda uyarır."
+      "description": "Razor Blade kadar keskin bir kabuğa sahip olan Draconic Yumurtası, içinde saklı olan güç hakkında uyarıda bulunarak yeni Seekers'lara bir uyarı gönderir."
+    },
+    "bloomer": {
+      "description": "Bu yumurta, koklayan herkesi büyüleyen tatlı bir koku yayar, ama nereden geldi? Kimse bilmiyor, ama gören herkesi büyülüyor!"
     }
-  }
+  },
+  "errors": {
+    "already_voted_tier": "Bu patch için zaten oy verdiniz.",
+    "cant_add_record": "Oy kaydınız oluşturulurken bir hata oluştu.",
+    "something_went_wrong": "Bir şeyler ters gitti, lütfen sayfayı yenileyin ve tekrar deneyin.",
+    "cant_found_neftie": "Lütfen Neftie adını tekrar kontrol edin, veritabanımızda bu neftie yok :/",
+    "enter_valid_youtube_url": "Lütfen geçerli bir YouTube URL'si girin",
+    "couldnt_get_video_information": "Video detaylarınızı getiremedik. Lütfen tekrar deneyin :("
+  },
+  "success": {
+    "thanks_for_voting": "Oyunuz kaydedildi. Oy verdiğiniz ve katkıda bulunduğunuz için teşekkürler. 😍"
+  },
+  "video_categories": {
+    "tutorials": {
+      "title": "Öğreticiler",
+      "desc": "Öğreticilerin ekleneceği yer burasıdır"
+    },
+    "official_stream_recordings": {
+      "title": "Resmi Yayınlar ve Kayıtlar",
+      "desc": "Resmi yayınları ve kayıtları içerir"
+    },
+    "funny_moments": {
+      "title": "Komik Anlar",
+      "desc": "Seekers of Tokane'den Komik Anlar"
+    },
+    "cringe_moments": {
+      "title": "Utanma Anları",
+      "desc": "Seekers of Tokane'den Utanma Anları"
+    }
+  },
+  "post_a_video": "Bir Video Paylaş",
+  "video_form": {
+    "enter_youtube_link": "YouTube Bağlantısını Girin",
+    "youtube_link_desc": "Videonuz hakkında daha fazla bilgi almak için onu YouTube'a yüklemeniz ve aşağıdaki bağlantıyı yapıştırmanız gerekiyor",
+    "video_details": "Video Detayları",
+    "video_details_desc": "Lütfen formu doldurun ve gerekirse güncelleyin, ardından Gönder düğmesine basın. Video onaylandıktan sonra görebileceksiniz.",
+    "name_required": "Video başlığı gereklidir.",
+    "video_title": "Video Başlığı",
+    "video_description": "Video Açıklaması",
+    "description_required": "Video açıklaması gereklidir.",
+    "language_required": "Videonun dilini seçmeniz gerekmektedir.",
+    "category_required": "Bir kategori seçmeniz gerekmektedir.",
+    "posted_success": "Videonuz başarıyla gönderildi. Onaylandıktan sonra Videolar sayfasında görünecektir.",
+    "issue_with_posting": "Veritabanına video eklenirken bir sorun oluştu"
+  },
+  "create_event": "Etkinlik Oluştur",
+  "event_form": {
+    "title": "Yeni Etkinlik Oluştur",
+    "event_details_desc": "Lütfen formu doldurun ve gerekirse güncelleyin, ardından Gönder düğmesine basın. Etkinliği onaylandıktan sonra görebileceksiniz.",
+    "event_name": "Etkinlik Adı",
+    "name_required": "Etkinlik adı gereklidir",
+    "event_details": "Etkinlik Detayları",
+    "dates_required": "Başlangıç ve bitiş tarihi seçmelisiniz",
+    "pick_start_date": "Başlangıç Tarihi Seçin",
+    "pick_end_date": "Bitiş Tarihi Seçin",
+    "order_required": "Ödül için bir sıra vermeniz gerekmektedir",
+    "prize_required": "Sıra için bir ödül vermeniz gerekmektedir",
+    "at_least_one_prize": "En az bir ödül eklemeniz gerekmektedir",
+    "prizes": "Etkinlik Ödülleri",
+    "add_prize": "Ödül Ekle",
+    "discord_url": "Discord URL",
+    "event_rules": "Etkinlik Kuralları",
+    "rule_required": "Kural gereklidir",
+    "at_least_one_rule": "Etkinlik için en az 1 kurala ihtiyacımız var",
+    "rules": "Etkinlik Kuralları",
+    "rule": "Kural",
+    "add_rule": "Kural Ekle",
+    "posted_success": "Etkinliğiniz başarıyla gönderildi. Onaylandıktan sonra Etkinlikler sayfasında görünecektir.",
+    "issue_with_posting": "Veritabanına etkinlik eklenirken bir sorun oluştu"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - Büyülü Yoldaşlarınız Dex: Keşfet, Topla ve Keşfet!",
+      "description": "Nefties dünyasına dalın. Bu büyüleyici yaratıklar hakkında bilgi edinin, yeni eklenen videoları izleyin ve Tokané'nin sunduklarını keşfedin."
+    },
+    "eggs": {
+      "title": "Neftie App - Kökenleri Keşfedin: Neftie Yumurtalarının Gizemini Çözün!",
+      "description": "Yumurtalar, bu mistik yaratıkların doğum yeri olarak hizmet eder, Seekers of Tokané'deki çeşitli kaynaklardan elde edilebilir. Hangi Yumurtanın size uygun olduğunu öğrenin."
+    },
+    "nefties": {
+      "title": "Neftie App - Nefties'inizle Tanışın: Elementler, Hareketler ve Stratejilere Dalış Yapın!",
+      "description": "Seekers of Tokané'de mevcut olan tüm Nefties'leri keşfedin ve öğrenin. Onları türlerine göre düzenleyin, güçlerini, zayıflıklarını, hareketlerini keşfedin ve zafer yolunda strateji oluşturun!"
+    },
+    "tier_list": {
+      "title": "Neftie App - Sıralamada Yükselin: Nihai Neftie Sıralama Listesini Keşfedin",
+      "description": "Nefties'in sıralama listesini keşfedin ve sıralamalarda yükselin. Etkililiklerine, güçlerine ve popülerliklerine göre hangi yaratıkların üstün olduğunu öğrenin."
+    },
+    "videos": {
+      "title": "Neftie App - Tokané Dünyasını Keşfedin: Detaylı öğreticilere ve kullanıcı tarafından oluşturulan kliplere dalın!",
+      "description": "Topluluk videolarımız koleksiyonuyla maceranın heyecanını yaşayın. Resmi yayınlardan komik kliplere kadar, Seekers of Tokané'nin zorlu deneyimlerine kendinizi kaptırın."
+    },
+    "events": {
+      "title": "Neftie App - Maceraya Katılın: Resmi ve Topluluk Etkinliklerini Keşfedin!",
+      "description": "Seekers of Tokané'deki tüm son gelişmelerden haberdar olun. Tüm resmi ve hayran organizasyonlu etkinlikleri öğrenin ve canlı Aurory topluluğunun bir parçası olun."
+    },
+    "single_event": {
+      "title": "Neftie App - {{ event }} Etkinliği Hakkında Daha Fazla Bilgi",
+      "description": "{{ event }} hakkında daha fazla ayrıntı görün, daha fazla ve hızlı öğrenin ve kazanın"
+    }
+  },
+  "recently_added_videos": "Son Eklenen Videolar",
+  "submit": "Gönder",
+  "prize": "Ödül",
+  "prize_explanation": "İlk giriş sıra (1, 2, 3) içindir, ikinci giriş ödül içindir",
+  "status": "Durum",
+  "start_date": "Başlangıç Tarihi",
+  "end_date": "Bitiş Tarihi",
+  "prizes": "Ödüller",
+  "rules": "Kurallar",
+  "finished": "Bitti",
+  "incoming": "Henüz başlamadı",
+  "ongoing": "Başladı"
 }

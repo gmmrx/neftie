@@ -1,0 +1,444 @@
+{
+  "bitebit": {
+    "description": "Bitebit est un touche-à-tout, s'appuyant sur des frappes rapides au corps à corps pour générer de l'engouement. Son arsenal diversifié de capacités est sûr d'être utile dans toutes les situations!",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "PAS FULGURANTS I",
+        "description": "100% de chance d'esquiver une attaque cette action de tour."
+      },
+      {
+        "name": "LIANE PUTRIDE I",
+        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+      },
+      {
+        "name": "COUP DE TONNERRE II",
+        "description": "Effectuez une attaque au corps à corps de 60 de puissance."
+      },
+      {
+        "name": "ZÈLE DU BRISÉ-STORM III",
+        "description": "Votre Attaque est augmentée de 3 niveaux pendant 3 tours. Ensuite, effectuez une attaque à distance de 65 de puissance."
+      }
+    ]
+  },
+  "dipking": {
+    "description": "Dipking possède des capacités coûteuses, mais ne vous inquiétez pas; si vous pouvez tenir assez longtemps en utilisant des actions d'esquive, il peut déclencher des dégâts explosifs!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "PAS BRUMEUX II",
+        "description": "100% de chance d'esquiver une attaque cette action de tour. Si déclenchée, votre Attaque est augmentée de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "VAGUE PURIFIANTE I",
+        "description": "Purge les effets de statut de l'adversaire."
+      },
+      {
+        "name": "DÉLUGE II",
+        "description": "Effectuez une attaque à distance de 100 de puissance."
+      },
+      {
+        "name": "GRAND COURANT III",
+        "description": "Effectuez une attaque au corps à corps de 85 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
+      }
+    ]
+  },
+  "dinobit": {
+    "description": "Dinobit a les PV les plus élevés parmi les Nefties, et vous pouvez utiliser cela à votre avantage car vous infligez plus de dégâts lorsque sa santé dépasse celle de l'adversaire!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "MASSUE DE BOUE II",
+        "description": "100% de chance d'esquiver une attaque cette action de tour. Si déclenchée, votre Attaque est augmentée de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "MUR DE ROCHE II",
+        "description": "Élevez un Bouclier égal à 20% de vos PV max pendant 2 tours."
+      },
+      {
+        "name": "RENVERSEMENT I",
+        "description": "Effectuez une attaque au corps à corps de 30 de puissance en utilisant votre Défense à la place de l'Attaque."
+      },
+      {
+        "name": "COUP DE VITALITÉ I",
+        "description": "Effectuez une attaque au corps à corps de 45 de puissance. Si vos PV actuels sont supérieurs à ceux de l'adversaire, effectuez une attaque supplémentaire au corps à corps."
+      }
+    ]
+  },
+  "number-9": {
+    "description": "Number 9 est connu pour sa variété de capacités à générer de l'engouement et à améliorer ses attaques. Faites attention avant que sa malédiction ne prenne effet!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "FLUX DE FRAGILITÉ I",
+        "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "COUP DE RATTRAPAGE I",
+        "description": "Effectuez une attaque au corps à corps de 30 de puissance. Si votre Engouement actuel est inférieur à celui de l'adversaire, gagnez 3 Engouement."
+      },
+      {
+        "name": "CONTRE EXPLOSIF I",
+        "description": "Esquivez une fois et effectuez une contre-attaque de 40 de puissance si vous êtes ciblé par une attaque cette action de tour."
+      },
+      {
+        "name": "MORSURE BRÛLANTE II",
+        "description": "Effectuez une attaque au corps à corps de 85 de puissance."
+      },
+      {
+        "name": "DÉTONATION III",
+        "description": "Infligez Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige des dégâts égaux à 30% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut se cumuler et ne réinitialise pas la durée de la Malédiction."
+      }
+    ]
+  },
+  "axobubble": {
+    "description": "Axobubble sacrifie sa défense pour accumuler de l'engouement, mais reflète une partie des dégâts infligés à son adversaire. Lorsque le moment est venu, il inonde l'arène pour gagner!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "FLUX DE FRAGILITÉ I",
+        "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "CHAÎNE DE BULLES II",
+        "description": "Reflétez à l'adversaire 65% des dégâts infligés cette action de tour. Vous subissez les dégâts restants."
+      },
+      {
+        "name": "MARÉE PURIFIANTE I",
+        "description": "Purge les effets de statut sur vous et l'adversaire."
+      },
+      {
+        "name": "RENVERSEMENT MARIN I",
+        "description": "Esquivez une fois et effectuez une contre-attaque de 75 de puissance si vous êtes ciblé par une attaque cette action de tour."
+      },
+      {
+        "name": "SURCHARGE DE VOLT III",
+        "description": "Effectuez une attaque à distance de 115 de puissance."
+      }
+    ]
+  },
+  "unika": {
+    "description": "Unika privilégie la défense, et lorsqu'elle est renforcée, elle se transforme en une redoutable attaquante. Préparez-vous à un combat serré!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "PEAU DE PIERRE I",
+        "description": "Votre Défense est augmentée de 2 niveaux pendant 2 tours. La Défense de l'adversaire est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "LIANE PUTRIDE I",
+        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+      },
+      {
+        "name": "RENVERSEMENT I",
+        "description": "Effectuez une attaque au corps à corps de 30 de puissance en utilisant votre Défense à la place de l'Attaque."
+      },
+      {
+        "name": "FRAPPE DE BOULDER II",
+        "description": "Effectuez une attaque à distance de 45 de puissance. Si votre Défense est supérieure à celle de l'adversaire, effectuez une attaque supplémentaire à distance."
+      }
+    ]
+  },
+  "zzoo": {
+    "description": "Zzoo emploie une stratégie défensive pour vaincre ses adversaires en déviant les attaques, en contre-attaquant avec précision et en utilisant toute la force du vent au bon moment pour assurer la victoire!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "RÉFLEXION ÉNERGISANTE I",
+        "description": "Reflétez à l'adversaire 30% des dégâts infligés cette action de tour. Vous subissez les dégâts restants. Si déclenchée, gagnez 3 Engouement."
+      },
+      {
+        "name": "ENTAILLE AÉRIENNE II",
+        "description": "Effectuez une attaque à distance de 30 de puissance."
+      },
+      {
+        "name": "CONTRE EXPLOSIF I",
+        "description": "Esquivez une fois et effectuez une contre-attaque de 40 de puissance si vous êtes ciblé par une attaque cette action de tour."
+      },
+      {
+        "name": "MIROIR DE FLORAN I",
+        "description": "Reflétez à l'adversaire 85% des dégâts infligés cette action de tour. Vous subissez les dégâts restants."
+      },
+      {
+        "name": "PURGE DE SYLPHOR III",
+        "description": "Purge vos effets de statut. Ensuite, effectuez une attaque à distance de 150 de puissance."
+      }
+    ]
+  },
+  "block-choy": {
+    "description": "Block Choy est bien équipé pour surpasser ses adversaires grâce au vol de vie et à l'utilisation du poison, infligeant des dégâts au fil du temps et remportant finalement le combat!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FRAPPE FLUIDE I",
+        "description": "Effectuez une attaque à distance de 20 de puissance."
+      },
+      {
+        "name": "COUP DE POUSSE II",
+        "description": "Effectuez une attaque au corps à corps de 30 de puissance."
+      },
+      {
+        "name": "PROTECTION MENTHOLÉE I",
+        "description": "Élevez un Bouclier égal à 15% de vos PV max pendant 2 tours."
+      },
+      {
+        "name": "RACINE VAMPIRIQUE I",
+        "description": "Effectuez une attaque à distance de 70 de puissance. Vol de vie de 35% des dégâts infligés."
+      },
+      {
+        "name": "RACINES ÉTRANGLANTES II",
+        "description": "Infligez Poison à l'adversaire pendant 5 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max de l'adversaire."
+      }
+    ]
+  },
+  "shiba-ignite": {
+    "description": "Shiba Ignite dispose de PV substantiels qui peuvent être utilisés pour se frapper et augmenter son engouement. Cela lui permet d'infliger des dégâts doublés lorsque sa santé tombe en dessous de celle de l'adversaire!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "RITUEL DE TAPAGE DE VIE I",
+        "description": "Auto-attaque de 10 de puissance."
+      },
+      {
+        "name": "RAGE D'AURANY II",
+        "description": "Si vous êtes touché cette action de tour, votre Attaque est augmentée de 2 niveaux pendant 2 tours."
+      },
+      {
+        "name": "CONTRE EXPLOSIF I",
+        "description": "Esquivez une fois et effectuez une contre-attaque de 40 de puissance si vous êtes ciblé par une attaque cette action de tour."
+      },
+      {
+        "name": "RAMPAGE ENFLAMMÉ II",
+        "description": "Effectuez une attaque à distance de 60 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
+      },
+      {
+        "name": "TREMBLEMENT DE TERRE I",
+        "description": "Effectuez une attaque au corps à corps de 105 de puissance. Vous subissez 15% des dégâts infligés en recul."
+      }
+    ]
+  },
+  "raccoin": {
+    "description": "Raccoin, avec sa nature rusée et son comportement décontracté, est célèbre pour son agilité et son amour des endroits ombragés et tranquilles.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "VOL DE VIGUEUR I",
+        "description": "Effectuez une attaque au corps à corps de 10 de puissance. Votre Vitesse est augmentée de 1 pendant 2 tours. La Vitesse de l'adversaire est réduite de 1 pendant 2 tours."
+      },
+      {
+        "name": "RÉFLEXES CHANCEUX II",
+        "description": "Esquivez puis effectuez une contre-attaque de 40 de puissance si vous êtes touché par une attaque au corps à corps cette action de tour. Si déclenchée, réduisez la Défense de l'adversaire de 2 pendant 2 tours."
+      },
+      {
+        "name": "BONNE FORTUNE I",
+        "description": "100% de chance d'esquiver une attaque cette action de tour. Si déclenchée, purgez les effets de statut sur vous-même."
+      },
+      {
+        "name": "PAUSE II",
+        "description": "Soignez-vous de 15% de vos PV max. Votre Vitesse est réduite de 2 pendant 2 tours."
+      },
+      {
+        "name": "SURVOLAGE III",
+        "description": "Effectuez une attaque au corps à corps de 70 de puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque supplémentaire au corps à corps de 35 de puissance en utilisant votre Vitesse à la place de l'Attaque."
+      }
+    ]
+  },
+  "shibark": {
+    "description": "Shibark erre à travers des terres étendues, reniflant des trésors et revendiquant fièrement son territoire avec des hurlements puissants.",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "HURLEMENT FOU I",
+        "description": "Votre Attaque est augmentée de 1 pendant 1 tour. L'Attaque de l'adversaire est augmentée de 1 pendant 1 tour."
+      },
+      {
+        "name": "ENDURER II",
+        "description": "Déflectez 50% des dégâts subis par une attaque cette action de tour. Si déclenchée, gagnez 2 Engouement."
+      },
+      {
+        "name": "ÉTINCELLE DE FLAMME I",
+        "description": "Effectuez une attaque à distance de 25 de puissance. Votre Attaque est augmentée de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "POURSUITE ROCHEUSE II",
+        "description": "Effectuez une attaque au corps à corps de haute priorité de 50 de puissance. Cette attaque passe avant les capacités réactives et va presque toujours en premier."
+      },
+      {
+        "name": "CROC SINISTRE III",
+        "description": "Effectuez une attaque au corps à corps de 120 de puissance. Si elle touche, infligez Malédiction à l'adversaire. À la fin du tour, la Malédiction inflige des dégâts égaux à 10% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut se cumuler et ne réinitialise pas la durée de la Malédiction."
+      }
+    ]
+  },
+  "unikirin": {
+    "description": "Chaque pas de Unikirin résonne avec le crépitement de l'énergie électrique, un témoignage de son esprit sauvage et indompté.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RECHARGE I",
+        "description": "Votre Vitesse est réduite de 1 pendant 2 tours."
+      },
+      {
+        "name": "PAS FULGURANTS I",
+        "description": "100% de chance d'esquiver une attaque cette action de tour."
+      },
+      {
+        "name": "LANCE-FLAMMES I",
+        "description": "Effectuez une attaque à distance de 80 de puissance."
+      },
+      {
+        "name": "COUP DE TONNERRE II",
+        "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "SURCHARGE ÉLECTRIQUE II",
+        "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 135 de puissance. Ensuite, purgez votre Vitesse."
+      }
+    ]
+  },
+  "chocomint": {
+    "description": "Chocomint est parmi les Nefties les plus rapides, alors profitez de sa vitesse pour esquiver et contre-attaquer avec précision. Exploitez la puissance du soleil pour vaincre votre adversaire!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "ÉCLAIR D'EAU I",
+        "description": "Effectuez une attaque à distance de 30 de puissance."
+      },
+      {
+        "name": "PAS FULGURANTS I",
+        "description": "100% de chance d'esquiver une attaque cette action de tour."
+      },
+      {
+        "name": "TOURBILLON D'ÉTHER I",
+        "description": "L'Attaque de l'adversaire est réduite de 3 niveaux pendant 3 tours."
+      },
+      {
+        "name": "EXPLOSION SOLAIRE III",
+        "description": "Effectuez une attaque à distance de 155 de puissance."
+      }
+    ]
+  },
+  "cybertooth": {
+    "description": "Cybertooth utilise sa peau épaisse pour renforcer ses défenses, affaiblissant habilement ses ennemis avec ses capacités pour prendre l'avantage et infliger des dégâts significatifs.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "ÉCLAIR D'EAU I",
+        "description": "Effectuez une attaque à distance de 30 de puissance."
+      },
+      {
+        "name": "PROTECTION DE ZÉPHYRA I",
+        "description": "Élevez un Bouclier égal à 20% de vos PV max pendant 2 tours."
+      },
+      {
+        "name": "VENT FRACASSANT II",
+        "description": "Purge le bouclier de l'adversaire, puis effectuez une attaque à distance de 105 de puissance."
+      },
+      {
+        "name": "DÉPLACEMENT D'ÉQUILIBRE II",
+        "description": "Votre Défense et votre Attaque sont augmentées de 2 pendant 2 tours. La Défense et l'Attaque de l'adversaire sont réduites de 2 pendant 2 tours."
+      }
+    ]
+  },
+  "wassie": {
+    "description": "Wassie est un Neftie agile connu pour exploiter ses capacités pour augmenter sa vitesse et infliger des dégâts importants.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "FLUX D'AFFAIBLISSEMENT I",
+        "description": "Votre Attaque est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "COUP DE RATTRAPAGE I",
+        "description": "Effectuez une attaque au corps à corps de 30 de puissance. Si votre Engouement actuel est inférieur à celui de l'adversaire, gagnez 3 Engouement."
+      },
+      {
+        "name": "DANSE DU CIEL II",
+        "description": "100% de chance d'esquiver une attaque cette action de tour. Si déclenchée, votre Vitesse est augmentée de 1 pendant 2 tours."
+      },
+      {
+        "name": "COUP DE TONNERRE II",
+        "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "VOLT RAPIDE III",
+        "description": "Effectuez une attaque au corps à corps de 70 de puissance en utilisant votre Vitesse à la place de l'Attaque."
+      }
+    ]
+  },
+  "dracurve": {
+    "description": "Dracurve dicte le cours de la bataille avec des changements de statistiques et d'effets de statut. Faites attention, car quelques choix stratégiques peuvent rapidement ouvrir la voie à la dévastation.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RUGISSEMENT DRACONIQUE II",
+        "description": "Votre Attaque est augmentée et votre Défense est réduite de 1 pendant 1 tour. Ensuite, effectuez une attaque au corps à corps de 20 de puissance."
+      },
+      {
+        "name": "ENTAILLE AÉRIENNE II",
+        "description": "Effectuez une attaque à distance de 30 de puissance."
+      },
+      {
+        "name": "ÉCAILLE DE TONNERRE II",
+        "description": "Élevez un Bouclier égal à 15% de vos PV max pendant 2 tours. Votre Défense est augmentée de 2 pendant 2 tours."
+      },
+      {
+        "name": "MORSURE BRÛLANTE II",
+        "description": "Effectuez une attaque au corps à corps de 85 de puissance."
+      },
+      {
+        "name": "RAMPAGE DU SEIGNEUR DU TONNERRE II",
+        "description": "Effectuez une attaque à distance de 40 de puissance. Si vous avez un Bouclier actif, améliorez votre Bouclier égal à 25% de vos PV max pendant 2 tours. Ensuite, effectuez une attaque à distance de 90 de puissance."
+      }
+    ]
+  },
+  "bloomtail": {
+    "description": "Bloomtail est un Neftie énergique alimenté par la fleur ornant son dos. On dit que la fleur affecte occasionnellement ses mouvements, ajoutant une touche intrigante à sa nature!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FRAPPE FLUIDE I",
+        "description": "Effectuez une attaque à distance de 20 de puissance."
+      },
+      {
+        "name": "BOUQUET TOXIQUE I",
+        "description": "Infligez Poison à vous et à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+      },
+      {
+        "name": "ENTAILLE SYMBIOTIQUE II",
+        "description": "Effectuez une attaque au corps à corps de 45 de puissance. Infligez des dégâts doublés si l'adversaire est actuellement empoisonné."
+      },
+      {
+        "name": "RIPOSTE DÉSESPÉRÉE II",
+        "description": "Esquivez si vous êtes touché cette action de tour. Si vous êtes actuellement empoisonné, effectuez également une contre-attaque de 50 de puissance."
+      },
+      {
+        "name": "FLEUR VAMPIRIQUE III",
+        "description": "Effectuez une attaque à distance de 80 de puissance. Si l'attaque est Forte contre la cible, volez 50% des dégâts infligés."
+      }
+    ]
+  }
+}

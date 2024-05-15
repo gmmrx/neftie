@@ -1,0 +1,444 @@
+{
+  "bitebit": {
+    "description": "Bitebit é um faz-tudo, confiando em golpes rápidos de combate corpo a corpo para gerar hype. Seu arsenal diversificado de habilidades certamente será útil em qualquer situação!",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "PASSOS FULGURANTES I",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno."
+      },
+      {
+        "name": "CIPÓ PODRE I",
+        "description": "Inflija Veneno no oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo."
+      },
+      {
+        "name": "SOCO TROVÃO II",
+        "description": "Realize um ataque corpo a corpo com 60 de Poder."
+      },
+      {
+        "name": "ZELO DO QUEBRADOR DE TEMPESTADES III",
+        "description": "Seu Ataque é aumentado em 3 estágios por 3 turnos. Em seguida, realize um ataque à distância com 65 de Poder."
+      }
+    ]
+  },
+  "dipking": {
+    "description": "Dipking apresenta habilidades de alto custo, mas não se preocupe; se você conseguir resistir tempo suficiente usando ações evasivas, ele pode liberar um dano explosivo!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "PASSOS NEBULOSOS II",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno. Se acionado, seu Ataque é aumentado em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "ONDA PURIFICANTE I",
+        "description": "Limpe os efeitos de status no oponente."
+      },
+      {
+        "name": "DILÚVIO II",
+        "description": "Realize um ataque à distância com 100 de Poder."
+      },
+      {
+        "name": "MARÉ III",
+        "description": "Realize um ataque corpo a corpo com 85 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
+      }
+    ]
+  },
+  "dinobit": {
+    "description": "Dinobit tem o maior HP entre os Nefties, e você pode usar isso a seu favor, pois causa mais dano quando sua saúde supera a do oponente!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "MARTELO DE LAMA II",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno. Se acionado, seu Ataque é aumentado em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "PAREDE DE ROCHA II",
+        "description": "Levante um Escudo igual a 20% do seu HP máximo por 2 turnos."
+      },
+      {
+        "name": "DERRUBADA I",
+        "description": "Realize um ataque corpo a corpo com 30 de Poder usando sua Defesa em vez do Ataque."
+      },
+      {
+        "name": "GOLPE DE VITALIDADE I",
+        "description": "Realize um ataque corpo a corpo com 45 de Poder. Se seu HP atual for maior que o do oponente, realize um ataque corpo a corpo adicional."
+      }
+    ]
+  },
+  "number-9": {
+    "description": "Number 9 é conhecido por sua variedade de habilidades para gerar hype e melhorar seus ataques. Cuidado antes que sua maldição entre em vigor!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "FLUXO DE FRAGILIDADE I",
+        "description": "Sua Defesa é reduzida em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "SOCORRO PANCADA I",
+        "description": "Realize um ataque corpo a corpo com 30 de Poder. Se seu Hype atual for menor que o do oponente, ganhe 3 Hypes."
+      },
+      {
+        "name": "CONTRA-ATAQUE EXPLOSIVO I",
+        "description": "Desvie uma vez e realize um Contra-Ataque com 40 de Poder se você for alvo de um ataque nesta ação de turno."
+      },
+      {
+        "name": "MORDIDA ESCALDANTE II",
+        "description": "Realize um ataque corpo a corpo com 85 de Poder."
+      },
+      {
+        "name": "DETONAR III",
+        "description": "Inflija Maldição no oponente. Após uma contagem regressiva de 2 turnos, a Maldição causa 30% do HP máximo do oponente. Reaplicar a Maldição aumenta o dano inicial da Maldição em 50%. Este efeito pode se acumular e não reinicia a duração da Maldição."
+      }
+    ]
+  },
+  "axobubble": {
+    "description": "Axobubble sacrifica sua defesa para acumular hype, mas reflete uma parte do dano causado ao oponente. Quando o momento certo chegar, ele inunda a arena para vencer!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "FLUXO DE FRAGILIDADE I",
+        "description": "Sua Defesa é reduzida em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "CORRENTE DE BOLHAS II",
+        "description": "Reflete 65% do dano causado de volta ao oponente nesta ação de turno. Você recebe o dano restante."
+      },
+      {
+        "name": "MARÉ PURIFICANTE I",
+        "description": "Limpe os efeitos de status em você e no oponente."
+      },
+      {
+        "name": "REVERSÃO MARINHA I",
+        "description": "Desvie uma vez e realize um Contra-Ataque com 75 de Poder se você for alvo de um ataque nesta ação de turno."
+      },
+      {
+        "name": "SURTO DE VOLTAGEM III",
+        "description": "Realize um ataque à distância com 115 de Poder."
+      }
+    ]
+  },
+  "unika": {
+    "description": "Unika prioriza a defesa e, quando aprimorada, se transforma em uma formidável causadora de danos. Prepare-se para uma batalha acirrada!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Sua Defesa é reduzida em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "PELE DE PEDRA I",
+        "description": "Sua Defesa é aumentada em 2 estágios por 2 turnos. A Defesa do oponente é reduzida em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "CIPÓ PODRE I",
+        "description": "Inflija Veneno no oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo."
+      },
+      {
+        "name": "DERRUBADA I",
+        "description": "Realize um ataque corpo a corpo com 30 de Poder usando sua Defesa em vez do Ataque."
+      },
+      {
+        "name": "IMPACTO DE PEDRA II",
+        "description": "Realize um ataque à distância com 45 de Poder. Se sua Defesa for maior que a do oponente, realize um ataque à distância adicional."
+      }
+    ]
+  },
+  "zzoo": {
+    "description": "Zzoo emprega uma estratégia defensiva para derrotar os oponentes, desviando ataques, contra-atacando com precisão e usando toda a força do vento no momento certo para garantir a vitória!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "REFLEXÃO ENERGIZANTE I",
+        "description": "Reflete 30% do dano causado de volta ao oponente nesta ação de turno. Você recebe o dano restante. Se acionado, ganhe 3 Hypes."
+      },
+      {
+        "name": "CORTE AÉREO II",
+        "description": "Realize um ataque à distância com 30 de Poder."
+      },
+      {
+        "name": "CONTRA-ATAQUE EXPLOSIVO I",
+        "description": "Desvie uma vez e realize um Contra-Ataque com 40 de Poder se você for alvo de um ataque nesta ação de turno."
+      },
+      {
+        "name": "ESPELHO DE FLORAN I",
+        "description": "Reflete 85% do dano causado de volta ao oponente nesta ação de turno. Você recebe o dano restante."
+      },
+      {
+        "name": "PURGA DE SYLPHOR III",
+        "description": "Limpe seus efeitos de status. Em seguida, realize um ataque à distância com 150 de Poder."
+      }
+    ]
+  },
+  "block-choy": {
+    "description": "Block Choy é bem equipado para superar os oponentes através do roubo de vida e do uso de veneno, infligindo dano ao longo do tempo e vencendo a luta!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "GOLPE FLUÍDO I",
+        "description": "Realize um ataque à distância com 20 de Poder."
+      },
+      {
+        "name": "GOLPE DE MUDINHA II",
+        "description": "Realize um ataque corpo a corpo com 30 de Poder."
+      },
+      {
+        "name": "PROTEÇÃO MENTOLADA I",
+        "description": "Levante um Escudo igual a 15% do seu HP máximo por 2 turnos."
+      },
+      {
+        "name": "RAIZ VAMPÍRICA I",
+        "description": "Realize um ataque à distância com 70 de Poder. Roube 35% do dano causado como vida."
+      },
+      {
+        "name": "RAÍZES ESTRANGULADORAS II",
+        "description": "Inflija Veneno no oponente por 5 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo do oponente."
+      }
+    ]
+  },
+  "shiba-ignite": {
+    "description": "Shiba Ignite ostenta um HP substancial que pode ser usado para drenar vida, aumentando seu hype. Isso o capacita a causar dano dobrado quando sua saúde está abaixo da do oponente!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "RITUAL DE DRENAGEM I",
+        "description": "Auto-ataque com 10 de Poder."
+      },
+      {
+        "name": "FÚRIA DE AURANY II",
+        "description": "Se você for atingido nesta ação de turno, seu Ataque é aumentado em 2 estágios por 2 turnos."
+      },
+      {
+        "name": "CONTRA-ATAQUE EXPLOSIVO I",
+        "description": "Desvie uma vez e realize um Contra-Ataque com 40 de Poder se você for alvo de um ataque nesta ação de turno."
+      },
+      {
+        "name": "DESTRUIÇÃO FURIOSA II",
+        "description": "Realize um ataque à distância com 60 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
+      },
+      {
+        "name": "TERREMOTO I",
+        "description": "Realize um ataque corpo a corpo com 105 de Poder. Você recebe 15% do dano causado como Recuo."
+      }
+    ]
+  },
+  "raccoin": {
+    "description": "Raccoin, com sua natureza astuta e comportamento descontraído, é famoso por sua agilidade e amor por lugares sombreados e tranquilos para descansar.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "ROUBO DE VIGOR I",
+        "description": "Realize um ataque corpo a corpo com 10 de Poder. Sua Velocidade é aumentada em 1 por 2 turnos. A Velocidade do oponente é reduzida em 1 por 2 turnos."
+      },
+      {
+        "name": "REFLEXOS SORTUDOS II",
+        "description": "Desvie e depois realize um Contra-Ataque com 40 de Poder se você for atingido por um ataque corpo a corpo nesta ação de turno. Se acionado, reduza a Defesa do oponente em 2 por 2 turnos."
+      },
+      {
+        "name": "BOA SORTE I",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno. Se acionado, limpe os efeitos de status em si mesmo."
+      },
+      {
+        "name": "FOLGA II",
+        "description": "Cure-se em 15% do seu HP máximo. Sua Velocidade é reduzida em 2 por 2 turnos."
+      },
+      {
+        "name": "AQUECIMENTO III",
+        "description": "Realize um ataque corpo a corpo com 70 de Poder. Se sua Velocidade for maior que a do oponente, realize um ataque corpo a corpo adicional com 35 de Poder usando sua Velocidade em vez do Ataque."
+      }
+    ]
+  },
+  "shibark": {
+    "description": "Shibark vaga por terras extensas, farejando tesouros e reivindicando orgulhosamente seu território com uivos poderosos.",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ULULADO FRENÉTICO I",
+        "description": "Seu Ataque é aumentado em 1 por 1 turno. O Ataque do oponente é aumentado em 1 por 1 turno."
+      },
+      {
+        "name": "RESISTIR II",
+        "description": "Desvie 50% do dano recebido por um ataque nesta ação de turno. Se acionado, ganhe 2 Hypes."
+      },
+      {
+        "name": "FAÍSCA DE FOGO I",
+        "description": "Realize um ataque à distância com 25 de Poder. Seu Ataque é aumentado em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "PERSEGUIÇÃO ROCHOSA II",
+        "description": "Realize um ataque corpo a corpo de alta prioridade com 50 de Poder. Este ataque ocorre antes das habilidades reativas e quase sempre vai primeiro."
+      },
+      {
+        "name": "PRESA SOMBRIA III",
+        "description": "Realize um ataque corpo a corpo com 120 de Poder. Se atingir, inflija Maldição no oponente. No final do turno, a Maldição causa 10% do HP máximo do oponente. Reaplicar a Maldição aumenta o dano inicial da Maldição em 50%. Este efeito pode se acumular e não reinicia a duração da Maldição."
+      }
+    ]
+  },
+  "unikirin": {
+    "description": "Cada passo que Unikirin dá ressoa com o estalo da energia elétrica, um testemunho de seu espírito selvagem e indomado.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RECARREGAR I",
+        "description": "Sua Velocidade é reduzida em 1 por 2 turnos."
+      },
+      {
+        "name": "PASSOS FULGURANTES I",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno."
+      },
+      {
+        "name": "LANÇA-CHAMAS I",
+        "description": "Realize um ataque à distância com 80 de poder."
+      },
+      {
+        "name": "GOLPE TROVEJANTE II",
+        "description": "Realize um ataque à distância com 70 de Poder. Sua Velocidade é aumentada em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "SOBRECARGA ELÉTRICA II",
+        "description": "Se sua Velocidade estiver reduzida, realize um ataque à distância com 135 de Poder. Em seguida, limpe sua Velocidade."
+      }
+    ]
+  },
+  "chocomint": {
+    "description": "Chocomint está entre os Nefties mais rápidos, então aproveite ao máximo sua velocidade para desviar e contra-atacar com precisão. Use o poder do sol para derrotar seu oponente!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "RAIO AQUÁTICO I",
+        "description": "Realize um ataque à distância com 30 de Poder."
+      },
+      {
+        "name": "PASSOS FULGURANTES I",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno."
+      },
+      {
+        "name": "REDEMOINHO DE ÉTER I",
+        "description": "O Ataque do oponente é reduzido em 3 estágios por 3 turnos."
+      },
+      {
+        "name": "EXPLOSÃO SOLAR III",
+        "description": "Realize um ataque à distância com 155 de Poder."
+      }
+    ]
+  },
+  "cybertooth": {
+    "description": "Cybertooth usa sua pele grossa para fortalecer suas defesas, enfraquecendo habilmente os inimigos com suas habilidades para ganhar vantagem e causar danos significativos.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "RAIO AQUÁTICO I",
+        "description": "Realize um ataque à distância com 30 de Poder."
+      },
+      {
+        "name": "PROTEÇÃO DE ZEPHYRA I",
+        "description": "Levante um Escudo igual a 20% do seu HP máximo por 2 turnos."
+      },
+      {
+        "name": "VENTO ESTILHACANTE II",
+        "description": "Limpe o escudo do oponente, depois realize um ataque à distância com 105 de Poder."
+      },
+      {
+        "name": "MUDANÇA DE BALANÇO II",
+        "description": "Sua Defesa e Ataque são aumentados em 2 por 2 turnos. A Defesa e o Ataque do oponente são reduzidos em 2 por 2 turnos."
+      }
+    ]
+  },
+  "wassie": {
+    "description": "Wassie é um Neftie ágil conhecido por usar suas habilidades para aumentar sua velocidade e causar danos substanciais.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "FLUXO DE ENFRAQUECIMENTO I",
+        "description": "Seu Ataque é reduzido em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "SOCORRO PANCADA I",
+        "description": "Realize um ataque corpo a corpo com 30 de Poder. Se seu Hype atual for menor que o do oponente, ganhe 3 Hypes."
+      },
+      {
+        "name": "DANÇA NO CÉU II",
+        "description": "100% de chance de desviar de um ataque nesta ação de turno. Se acionado, sua Velocidade é aumentada em 1 por 2 turnos."
+      },
+      {
+        "name": "GOLPE TROVEJANTE II",
+        "description": "Realize um ataque à distância com 70 de Poder. Sua Velocidade é aumentada em 1 estágio por 2 turnos."
+      },
+      {
+        "name": "SURTO DE RAIOS III",
+        "description": "Realize um ataque corpo a corpo com 70 de Poder usando sua Velocidade em vez do Ataque."
+      }
+    ]
+  },
+  "dracurve": {
+    "description": "Dracurve dita o curso da batalha com mudanças nas estatísticas e nos efeitos de status. Tenha cuidado, pois algumas escolhas estratégicas podem rapidamente pavimentar o caminho para a devastação.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RUGIDO DRACÔNICO II",
+        "description": "Seu Ataque é aumentado e sua Defesa é reduzida em 1 por 1 turno. Em seguida, realize um ataque corpo a corpo com 20 de Poder."
+      },
+      {
+        "name": "CORTE AÉREO II",
+        "description": "Realize um ataque à distância com 30 de Poder."
+      },
+      {
+        "name": "ESCUDO TROVEJANTE II",
+        "description": "Levante um Escudo igual a 15% do seu HP máximo por 2 turnos. Sua Defesa é aumentada em 2 por 2 turnos."
+      },
+      {
+        "name": "MORDIDA ESCALDANTE II",
+        "description": "Realize um ataque corpo a corpo com 85 de Poder."
+      },
+      {
+        "name": "DESTRUIÇÃO DO SENHOR DO TROVÃO II",
+        "description": "Realize um ataque à distância com 40 de Poder. Se você tiver um Escudo ativo, atualize seu Escudo para igualar 25% do seu HP máximo por 2 turnos. Em seguida, realize um ataque à distância com 90 de Poder."
+      }
+    ]
+  },
+  "bloomtail": {
+    "description": "Bloomtail é um Neftie animado alimentado pela flor que adorna suas costas. Dizem que a flor ocasionalmente afeta seus movimentos, adicionando um toque intrigante à sua natureza!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "GOLPE FLUÍDO I",
+        "description": "Realize um ataque à distância com 20 de Poder."
+      },
+      {
+        "name": "BUQUÊ TÓXICO I",
+        "description": "Inflija Veneno em você e no oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo."
+      },
+      {
+        "name": "CORTE SIMBIÓTICO II",
+        "description": "Realize um ataque corpo a corpo com 45 de Poder. Cause dano dobrado se o oponente estiver atualmente envenenado."
+      },
+      {
+        "name": "RIPOSTA DESESPERADA II",
+        "description": "Desvie se você for atingido nesta ação de turno. Se você estiver envenenado, também realize um Contra-Ataque com 50 de Poder."
+      },
+      {
+        "name": "FLOR VAMPÍRICA III",
+        "description": "Realize um ataque à distância com 80 de Poder. Se o ataque for Forte contra o alvo, roube 50% do dano causado como vida."
+      }
+    ]
+  }
+}

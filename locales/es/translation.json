@@ -1,0 +1,191 @@
+{
+  "home": "Inicio",
+  "eggs": "Huevos",
+  "nefties": "Nefties",
+  "nefties_page_desc": "Sumérgete en el vibrante mundo de los Nefties, donde cada personaje aporta su propio estilo a la aventura. Nuestra página de Nefties está diseñada para mostrar todo el espectro de estos cautivadores personajes, ofreciéndote una mirada profunda a sus fortalezas y elementos.",
+  "tier_list": "Lista de Niveles",
+  "explore_all": "Explorar Todo",
+  "what_is_a_neftie": "¿Qué es un Neftie?",
+  "neftie_desc": "Los Nefties son los habitantes naturales de Tokane, criaturas mágicas que deambulan libremente por su naturaleza. Puedes poseer y usar estos en el juego <bold><sotlink>Seekers of Tokané</sotlink></bold> de <bold><aurorylink>Aurory</aurorylink></bold>.",
+  "what_is_an_egg": "¿Qué es un Huevo?",
+  "egg_desc": "Los Nefties provienen de los huevos. Obtienes el huevo, lo incubas y consigues tu nuevo Neftie. Los huevos se pueden encontrar en el Marketplace, Expeditions o Lands en Seekers of Tokané.",
+  "what_is_a_tier_list": "¿Qué es una Lista de Niveles?",
+  "tier_list_desc": "Una lista de niveles es un sistema de clasificación que categoriza a los Nefties según su efectividad, fuerza o popularidad. Estas clasificaciones se dividen en niveles, con los de mejor rendimiento colocados en el nivel S, seguidos por A y B.",
+  "videos": "Videos",
+  "videos_page_desc": "Un centro dinámico donde la comunidad se reúne para compartir sus momentos más atractivos en Seekers of Tokané. Desde tutoriales detallados que te guían a través de desafíos complejos hasta clips hilarantes que capturan la imprevisibilidad del juego, cada video es una mirada a las diversas experiencias de nuestros jugadores. Sumérgete en las categorías, explora contenido enviado por usuarios y quizás encuentres la inspiración para compartir tus propias aventuras con nosotros.",
+  "events": "Eventos",
+  "events_page_desc": "Mantente al día con todos los últimos acontecimientos en Seekers of Tokané. Conoce todos los eventos oficiales y organizados por fanáticos y sé parte de la vibrante comunidad de Aurory.",
+  "element": "Elemento",
+  "more": "Más",
+  "back": "Atrás",
+  "strong_against": "Fuerte Contra",
+  "weak_against": "Débil Contra",
+  "neutral_against": "Neutral Contra",
+  "marketplace": "Marketplace",
+  "expeditions": "Expeditions",
+  "lands": "Lands",
+  "obtainable_from": "Obtenible de:",
+  "login_with_discord": "Iniciar sesión con Discord",
+  "logout": "Cerrar sesión",
+  "post_your_tier_list": "Publica tu Lista de Niveles",
+  "tier_list_voting": "Votación de Lista de Niveles",
+  "type_and_choose": "Escribe y elige Nefties para cada Lista de Niveles. Recuerda que solo puedes votar una vez por cada Patch.",
+  "current_patch": "Patch Actual",
+  "post": "Publicar",
+  "select_x_tier_neftie": "Selecciona {{ x }} Nefties de TIER",
+  "select_neftie_for_each_tier": "Por favor, selecciona un Neftie para cada Nivel",
+  "select_tier_for_each_neftie": "Por favor, selecciona un nivel para cada Neftie",
+  "close": "Cerrar",
+  "all": "Todo",
+  "search_nefties": "Buscar Nefties...",
+  "next_step": "Siguiente Paso",
+  "language": "Idioma",
+  "category": "Categoría",
+  "select_a_language": "Selecciona un Idioma",
+  "select_a_category": "Selecciona una Categoría",
+  "upload_video": "Subir Video",
+  "safe_for_children": "Seguro para Niños",
+  "safe_for_children_desc": "Aurory crea juegos para todas las edades, nos gustaría asegurarnos de que tus contenidos son adecuados para nuestros pequeños seguidores para poder filtrarlos.",
+  "elements": {
+    "lightning": "relámpago",
+    "air": "aire",
+    "earth": "tierra",
+    "water": "agua",
+    "fire": "fuego",
+    "plant": "planta"
+  },
+  "egg_list": {
+    "everglade": {
+      "description": "El Huevo Everglade ha sido alcanzado por un rayo y crea un campo electromagnético que hace que el cabello se erice cuando está cerca."
+    },
+    "prairie": {
+      "description": "Encontrado en un clima templado, este huevo utiliza raíces de plantas para protegerse hasta que esté listo para eclosionar."
+    },
+    "cliff": {
+      "description": "Estos huevos son difíciles de romper, ¡pero de ellos solo emergen los Nefties más fuertes!"
+    },
+    "quantum": {
+      "description": "El Huevo Quantum es una maravilla enigmática, su brillante cáscara refleja los colores de lugares lejanos e increíbles, insinuando a la criatura misteriosa que cambia constantemente en su interior."
+    },
+    "genesis": {
+      "description": "Se rumorea que este huevo es una creación de la propia blockchain, sirviendo como un medio para presentar a sus Nefties iniciales. Su disponibilidad disminuye a medida que el ecosistema de Tokane logra un mayor equilibrio."
+    },
+    "draconic": {
+      "description": "Con una cáscara tan afilada como una navaja, el Huevo Draconic envía una advertencia a los Seekers novatos, advirtiéndoles sobre el poder oculto en su interior."
+    },
+    "bloomer": {
+      "description": "Este huevo emana una fragancia dulce que encanta a todos los que lo huelen, pero ¿de dónde vino? Nadie lo sabe, ¡pero cautiva a todos los que lo ven!"
+    }
+  },
+  "errors": {
+    "already_voted_tier": "Ya has votado para este patch.",
+    "cant_add_record": "Algo salió mal al crear un registro para tu voto.",
+    "something_went_wrong": "Algo salió mal, por favor actualiza la página y vuelve a intentarlo.",
+    "cant_found_neftie": "Por favor, verifica el nombre del Neftie nuevamente, no tenemos ese Neftie en nuestra base de datos :/",
+    "enter_valid_youtube_url": "Por favor, introduce una URL válida de YouTube",
+    "couldnt_get_video_information": "No pudimos obtener la información de tu video. Por favor, inténtalo nuevamente :("
+  },
+  "success": {
+    "thanks_for_voting": "Tu voto ha sido guardado. Gracias por votar y contribuir. 😍"
+  },
+  "video_categories": {
+    "tutorials": {
+      "title": "Tutoriales",
+      "desc": "Este es el lugar donde se añadirán los tutoriales"
+    },
+    "official_stream_recordings": {
+      "title": "Transmisiones Oficiales y Grabaciones",
+      "desc": "Contiene transmisiones oficiales y grabaciones"
+    },
+    "funny_moments": {
+      "title": "Momentos Divertidos",
+      "desc": "Momentos Divertidos de Seekers of Tokane"
+    },
+    "cringe_moments": {
+      "title": "Momentos de Vergüenza",
+      "desc": "Momentos de Vergüenza de Seekers of Tokane"
+    }
+  },
+  "post_a_video": "Publicar un Video",
+  "video_form": {
+    "enter_youtube_link": "Introduce el Enlace de YouTube",
+    "youtube_link_desc": "Para obtener más información sobre tu video, necesitas subirlo a YouTube y pegar el enlace a continuación",
+    "video_details": "Detalles del Video",
+    "video_details_desc": "Por favor, completa el formulario y actualízalo si es necesario, luego presiona el botón de Enviar. Podrás ver el video después de que sea aprobado.",
+    "name_required": "El título del video es obligatorio.",
+    "video_title": "Título del Video",
+    "video_description": "Descripción del Video",
+    "description_required": "La descripción del video es obligatoria.",
+    "language_required": "Debes seleccionar el idioma del video.",
+    "category_required": "Debes seleccionar una categoría.",
+    "posted_success": "Tu video ha sido enviado con éxito. Aparecerá en la página de Videos tan pronto como sea aprobado.",
+    "issue_with_posting": "Hubo un problema al añadir el video a la base de datos"
+  },
+  "create_event": "Crear Evento",
+  "event_form": {
+    "title": "Crear Nuevo Evento",
+    "event_details_desc": "Por favor, completa el formulario y actualízalo si es necesario, luego presiona el botón de Enviar. Podrás ver el evento después de que sea aprobado.",
+    "event_name": "Nombre del Evento",
+    "name_required": "El nombre del evento es obligatorio",
+    "event_details": "Detalles del Evento",
+    "dates_required": "Debes seleccionar una fecha de inicio y de fin",
+    "pick_start_date": "Selecciona una Fecha de Inicio",
+    "pick_end_date": "Selecciona una Fecha de Fin",
+    "order_required": "Debes dar un orden para el premio",
+    "prize_required": "Debes dar un premio para el orden",
+    "at_least_one_prize": "Debes añadir al menos un premio",
+    "prizes": "Premios del Evento",
+    "add_prize": "Añadir Premio",
+    "discord_url": "URL de Discord",
+    "event_rules": "Reglas del Evento",
+    "rule_required": "La regla es obligatoria",
+    "at_least_one_rule": "Necesitamos al menos una regla para el evento",
+    "rules": "Reglas del Evento",
+    "rule": "Regla",
+    "add_rule": "Añadir Regla",
+    "posted_success": "Tu evento ha sido enviado con éxito. Aparecerá en la página de Eventos tan pronto como sea aprobado.",
+    "issue_with_posting": "Hubo un problema al añadir el evento a la base de datos"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - Tu Dex de Compañeros Mágicos: ¡Descubre, Colecciona y Explora!",
+      "description": "Sumérgete en el mundo de los Nefties. Aprende sobre estas fascinantes criaturas, mira los videos añadidos recientemente y explora lo que Tokané tiene para ofrecer."
+    },
+    "eggs": {
+      "title": "Neftie App - Descubre los Orígenes: ¡Desentraña el Misterio de los Huevos de Neftie!",
+      "description": "Los huevos sirven como el lugar de nacimiento de estas criaturas místicas, obtenibles de varias fuentes en Seekers of Tokané. Descubre qué huevo es el adecuado para ti."
+    },
+    "nefties": {
+      "title": "Neftie App - Conoce a tus Nefties: ¡Sumérgete en Elementos, Movimientos y Estrategias!",
+      "description": "Descubre y aprende sobre todos los Nefties disponibles en Seekers of Tokané. Organízalos por tipo, explora sus fortalezas, debilidades, movimientos y planifica tu camino hacia la victoria."
+    },
+    "tier_list": {
+      "title": "Neftie App - Asciende en el Rango: Explora la Lista de Niveles Definitiva de Neftie",
+      "description": "Explora la lista de niveles de los Nefties y asciende en el rango. Descubre qué criaturas reinan supremas según su efectividad, fuerza y popularidad."
+    },
+    "videos": {
+      "title": "Neftie App - Explora el Mundo de Tokané: ¡Sumérgete en tutoriales detallados y clips generados por usuarios!",
+      "description": "Experimenta la emoción de la aventura a través de nuestra colección de videos comunitarios. Desde transmisiones oficiales hasta clips divertidos, sumérgete en las desafiantes experiencias de Seekers of Tokané."
+    },
+    "events": {
+      "title": "Neftie App - Únete a la Aventura: ¡Explora Eventos Oficiales y Comunitarios!",
+      "description": "Mantente al día con todos los últimos acontecimientos en Seekers of Tokané. Conoce todos los eventos oficiales y organizados por fanáticos y sé parte de la vibrante comunidad de Aurory."
+    },
+    "single_event": {
+      "title": "Neftie App - Más Detalles Sobre el Evento {{ event }}",
+      "description": "Ver más detalles sobre {{ event }}, aprende y gana más y rápido"
+    }
+  },
+  "recently_added_videos": "Videos Añadidos Recientemente",
+  "submit": "Enviar",
+  "prize": "Premio",
+  "prize_explanation": "El primer campo es para el orden (1, 2, 3), el segundo campo es para el premio",
+  "status": "Estado",
+  "start_date": "Fecha de Inicio",
+  "end_date": "Fecha de Fin",
+  "prizes": "Premios",
+  "rules": "Reglas",
+  "finished": "Finalizado",
+  "incoming": "Aún no ha comenzado",
+  "ongoing": "En curso"
+}
