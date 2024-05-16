@@ -37,16 +37,6 @@ export default async function RootLayout({
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"
         />
-        <script type="text/javascript">
-          var sc_project=12998877; 
-          var sc_invisible=1; 
-          var sc_security="d944ad70";
-        </script>
-        <script
-          type="text/javascript"
-          src="https://www.statcounter.com/counter/counter.js"
-          async
-        ></script>
       </head>
       <body>
         <TranslationProvider
@@ -73,7 +63,16 @@ export default async function RootLayout({
             <Toaster />
           </Providers>
         </TranslationProvider>
-
+        <script type="text/javascript">
+          var sc_project=12998877; 
+          var sc_invisible=1; 
+          var sc_security=&quot;d944ad70&quot;;
+        </script>
+        <script
+          type="text/javascript"
+          src="https://www.statcounter.com/counter/counter.js"
+          async
+        ></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
