@@ -38,8 +38,9 @@ export default async function RootLayout({
           rel="stylesheet"
         />
         <script type="text/javascript">
-          var sc_project=12998877; var sc_invisible=1; var
-          sc_security="d944ad70";
+          var sc_project=12998877; 
+          var sc_invisible=1; 
+          var sc_security="d944ad70";
         </script>
         <script
           type="text/javascript"
