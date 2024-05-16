@@ -6,6 +6,7 @@ import Providers from "@/components/providers";
 import initTranslations from "../../i18n";
 import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
+import StatCounter from "statcounter";
 
 const i18nNamespaces = ["translation", "nefties"];
 
@@ -63,16 +64,8 @@ export default async function RootLayout({
             <Toaster />
           </Providers>
         </TranslationProvider>
-        <script type="text/javascript">
-          var sc_project=12998877; 
-          var sc_invisible=1; 
-          var sc_security=&quot;d944ad70&quot;;
-        </script>
-        <script
-          type="text/javascript"
-          src="https://www.statcounter.com/counter/counter.js"
-          async
-        ></script>
+        <StatCounter sc_project={12998877} sc_security="d944ad70" />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
