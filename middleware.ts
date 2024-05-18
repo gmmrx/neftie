@@ -9,19 +9,18 @@ export async function middleware(req: NextRequest, ev: NextFetchEvent) {
   const i18nResponse = i18nRouter(req, i18nConfig);
   let finalResponse = i18nResponse instanceof Response ? i18nResponse : null;
 
-
   const authResponse = withAuth(
-    async function (req: NextRequest, ev: NextFetchEvent) {
-    },
+    async function (req: NextRequest, ev: NextFetchEvent) {},
     {
       callbacks: {
         authorized: async ({ token, req }) => {
           const path = req.nextUrl.pathname;
-          // Only enforce admin check on paths starting with any locale followed by '/admin'
-          if (path.match(/\/[a-z]{2}\/admin/) && !token?.isAdmin) {
-            return false; // Access denied for non-admins on admin routes
+
+          const adminPathRegex = /^\/(?:[a-z]{2}\/)?admin/;
+          if (adminPathRegex.test(path) && (!token || !token.isAdmin)) {
+            return false;
           }
-          return true; // Allow all other paths
+          return true;
         },
       },
       pages: {
@@ -33,19 +32,13 @@ export async function middleware(req: NextRequest, ev: NextFetchEvent) {
   )(req, ev);
   const response = await authResponse;
 
-  // Handle response based on authorization
   if (response && !response.ok) {
     console.log("Redirecting to login due to unauthorized access");
-    return NextResponse.rewrite(new URL('/', req.url))
+    return NextResponse.rewrite(new URL("/", req.url));
   }
   return finalResponse ? finalResponse : NextResponse.next();
 }
 
-// Configuration for what paths this middleware should match
 export const config = {
-  matcher: [
-    "/((?!api|static|.*\\..*|_next).*)",
-    "/admin/:path*",
-    "/:path*/admin/:path*",
-  ],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|images).*)"],
 };

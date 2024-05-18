@@ -8,7 +8,7 @@ import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
 import AdminSidebar from "@/components/admin-sidebar";
 
-const i18nNamespaces = ["translation"];
+const i18nNamespaces = ["translation", "nefties", "admin"];
 
 export default async function RootLayout({
   children,

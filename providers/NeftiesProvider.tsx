@@ -11,6 +11,7 @@ import React, {
 
 const NeftiesContext = createContext<{
   nefties: NeftiesAttributes[];
+  fetchNefties: () => void;
 } | null>(null);
 
 type NeftiesProviderProps = {
@@ -32,9 +33,16 @@ const NeftiesProvider: React.FC<NeftiesProviderProps> = ({ children }) => {
 
     fetchNefties();
   }, []); // Empty dependency array ensures this runs only once
-
+  const fetchNefties = async () => {
+    try {
+      const neftiesRequest = await axios.get("/api/nefties");
+      setNefties(neftiesRequest.data.data); // Ensure this matches the structure of your response
+    } catch (error) {
+      console.error("Failed to fetch nefties", error);
+    }
+  };
   return (
-    <NeftiesContext.Provider value={{ nefties }}>
+    <NeftiesContext.Provider value={{ nefties, fetchNefties }}>
       {children}
     </NeftiesContext.Provider>
   );

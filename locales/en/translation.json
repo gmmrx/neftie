@@ -188,5 +188,7 @@
   "rules": "Rules",
   "finished": "Ended",
   "incoming": "Not started yet",
-  "ongoing": "Started"
+  "ongoing": "Started",
+  "name": "Name",
+  "actions": "Actions"
 }
