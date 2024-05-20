@@ -33,6 +33,7 @@
     "next-i18n-router": "^5.4.0",
     "next-nprogress-bar": "^2.3.11",
     "pg": "^8.11.3",
+    "prettier": "^3.2.5",
     "react": "^18",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18",

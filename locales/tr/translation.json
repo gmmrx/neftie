@@ -171,9 +171,9 @@
       "title": "Neftie App - Maceraya Katılın: Resmi ve Topluluk Etkinliklerini Keşfedin!",
       "description": "Seekers of Tokané'deki tüm son gelişmelerden haberdar olun. Tüm resmi ve hayran organizasyonlu etkinlikleri öğrenin ve canlı Aurory topluluğunun bir parçası olun."
     },
-    "single_event": {
-      "title": "Neftie App - {{ event }} Etkinliği Hakkında Daha Fazla Bilgi",
-      "description": "{{ event }} hakkında daha fazla ayrıntı görün, daha fazla ve hızlı öğrenin ve kazanın"
+    "single_neftie": {
+      "title": "{{ neftie }} Neftie Rehberi, Karşıtlar ve Avantajlar - Yama: {{ patch }}",
+      "description": "{{ neftie }} için Yama {{ patch }} kapsamlı rehberimizi keşfedin. {{ neftie }}'ye karşı en iyi stratejileri öğrenin ve {{ neftie }}'nin mükemmel olduğu karakterleri veya unsurları keşfedin. Seekers of Tokane oyununda güncel kalın ve önde olun."
     }
   },
   "recently_added_videos": "Son Eklenen Videolar",

@@ -175,6 +175,10 @@
     "single_event": {
       "title": "Neftie App - More Details About {{ event }} Event",
       "description": "See more details about {{ event }}, learn and earn more & fast"
+    },
+    "single_neftie": {
+      "title": "{{ neftie }} Neftie Guide, Counters and Advantages - Patch: {{ patch }}",
+      "description": "Explore our comprehensive guide for {{ neftie }} in Patch {{ patch }}. Learn about the best strategies to counter {{ neftie }} and discover the characters or elements where {{ neftie }} excels. Stay updated and ahead in your Seekers of Tokane game."
     }
   },
   "recently_added_videos": "Recently Added Videos",
