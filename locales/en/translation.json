@@ -76,6 +76,30 @@
     },
     "bloomer": {
       "description": "This egg emanates a sweet fragrance, enchanting all who catch a whiff, but where did it come from? No one knows, yet it captivates all who see it!"
+    },
+    "leaf": {
+      "description": "Layers of lush green leaves intricately weave together to encase this egg, creating mesmerizing patterns across its surface."
+    },
+    "clover": {
+      "description": "The Clover egg is a symbol of good fortune. It promises luck to those who find one, making it highly coveted among Seekers."
+    },
+    "mirage": {
+      "description": "This precious egg presents a challenge to find as its illusory nature causes some to perceive it as a gem nestled within the landscape, while others mistake it for a mere rock formation."
+    },
+    "dune": {
+      "description": "The Dune egg may look as if your hand could pass through it with the lightest touch, yet too much pressure dislodges particles and inhaling these causes hallucinations."
+    },
+    "frost": {
+      "description": "The swirling frost patterns beneath the egg's translucent surface refract light in a hypnotizing display of colors."
+    },
+    "aurora": {
+      "description": "The Aurora egg intrigues with its almost otherworldly appearance. A gentle chill hints at what it holds within, beckoning those brave enough to touch it."
+    },
+    "moss": {
+      "description": "This egg is made entirely of bright green moss. When touched, its surface feels velvety, releasing a subtle earthy scent that attracts those nearby."
+    },
+    "marsh": {
+      "description": "The marsh egg, formed from swamp vegetation, appears delicate yet sturdy, giving way slightly to pressure while retaining its shape."
     }
   },
   "errors": {
