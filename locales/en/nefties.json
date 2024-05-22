@@ -13,7 +13,7 @@
       },
       {
         "name": "PUTRID VINE I",
-        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 10% of max HP."
       },
       {
         "name": "THUNDER PUNCH II",
@@ -21,7 +21,7 @@
       },
       {
         "name": "STORMBREAKER'S ZEAL III",
-        "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 65 Power."
+        "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 70 Power."
       }
     ]
   },
@@ -43,7 +43,7 @@
       },
       {
         "name": "DELUGE II",
-        "description": "Perform a Ranged attack of 100 Power."
+        "description": "Perform a Ranged attack of 110 Power."
       },
       {
         "name": "RIPTIDE III",
@@ -69,7 +69,7 @@
       },
       {
         "name": "KNOCKDOWN I",
-        "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
+        "description": "Perform a Melee attack of 75 Power using your Defense instead of Attack."
       },
       {
         "name": "VITALITY STRIKE I",
@@ -120,8 +120,8 @@
         "description": "Cleanse status effects on you and the opponent."
       },
       {
-        "name": "MARINE REVERSAL I",
-        "description": "Dodge once and perform a Counter Attack of 75 Power if you are targeted by an attack this turn action."
+        "name": "CRASHING WAVE II",
+        "description": "Perform a high priority Ranged attack of 40 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
       },
       {
         "name": "VOLT SURGE III",
@@ -138,16 +138,16 @@
         "description": "Your Defense is dropped by 1 stage for 2 turns."
       },
       {
-        "name": "STONE SKIN I",
-        "description": "Your Defense is raised by 2 stage for 2 turns. The opponent's Defense is dropped by 1 stage for 2 turns."
+        "name": "THICK COAT I",
+        "description": "Raise your Defense by 2 stage for 2 turns."
       },
       {
         "name": "PUTRID VINE I",
-        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 13% of max HP."
+        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 10% of max HP."
       },
       {
         "name": "KNOCKDOWN I",
-        "description": "Perform a Melee attack of 30 Power using your Defense instead of Attack."
+        "description": "Perform a Melee attack of 75 Power using your Defense instead of Attack."
       },
       {
         "name": "BOULDER BASH II",
@@ -157,27 +157,27 @@
   },
   "zzoo": {
     "description": "Zzoo employs a defensive strategy to defeat opponents by deflecting attacks, countering with precision, and using the full force of the wind at the right moment to secure victory!",
-    "element": "earth",
+    "element": "air",
     "skills": [
       {
-        "name": "ENERGIZING REFLECTION I",
-        "description": "Reflect back to the opponent 30% of the damage dealt this turn action. You take the remaining damage. If triggered, earn 3 Hype."
+        "name": "WINGBLADE II",
+        "description": "Perform a Melee attack of 20 Power."
       },
       {
-        "name": "AERIAL SLASH II",
-        "description": "Perform a Ranged attack of 30 Power."
+        "name": "TALON GUARD I",
+        "description": "Deflect 80% of the damage dealt by one attack this turn action, regardless of the attack's priority. If triggered, earn back 2 Hype."
       },
       {
-        "name": "EXPLOSIVE COUNTER I",
-        "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
+        "name": "SAND ECHOES II",
+        "description": "Perform a Ranged attack of 45 Power using your Speed instead of Attack. If it hits, Cleanse yourself."
       },
       {
-        "name": "FLORAN'S MIRROR I",
-        "description": "Reflect back to the opponent 85% of the damage dealt this turn action. You take the remaining damage."
+        "name": "MIRROR COAT II",
+        "description": "Reflect back to the opponent 85% of the damage dealt by Melee attacks this turn action. You take the remaining damage. If triggered, Cleanse status effects on the opponent."
       },
       {
-        "name": "SYLPHOR'S PURGE III",
-        "description": "Cleanse your status effects. Then, perform a Ranged attack of 150 Power."
+        "name": "STORMWEAVER'S CRY III",
+        "description": "Perform a low priority Ranged attack of 170 Power. This attack almost always goes last."
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "name": "STRANGLING ROOTS II",
-        "description": "Inflict Poison to the opponent for 5 turns. At the end of each turn, Poison deals damage equal to 13% of the opponent's max HP."
+        "description": "Inflict Poison to the opponent for 5 turns. At the end of each turn, Poison deals damage equal to 10% of the opponent's max HP."
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "name": "EARTHQUAKE I",
-        "description": "Perform a Melee attack of 105 Power. You take 15% of the damage dealt as Recoil."
+        "description": "Perform a Melee attack of 90 Power."
       }
     ]
   },
@@ -316,12 +316,12 @@
     "element": "plant",
     "skills": [
       {
-        "name": "ENERGETIC JAB I",
-        "description": "Perform a Melee attack of 20 Power."
+        "name": "BARBED LEAF II",
+        "description": "Perform a high priority Ranged attack of 40 Power. If the attack is weak, inflict Poison on the opponent for 1 turn. At the end of each turn, Poison deals damage equal to 10% of the opponent's max HP. This attack almost always goes first."
       },
       {
-        "name": "AQUA BOLT I",
-        "description": "Perform a Ranged attack of 30 Power."
+        "name": "FROSTED BOLT II",
+        "description": "Perform a Ranged attack of 50 Power using your Speed instead of Attack."
       },
       {
         "name": "FULGUROUS STEPS I",
@@ -372,8 +372,8 @@
         "description": "Your Attack is dropped by 1 stage for 2 turns."
       },
       {
-        "name": "CATCH UP PUNCH I",
-        "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype. "
+        "name": "ADRENALINE KICK II",
+        "description": "Perform a Melee attack of 20 Power. If if hits, earn 3 Hype."
       },
       {
         "name": "SKYDANCE II",
@@ -381,11 +381,11 @@
       },
       {
         "name": "THUNDER STRIKE II",
-        "description": "Perform a Ranged attack of 70 Power. Your Speed is raised by 1 stage for 2 turns."
+        "description": "Perform a Ranged attack of 50 Power. Your Speed is raised by 1 stage for 2 turns."
       },
       {
         "name": "FLASH VOLT III",
-        "description": "Perform a Melee attack of 70 Power using your Speed instead of Attack."
+        "description": "Perform a Melee attack of 160 Power using your Speed instead of Attack."
       }
     ]
   },
@@ -438,6 +438,32 @@
       {
         "name": "VAMPIRIC BLOOM III",
         "description": "Perform a Ranged attack of 80 Power. If the attack is Strong against the target, Lifesteal 50% of the damage dealt."
+      }
+    ]
+  },
+  "ghouliath": {
+    "description": "Ghouliaths were mighty dragons once, but they now linger as ghosts until their unresolved matters are dealt with...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "LIFE TAP RITUAL I",
+        "description": "Self attack of 10 Power."
+      },
+      {
+        "name": "AERIAL SLASH II",
+        "description": "Perform a Ranged attack of 30 Power."
+      },
+      {
+        "name": "SOUL SIPHON II",
+        "description": "If your opponent is Cursed, Heal yourself for 15% of your max HP and raise your Attack and Defense by 2 for 2 turns."
+      },
+      {
+        "name": "ACCURSED FLAMES II",
+        "description": "Perform a Ranged attack of 50 Power. If it hits, inflict Curse on the opponent. After a countdown of 2 turns, Curse deals 20% of the opponent's max HP."
+      },
+      {
+        "name": "BLIGHTQUAKE III",
+        "description": "Perform a Ranged attack of 55 Power. If the opponent is Cursed, deals double damage."
       }
     ]
   }

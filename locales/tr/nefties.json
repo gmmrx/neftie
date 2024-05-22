@@ -13,7 +13,7 @@
       },
       {
         "name": "ÇÜRÜK ASMA I",
-        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %13'ü kadar hasar verir."
+        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %10'ü kadar hasar verir."
       },
       {
         "name": "YILDIRIM YUMRUĞU II",
@@ -21,7 +21,7 @@
       },
       {
         "name": "FIRTINA KIRICININ COŞKUSU III",
-        "description": "Saldırın 3 tur boyunca 3 aşama artar. Ardından, 65 Güçlü bir Menzilli saldırı yap."
+        "description": "Saldırın 3 tur boyunca 3 aşama artar. Ardından, 70 Güçlü bir Menzilli saldırı yap."
       }
     ]
   },
@@ -43,7 +43,7 @@
       },
       {
         "name": "SAKİNLEŞME II",
-        "description": "100 Güçlü bir Menzilli saldırı yap."
+        "description": "110 Güçlü bir Menzilli saldırı yap."
       },
       {
         "name": "AKINTI III",
@@ -69,7 +69,7 @@
       },
       {
         "name": "DEVRİLME I",
-        "description": "Savunmanı kullanarak 30 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Savunmanı kullanarak 75 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "CANLI VURUŞ I",
@@ -120,8 +120,8 @@
         "description": "Senin ve rakibin durum etkilerini temizle."
       },
       {
-        "name": "DENİZ TERSİNE DÖNÜŞ I",
-        "description": "Bir saldırıdan kaç ve bu turda hedef alınmışsan 75 Güçlü bir Karşı Saldırı yap."
+        "name": "ÇARPIŞAN DALGA II",
+        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
       },
       {
         "name": "VOLT DALGASI III",
@@ -138,16 +138,16 @@
         "description": "Savunman 2 tur boyunca 1 aşama düşer."
       },
       {
-        "name": "TAŞ DERİ I",
-        "description": "Savunman 2 tur boyunca 2 aşama artar. Rakibin Savunması 2 tur boyunca 1 aşama düşer."
+        "name": "KALIN KABUK I",
+        "description": "Savunmanızı 2 tur boyunca 2 aşama artırın."
       },
       {
         "name": "ÇÜRÜK ASMA I",
-        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %13'ü kadar hasar verir."
+        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %10'ü kadar hasar verir."
       },
       {
         "name": "DEVRİLME I",
-        "description": "Savunmanı kullanarak 30 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Savunmanı kullanarak 75 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "KAYA ÇARPMASI II",
@@ -156,28 +156,28 @@
     ]
   },
   "zzoo": {
-    "description": "Zzoo, rakiplerini saldırıları saptırarak, hassasiyetle karşı saldırı yaparak ve zaferi garantilemek için doğru anda rüzgarın tam gücünü kullanarak yenmek için savunma stratejisini kullanır!",
-    "element": "earth",
+    "description": "Zzoo, saldırıları savuşturarak, hassas bir şekilde karşılık vererek ve zaferi sağlamak için doğru anda rüzgarın tüm gücünü kullanarak rakiplerini yenmek için savunma stratejisi kullanır!",
+    "element": "air",
     "skills": [
       {
-        "name": "ENERJİ VERİCİ YANSIMA I",
-        "description": "Bu turda verilen hasarın %30'unu rakibe yansıt. Kalan hasarı sen alırsın. Eğer tetiklenirse, 3 Hype kazan."
+        "name": "KANATBIÇAK II",
+        "description": "20 Güçlük Yakın dövüş saldırısı gerçekleştir."
       },
       {
-        "name": "HAVA KESİĞİ II",
-        "description": "30 Güçlü bir Menzilli saldırı yap."
+        "name": "PENÇE KORUMASI I",
+        "description": "Bu turdaki bir saldırının verdiği hasarın %80'ini savuştur. Saldırının önceliğine bakılmaksızın. Tetiklenirse, 2 Hype geri kazan."
       },
       {
-        "name": "PATLAYICI KARŞI SALDIRI I",
-        "description": "Bir saldırıdan kaç ve bu turda hedef alınmışsan 40 Güçlü bir Karşı Saldırı yap."
+        "name": "KUM EKO'ları II",
+        "description": "Saldırı yerine Hızını kullanarak 45 Güçlük Uzaktan saldırı gerçekleştir. İsabet ederse, kendini temizle."
       },
       {
-        "name": "FLORAN'IN AYNASI I",
-        "description": "Bu turda verilen hasarın %85'ini rakibe yansıt. Kalan hasarı sen alırsın."
+        "name": "AYNA KABUĞU II",
+        "description": "Bu turdaki Yakın dövüş saldırılarının verdiği hasarın %85'ini rakibe geri yansıt. Kalan hasarı alırsın. Tetiklenirse, rakibin durum etkilerini temizle."
       },
       {
-        "name": "SYLPHOR'UN ARINMASI III",
-        "description": "Durum etkilerini temizle. Ardından, 150 Güçlü bir Menzilli saldırı yap."
+        "name": "FIRTINADOKUYUCUNUN ÇIĞLIĞI III",
+        "description": "170 Güçlük düşük öncelikli bir Uzaktan saldırı gerçekleştir. Bu saldırı neredeyse her zaman son gider."
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "name": "BOĞUCU KÖKLER II",
-        "description": "Rakibe 5 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %13'ü kadar hasar verir."
+        "description": "Rakibe 5 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %10'ü kadar hasar verir."
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "name": "DEPREM I",
-        "description": "105 Güçlü bir Yakın Dövüş saldırısı yap. Verilen hasarın %15'i kadar geri tepme hasarı alırsın."
+        "description": "90 Güçlü bir Yakın Dövüş saldırısı yap."
       }
     ]
   },
@@ -316,12 +316,12 @@
     "element": "plant",
     "skills": [
       {
-        "name": "ENERJİK YUMRUK I",
-        "description": "20 Güçlü bir Yakın Dövüş saldırısı yap."
+        "name": "DİKENLİ YAPRAK II",
+        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Saldırı zayıfsa, rakibe 1 tur boyunca Zehir uygula. Her turun sonunda, Zehir rakibin maksimum HP'sinin %10'u kadar hasar verir. Bu saldırı neredeyse her zaman ilk gider."
       },
       {
-        "name": "SU YILDIRIMI I",
-        "description": "30 Güçlü bir Menzilli saldırı yap."
+        "name": "BUZLU YILDIRIM II",
+        "description": "Saldırı yerine Hızınızı kullanarak 50 Güçlük Uzaktan saldırı gerçekleştir."
       },
       {
         "name": "PARLAYAN ADIMLAR I",
@@ -372,8 +372,8 @@
         "description": "Saldırın 2 tur boyunca 1 aşama düşer."
       },
       {
-        "name": "YETİŞEN YUMRUK I",
-        "description": "30 Güçlü bir Yakın Dövüş saldırısı yap. Eğer mevcut Heyecanın rakibinkinden düşükse, 3 Hype kazan."
+        "name": "ADRENALİN TEKME II",
+        "description": "20 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, 3 Hype kazan."
       },
       {
         "name": "GÖKYÜZÜ DANSI II",
@@ -381,11 +381,11 @@
       },
       {
         "name": "YILDIRIM SALDIRISI II",
-        "description": "70 Güçlü bir Menzilli saldırı yap. Hızın 2 tur boyunca 1 aşama artar."
+        "description": "50 Güçlü bir Menzilli saldırı yap. Hızın 2 tur boyunca 1 aşama artar."
       },
       {
         "name": "PARLAK VOLT III",
-        "description": "Saldırını kullanarak 70 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Saldırını kullanarak 160 Güçlü bir Yakın Dövüş saldırısı yap."
       }
     ]
   },
@@ -438,6 +438,33 @@
       {
         "name": "VAMPİRİK ÇİÇEK III",
         "description": "80 Güçlü bir Menzilli saldırı yap. Eğer saldırı hedefe karşı Güçlü ise, verilen hasarın %50'sini yaşam çal."
+      }
+    ]
+  },
+
+  "ghouliath": {
+    "description": "Ghouliath'ler bir zamanlar güçlü ejderhalardı, ancak şimdi çözülmemiş meseleleri halledilene kadar hayalet olarak kalıyorlar...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "YAŞAM DOKUNUŞU RİTÜELİ I",
+        "description": "10 Güçlük kendine saldırı."
+      },
+      {
+        "name": "HAVA SALDIRISI II",
+        "description": "30 Güçlük Uzaktan saldırı gerçekleştir."
+      },
+      {
+        "name": "RUH EMİCİ II",
+        "description": "Rakibiniz Lanetlenmişse, maksimum HP'nizin %15'ini iyileştirin ve 2 tur boyunca Saldırı ve Savunmanızı 2 artırın."
+      },
+      {
+        "name": "LANETLİ ALEVLER II",
+        "description": "50 Güçlük Uzaktan saldırı gerçekleştir. İsabet ederse, rakibe Lanet uygula. 2 tur geri sayımdan sonra, Lanet rakibin maksimum HP'sinin %20'si kadar hasar verir."
+      },
+      {
+        "name": "LANETLİ DEPREM III",
+        "description": "55 Güçlük Uzaktan saldırı gerçekleştir. Rakip Lanetlenmişse, çift hasar verir."
       }
     ]
   }

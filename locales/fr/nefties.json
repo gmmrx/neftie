@@ -13,7 +13,7 @@
       },
       {
         "name": "LIANE PUTRIDE I",
-        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 10% des PV max."
       },
       {
         "name": "COUP DE TONNERRE II",
@@ -21,7 +21,7 @@
       },
       {
         "name": "ZÈLE DU BRISÉ-STORM III",
-        "description": "Votre Attaque est augmentée de 3 niveaux pendant 3 tours. Ensuite, effectuez une attaque à distance de 65 de puissance."
+        "description": "Votre Attaque est augmentée de 3 niveaux pendant 3 tours. Ensuite, effectuez une attaque à distance de 70 de puissance."
       }
     ]
   },
@@ -43,7 +43,7 @@
       },
       {
         "name": "DÉLUGE II",
-        "description": "Effectuez une attaque à distance de 100 de puissance."
+        "description": "Effectuez une attaque à distance de 110 de puissance."
       },
       {
         "name": "GRAND COURANT III",
@@ -69,7 +69,7 @@
       },
       {
         "name": "RENVERSEMENT I",
-        "description": "Effectuez une attaque au corps à corps de 30 de puissance en utilisant votre Défense à la place de l'Attaque."
+        "description": "Effectuez une attaque au corps à corps de 75 de puissance en utilisant votre Défense à la place de l'Attaque."
       },
       {
         "name": "COUP DE VITALITÉ I",
@@ -120,8 +120,8 @@
         "description": "Purge les effets de statut sur vous et l'adversaire."
       },
       {
-        "name": "RENVERSEMENT MARIN I",
-        "description": "Esquivez une fois et effectuez une contre-attaque de 75 de puissance si vous êtes ciblé par une attaque cette action de tour."
+        "name": "VAGUE DÉFERLANTE II",
+        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
       },
       {
         "name": "SURCHARGE DE VOLT III",
@@ -138,16 +138,16 @@
         "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
       },
       {
-        "name": "PEAU DE PIERRE I",
-        "description": "Votre Défense est augmentée de 2 niveaux pendant 2 tours. La Défense de l'adversaire est réduite de 1 niveau pendant 2 tours."
+        "name": "ÉPAIS MANTEAU I",
+        "description": "Augmentez votre Défense de 2 niveaux pendant 2 tours."
       },
       {
         "name": "LIANE PUTRIDE I",
-        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 10% des PV max."
       },
       {
         "name": "RENVERSEMENT I",
-        "description": "Effectuez une attaque au corps à corps de 30 de puissance en utilisant votre Défense à la place de l'Attaque."
+        "description": "Effectuez une attaque au corps à corps de 75 de puissance en utilisant votre Défense à la place de l'Attaque."
       },
       {
         "name": "FRAPPE DE BOULDER II",
@@ -156,28 +156,28 @@
     ]
   },
   "zzoo": {
-    "description": "Zzoo emploie une stratégie défensive pour vaincre ses adversaires en déviant les attaques, en contre-attaquant avec précision et en utilisant toute la force du vent au bon moment pour assurer la victoire!",
-    "element": "earth",
+    "description": "Zzoo utilise une stratégie défensive pour vaincre ses adversaires en déviant les attaques, en contre-attaquant avec précision et en utilisant toute la force du vent au bon moment pour assurer la victoire !",
+    "element": "air",
     "skills": [
       {
-        "name": "RÉFLEXION ÉNERGISANTE I",
-        "description": "Reflétez à l'adversaire 30% des dégâts infligés cette action de tour. Vous subissez les dégâts restants. Si déclenchée, gagnez 3 Engouement."
+        "name": "LAME D'AILE II",
+        "description": "Effectuer une attaque de Mêlée de 20 Puissance."
       },
       {
-        "name": "ENTAILLE AÉRIENNE II",
-        "description": "Effectuez une attaque à distance de 30 de puissance."
+        "name": "GARDE DE GRIFFE I",
+        "description": "Dévie 80% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque. Si déclenché, récupérez 2 Hype."
       },
       {
-        "name": "CONTRE EXPLOSIF I",
-        "description": "Esquivez une fois et effectuez une contre-attaque de 40 de puissance si vous êtes ciblé par une attaque cette action de tour."
+        "name": "ÉCHOS DE SABLE II",
+        "description": "Effectuer une attaque à distance de 45 Puissance en utilisant votre Vitesse au lieu de l'Attaque. Si elle touche, nettoyez-vous."
       },
       {
-        "name": "MIROIR DE FLORAN I",
-        "description": "Reflétez à l'adversaire 85% des dégâts infligés cette action de tour. Vous subissez les dégâts restants."
+        "name": "MIROIR DE COAT II",
+        "description": "Réfléchit à l'adversaire 85% des dégâts infligés par les attaques de Mêlée cette action de tour. Vous subissez les dégâts restants. Si déclenché, nettoyez les effets de statut sur l'adversaire."
       },
       {
-        "name": "PURGE DE SYLPHOR III",
-        "description": "Purge vos effets de statut. Ensuite, effectuez une attaque à distance de 150 de puissance."
+        "name": "CRI DU TISSEUR DE TEMPÊTE III",
+        "description": "Effectuer une attaque à distance de 170 Puissance de faible priorité. Cette attaque arrive presque toujours en dernier."
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "name": "RACINES ÉTRANGLANTES II",
-        "description": "Infligez Poison à l'adversaire pendant 5 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max de l'adversaire."
+        "description": "Infligez Poison à l'adversaire pendant 5 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 10% des PV max de l'adversaire."
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "name": "TREMBLEMENT DE TERRE I",
-        "description": "Effectuez une attaque au corps à corps de 105 de puissance. Vous subissez 15% des dégâts infligés en recul."
+        "description": "Effectuez une attaque au corps à corps de 90 de puissance."
       }
     ]
   },
@@ -316,12 +316,12 @@
     "element": "plant",
     "skills": [
       {
-        "name": "COUP ÉNERGÉTIQUE I",
-        "description": "Effectuez une attaque au corps à corps de 20 de puissance."
+        "name": "FEUILLE BARBELÉE II",
+        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Si l'attaque est faible, infligez Poison à l'adversaire pendant 1 tour. À la fin de chaque tour, le Poison inflige des dégâts égaux à 10% des PV max de l'adversaire. Cette attaque arrive presque toujours en premier."
       },
       {
-        "name": "ÉCLAIR D'EAU I",
-        "description": "Effectuez une attaque à distance de 30 de puissance."
+        "name": "BOLT GIVRÉ II",
+        "description": "Effectuer une attaque à distance de 50 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
       },
       {
         "name": "PAS FULGURANTS I",
@@ -372,8 +372,8 @@
         "description": "Votre Attaque est réduite de 1 niveau pendant 2 tours."
       },
       {
-        "name": "COUP DE RATTRAPAGE I",
-        "description": "Effectuez une attaque au corps à corps de 30 de puissance. Si votre Engouement actuel est inférieur à celui de l'adversaire, gagnez 3 Engouement."
+        "name": "COUP D'ADRÉNALINE II",
+        "description": "Effectuer une attaque de Mêlée de 20 Puissance. Si elle touche, gagnez 3 Hype."
       },
       {
         "name": "DANSE DU CIEL II",
@@ -381,11 +381,11 @@
       },
       {
         "name": "COUP DE TONNERRE II",
-        "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
+        "description": "Effectuez une attaque à distance de 50 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
       },
       {
         "name": "VOLT RAPIDE III",
-        "description": "Effectuez une attaque au corps à corps de 70 de puissance en utilisant votre Vitesse à la place de l'Attaque."
+        "description": "Effectuez une attaque au corps à corps de 160 de puissance en utilisant votre Vitesse à la place de l'Attaque."
       }
     ]
   },
@@ -438,6 +438,32 @@
       {
         "name": "FLEUR VAMPIRIQUE III",
         "description": "Effectuez une attaque à distance de 80 de puissance. Si l'attaque est Forte contre la cible, volez 50% des dégâts infligés."
+      }
+    ]
+  },
+  "ghouliath": {
+    "description": "Les Ghouliaths étaient autrefois de puissants dragons, mais ils errent maintenant comme des fantômes jusqu'à ce que leurs affaires non résolues soient réglées...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "RITUEL DE PRÉLÈVEMENT DE VIE I",
+        "description": "Attaque personnelle de 10 Puissance."
+      },
+      {
+        "name": "COUPURE AÉRIENNE II",
+        "description": "Effectuer une attaque à distance de 30 Puissance."
+      },
+      {
+        "name": "SIPHON D'ÂME II",
+        "description": "Si votre adversaire est Maudit, soignez-vous de 15% de vos PV max et augmentez votre Attaque et Défense de 2 pendant 2 tours."
+      },
+      {
+        "name": "FLAMMES MAUDITES II",
+        "description": "Effectuer une attaque à distance de 50 Puissance. Si elle touche, infligez une Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige 20% des PV max de l'adversaire."
+      },
+      {
+        "name": "TREMBLEMENT DE MALÉDICTION III",
+        "description": "Effectuer une attaque à distance de 55 Puissance. Si l'adversaire est Maudit, inflige des dégâts doubles."
       }
     ]
   }

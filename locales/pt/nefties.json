@@ -13,7 +13,7 @@
       },
       {
         "name": "VIDEIRA PÚTRIDA I",
-        "description": "Inflige Veneno ao oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo."
+        "description": "Inflige Veneno ao oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo."
       },
       {
         "name": "PANCADA TROVEJANTE II",
@@ -21,7 +21,7 @@
       },
       {
         "name": "ZELO DO QUEBRADOR DE TEMPESTADES III",
-        "description": "O teu Ataque é aumentado em 3 níveis durante 3 turnos. Em seguida, realiza um ataque à distância com 65 de Poder."
+        "description": "O teu Ataque é aumentado em 3 níveis durante 3 turnos. Em seguida, realiza um ataque à distância com 70 de Poder."
       }
     ]
   },
@@ -43,7 +43,7 @@
       },
       {
         "name": "DILÚVIO II",
-        "description": "Realiza um ataque à distância com 100 de Poder."
+        "description": "Realiza um ataque à distância com 110 de Poder."
       },
       {
         "name": "MARÉ TURBULENTA III",
@@ -120,8 +120,8 @@
         "description": "Limpa os efeitos de status em ti e no oponente."
       },
       {
-        "name": "REVERSÃO MARÍTIMA I",
-        "description": "Desvia uma vez e realiza um Contra-Ataque com 75 de Poder se fores alvo de um ataque nesta ação de turno."
+        "name": "ONDA DE CHOQUE II",
+        "description": "Realiza um ataque à distância de alta prioridade de 40 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
       },
       {
         "name": "SURTO ELÉTRICO III",
@@ -138,16 +138,16 @@
         "description": "A tua Defesa é reduzida em 1 nível durante 2 turnos."
       },
       {
-        "name": "PELE DE PEDRA I",
-        "description": "A tua Defesa é aumentada em 2 níveis durante 2 turnos. A Defesa do oponente é reduzida em 1 nível durante 2 turnos."
+        "name": "CASACO GROSSO I",
+        "description": "Aumenta a sua Defesa em 2 níveis por 2 turnos."
       },
       {
         "name": "VIDEIRA PÚTRIDA I",
-        "description": "Inflige Veneno ao oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo."
+        "description": "Inflige Veneno ao oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo."
       },
       {
         "name": "DERRUBADA I",
-        "description": "Realiza um ataque corpo a corpo com 30 de Poder usando a tua Defesa em vez do Ataque."
+        "description": "Realiza um ataque corpo a corpo com 75 de Poder usando a tua Defesa em vez do Ataque."
       },
       {
         "name": "GOLPE DE ROCHA II",
@@ -156,28 +156,28 @@
     ]
   },
   "zzoo": {
-    "description": "Zzoo emprega uma estratégia defensiva para derrotar os oponentes, desviando os ataques, contra-atacando com precisão e usando a força total do vento no momento certo para garantir a vitória!",
-    "element": "earth",
+    "description": "Zzoo utiliza uma estratégia defensiva para derrotar os oponentes desviando ataques, contra-atacando com precisão e usando toda a força do vento no momento certo para garantir a vitória!",
+    "element": "air",
     "skills": [
       {
-        "name": "REFLEXO ENERGIZANTE I",
-        "description": "Reflete de volta ao oponente 30% do dano causado nesta ação de turno. Recebes o dano restante. Se acionado, ganha 3 Hypes."
+        "name": "LÂMINA ALADA II",
+        "description": "Realiza um ataque corpo a corpo de 20 Poder."
       },
       {
-        "name": "CORTES AÉREOS II",
-        "description": "Realiza um ataque à distância com 30 de Poder."
+        "name": "GUARDA DE GARRA I",
+        "description": "Desvia 80% do dano causado por um ataque nesta ação de turno, independentemente da prioridade do ataque. Se ativado, recupera 2 Hype."
       },
       {
-        "name": "CONTRA-ATAQUE EXPLOSIVO I",
-        "description": "Desvia uma vez e realiza um Contra-Ataque com 40 de Poder se fores alvo de um ataque nesta ação de turno."
+        "name": "ECOS DE AREIA II",
+        "description": "Realiza um ataque à distância de 45 Poder usando sua Velocidade em vez de Ataque. Se acertar, purifica-se."
       },
       {
-        "name": "ESPELHO DE FLORAN I",
-        "description": "Reflete de volta ao oponente 85% do dano causado nesta ação de turno. Recebes o dano restante."
+        "name": "REVESTIMENTO DE ESPELHO II",
+        "description": "Reflete de volta para o oponente 85% do dano causado por ataques corpo a corpo nesta ação de turno. Você recebe o dano restante. Se ativado, purifica os efeitos de status no oponente."
       },
       {
-        "name": "PURIFICAÇÃO DE SYLPHOR III",
-        "description": "Limpa os teus efeitos de status. Em seguida, realiza um ataque à distância com 150 de Poder."
+        "name": "GRITO DO TECELÃO DA TEMPESTADE III",
+        "description": "Realiza um ataque à distância de 170 Poder de baixa prioridade. Este ataque quase sempre é o último."
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "name": "RAÍZES ESTRANGULADORAS II",
-        "description": "Inflige Veneno ao oponente por 5 turnos. No final de cada turno, o Veneno causa dano igual a 13% do HP máximo do oponente."
+        "description": "Inflige Veneno ao oponente por 5 turnos. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo do oponente."
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "name": "TERREMOTO I",
-        "description": "Realiza um ataque corpo a corpo com 105 de Poder. Recebes 15% do dano causado como Recoil."
+        "description": "Realiza um ataque corpo a corpo com 90 de Poder."
       }
     ]
   },
@@ -316,12 +316,12 @@
     "element": "plant",
     "skills": [
       {
-        "name": "PANCADA ENERGÉTICA I",
-        "description": "Realiza um ataque corpo a corpo com 20 de Poder."
+        "name": "FOLHA CORTANTE II",
+        "description": "Realiza um ataque à distância de alta prioridade de 40 Poder. Se o ataque for fraco, inflige Veneno no oponente por 1 turno. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo do oponente. Este ataque quase sempre é o primeiro."
       },
       {
-        "name": "RAIO AQUÁTICO I",
-        "description": "Realiza um ataque à distância com 30 de Poder."
+        "name": "RAIO GEADO II",
+        "description": "Realiza um ataque à distância de 50 Poder usando sua Velocidade em vez de Ataque."
       },
       {
         "name": "PASSOS FULGURANTES I",
@@ -372,8 +372,8 @@
         "description": "O teu Ataque é reduzido em 1 nível durante 2 turnos."
       },
       {
-        "name": "PANCADA COMPENSADORA I",
-        "description": "Realiza um ataque corpo a corpo com 30 de Poder. Se o teu Hype atual for menor que o do oponente, ganha 3 Hypes."
+        "name": "CHUTE DE ADRENALINA II",
+        "description": "Realiza um ataque corpo a corpo de 20 Poder. Se acertar, ganha 3 Hype."
       },
       {
         "name": "DANÇA AÉREA II",
@@ -381,11 +381,11 @@
       },
       {
         "name": "GOLPE TROVEJANTE II",
-        "description": "Realiza um ataque à distância com 70 de Poder. A tua Velocidade é aumentada em 1 nível durante 2 turnos."
+        "description": "Realiza um ataque à distância com 50 de Poder. A tua Velocidade é aumentada em 1 nível durante 2 turnos."
       },
       {
         "name": "SURTO DE VELOCIDADE III",
-        "description": "Realiza um ataque corpo a corpo com 70 de Poder usando a tua Velocidade em vez do Ataque."
+        "description": "Realiza um ataque corpo a corpo com 160 de Poder usando a tua Velocidade em vez do Ataque."
       }
     ]
   },
@@ -438,6 +438,32 @@
       {
         "name": "BLOOM VAMPÍRICO III",
         "description": "Realiza um ataque à distância com 80 de Poder. Se o ataque for Forte contra o alvo, rouba 50% do dano causado como vida."
+      }
+    ]
+  },
+  "ghouliath": {
+    "description": "Os Ghouliaths eram dragões poderosos, mas agora permanecem como fantasmas até que seus assuntos pendentes sejam resolvidos...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "RITUAL DE TOQUE DE VIDA I",
+        "description": "Ataque próprio de 10 Poder."
+      },
+      {
+        "name": "GOLPE AÉREO II",
+        "description": "Realiza um ataque à distância de 30 Poder."
+      },
+      {
+        "name": "SIFÃO DA ALMA II",
+        "description": "Se o seu oponente estiver Amaldiçoado, cure-se em 15% do seu HP máximo e aumente seu Ataque e Defesa em 2 por 2 turnos."
+      },
+      {
+        "name": "CHAMAS AMALDIÇOADAS II",
+        "description": "Realiza um ataque à distância de 50 Poder. Se acertar, inflige Maldição no oponente. Após uma contagem regressiva de 2 turnos, a Maldição causa 20% do HP máximo do oponente."
+      },
+      {
+        "name": "TERREMOTO AMALDIÇOADO III",
+        "description": "Realiza um ataque à distância de 55 Poder. Se o oponente estiver Amaldiçoado, causa dano dobrado."
       }
     ]
   }

@@ -13,7 +13,7 @@
       },
       {
         "name": "VITE PUTRIDA I",
-        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 10% degli HP massimi."
       },
       {
         "name": "PUGNO DEL TUONO II",
@@ -21,7 +21,7 @@
       },
       {
         "name": "ZELO DEL DISTRUTTORE DI TEMPESTE III",
-        "description": "La tua Attacco aumenta di 3 stadi per 3 turni. Poi, esegui un attacco a distanza di Potenza 65."
+        "description": "La tua Attacco aumenta di 3 stadi per 3 turni. Poi, esegui un attacco a distanza di Potenza 70."
       }
     ]
   },
@@ -43,7 +43,7 @@
       },
       {
         "name": "PIENA II",
-        "description": "Esegui un attacco a distanza di Potenza 100."
+        "description": "Esegui un attacco a distanza di Potenza 110."
       },
       {
         "name": "MAREMOTO III",
@@ -69,7 +69,7 @@
       },
       {
         "name": "ABBATTIMENTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 30 usando la tua Difesa invece dell'Attacco."
+        "description": "Esegui un attacco corpo a corpo di Potenza 75 usando la tua Difesa invece dell'Attacco."
       },
       {
         "name": "COLPO VITALE I",
@@ -120,8 +120,8 @@
         "description": "Pulisci gli effetti di status su di te e sull'avversario."
       },
       {
-        "name": "INVERSIONE MARINA I",
-        "description": "Schiva una volta e esegui un Contrattacco di Potenza 75 se sei bersagliato da un attacco questa azione."
+        "name": "ONDA IMPETUOSA II",
+        "description": "Effettua un attacco a distanza ad alta priorità di 40 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
       },
       {
         "name": "SBARCO DI CORRENTE III",
@@ -138,16 +138,16 @@
         "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
       },
       {
-        "name": "PELLICOLA DI PIETRA I",
-        "description": "La tua Difesa aumenta di 2 stadi per 2 turni. La Difesa dell'avversario diminuisce di 1 stadio per 2 turni."
+        "name": "RIVESTIMENTO SPESSO I",
+        "description": "Aumenta la tua Difesa di 2 livelli per 2 turni."
       },
       {
         "name": "VITE PUTRIDA I",
-        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 10% degli HP massimi."
       },
       {
         "name": "ABBATTIMENTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 30 usando la tua Difesa invece dell'Attacco."
+        "description": "Esegui un attacco corpo a corpo di Potenza 75 usando la tua Difesa invece dell'Attacco."
       },
       {
         "name": "SCHIANTO DEL MASSO II",
@@ -156,28 +156,28 @@
     ]
   },
   "zzoo": {
-    "description": "Zzoo impiega una strategia difensiva per sconfiggere gli avversari deviando gli attacchi, contrattaccando con precisione e utilizzando tutta la forza del vento al momento giusto per assicurarsi la vittoria!",
-    "element": "terra",
+    "description": "Zzoo utilizza una strategia difensiva per sconfiggere gli avversari deviando gli attacchi, contrattaccando con precisione e utilizzando tutta la forza del vento al momento giusto per assicurarsi la vittoria!",
+    "element": "air",
     "skills": [
       {
-        "name": "RIFLESSIONE ENERGICA I",
-        "description": "Rifletti all'avversario il 30% dei danni inflitti questa azione. Tu subisci i danni rimanenti. Se attivato, guadagna 3 Hype."
+        "name": "LAMALITA II",
+        "description": "Effettua un attacco corpo a corpo di 20 Potenza."
       },
       {
-        "name": "AFFETTO AEREO II",
-        "description": "Esegui un attacco a distanza di Potenza 30."
+        "name": "GUARDIA ARTIGLIO I",
+        "description": "Devia l'80% dei danni inflitti da un attacco in questa azione di turno, indipendentemente dalla priorità dell'attacco. Se attivato, guadagna 2 Hype."
       },
       {
-        "name": "CONTRO ESPLOSIVO I",
-        "description": "Schiva una volta e esegui un Contrattacco di Potenza 40 se sei bersagliato da un attacco questa azione."
+        "name": "ECHI DI SABBIA II",
+        "description": "Effettua un attacco a distanza di 45 Potenza utilizzando la tua Velocità invece dell'Attacco. Se colpisce, purificati."
       },
       {
-        "name": "SPECCHIO DI FLORAN I",
-        "description": "Rifletti all'avversario l'85% dei danni inflitti questa azione. Tu subisci i danni rimanenti."
+        "name": "SPECCHIO COAT II",
+        "description": "Rifletti all'avversario l'85% dei danni inflitti dagli attacchi corpo a corpo in questa azione di turno. Subisci i danni rimanenti. Se attivato, purifica gli effetti di stato sull'avversario."
       },
       {
-        "name": "PURGA DI SILFO III",
-        "description": "Pulisci i tuoi effetti di status. Poi, esegui un attacco a distanza di Potenza 150."
+        "name": "GRIDO DEL TESSITORE DI TEMPESTE III",
+        "description": "Effettua un attacco a distanza di 170 Potenza a bassa priorità. Questo attacco va quasi sempre per ultimo."
       }
     ]
   },
@@ -203,7 +203,7 @@
       },
       {
         "name": "RADICI STRANGOLANTI II",
-        "description": "Infliggi Avvelenamento all'avversario per 5 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi dell'avversario."
+        "description": "Infliggi Avvelenamento all'avversario per 5 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 10% degli HP massimi dell'avversario."
       }
     ]
   },
@@ -229,7 +229,7 @@
       },
       {
         "name": "TERREMOTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 105. Tu subisci il 15% dei danni inflitti come Contraccolpo."
+        "description": "Esegui un attacco corpo a corpo di Potenza 90."
       }
     ]
   },
@@ -316,12 +316,12 @@
     "element": "pianta",
     "skills": [
       {
-        "name": "COLPO ENERGETICO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+        "name": "FOGLIA SPINATA II",
+        "description": "Effettua un attacco a distanza ad alta priorità di 40 Potenza. Se l'attacco è debole, infligge Veleno all'avversario per 1 turno. Alla fine di ogni turno, il Veleno infligge danni pari al 10% degli HP massimi dell'avversario. Questo attacco va quasi sempre per primo."
       },
       {
-        "name": "FRECCIA D'ACQUA I",
-        "description": "Esegui un attacco a distanza di Potenza 30."
+        "name": "BOLT GELATO II",
+        "description": "Effettua un attacco a distanza di 50 Potenza utilizzando la tua Velocità invece dell'Attacco."
       },
       {
         "name": "PASSI FULMINEI I",
@@ -363,29 +363,107 @@
       }
     ]
   },
-  "diggydum": {
-    "description": "Diggydum è noto per la sua forza inarrestabile, scavando e scagliando massi contro i nemici. La sua potenza è tale da frantumare chiunque osi sfidarla!",
-    "element": "terra",
+  "wassie": {
+    "description": "Wassie è un Neftie agile noto per sfruttare le sue abilità per aumentare la sua velocità e infliggere danni significativi.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "FLUSSO INDEBOLENTE I",
+        "description": "Il tuo Attacco è ridotto di 1 livello per 2 turni."
+      },
+      {
+        "name": "CALCIO ADRENALINICO II",
+        "description": "Effettua un attacco corpo a corpo di 20 Potenza. Se colpisce, guadagna 3 Hype."
+      },
+      {
+        "name": "DANZA AEREA II",
+        "description": "Probabilità del 100% di schivare un attacco in questa azione di turno. Se attivato, la tua Velocità aumenta di 1 per 2 turni."
+      },
+      {
+        "name": "COLPO DI TUONO II",
+        "description": "Effettua un attacco a distanza di 50 Potenza. La tua Velocità aumenta di 1 livello per 2 turni."
+      },
+      {
+        "name": "FULMINE RAPIDO III",
+        "description": "Effettua un attacco corpo a corpo di 160 Potenza utilizzando la tua Velocità invece dell'Attacco."
+      }
+    ]
+  },
+  "dracurve": {
+    "description": "Dracurve detta il corso della battaglia con cambiamenti nelle statistiche e negli effetti di stato. Esercita cautela, poiché alcune scelte strategiche possono rapidamente aprire la strada alla devastazione.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "RUGGITO DRACONICO II",
+        "description": "Il tuo Attacco aumenta e la tua Difesa diminuisce di 1 per 1 turno. Poi, effettua un attacco corpo a corpo di 20 Potenza."
+      },
+      {
+        "name": "COLPO AEREO II",
+        "description": "Effettua un attacco a distanza di 30 Potenza."
+      },
+      {
+        "name": "SCUDO DI TUONO II",
+        "description": "Aumenta uno Scudo pari al 15% dei tuoi HP massimi per 2 turni. La tua Difesa aumenta di 2 per 2 turni."
+      },
+      {
+        "name": "MORENTE ARDENTE II",
+        "description": "Effettua un attacco corpo a corpo di 85 Potenza."
+      },
+      {
+        "name": "FURIA DEL SIGNORE DEL TUONO II",
+        "description": "Effettua un attacco a distanza di 40 Potenza. Se hai uno Scudo attivo, aggiorna il tuo Scudo pari al 25% dei tuoi HP massimi per 2 turni. Poi, effettua un attacco a distanza di 90 Potenza."
+      }
+    ]
+  },
+  "bloomtail": {
+    "description": "Bloomtail è un Neftie vivace alimentato dal fiore che adorna la sua schiena. Si dice che il fiore influenzi occasionalmente i suoi movimenti, aggiungendo un tocco intrigante alla sua natura!",
+    "element": "plant",
     "skills": [
       {
         "name": "COLPO FLUENTE I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+        "description": "Effettua un attacco a distanza di 20 Potenza."
       },
       {
-        "name": "MORDIBENE I",
-        "description": "Esegui un attacco a distanza di Potenza 35."
+        "name": "BOUQUET TOSSICO I",
+        "description": "Infliggi Veleno a te stesso e all'avversario per 2 turni. Alla fine di ogni turno, il Veleno infligge danni pari al 13% degli HP massimi."
       },
       {
-        "name": "ACCIAIOZZO II",
-        "description": "La tua Difesa aumenta di 2 stadi per 3 turni."
+        "name": "TAGLIO SIMBIOTICO II",
+        "description": "Effettua un attacco corpo a corpo di 45 Potenza. Infliggi danni doppi se l'avversario è attualmente Avvelenato."
       },
       {
-        "name": "VITE PUTRIDA I",
-        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 13% degli HP massimi."
+        "name": "RIPOSTA DISPERATA II",
+        "description": "Schiva se sei colpito in questa azione di turno. Se sei attualmente Avvelenato, effettua anche un contrattacco di 50 Potenza."
       },
       {
-        "name": "FRACASSO DI ROCCIA II",
-        "description": "Esegui un attacco corpo a corpo di Potenza 100. Il tuo Attacco aumenta di 1 stadio per 1 turno."
+        "name": "FIORE VAMPIRICO III",
+        "description": "Effettua un attacco a distanza di 80 Potenza. Se l'attacco è Forte contro il bersaglio, assorbi il 50% dei danni inflitti."
+      }
+    ]
+  },
+  "ghouliath": {
+    "description": "I Ghoulith erano un tempo potenti draghi, ma ora vagano come fantasmi finché le loro questioni irrisolte non vengono risolte...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "RITUALE DI VITA I",
+        "description": "Attacco autoinflitto di 10 Potere."
+      },
+      {
+        "name": "FENDENTE AEREO II",
+        "description": "Esegui un attacco a distanza di 30 Potere."
+      },
+      {
+        "name": "SIFONE D'ANIMA II",
+        "description": "Se il tuo avversario è Maledetto, guarisciti del 15% dei tuoi HP massimi e aumenta il tuo Attacco e Difesa di 2 per 2 turni."
+      },
+      {
+        "name": "FIAMME MALEDETTE II",
+        "description": "Esegui un attacco a distanza di 50 Potere. Se colpisce, infliggi Maledizione all'avversario. Dopo un conto alla rovescia di 2 turni, la Maledizione infligge il 20% degli HP massimi dell'avversario."
+      },
+      {
+        "name": "TERREMOTO MALEDETTO III",
+        "description": "Esegui un attacco a distanza di 55 Potere. Se l'avversario è Maledetto, infligge danni doppi."
       }
     ]
   }
