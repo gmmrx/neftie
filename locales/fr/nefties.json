@@ -234,28 +234,28 @@
     ]
   },
   "raccoin": {
-    "description": "Raccoin, avec sa nature rusée et son comportement décontracté, est célèbre pour son agilité et son amour des endroits ombragés et tranquilles.",
+    "description": "Raccoin, avec sa nature rusée et son comportement décontracté, est célèbre pour son agilité et son amour des endroits ombragés et tranquilles pour se reposer.",
     "element": "air",
     "skills": [
       {
         "name": "VOL DE VIGUEUR I",
-        "description": "Effectuez une attaque au corps à corps de 10 de puissance. Votre Vitesse est augmentée de 1 pendant 2 tours. La Vitesse de l'adversaire est réduite de 1 pendant 2 tours."
+        "description": "Effectuer une attaque de Mêlée de 10 Puissance. Si votre Vitesse actuelle est inférieure à celle de l'adversaire, augmentez votre Vitesse de 1 niveau pendant 2 tours."
       },
       {
-        "name": "RÉFLEXES CHANCEUX II",
-        "description": "Esquivez puis effectuez une contre-attaque de 40 de puissance si vous êtes touché par une attaque au corps à corps cette action de tour. Si déclenchée, réduisez la Défense de l'adversaire de 2 pendant 2 tours."
+        "name": "PARTAGER LA RICHESSE I",
+        "description": "Effectuer une attaque de Mêlée de 60 Puissance. Augmentez la Vitesse de votre adversaire de 1 pendant 2 tours."
       },
       {
-        "name": "BONNE FORTUNE I",
-        "description": "100% de chance d'esquiver une attaque cette action de tour. Si déclenchée, purgez les effets de statut sur vous-même."
+        "name": "REPOS II",
+        "description": "Soignez-vous de 15% de vos PV max. Réduisez votre Défense de 1 niveau pendant 2 tours."
       },
       {
-        "name": "PAUSE II",
-        "description": "Soignez-vous de 15% de vos PV max. Votre Vitesse est réduite de 2 pendant 2 tours."
+        "name": "REFLEXES CHANCEUX II",
+        "description": "Esquivez et effectuez ensuite une Contre-attaque de 40 Puissance si vous êtes touché par une attaque de Mêlée cette action de tour. Si déclenché, réduisez la Défense de l'adversaire de 2 pendant 2 tours."
       },
       {
-        "name": "SURVOLAGE III",
-        "description": "Effectuez une attaque au corps à corps de 70 de puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque supplémentaire au corps à corps de 35 de puissance en utilisant votre Vitesse à la place de l'Attaque."
+        "name": "EN FEU III",
+        "description": "Effectuer une attaque de Mêlée de 70 Puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque de Mêlée supplémentaire de 35 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
       }
     ]
   },
@@ -269,7 +269,7 @@
       },
       {
         "name": "ENDURER II",
-        "description": "Déflectez 50% des dégâts subis par une attaque cette action de tour. Si déclenchée, gagnez 2 Engouement."
+        "description": "Déflectez 45% des dégâts subis par une attaque cette action de tour. Si déclenchée, gagnez 2 Engouement."
       },
       {
         "name": "ÉTINCELLE DE FLAMME I",
@@ -281,7 +281,7 @@
       },
       {
         "name": "CROC SINISTRE III",
-        "description": "Effectuez une attaque au corps à corps de 120 de puissance. Si elle touche, infligez Malédiction à l'adversaire. À la fin du tour, la Malédiction inflige des dégâts égaux à 10% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut se cumuler et ne réinitialise pas la durée de la Malédiction."
+        "description": "Effectuez une attaque au corps à corps de 110 de puissance. Si elle touche, infligez Malédiction à l'adversaire. À la fin du tour, la Malédiction inflige des dégâts égaux à 10% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de la Malédiction de 50%. Cet effet peut se cumuler et ne réinitialise pas la durée de la Malédiction."
       }
     ]
   },
@@ -303,7 +303,7 @@
       },
       {
         "name": "COUP DE TONNERRE II",
-        "description": "Effectuez une attaque à distance de 70 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
+        "description": "Effectuez une attaque à distance de 50 de puissance. Votre Vitesse est augmentée de 1 niveau pendant 2 tours."
       },
       {
         "name": "SURCHARGE ÉLECTRIQUE II",
@@ -411,33 +411,33 @@
       },
       {
         "name": "RAMPAGE DU SEIGNEUR DU TONNERRE II",
-        "description": "Effectuez une attaque à distance de 40 de puissance. Si vous avez un Bouclier actif, améliorez votre Bouclier égal à 25% de vos PV max pendant 2 tours. Ensuite, effectuez une attaque à distance de 90 de puissance."
+        "description": "Effectuez une attaque à distance de 60 de puissance. Si vous avez un Bouclier actif, améliorez votre Bouclier égal à 25% de vos PV max pendant 2 tours. Ensuite, effectuez une attaque à distance de 30 de puissance."
       }
     ]
   },
   "bloomtail": {
-    "description": "Bloomtail est un Neftie énergique alimenté par la fleur ornant son dos. On dit que la fleur affecte occasionnellement ses mouvements, ajoutant une touche intrigante à sa nature!",
+    "description": "Bloomtail est un Neftie énergique alimenté par la fleur qui orne son dos. On dit que la fleur affecte occasionnellement ses mouvements, ajoutant une touche intrigante à sa nature !",
     "element": "plant",
     "skills": [
       {
-        "name": "FRAPPE FLUIDE I",
-        "description": "Effectuez une attaque à distance de 20 de puissance."
+        "name": "COUP D'ADRÉNALINE II",
+        "description": "Effectuer une attaque de Mêlée de 20 Puissance. Si elle touche, gagnez 3 Hype."
       },
       {
         "name": "BOUQUET TOXIQUE I",
-        "description": "Infligez Poison à vous et à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 13% des PV max."
+        "description": "Infligez Poison à vous-même et à l'adversaire pendant 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 10% des PV max."
       },
       {
-        "name": "ENTAILLE SYMBIOTIQUE II",
-        "description": "Effectuez une attaque au corps à corps de 45 de puissance. Infligez des dégâts doublés si l'adversaire est actuellement empoisonné."
+        "name": "COUP SYMBIOTIQUE II",
+        "description": "Effectuer une attaque de Mêlée de 45 Puissance. Infligez des dégâts doublés si l'adversaire est actuellement Empoisonné."
       },
       {
         "name": "RIPOSTE DÉSESPÉRÉE II",
-        "description": "Esquivez si vous êtes touché cette action de tour. Si vous êtes actuellement empoisonné, effectuez également une contre-attaque de 50 de puissance."
+        "description": "Esquivez si vous êtes touché cette action de tour. Si vous êtes actuellement Empoisonné, effectuez également une Contre-attaque de 50 Puissance."
       },
       {
         "name": "FLEUR VAMPIRIQUE III",
-        "description": "Effectuez une attaque à distance de 80 de puissance. Si l'attaque est Forte contre la cible, volez 50% des dégâts infligés."
+        "description": "Effectuer une attaque à distance de 110 Puissance. Si vous êtes actuellement Empoisonné, vole-vie de 60% des dégâts infligés."
       }
     ]
   },
@@ -464,6 +464,188 @@
       {
         "name": "TREMBLEMENT DE MALÉDICTION III",
         "description": "Effectuer une attaque à distance de 55 Puissance. Si l'adversaire est Maudit, inflige des dégâts doubles."
+      }
+    ]
+  },
+  "chocorex": {
+    "description": "Loué pour sa loyauté, Chocorex est un compagnon privilégié et une monture de confiance à Tokane. Cependant, en raison de son intelligence limitée, il nécessite des cavaliers expérimentés.",
+    "element": "water",
+    "skills": [
+      {
+        "name": "COUP ÉNERGÉTIQUE I",
+        "description": "Effectuer une attaque de Mêlée de 20 Puissance."
+      },
+      {
+        "name": "ACTE DUR I",
+        "description": "Si vous êtes touché cette action de tour, augmentez votre Défense de 1 pendant 3 tours."
+      },
+      {
+        "name": "DESTIN CERTAIN III",
+        "description": "Infligez une Malédiction à vous-même et augmentez votre Attaque de 5 niveaux pendant 2 tours. Après un compte à rebours de 2 tours, la Malédiction inflige des dégâts égaux à 100% de vos PV max."
+      },
+      {
+        "name": "VAGUE DÉFERLANTE II",
+        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
+      },
+      {
+        "name": "MORSURE GÉNÉREUSE II",
+        "description": "Effectuer une attaque de Mêlée de 95 Puissance. Vole-vie 20% des dégâts infligés."
+      }
+    ]
+  },
+  "keybab": {
+    "description": "Lorsqu'il active son mécanisme d'autodéfense, Keybab change de couleur pour devenir rouge bouillant, et sa vapeur épicée fait pleurer quiconque l'inhalant.",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "SAISIR I",
+        "description": "Attaque personnelle de 25 Puissance."
+      },
+      {
+        "name": "REPOS I",
+        "description": "Soignez-vous de 10% de vos PV max."
+      },
+      {
+        "name": "COUCHE ÉPICÉE II",
+        "description": "Augmentez un Bouclier égal à 15% de vos PV max. Si vos PV actuels sont inférieurs à ceux de l'adversaire, augmentez votre Bouclier égal à 30% de vos PV max."
+      },
+      {
+        "name": "CONFIANCE BRÛLANTE II",
+        "description": "Effectuez une attaque de Mêlée de 55 Puissance. Si vos PV actuels sont supérieurs à ceux de l'adversaire, infligez des dégâts doubles."
+      },
+      {
+        "name": "RAVAGE ENFLAMMÉ II",
+        "description": "Effectuez une attaque à distance de 60 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doubles."
+      }
+    ]
+  },
+  "beeblock": {
+    "description": "Connu pour sa nature calme, Beeblock est apprivoisé pour sa production d'une gelée délicieusement sucrée nommée Nury. Mais lorsqu'il est menacé, il délivre des piqûres puissantes, repoussant tout attaquant.",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "POLLINISER I",
+        "description": "Soignez-vous de 7% de vos PV max."
+      },
+      {
+        "name": "DANSE VIBRANTE II",
+        "description": "Dévie 40% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque. Si déclenché, augmentez votre Vitesse de 1 pendant 2 tours et gagnez 1 Hype."
+      },
+      {
+        "name": "RIPOSTE ÉPINEUSE II",
+        "description": "Esquivez une fois et effectuez ensuite une Contre-attaque de 45 Puissance en utilisant votre Vitesse au lieu de l'Attaque si vous êtes touché cette action de tour."
+      },
+      {
+        "name": "SUPER DARD III",
+        "description": "Effectuez une attaque de Mêlée de 70 Puissance. Si elle touche, infligez Poison et réduisez l'Attaque et la Défense de l'adversaire de 2 pendant 2 tours. À la fin de chaque tour, le Poison inflige des dégâts égaux à 10% des PV max de l'adversaire."
+      },
+      {
+        "name": "PURGE DE SYLPHOR III",
+        "description": "Nettoyez-vous. Ensuite, effectuez une attaque à distance de 160 Puissance."
+      }
+    ]
+  },
+  "walpuff": {
+    "description": "Les Walpuffs sont connus pour leurs têtes molles mais leurs corps robustes. C'est pourquoi ils portent des casques protecteurs ornés de défenses acérées, fournissant une armure redoutable!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "ENDURER II",
+        "description": "Dévie 45% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque. Si déclenché, gagnez 2 Hype."
+      },
+      {
+        "name": "PEAU DE PIERRE I",
+        "description": "Augmentez votre Défense de 1 niveau pendant 2 tours. Réduisez la Défense de l'adversaire de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "COUP DE TÊTE II",
+        "description": "Effectuez une attaque de Mêlée de 55 Puissance. Réduisez votre Défense de 1 niveau mais augmentez votre Attaque de 2 niveaux pendant 2 tours."
+      },
+      {
+        "name": "BARRIÈRE ARCTIQUE II",
+        "description": "Augmentez un Bouclier égal à 15% de vos PV max pendant 2 tours. Si votre Défense est actuellement renforcée, augmentez votre Bouclier égal à 40% de vos PV max."
+      },
+      {
+        "name": "COUP BLINDÉ III",
+        "description": "Effectuez une attaque de Mêlée de Basse Priorité de 155 Puissance en utilisant votre Défense au lieu de l'Attaque. Cette attaque arrive presque toujours en dernier."
+      }
+    ]
+  },
+  "whiskube": {
+    "description": "Les Whiskubes aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant qu'ils dorment. Cela entraîne une plongée soudaine dans l'eau froide, les réveillant en sursaut!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "RÉFLEXION ÉNERGISANTE I",
+        "description": "Réfléchit à l'adversaire 30% des dégâts infligés cette action de tour. Vous subissez les dégâts restants. Si déclenché, gagnez 3 Hype."
+      },
+      {
+        "name": "BRUME DE CLAIR DE LUNE II",
+        "description": "Réduisez votre Attaque et celle de votre adversaire de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "APRÈS-COUP II",
+        "description": "Réduisez la Défense de l'adversaire de 3 niveaux pendant 5 tours."
+      },
+      {
+        "name": "GLISSADE DE BOUE II",
+        "description": "Effectuez une attaque de Mêlée de 70 Puissance. Augmentez votre Défense de 1 pendant 2 tours."
+      },
+      {
+        "name": "CONTRATTAQUE FATAL III",
+        "description": "Réfléchit à l'adversaire 50% des dégâts infligés cette action de tour et effectuez une contre-attaque de 50 Puissance en utilisant votre Défense au lieu de l'Attaque. Vous subissez les dégâts restants."
+      }
+    ]
+  },
+  "dinotusk": {
+    "description": "Les Dinotusks utilisent leurs queues uniques pour se fixer à Tokane, générant de l'énergie et permettant de survivre dans des environnements difficiles.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "FLUX AFFAIBLISSANT I",
+        "description": "Votre Attaque est réduite de 1 niveau pendant 2 tours."
+      },
+      {
+        "name": "REBOND DÉSESPÉRÉ III",
+        "description": "Effectuer une attaque de Mêlée de 15 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, gagnez 3 Hype supplémentaires."
+      },
+      {
+        "name": "PAS DE DOULEUR, PAS DE GAIN I",
+        "description": "Attaque personnelle de 40 Puissance. Augmentez votre Défense de 3 niveaux pendant 3 tours."
+      },
+      {
+        "name": "DESTIN PARTAGÉ III",
+        "description": "Infligez une Malédiction à vous-même et à l'adversaire. Après un compte à rebours de 3 tours, la Malédiction inflige des dégâts égaux à 40% des PV max des deux."
+      },
+      {
+        "name": "SURVOLTA II",
+        "description": "Effectuer une attaque à distance de 115 Puissance."
+      }
+    ]
+  },
+  "tokoma": {
+    "description": "Tokomas, les plus fidèles parmi les Nefties, forment un lien à vie et protègeront leur entraîneur à tout prix!",
+    "element": "air",
+    "skills": [
+      {
+        "name": "COUP FLUIDE I",
+        "description": "Effectuer une attaque à distance de 20 Puissance."
+      },
+      {
+        "name": "GARDE D'ÉTHER II",
+        "description": "Dévie 80% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque."
+      },
+      {
+        "name": "FUREUR DU CIEL II",
+        "description": "Effectuer une attaque de Mêlée de 55 Puissance. Si elle touche, augmentez votre Vitesse de 2 pendant 2 tours."
+      },
+      {
+        "name": "COLÈRE DE LA TERRE II",
+        "description": "Effectuer une attaque de Mêlée de 55 Puissance. Si elle touche, augmentez votre Attaque de 2 niveaux pendant 2 tours."
+      },
+      {
+        "name": "LA FOUDRE FRAPPE DEUX FOIS I",
+        "description": "Augmentez votre Attaque et votre Vitesse de 2 niveaux pendant 2 tours."
       }
     ]
   }

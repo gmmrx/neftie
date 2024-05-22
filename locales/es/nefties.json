@@ -234,28 +234,28 @@
     ]
   },
   "raccoin": {
-    "description": "Raccoin, con su naturaleza astuta y comportamiento relajado, es famoso por su agilidad y su amor por los lugares tranquilos y sombreados para descansar.",
+    "description": "Raccoin, con su naturaleza astuta y comportamiento relajado, es famoso por su agilidad y amor por lugares sombreados y tranquilos para descansar.",
     "element": "air",
     "skills": [
       {
         "name": "ROBO DE VIGOR I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 10 poder. Tu Velocidad se incrementa en 1 durante 2 turnos. La Velocidad del oponente disminuye en 1 durante 2 turnos."
+        "description": "Realiza un ataque cuerpo a cuerpo de 10 Poder. Si tu Velocidad actual es menor que la del oponente, aumenta tu Velocidad en 1 nivel por 2 turnos."
       },
       {
-        "name": "REFLEJOS AFORTUNADOS II",
-        "description": "Esquiva y luego realiza un Contrataque de 40 poder si eres golpeado por un ataque cuerpo a cuerpo en esta acción de turno. Si se activa, disminuye la Defensa del oponente en 2 durante 2 turnos."
-      },
-      {
-        "name": "BUENA FORTUNA I",
-        "description": "100% de probabilidad de esquivar un ataque en esta acción de turno. Si se activa, limpia los efectos de estado en ti."
+        "name": "COMPARTIR LA RIQUEZA I",
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 Poder. Aumenta la Velocidad del oponente en 1 durante 2 turnos."
       },
       {
         "name": "RELÁJATE II",
-        "description": "Cúrate el 15% de tu HP máxima. Tu Velocidad disminuye en 2 durante 2 turnos."
+        "description": "Cúrate un 15% de tu HP máximo. Reduce tu Defensa en 1 nivel por 2 turnos."
+      },
+      {
+        "name": "REFLEJOS AFORTUNADOS II",
+        "description": "Esquiva y luego realiza un Contraataque de 40 Poder si eres golpeado por un ataque cuerpo a cuerpo en esta acción de turno. Si se activa, reduce la Defensa del oponente en 2 durante 2 turnos."
       },
       {
         "name": "ENCENDIDO III",
-        "description": "Realiza un ataque cuerpo a cuerpo de 70 poder. Si tu Velocidad es mayor que la del oponente, realiza un ataque cuerpo a cuerpo adicional de 35 poder utilizando tu Velocidad en lugar de Ataque."
+        "description": "Realiza un ataque cuerpo a cuerpo de 70 Poder. Si tu Velocidad es mayor que la del oponente, realiza un ataque cuerpo a cuerpo adicional de 35 Poder usando tu Velocidad en lugar de tu Ataque."
       }
     ]
   },
@@ -269,7 +269,7 @@
       },
       {
         "name": "RESISTIR II",
-        "description": "Desvía el 50% del daño recibido por un ataque en esta acción de turno. Si se activa, gana 2 hype."
+        "description": "Desvía el 45% del daño recibido por un ataque en esta acción de turno. Si se activa, gana 2 hype."
       },
       {
         "name": "CHISPA FLAMEANTE I",
@@ -281,7 +281,7 @@
       },
       {
         "name": "COLMILLO SOMBRÍO III",
-        "description": "Realiza un ataque cuerpo a cuerpo de 120 poder. Si golpea, inflige Maldición al oponente. Al final del turno, la Maldición inflige el 10% de la HP máxima del oponente. Reaplicar Maldición aumenta el daño inicial de Maldición en un 50%. Este efecto puede acumularse y no restablece la duración de la Maldición."
+        "description": "Realiza un ataque cuerpo a cuerpo de 110 poder. Si golpea, inflige Maldición al oponente. Al final del turno, la Maldición inflige el 10% de la HP máxima del oponente. Reaplicar Maldición aumenta el daño inicial de Maldición en un 50%. Este efecto puede acumularse y no restablece la duración de la Maldición."
       }
     ]
   },
@@ -303,7 +303,7 @@
       },
       {
         "name": "GOLPE DE TRUENO II",
-        "description": "Realiza un ataque a distancia de 70 poder. Tu Velocidad se incrementa en 1 nivel durante 2 turnos."
+        "description": "Realiza un ataque a distancia de 50 poder. Tu Velocidad se incrementa en 1 nivel durante 2 turnos."
       },
       {
         "name": "SOBRECARGA ELÉCTRICA II",
@@ -411,33 +411,33 @@
       },
       {
         "name": "ALBOROTO DEL SEÑOR DEL TRUENO II",
-        "description": "Realiza un ataque a distancia de 40 poder. Si tienes un Escudo activo, mejora tu Escudo igual al 25% de tu HP máxima durante 2 turnos. Luego, realiza un ataque a distancia de 90 poder."
+        "description": "Realiza un ataque a distancia de 60 poder. Si tienes un Escudo activo, mejora tu Escudo igual al 25% de tu HP máxima durante 2 turnos. Luego, realiza un ataque a distancia de 30 poder."
       }
     ]
   },
   "bloomtail": {
-    "description": "Bloomtail es un Neftie animado alimentado por la flor que adorna su espalda. Se dice que la flor afecta ocasionalmente sus movimientos, ¡agregando un giro intrigante a su naturaleza!",
+    "description": "Bloomtail es un Neftie vivaz alimentado por la flor que adorna su espalda. Se dice que la flor ocasionalmente afecta sus movimientos, ¡añadiendo un giro intrigante a su naturaleza!",
     "element": "plant",
     "skills": [
       {
-        "name": "GOLPE FLUIDO I",
-        "description": "Realiza un ataque a distancia de 20 poder."
+        "name": "PATADA DE ADRENALINA II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 20 Poder. Si acierta, gana 3 Hype."
       },
       {
         "name": "RAMO TÓXICO I",
-        "description": "Inflige Veneno a ti y al oponente durante 2 turnos. Al final de cada turno, el Veneno inflige un daño igual al 13% de la HP máxima."
+        "description": "Inflige Veneno a ti y al oponente durante 2 turnos. Al final de cada turno, el Veneno inflige daño igual al 10% del HP máximo."
       },
       {
-        "name": "TAJO SIMBIÓTICO II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 45 poder. Inflige el doble de daño si el oponente está actualmente envenenado."
+        "name": "CORTE SIMBIÓTICO II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 45 Poder. Inflige el doble de daño si el oponente está actualmente Envenenado."
       },
       {
         "name": "REPOSTA DESESPERADA II",
-        "description": "Esquiva si eres golpeado en esta acción de turno. Si estás actualmente envenenado, también realiza un Contrataque de 50 poder."
+        "description": "Esquiva si eres golpeado en esta acción de turno. Si estás actualmente Envenenado, también realiza un Contraataque de 50 Poder."
       },
       {
-        "name": "FLORECER VAMPÍRICO III",
-        "description": "Realiza un ataque a distancia de 80 poder. Si el ataque es fuerte contra el objetivo, roba el 50% del daño infligido."
+        "name": "FLOR VAMPÍRICA III",
+        "description": "Realiza un ataque a distancia de 110 Poder. Si estás actualmente Envenenado, roba vida por el 60% del daño infligido."
       }
     ]
   },
@@ -464,6 +464,188 @@
       {
         "name": "TERREMOTO MALDITO III",
         "description": "Realiza un ataque a distancia de 55 Poder. Si el oponente está Maldito, inflige el doble de daño."
+      }
+    ]
+  },
+  "chocorex": {
+    "description": "Alabado por su lealtad, Chocorex es un compañero favorito y una montura confiable en Tokane. Sin embargo, debido a su inteligencia limitada, requiere jinetes hábiles.",
+    "element": "water",
+    "skills": [
+      {
+        "name": "GOLPE ENERGÉTICO I",
+        "description": "Realiza un ataque cuerpo a cuerpo de 20 Poder."
+      },
+      {
+        "name": "ACTO RESISTENTE I",
+        "description": "Si eres golpeado en esta acción de turno, aumenta tu Defensa en 1 durante 3 turnos."
+      },
+      {
+        "name": "DESTINO CERTERO III",
+        "description": "Inflige Maldición a ti mismo y aumenta tu Ataque en 5 niveles durante 2 turnos. Después de una cuenta regresiva de 2 turnos, la Maldición inflige un daño igual al 100% de tus HP máximos."
+      },
+      {
+        "name": "OLA ROMPEDORA II",
+        "description": "Realiza un ataque a distancia de alta prioridad de 40 Poder. Este ataque va antes de Reflejos, Contraataques y Esquivas y casi siempre va primero."
+      },
+      {
+        "name": "MORDISCO GENEROSO II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 95 Poder. Roba vida del 20% del daño infligido."
+      }
+    ]
+  },
+  "keybab": {
+    "description": "Al activar su mecanismo de autodefensa, Keybab cambia de color a rojo hirviente, y su vapor picante hace llorar a cualquiera que lo inhale.",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "QUEMAR I",
+        "description": "Ataque propio de 25 Poder."
+      },
+      {
+        "name": "DESCANSO I",
+        "description": "Cúrate un 10% de tu HP máximo."
+      },
+      {
+        "name": "CAPA PICANTE II",
+        "description": "Aumenta un Escudo igual al 15% de tu HP máximo. Si tu HP actual es menor que el del oponente, aumenta tu Escudo igual al 30% de tu HP máximo."
+      },
+      {
+        "name": "CONFIANZA ARDIENTE II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si tu HP actual es mayor que el del oponente, inflige el doble de daño."
+      },
+      {
+        "name": "RÁFAGA ARDIENTE II",
+        "description": "Realiza un ataque a distancia de 60 Poder. Si tu HP actual es menor que el del oponente, inflige el doble de daño."
+      }
+    ]
+  },
+  "beeblock": {
+    "description": "Conocido por su naturaleza calmada, Beeblock es domesticado por su producción de una gelatina deliciosamente dulce llamada Nury. Pero cuando se siente amenazado, inflige poderosas picaduras, ahuyentando a cualquier atacante.",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "POLINIZAR I",
+        "description": "Cúrate un 7% de tu HP máximo."
+      },
+      {
+        "name": "DANZA ZUMBANTE II",
+        "description": "Desvía el 40% del daño infligido por un ataque en esta acción de turno, independientemente de la prioridad del ataque. Si se activa, aumenta tu Velocidad en 1 durante 2 turnos y gana 1 Hype."
+      },
+      {
+        "name": "REPOSTA ESPINOSA II",
+        "description": "Esquiva una vez y luego realiza un Contraataque de 45 Poder usando tu Velocidad en lugar de tu Ataque si eres golpeado en esta acción de turno."
+      },
+      {
+        "name": "SUPER AGUIJÓN III",
+        "description": "Realiza un ataque cuerpo a cuerpo de 70 Poder. Si acierta, inflige Veneno y reduce el Ataque y la Defensa del oponente en 2 durante 2 turnos. Al final de cada turno, el Veneno inflige daño igual al 10% del HP máximo del oponente."
+      },
+      {
+        "name": "PURGA DE SYLPHOR III",
+        "description": "Límpiate. Luego, realiza un ataque a distancia de 160 Poder."
+      }
+    ]
+  },
+  "walpuff": {
+    "description": "Los Walpuffs son conocidos por sus cabezas blandas pero cuerpos resistentes. ¡Por eso llevan cascos protectores adornados con colmillos afilados, proporcionando una armadura formidable!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "RESISTIR II",
+        "description": "Desvía el 45% del daño infligido por un ataque en esta acción de turno, independientemente de la prioridad del ataque. Si se activa, gana 2 Hype."
+      },
+      {
+        "name": "PIEL DE PIEDRA I",
+        "description": "Aumenta tu Defensa en 1 nivel durante 2 turnos. Reduce la Defensa del oponente en 1 nivel durante 2 turnos."
+      },
+      {
+        "name": "CABEZA DE CABEZA II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Reduce tu Defensa en 1 nivel pero aumenta tu Ataque en 2 niveles durante 2 turnos."
+      },
+      {
+        "name": "BARRERA ÁRTICA II",
+        "description": "Aumenta un Escudo igual al 15% de tu HP máximo durante 2 turnos. Si tu Defensa está actualmente potenciada, aumenta tu Escudo igual al 40% de tu HP máximo."
+      },
+      {
+        "name": "GOLPE ACORAZADO III",
+        "description": "Realiza un ataque cuerpo a cuerpo de Baja Prioridad de 155 Poder usando tu Defensa en lugar de tu Ataque. Este ataque casi siempre va último."
+      }
+    ]
+  },
+  "whiskube": {
+    "description": "A los Whiskubes les encanta descansar sobre el hielo, pero sus cuerpos reflectantes hacen que se derrita mientras duermen. Esto provoca una repentina inmersión en agua fría, ¡dándoles un buen despertar!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "REFLEJO ENERGIZANTE I",
+        "description": "Refleja al oponente el 30% del daño infligido en esta acción de turno. Recibes el daño restante. Si se activa, gana 3 Hype."
+      },
+      {
+        "name": "NIEBLA DE LUNA II",
+        "description": "Reduce tu Ataque y el Ataque del oponente en 1 nivel durante 2 turnos."
+      },
+      {
+        "name": "CONTRAGOLPE II",
+        "description": "Reduce la Defensa del oponente en 3 niveles durante 5 turnos."
+      },
+      {
+        "name": "DESLIZAMIENTO DE LODO II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 70 Poder. Aumenta tu Defensa en 1 durante 2 turnos."
+      },
+      {
+        "name": "CONTRATAQUE FATAL III",
+        "description": "Refleja al oponente el 50% del daño infligido en esta acción de turno y realiza un contraataque de 50 Poder usando tu Defensa en lugar de tu Ataque. Recibes el daño restante."
+      }
+    ]
+  },
+  "dinotusk": {
+    "description": "Los Dinotusks usan sus colas únicas para arraigarse a Tokane, generando energía y permitiéndoles sobrevivir en entornos hostiles.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "FLUJO DEBILITANTE I",
+        "description": "Tu Ataque se reduce en 1 nivel durante 2 turnos."
+      },
+      {
+        "name": "REBOTE DESESPERADO III",
+        "description": "Realiza un ataque cuerpo a cuerpo de 15 Poder. Si tu HP actual es menor que el del oponente, gana 3 Hype adicionales."
+      },
+      {
+        "name": "SIN DOLOR, NO HAY GANANCIA I",
+        "description": "Ataque personal de 40 Poder. Aumenta tu Defensa en 3 niveles durante 3 turnos."
+      },
+      {
+        "name": "DESTINO COMPARTIDO III",
+        "description": "Inflige Maldición a ti mismo y al oponente. Después de una cuenta regresiva de 3 turnos, la Maldición inflige un daño igual al 40% del HP máximo de ambos."
+      },
+      {
+        "name": "SURGE DE VOLTAJE III",
+        "description": "Realiza un ataque a distancia de 115 Poder."
+      }
+    ]
+  },
+  "tokoma": {
+    "description": "¡Los Tokomas, los más leales entre los Nefties, forman un vínculo de por vida y protegerán a su entrenador a toda costa!",
+    "element": "air",
+    "skills": [
+      {
+        "name": "GOLPE FLUIDO I",
+        "description": "Realiza un ataque a distancia de 20 Poder."
+      },
+      {
+        "name": "GUARDIA DE ÉTER II",
+        "description": "Desvía el 80% del daño infligido por un ataque en esta acción de turno, independientemente de la prioridad del ataque."
+      },
+      {
+        "name": "FURIA DEL CIELO II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si acierta, aumenta tu Velocidad en 2 durante 2 turnos."
+      },
+      {
+        "name": "IRA DE LA TIERRA II",
+        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si acierta, aumenta tu Ataque en 2 niveles durante 2 turnos."
+      },
+      {
+        "name": "EL RAYO CAE DOS VECES I",
+        "description": "Aumenta tu Ataque y Velocidad en 2 niveles durante 2 turnos."
       }
     ]
   }

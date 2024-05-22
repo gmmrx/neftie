@@ -234,28 +234,28 @@
     ]
   },
   "raccoin": {
-    "description": "Raccoin, kurnaz doğası ve rahat tavırlarıyla, çevikliği ve gölgeli, sakin dinlenme yerlerine olan sevgisi ile ünlüdür.",
+    "description": "Raccoin, kurnaz doğası ve rahat tavırlarıyla, çevikliği ve gölgeli, huzurlu dinlenme yerlerine olan sevgisi ile ünlüdür.",
     "element": "air",
     "skills": [
       {
-        "name": "CANLILIK HIRSIZLIĞI I",
-        "description": "10 Güçlü bir Yakın Dövüş saldırısı yap. Hızın 2 tur boyunca 1 aşama artar. Rakibin Hızı 2 tur boyunca 1 aşama düşer."
+        "name": "GÜÇ HIRSIZLIĞI I",
+        "description": "10 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut Hızınız rakibinizden düşükse, Hızınızı 2 tur boyunca 1 aşama artırın."
+      },
+      {
+        "name": "SERVETİ PAYLAŞ I",
+        "description": "60 Güçlük Yakın dövüş saldırısı gerçekleştir. Rakibinizin Hızını 2 tur boyunca 1 artırın."
+      },
+      {
+        "name": "RAHATLAMA II",
+        "description": "Maksimum HP'nizin %15'ini kendinizi iyileştirin. Savunmanızı 2 tur boyunca 1 aşama azaltın."
       },
       {
         "name": "ŞANSLI REFLEKSLER II",
-        "description": "Bir Yakın Dövüş saldırısı tarafından vurulursan, kaç ve 40 Güçlü bir Karşı Saldırı yap. Eğer tetiklenirse, rakibin Savunmasını 2 tur boyunca 2 aşama düşür."
+        "description": "Bu turda Yakın dövüş saldırısıyla vurulursanız, kaçının ve ardından 40 Güçlük bir Karşı Saldırı gerçekleştirin. Tetiklenirse, rakibinizin Savunmasını 2 tur boyunca 2 düşürün."
       },
       {
-        "name": "İYİ ŞANS I",
-        "description": "Bu turda bir saldırıdan kaçma şansı %100. Eğer tetiklenirse, durum etkilerini temizle."
-      },
-      {
-        "name": "RAHATLA II",
-        "description": "Maksimum HP'nin %15'i kadar kendini iyileştir. Hızın 2 tur boyunca 2 aşama düşer."
-      },
-      {
-        "name": "ALEVLENME III",
-        "description": "70 Güçlü bir Yakın Dövüş saldırısı yap. Eğer Hızın rakibinkinden yüksekse, hızını kullanarak 35 Güçlü ek bir Yakın Dövüş saldırısı yap."
+        "name": "ATEŞLİ III",
+        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştir. Hızınız rakibinizden yüksekse, Saldırı yerine Hızınızı kullanarak 35 Güçlük ek bir Yakın dövüş saldırısı gerçekleştirin."
       }
     ]
   },
@@ -269,7 +269,7 @@
       },
       {
         "name": "DAYANMA II",
-        "description": "Bu turda bir saldırının aldığı hasarın %50'sini saptır. Eğer tetiklenirse, 2 Hype kazan."
+        "description": "Bu turda bir saldırının aldığı hasarın %45'sini saptır. Eğer tetiklenirse, 2 Hype kazan."
       },
       {
         "name": "ALEV KIVILCIMI I",
@@ -281,7 +281,7 @@
       },
       {
         "name": "KARANLIK DİŞ III",
-        "description": "120 Güçlü bir Yakın Dövüş saldırısı yap. Eğer vurursa, rakibe Lanet uygula. Ters saldırı sonunda, Lanet rakibin maksimum HP'sinin %10'u kadar hasar verir. Laneti tekrar uygulamak, ilk Lanet hasarını %50 artırır. Bu etki yığılabilir ve Lanet süresini sıfırlamaz."
+        "description": "110 Güçlü bir Yakın Dövüş saldırısı yap. Eğer vurursa, rakibe Lanet uygula. Ters saldırı sonunda, Lanet rakibin maksimum HP'sinin %10'u kadar hasar verir. Laneti tekrar uygulamak, ilk Lanet hasarını %50 artırır. Bu etki yığılabilir ve Lanet süresini sıfırlamaz."
       }
     ]
   },
@@ -303,7 +303,7 @@
       },
       {
         "name": "YILDIRIM SALDIRISI II",
-        "description": "70 Güçlü bir Menzilli saldırı yap. Hızın 2 tur boyunca 1 aşama artar."
+        "description": "50 Güçlü bir Menzilli saldırı yap. Hızın 2 tur boyunca 1 aşama artar."
       },
       {
         "name": "ELEKTRİKSEL AŞIRI YÜK II",
@@ -411,33 +411,33 @@
       },
       {
         "name": "YILDIRIM EFENDİSİNİN SALDIRISI II",
-        "description": "40 Güçlü bir Menzilli saldırı yap. Eğer aktif bir Kalkanın varsa, 2 tur boyunca maksimum HP'nin %25'i kadar Kalkanını yükselt. Ardından, 90 Güçlü bir Menzilli saldırı yap."
+        "description": "60 Güçlü bir Menzilli saldırı yap. Eğer aktif bir Kalkanın varsa, 2 tur boyunca maksimum HP'nin %25'i kadar Kalkanını yükselt. Ardından, 30 Güçlü bir Menzilli saldırı yap."
       }
     ]
   },
   "bloomtail": {
-    "description": "Bloomtail, sırtındaki çiçekle beslenen enerjik bir Neftie'dir. Söylendiğine göre, çiçek hareketlerini ara sıra etkiler, doğasına ilginç bir bükülme ekler!",
+    "description": "Bloomtail, sırtındaki çiçekle beslenen enerjik bir Neftie'dir. Çiçeğin zaman zaman hareketlerini etkilediği ve doğasına ilginç bir dokunuş kattığı söylenir!",
     "element": "plant",
     "skills": [
       {
-        "name": "AKICI VURUŞ I",
-        "description": "20 Güçlü bir Menzilli saldırı yap."
+        "name": "ADRENALİN TEKME II",
+        "description": "20 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, 3 Hype kazan."
       },
       {
-        "name": "ZAHİRLİ BUKET I",
-        "description": "Sana ve rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %13'ü kadar hasar verir."
+        "name": "ZEHİRLİ BUKET I",
+        "description": "Kendinize ve rakibinize 2 tur boyunca Zehir uygulayın. Her turun sonunda, Zehir maksimum HP'nin %10'u kadar hasar verir."
       },
       {
-        "name": "SEMİBİOTİK KESİK II",
-        "description": "45 Güçlü bir Yakın Dövüş saldırısı yap. Rakip şu anda Zehirli ise, çift hasar ver."
+        "name": "SEMİBOTİK KESİK II",
+        "description": "45 Güçlük Yakın dövüş saldırısı gerçekleştir. Rakip şu anda Zehirlenmişse, çift hasar ver."
       },
       {
         "name": "UMUTSUZ KARŞI SALDIRI II",
-        "description": "Bu turda vurulursan, kaç. Eğer şu anda Zehirli isen, ayrıca 50 Güçlü bir Karşı Saldırı yap."
+        "description": "Bu turda vurulursanız kaçının. Şu anda Zehirlenmişseniz, ayrıca 50 Güçlük bir Karşı Saldırı gerçekleştirin."
       },
       {
         "name": "VAMPİRİK ÇİÇEK III",
-        "description": "80 Güçlü bir Menzilli saldırı yap. Eğer saldırı hedefe karşı Güçlü ise, verilen hasarın %50'sini yaşam çal."
+        "description": "110 Güçlük Uzaktan saldırı gerçekleştir. Şu anda Zehirlenmişseniz, verilen hasarın %60'ını can çalma olarak alın."
       }
     ]
   },
@@ -465,6 +465,188 @@
       {
         "name": "LANETLİ DEPREM III",
         "description": "55 Güçlük Uzaktan saldırı gerçekleştir. Rakip Lanetlenmişse, çift hasar verir."
+      }
+    ]
+  },
+  "chocorex": {
+    "description": "Sadakatiyle övülen Chocorex, Tokane'de tercih edilen bir yoldaş ve güvenilir bir binek olarak durur. Ancak, sınırlı zekası nedeniyle, yetenekli binicilere ihtiyaç duyar.",
+    "element": "water",
+    "skills": [
+      {
+        "name": "ENERJİK YUMRUK I",
+        "description": "20 Güçlük Yakın dövüş saldırısı gerçekleştir."
+      },
+      {
+        "name": "ZORLU DAVRANIŞ I",
+        "description": "Bu turda vurulursanız, Savunmanızı 3 tur boyunca 1 artırın."
+      },
+      {
+        "name": "KESİN KADER III",
+        "description": "Kendinize Lanet uygulayın ve 2 tur boyunca Saldırınızı 5 aşama artırın. 2 tur geri sayımdan sonra, Lanet maksimum HP'nizin %100'ü kadar hasar verir."
+      },
+      {
+        "name": "ÇARPIŞAN DALGA II",
+        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
+      },
+      {
+        "name": "CÖMERT ISIRIK II",
+        "description": "95 Güçlük Yakın dövüş saldırısı gerçekleştir. Verilen hasarın %20'sini can çalma olarak geri alır."
+      }
+    ]
+  },
+  "keybab": {
+    "description": "Kendi kendini savunma mekanizmasını etkinleştirdiğinde, Keybab rengi kaynar kırmızıya döner ve baharatlı buharı onu soluyan herkesi gözyaşlarına boğar.",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "KIZARTMA I",
+        "description": "25 Güçlük kendine saldırı."
+      },
+      {
+        "name": "DİNLENME I",
+        "description": "Maksimum HP'nizin %10'u kadar kendinizi iyileştirin."
+      },
+      {
+        "name": "BAHARAT KATMANI II",
+        "description": "Maksimum HP'nizin %15'i kadar bir Kalkan yükseltin. Mevcut HP'niz rakibinizden düşükse, Kalkanınızı maksimum HP'nizin %30'u kadar yükseltin."
+      },
+      {
+        "name": "YANAN GÜVEN II",
+        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut HP'niz rakibinizden yüksekse, çift hasar verin."
+      },
+      {
+        "name": "ATEŞLİ KATLİAM II",
+        "description": "60 Güçlük Uzaktan saldırı gerçekleştir. Mevcut HP'niz rakibinizden düşükse, çift hasar verin."
+      }
+    ]
+  },
+  "beeblock": {
+    "description": "Sakin doğasıyla bilinen Beeblock, Nury adında lezzetli bir tatlı jöle üretimi için evcilleştirilmiştir. Ancak tehdit edildiğinde, güçlü iğnelerle saldırır ve saldırganı uzaklaştırır.",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "TOZLAŞTIRMA I",
+        "description": "Maksimum HP'nizin %7'si kadar kendinizi iyileştirin."
+      },
+      {
+        "name": "VIZILDAYAN DANS II",
+        "description": "Bu turdaki bir saldırının verdiği hasarın %40'ını savuşturun, saldırının önceliğine bakılmaksızın. Tetiklenirse, Hızınızı 2 tur boyunca 1 artırın ve 1 Hype kazanın."
+      },
+      {
+        "name": "DİKENLİ KARŞI SALDIRI II",
+        "description": "Bu turda vurulursanız bir kez kaçının ve ardından Saldırı yerine Hızınızı kullanarak 45 Güçlük bir Karşı Saldırı gerçekleştirin."
+      },
+      {
+        "name": "SÜPER İĞNE III",
+        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştirin. İsabet ederse, Zehir uygulayın ve rakibin Saldırı ve Savunmasını 2 tur boyunca 2 düşürün. Her turun sonunda, Zehir rakibin maksimum HP'sinin %10'u kadar hasar verir."
+      },
+      {
+        "name": "SYLPHOR'UN ARINDIRMA III",
+        "description": "Kendinizi temizleyin. Ardından, 160 Güçlük Uzaktan saldırı gerçekleştirin."
+      }
+    ]
+  },
+  "walpuff": {
+    "description": "Walpuff'lar yumuşak başları ama sağlam vücutlarıyla bilinirler. Bu yüzden keskin dişlerle süslenmiş koruyucu başlıklar takarlar ve bu onlara sağlam bir zırh sağlar!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "DAYANMA II",
+        "description": "Bu turdaki bir saldırının verdiği hasarın %45'ini savuşturun, saldırının önceliğine bakılmaksızın. Tetiklenirse, 2 Hype kazanın."
+      },
+      {
+        "name": "TAŞ CİLT I",
+        "description": "Savunmanızı 2 tur boyunca 1 aşama artırın. Rakibinizin Savunmasını 2 tur boyunca 1 aşama azaltın."
+      },
+      {
+        "name": "TOS II",
+        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştirin. Savunmanızı 1 aşama düşürün, ancak Saldırınızı 2 tur boyunca 2 aşama artırın."
+      },
+      {
+        "name": "ARCTIK BARİYER II",
+        "description": "2 tur boyunca maksimum HP'nizin %15'i kadar bir Kalkan yükseltin. Savunmanız şu anda güçlendirilmişse, Kalkanınızı maksimum HP'nizin %40'ı kadar yükseltin."
+      },
+      {
+        "name": "ZIRHLI DARBE III",
+        "description": "Saldırı yerine Savunmanızı kullanarak 155 Güçlük düşük öncelikli bir Yakın dövüş saldırısı gerçekleştirin. Bu saldırı neredeyse her zaman son gider."
+      }
+    ]
+  },
+  "whiskube": {
+    "description": "Whiskube'ler buzun üzerinde dinlenmeyi severler, ancak yansıtıcı vücutları uyurken buzun erimesine neden olur. Bu, soğuk suya ani bir dalışla sonuçlanır ve onları oldukça sert uyandırır!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERJİ VEREN YANSIMA I",
+        "description": "Bu turdaki verilen hasarın %30'unu rakibe yansıtın. Kalan hasarı alırsınız. Tetiklenirse, 3 Hype kazanın."
+      },
+      {
+        "name": "AY IŞIĞI SİSİ II",
+        "description": "Saldırınızı ve Rakibinizin Saldırısını 2 tur boyunca 1 aşama düşürün."
+      },
+      {
+        "name": "SONRASALDIRI II",
+        "description": "Rakibinizin Savunmasını 5 tur boyunca 3 aşama düşürün."
+      },
+      {
+        "name": "ÇAMUR KAYMASI II",
+        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştirin. Savunmanızı 2 tur boyunca 1 artırın."
+      },
+      {
+        "name": "EMİCİ KARŞI SALDIRI III",
+        "description": "Bu turda verilen hasarın %50'sini rakibe yansıtın ve Saldırı yerine Savunmanızı kullanarak 50 Güçlük bir karşı saldırı gerçekleştirin. Kalan hasarı alırsınız."
+      }
+    ]
+  },
+  "dinotusk": {
+    "description": "Dinotusk'lar benzersiz kuyruklarını Tokane'ye bağlanmak, enerji üretmek ve zorlu ortamlarda hayatta kalmak için kullanırlar.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "GÜÇSÜZLEŞTİRİCİ AKIŞ I",
+        "description": "Saldırınız 2 tur boyunca 1 aşama düşer."
+      },
+      {
+        "name": "UMUTSUZ YANSIMA III",
+        "description": "15 Güçlük Yakın dövüş saldırısı gerçekleştirin. Mevcut HP'niz rakibinizden düşükse, ek olarak 3 Hype kazanın."
+      },
+      {
+        "name": "ACI YOK, KAZANÇ YOK I",
+        "description": "40 Güçlük kendine saldırı. Savunmanızı 3 tur boyunca 3 aşama artırın."
+      },
+      {
+        "name": "PAYLAŞILAN KADER III",
+        "description": "Kendinize ve rakibinize Lanet uygulayın. 3 tur geri sayımdan sonra, Lanet sizin ve rakibinizin maksimum HP'sinin %40'ı kadar hasar verir."
+      },
+      {
+        "name": "ŞARJ PATLAMASI III",
+        "description": "115 Güçlük Uzaktan saldırı gerçekleştirin."
+      }
+    ]
+  },
+  "tokoma": {
+    "description": "Neftie'ler arasında en sadık olan Tokoma, ömür boyu sürecek bir bağ kurar ve eğitmenini her ne pahasına olursa olsun korur!",
+    "element": "air",
+    "skills": [
+      {
+        "name": "AKICI VURUŞ I",
+        "description": "20 Güçlük Uzaktan saldırı gerçekleştir."
+      },
+      {
+        "name": "ETHER KORUMASI II",
+        "description": "Bu turdaki bir saldırının verdiği hasarın %80'ini savuşturun, saldırının önceliğine bakılmaksızın."
+      },
+      {
+        "name": "GÖKYÜZÜNÜN ÖFKESİ II",
+        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Hızınızı 2 tur boyunca 2 artırın."
+      },
+      {
+        "name": "YERYÜZÜNÜN GAZABI II",
+        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Saldırınızı 2 tur boyunca 2 aşama artırın."
+      },
+      {
+        "name": "ŞİMŞEK İKİ KERE ÇARPAR I",
+        "description": "Saldırınızı ve Hızınızı 2 tur boyunca 2 aşama artırın."
       }
     ]
   }

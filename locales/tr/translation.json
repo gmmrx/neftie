@@ -75,6 +75,30 @@
     },
     "bloomer": {
       "description": "Bu yumurta, koklayan herkesi büyüleyen tatlı bir koku yayar, ama nereden geldi? Kimse bilmiyor, ama gören herkesi büyülüyor!"
+    },
+    "leaf": {
+      "description": "Katmanlar halinde yemyeşil yapraklar bu yumurtayı kaplamak için karmaşık bir şekilde dokunur, yüzeyinde büyüleyici desenler oluşturur."
+    },
+    "clover": {
+      "description": "Yonca yumurtası iyi şansın bir sembolüdür. Bir tane bulanlara şans vaat eder ve bu da onu Arayıcılar arasında çok aranan bir nesne yapar."
+    },
+    "mirage": {
+      "description": "Bu değerli yumurta, yanılsamalı doğası nedeniyle bazılarına manzara içinde gizlenmiş bir mücevher gibi görünürken, diğerleri tarafından sadece bir kaya oluşumu olarak algılandığından bulmak zordur."
+    },
+    "dune": {
+      "description": "Dune yumurtası, elinizin en hafif dokunuşla içinden geçebileceği gibi görünebilir, ancak çok fazla baskı uygulandığında parçacıklar yerinden çıkar ve bunları solumak halüsinasyonlara neden olur."
+    },
+    "frost": {
+      "description": "Yumurtanın yarı saydam yüzeyinin altındaki dönen don desenleri, ışığı hipnotize edici renk gösterileriyle kırar."
+    },
+    "aurora": {
+      "description": "Aurora yumurtası, neredeyse başka dünyaya ait görünümüyle ilgiyi çeker. Hafif bir soğukluk içinde ne olduğunu ima eder ve dokunma cesareti olanları cezbetmektedir."
+    },
+    "moss": {
+      "description": "Bu yumurta tamamen parlak yeşil yosundan yapılmıştır. Dokunulduğunda yüzeyi kadifemsi hissedilir ve çevredeki insanları çeken hafif bir toprak kokusu yayar."
+    },
+    "marsh": {
+      "description": "Bataklık bitki örtüsünden oluşan bataklık yumurtası, narin ama sağlam görünür, baskıya hafifçe yol verirken şeklini korur."
     }
   },
   "errors": {
