@@ -60,7 +60,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
 
           return (
             <div
-              className="border w-full rounded-md p-4 mb-4 border-[#706F6F]"
+              className="border w-full rounded-md p-4 mb-4 border-[#706F6F] relative pb-8"
               key={skill.description}
             >
               <div></div>
@@ -71,6 +71,10 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
               </div>
               <div className="font-normal text-xs">
                 {skills && skills.length > 0 && skills[index].description}
+              </div>
+              <div className="absolute bottom-2 right-2 text-sm flex gap-2 lowercase border p-1 rounded-sm px-2">
+                <img src="/images/hype.png" alt="Hype" className="w-[18px]" />
+                <span className="" style={{ fontVariant: "all-small-caps" }}>{skill?.hype} Hype</span>
               </div>
             </div>
           );

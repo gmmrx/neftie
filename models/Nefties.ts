@@ -23,7 +23,7 @@ export class Nefties
   element!: string;
   image!: string;
   slug!: string;
-  skills!: { icon: string; name: string; description: string }[];
+  skills!: { icon: string; name: string; description: string; hype: string }[];
   createdAt!: Date;
   updatedAt!: Date;
 
