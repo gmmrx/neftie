@@ -26,11 +26,7 @@ const SingleTierList: NextPage = ({ data }) => {
           const selectedNeftie = nefties.find((neftie) => neftie.id === item);
           const neftieImageUrl = selectedNeftie?.image;
           return (
-            <Link
-              href={`/neftie/${selectedNeftie?.slug}`}
-              key={item.id}
-             
-            >
+            <Link href={`/neftie/${selectedNeftie?.slug}`} key={item.id}>
               <div
                 className={`flex gap-2 items-center h-full flex-col px-6 p-3 rounded-[100%]`}
               >
@@ -49,7 +45,7 @@ const SingleTierList: NextPage = ({ data }) => {
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
       <div className="text-center font-normal">
-        List of{" "}
+        List of
         <span className="text-center font-bold">{data?.User?.username}</span> 's
         strongest/weakest Neftie predictions for Patch: {CURRENT_PATCH_VERSION}
       </div>
