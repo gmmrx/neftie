@@ -10,7 +10,7 @@ import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
-const TierListNefties: NextPage = ({ data }) => {
+const SingleTierList: NextPage = ({ data }) => {
   const { t } = useTranslation();
   const { nefties } = useNefties();
   const { data: session } = useSession();
@@ -21,32 +21,23 @@ const TierListNefties: NextPage = ({ data }) => {
     if (!items) return null;
 
     return (
-      <div className="flex w-full h-full gap-2">
+      <div className="flex overflow-scroll w-full no-scrollbar bg-transparent bg-black">
         {items.map((item, index) => {
-          const opacityValue = 1 - index * 0.1;
-
           const selectedNeftie = nefties.find((neftie) => neftie.id === item);
           const neftieImageUrl = selectedNeftie?.image;
           return (
-            <Link href={`/neftie/${selectedNeftie?.slug}`} key={item.id}>
+            <Link
+              href={`/neftie/${selectedNeftie?.slug}`}
+              key={item.id}
+             
+            >
               <div
-                className={`flex gap-2 items-center p-3  h-full`}
+                className={`flex gap-2 items-center h-full flex-col px-6 p-3 rounded-[100%]`}
               >
                 <div
                   style={{ backgroundImage: `url(${neftieImageUrl})` }}
-                  className={`rounded-full w-[40px] h-[40px] object-cover bg-center bg-[length:170%_180%]`}
+                  className={`rounded-full w-[70px] h-[70px] object-cover bg-center bg-[length:170%_180%]`}
                 />
-                <div>
-                  <div className="text-sm">{selectedNeftie?.name}</div>
-                  <div className="font-thin text-xs uppercase whitespace-nowrap">
-                    {t("translation:element")}:{" "}
-                    <span className="font-normal">
-                      {t(
-                        `translation:elements.${selectedNeftie?.element}`
-                      ).toUpperCase()}
-                    </span>
-                  </div>
-                </div>
               </div>
             </Link>
           );
@@ -57,14 +48,11 @@ const TierListNefties: NextPage = ({ data }) => {
 
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
-      <WhatIsTierListBox />
-      <div className="my-2 text-sm ml-4 max-w-fit p-2 rounded-sm bg-secondary text-xs font-normal uppercase">
-        {t("translation:current_patch")}:
-        <span className="font-semibold">{CURRENT_PATCH_VERSION}</span>
+      <div className="text-center font-normal">
+        List of{" "}
+        <span className="text-center font-bold">{data?.User?.username}</span> 's
+        strongest/weakest Neftie predictions for Patch: {CURRENT_PATCH_VERSION}
       </div>
-      {session && session.user && session.user.isAuroryMember && (
-        <TierListVote />
-      )}
       <div className="flex h-[100px] mt-6">
         <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[#28a745] rounded-tl-sm rounded-bl-sm">
           S
@@ -109,4 +97,4 @@ const TierListNefties: NextPage = ({ data }) => {
   );
 };
 
-export default TierListNefties;
+export default SingleTierList;

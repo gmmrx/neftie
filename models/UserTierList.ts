@@ -5,9 +5,12 @@ export interface UserTierListAttributes {
   id: number;
   userId: number;
   patchVersionId: number;
-  sTier: number[]; // Assuming an array of Neftie IDs for simplicity
+  sTier: number[];
   aTier: number[];
   bTier: number[];
+  cTier: number[];
+  dTier: number[];
+  slug: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -22,6 +25,9 @@ export class UserTierList
   sTier!: number[];
   aTier!: number[];
   bTier!: number[];
+  cTier!: number[];
+  dTier!: number[];
+  slug!: string;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -56,6 +62,18 @@ export class UserTierList
         },
         bTier: {
           type: DataTypes.ARRAY(DataTypes.INTEGER),
+          allowNull: false,
+        },
+        cTier: {
+          type: DataTypes.ARRAY(DataTypes.INTEGER),
+          allowNull: false,
+        },
+        dTier: {
+          type: DataTypes.ARRAY(DataTypes.INTEGER),
+          allowNull: false,
+        },
+        slug: {
+          type: DataTypes.STRING,
           allowNull: false,
         },
         createdAt: {
