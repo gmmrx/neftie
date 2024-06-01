@@ -46,7 +46,7 @@ const SingleTierList: NextPage = ({ data }) => {
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
       <div className="text-center font-normal">
         List of
-        <span className="text-center font-bold">{data?.User?.username}</span> 's
+        <span className="text-center font-bold">{data?.User?.username}</span> &apos;s
         strongest/weakest Neftie predictions for Patch: {CURRENT_PATCH_VERSION}
       </div>
       <div className="flex h-[100px] mt-6">
