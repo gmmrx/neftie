@@ -1,6 +1,5 @@
 "use client";
 
-import NeftieBox from "@/components/neftie-box";
 import TierListVote from "@/components/tier-list-vote";
 import WhatIsTierListBox from "@/components/what-is-tier-list";
 import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
@@ -29,9 +28,7 @@ const TierListNefties: NextPage = ({ data }) => {
           const neftieImageUrl = selectedNeftie?.image;
           return (
             <Link href={`/neftie/${selectedNeftie?.slug}`} key={item.id}>
-              <div
-                className={`flex gap-2 items-center p-3  h-full`}
-              >
+              <div className={`flex gap-2 items-center p-3  h-full`}>
                 <div
                   style={{ backgroundImage: `url(${neftieImageUrl})` }}
                   className={`rounded-full w-[40px] h-[40px] object-cover bg-center bg-[length:170%_180%]`}
@@ -54,7 +51,6 @@ const TierListNefties: NextPage = ({ data }) => {
       </div>
     );
   };
-
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
       <WhatIsTierListBox />
