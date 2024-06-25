@@ -37,7 +37,7 @@ const EventBox: FC<{ event: EventsAttributes }> = ({ event }) => {
           <CardHeader>
             <div className="flex flex-col items-start gap-4">
               <div>
-                <CardTitle>{event.name}</CardTitle>
+                <CardTitle className="text-[1.2rem]">{event.name}</CardTitle>
                 <div className="flex items-center mt-2">
                   <span
                     className={`px-2 py-1 rounded-sm leading-none text-[8px] font-semibold uppercase ${

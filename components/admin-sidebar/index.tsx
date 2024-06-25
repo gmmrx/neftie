@@ -52,7 +52,6 @@ const AdminSidebar = () => {
                         i18n.changeLanguage(lang.code);
                         return router.push(newPath);
                       } else {
-                        console.log("it else?")
                         i18n.changeLanguage(lang.code);
                         return router.push(`/${lang.code}${pathname}`);
                       }
@@ -98,7 +97,7 @@ const AdminSidebar = () => {
             <LayoutDashboard size={18} /> {t("translation:home")}
           </div>
         </Link>
-        <Link href="/admin">
+        <Link href="/admin/eggs">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
             <svg
               width="18px"
@@ -115,7 +114,7 @@ const AdminSidebar = () => {
             {t("translation:eggs")}
           </div>
         </Link>
-        <Link href="/admin">
+        <Link href="/admin/nefties">
           <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2 rounded-sm">
             <svg
               width="18px"
