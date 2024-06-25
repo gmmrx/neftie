@@ -1,0 +1,225 @@
+{
+  "home": "Startseite",
+  "eggs": "Eier",
+  "nefties": "Nefties",
+  "nefties_page_desc": "Tauche ein in die lebendige Welt der Nefties, wo jeder Charakter sein einzigartiges Flair ins Abenteuer bringt. Unsere Nefties-Seite ist so gestaltet, dass sie das gesamte Spektrum dieser fesselnden Charaktere zeigt und dir einen tiefen Einblick in ihre Stärken und Elemente bietet.",
+  "tier_list": "Tier-Liste",
+  "explore_all": "Alles erkunden",
+  "what_is_a_neftie": "Was ist ein <Neftie>Neftie?</Neftie>",
+  "neftie_desc": "Nefties sind die natürlichen Bewohner von Tokane, magische Kreaturen, die in seiner Wildnis frei umherstreifen. Du kannst sie besitzen und im Spiel <bold><sotlink>Seekers of Tokané</sotlink></bold> von <bold><aurorylink>Aurory</aurorylink></bold> verwenden.",
+  "what_is_an_egg": "Was ist ein <Neftie>Ei?</Neftie>",
+  "egg_desc": "Eier sind der Ursprung der Nefties. Du bekommst das Ei, brütest es aus und erhältst deinen neuen Neftie! Eier können auf dem Marktplatz, bei Expeditionen oder in den Landen von Seekers of Tokané gefunden werden.",
+  "what_is_a_tier_list": "Was ist eine <Neftie>Tier-Liste?</Neftie>",
+  "tier_list_desc": "Eine Tier-Liste ist ein Rangsystem, das Nefties basierend auf ihrer Effektivität, Stärke oder Beliebtheit kategorisiert. Diese Rankings sind in Tiers unterteilt, wobei die besten Performer im S-Tier platziert werden, gefolgt von A und B.",
+  "videos": "Videos",
+  "videos_page_desc": "Ein dynamischer Hub, in dem die Community zusammenkommt, um ihre spannendsten Momente in Seekers of Tokane zu teilen. Von ausführlichen Tutorials, die dich durch komplexe Herausforderungen führen, bis hin zu lustigen Clips, die die Unvorhersehbarkeit des Spiels einfangen, bietet jedes Video einen Einblick in die vielfältigen Erlebnisse unserer Spieler. Tauche ein in die Kategorien, erkunde benutzergeführte Inhalte und finde vielleicht die Inspiration, deine eigenen Abenteuer mit uns zu teilen!",
+  "events": "Veranstaltungen",
+  "events_page_desc": "Bleibe auf dem neuesten Stand mit allen aktuellen Ereignissen in Seekers of Tokané. Erfahre mehr über alle offiziellen und von Fans organisierten Veranstaltungen und werde Teil der lebendigen Aurory-Community.",
+  "element": "Element",
+  "more": "Mehr",
+  "back": "Zurück",
+  "strong_against": "Stark gegen",
+  "weak_against": "Schwach gegen",
+  "neutral_against": "Neutral gegen",
+  "marketplace": "Marktplatz",
+  "expeditions": "Expeditionen",
+  "lands": "Länder",
+  "obtainable_from": "Erhältlich von:",
+  "login_with_discord": "Mit Discord anmelden",
+  "logout": "Abmelden",
+  "post_your_tier_list": "Poste deine Tier-Liste",
+  "tier_list_voting": "Tier-Liste Abstimmung",
+  "type_and_choose": "Gib Nefties für jede Tier-Liste ein und wähle sie aus. Bitte bedenke, dass du nur einmal pro Patch abstimmen kannst.",
+  "current_patch": "Aktueller Patch",
+  "post": "Posten",
+  "select_x_tier_neftie": "Wähle {{ x }} TIER Nefties aus",
+  "select_neftie_for_each_tier": "Bitte wähle einen Neftie für jedes Tier aus",
+  "select_tier_for_each_neftie": "Bitte wähle ein Tier für jeden Neftie aus",
+  "close": "Schließen",
+  "all": "Alle",
+  "search_nefties": "Nefties suchen...",
+  "next_step": "Nächster Schritt",
+  "language": "Sprache",
+  "category": "Kategorie",
+  "select_a_language": "Wähle eine Sprache",
+  "select_a_category": "Wähle eine Kategorie",
+  "upload_video": "Video hochladen",
+  "safe_for_children": "Für Kinder geeignet",
+  "safe_for_children_desc": "Aurory entwickelt Spiele für alle Altersgruppen. Wir möchten sicherstellen, dass deine Inhalte für unsere kleinen Unterstützer geeignet sind, damit wir sie filtern können.",
+  "elements": {
+    "lightning": "Blitz",
+    "air": "Luft",
+    "earth": "Erde",
+    "water": "Wasser",
+    "fire": "Feuer",
+    "plant": "Pflanze"
+  },
+  "egg_list": {
+    "everglade": {
+      "description": "Das Everglade-Ei ist vom Blitz getroffen und erzeugt ein elektromagnetisches Feld, das Haare in der Nähe aufstehen lässt."
+    },
+    "prairie": {
+      "description": "Dieses Ei, das in einem gemäßigten Klima zu finden ist, nutzt Pflanzenwurzeln, um sich zu schützen, bis es bereit ist, zu schlüpfen."
+    },
+    "cliff": {
+      "description": "Diese Eier sind schwer zu knacken, aber aus ihnen schlüpfen nur die stärksten Nefties!"
+    },
+    "quantum": {
+      "description": "Das Quantum-Ei ist ein rätselhaftes Wunder, dessen glänzende Schale die Farben ferner und unglaublicher Orte widerspiegelt und auf die sich ständig verändernde geheimnisvolle Kreatur im Inneren hinweist."
+    },
+    "genesis": {
+      "description": "Es wird gemunkelt, dass dieses Ei eine Schöpfung der Blockchain selbst ist und dazu dient, die anfänglichen Nefties einzuführen. Seine Verfügbarkeit nimmt ab, wenn das Tokane-Ökosystem ein größeres Gleichgewicht erreicht."
+    },
+    "draconic": {
+      "description": "Mit einer Schale so scharf wie eine Rasierklinge sendet das Draconic-Ei eine Warnung an unerfahrene Sucher und warnt sie vor der Macht, die darin verborgen ist."
+    },
+    "bloomer": {
+      "description": "Dieses Ei verströmt einen süßen Duft, der alle verzaubert, die ihn wahrnehmen, aber woher es kommt, weiß niemand. Trotzdem fasziniert es alle, die es sehen!"
+    },
+    "leaf": {
+      "description": "Schichten aus üppig grünen Blättern sind kunstvoll miteinander verwoben und umhüllen dieses Ei, wobei sie faszinierende Muster auf seiner Oberfläche bilden."
+    },
+    "clover": {
+      "description": "Das Clover-Ei ist ein Symbol für Glück. Es verspricht denjenigen Glück, die es finden, und ist daher bei Suchern sehr begehrt."
+    },
+    "mirage": {
+      "description": "Dieses kostbare Ei stellt eine Herausforderung dar, es zu finden, da seine illusorische Natur einige dazu bringt, es als Juwel in der Landschaft zu betrachten, während andere es für eine bloße Felsformation halten."
+    },
+    "dune": {
+      "description": "Das Dune-Ei mag so aussehen, als ob deine Hand bei der leichtesten Berührung hindurchgehen könnte, aber zu viel Druck löst Partikel ab, und das Einatmen dieser führt zu Halluzinationen."
+    },
+    "frost": {
+      "description": "Die wirbelnden Frostmuster unter der durchscheinenden Oberfläche des Eies brechen das Licht in einer hypnotisierenden Farbgebung."
+    },
+    "aurora": {
+      "description": "Das Aurora-Ei fasziniert mit seinem fast außerirdischen Aussehen. Eine sanfte Kühle deutet darauf hin, was es im Inneren birgt und lockt diejenigen, die mutig genug sind, es zu berühren."
+    },
+    "moss": {
+      "description": "Dieses Ei besteht vollständig aus hellgrünem Moos. Bei Berührung fühlt sich seine Oberfläche samtig an und verströmt einen subtilen erdigen Duft, der diejenigen in der Nähe anzieht."
+    },
+    "marsh": {
+      "description": "Das Marsh-Ei, das aus Sumpfvegetation geformt ist, wirkt zart, aber robust, gibt leicht nach Druck nach, behält aber seine Form."
+    }
+  },
+  "errors": {
+    "already_voted_tier": "Du hast bereits für diesen Patch abgestimmt.",
+    "cant_add_record": "Beim Erstellen eines Eintrags für deine Stimme ist ein Fehler aufgetreten.",
+    "something_went_wrong": "Etwas ist schief gelaufen, bitte aktualisiere die Seite und versuche es erneut.",
+    "cant_found_neftie": "Bitte überprüfe den Namen des Nefties noch einmal, wir haben diesen Neftie nicht in unserer Datenbank :/",
+    "enter_valid_youtube_url": "Bitte gib eine gültige YouTube-URL ein",
+    "couldnt_get_video_information": "Wir konnten die Video-Details nicht abrufen. Bitte versuche es erneut :("
+  },
+  "success": {
+    "thanks_for_voting": "Deine Stimme wurde gespeichert. Danke für deine Abstimmung und deinen Beitrag. 😍"
+  },
+  "video_categories": {
+    "tutorials": {
+      "title": "Tutorials",
+      "desc": "Hier werden Tutorials hinzugefügt"
+    },
+    "official_stream_recordings": {
+      "title": "Offizielle Streams & Aufnahmen",
+      "desc": "Enthält offizielle Streams und Aufnahmen"
+    },
+    "funny_moments": {
+      "title": "Lustige Momente",
+      "desc": "Lustige Momente aus Seekers of Tokane"
+    },
+    "cringe_moments": {
+      "title": "Peinliche Momente",
+      "desc": "Peinliche Momente aus Seekers of Tokane"
+    }
+  },
+  "post_a_video": "Ein Video posten",
+  "video_form": {
+    "enter_youtube_link": "YouTube-Link eingeben",
+    "youtube_link_desc": "Um mehr Informationen über dein Video zu erhalten, musst du es auf YouTube hochladen und den Link unten einfügen",
+    "video_details": "Video-Details",
+    "video_details_desc": "Bitte fülle das Formular aus, aktualisiere es bei Bedarf und klicke auf die Schaltfläche Abschicken. Du kannst das Video sehen, sobald es genehmigt wurde.",
+    "name_required": "Der Videotitel ist erforderlich.",
+    "video_title": "Videotitel",
+    "video_description": "Videobeschreibung",
+    "description_required": "Die Videobeschreibung ist erforderlich.",
+    "language_required": "Du musst die Sprache des Videos auswählen.",
+    "category_required": "Du musst eine Kategorie auswählen.",
+    "posted_success": "Dein Video wurde erfolgreich eingereicht. Es wird auf der Video-Seite angezeigt, sobald es genehmigt wurde.",
+    "issue_with_posting": "Beim Hinzufügen des Videos zur Datenbank ist ein Problem aufgetreten"
+  },
+  "create_event": "Veranstaltung erstellen",
+  "event_form": {
+    "title": "Neue Veranstaltung erstellen",
+    "event_details_desc": "Bitte fülle das Formular aus, aktualisiere es bei Bedarf und klicke auf die Schaltfläche Abschicken. Du kannst die Veranstaltung sehen, sobald sie genehmigt wurde.",
+    "event_name": "Veranstaltungsname",
+    "name_required": "Der Veranstaltungsname ist erforderlich",
+    "event_details": "Veranstaltungsdetails",
+    "dates_required": "Du musst ein Start- und ein Enddatum auswählen",
+    "pick_start_date": "Wähle ein Startdatum",
+    "pick_end_date": "Wähle ein Enddatum",
+    "order_required": "Du musst eine Reihenfolge für den Preis angeben",
+    "prize_required": "Du musst einen Preis für die Reihenfolge angeben",
+    "at_least_one_prize": "Du musst mindestens einen Preis hinzufügen",
+    "prizes": "Veranstaltungspreise",
+    "add_prize": "Preis hinzufügen",
+    "discord_url": "Discord-URL",
+    "event_rules": "Veranstaltungsregeln",
+    "rule_required": "Regel ist erforderlich",
+    "at_least_one_rule": "Wir benötigen mindestens eine Regel für die Veranstaltung",
+    "rules": "Veranstaltungsregeln",
+    "rule": "Regel",
+    "add_rule": "Regel hinzufügen",
+    "posted_success": "Deine Veranstaltung wurde erfolgreich eingereicht. Sie wird auf der Veranstaltungsseite angezeigt, sobald sie genehmigt wurde.",
+    "issue_with_posting": "Beim Hinzufügen der Veranstaltung zur Datenbank ist ein Problem aufgetreten"
+  },
+  "page_information": {
+    "home": {
+      "title": "Neftie App - Dein magisches Begleit-Dex: Entdecken, Sammeln und Erkunden!",
+      "description": "Tauche ein in die Welt der Nefties. Erfahre mehr über diese faszinierenden Kreaturen, sieh dir kürzlich hinzugefügte Videos an und erkunde, was Tokané zu bieten hat."
+    },
+    "eggs": {
+      "title": "Neftie App - Entdecke die Ursprünge: Enthülle das Geheimnis der Neftie-Eier!",
+      "description": "Eier dienen als Geburtsort dieser mystischen Kreaturen und sind aus verschiedenen Quellen in Seekers of Tokané erhältlich. Erfahre, welches Ei für dich das richtige ist."
+    },
+    "nefties": {
+      "title": "Neftie App - Lerne deine Nefties kennen: Tauche ein in Elemente, Bewegungen und Strategien!",
+      "description": "Entdecke und lerne alle Nefties kennen, die in Seekers of Tokané verfügbar sind. Organisiere sie nach Typ, erkunde ihre Stärken, Schwächen und Bewegungen und plane deine Strategien zum Sieg!"
+    },
+    "tier_list": {
+      "title": "Neftie App - Steige in den Rängen auf: Erkunde die definitive Neftie-Tier-Liste",
+      "description": "Erkunde die Tier-Liste der Nefties und steige in den Rängen auf. Entdecke, welche Kreaturen basierend auf ihrer Effektivität, Stärke und Beliebtheit an der Spitze stehen."
+    },
+    "videos": {
+      "title": "Neftie App - Erkunde die Welt von Tokané: Tauche ein in ausführliche Tutorials und benutzergenerierte Clips!",
+      "description": "Erlebe den Nervenkitzel des Abenteuers durch unsere Sammlung von Community-Videos. Von offiziellen Streams bis hin zu lustigen Clips - tauche ein in die herausfordernden Erlebnisse von Seekers of Tokané."
+    },
+    "events": {
+      "title": "Neftie App - Schließe dich dem Abenteuer an: Erkunde offizielle und Community-Veranstaltungen!",
+      "description": "Bleibe auf dem neuesten Stand mit allen aktuellen Ereignissen in Seekers of Tokané. Erfahre mehr über alle offiziellen und von Fans organisierten Veranstaltungen und werde Teil der lebendigen Aurory-Community."
+    },
+    "single_event": {
+      "title": "Neftie App - Mehr Details über {{ event }} Veranstaltung",
+      "description": "Sieh dir mehr Details über {{ event }} an, lerne und verdiene mehr & schneller"
+    },
+    "single_neftie": {
+      "title": "{{ neftie }} Neftie Guide, Konter und Vorteile - Patch: {{ patch }}",
+      "description": "Erkunde unseren umfassenden Guide für {{ neftie }} im Patch {{ patch }}. Erfahre mehr über die besten Strategien, um {{ neftie }} zu kontern, und entdecke die Charaktere oder Elemente, in denen {{ neftie }} glänzt. Bleibe aktualisiert und im Vorteil in deinem Seekers of Tokane Spiel."
+    },
+    "single_tier_list": {
+      "title": "{{username}} Tier-Liste für Patch: {{ patch }}",
+      "description": "Sieh, welche Nefties {{username}} für die stärksten und die schwächsten hält.."
+    }
+  },
+  "recently_added_videos": "Kürzlich hinzugefügte Videos",
+  "submit": "Abschicken",
+  "prize": "Preis",
+  "prize_explanation": "Das erste Eingabefeld ist für die Reihenfolge (1, 2, 3), das zweite für die Belohnung",
+  "status": "Status",
+  "start_date": "Startdatum",
+  "end_date": "Enddatum",
+  "prizes": "Preise",
+  "rules": "Regeln",
+  "finished": "Beendet",
+  "incoming": "Noch nicht gestartet",
+  "ongoing": "Gestartet",
+  "name": "Name",
+  "actions": "Aktionen"
+}
