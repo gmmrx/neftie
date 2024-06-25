@@ -76,6 +76,30 @@
     },
     "bloomer": {
       "description": "This egg emanates a sweet fragrance, enchanting all who catch a whiff, but where did it come from? No one knows, yet it captivates all who see it!"
+    },
+    "leaf": {
+      "description": "Layers of lush green leaves intricately weave together to encase this egg, creating mesmerizing patterns across its surface."
+    },
+    "clover": {
+      "description": "The Clover egg is a symbol of good fortune. It promises luck to those who find one, making it highly coveted among Seekers."
+    },
+    "mirage": {
+      "description": "This precious egg presents a challenge to find as its illusory nature causes some to perceive it as a gem nestled within the landscape, while others mistake it for a mere rock formation."
+    },
+    "dune": {
+      "description": "The Dune egg may look as if your hand could pass through it with the lightest touch, yet too much pressure dislodges particles and inhaling these causes hallucinations."
+    },
+    "frost": {
+      "description": "The swirling frost patterns beneath the egg's translucent surface refract light in a hypnotizing display of colors."
+    },
+    "aurora": {
+      "description": "The Aurora egg intrigues with its almost otherworldly appearance. A gentle chill hints at what it holds within, beckoning those brave enough to touch it."
+    },
+    "moss": {
+      "description": "This egg is made entirely of bright green moss. When touched, its surface feels velvety, releasing a subtle earthy scent that attracts those nearby."
+    },
+    "marsh": {
+      "description": "The marsh egg, formed from swamp vegetation, appears delicate yet sturdy, giving way slightly to pressure while retaining its shape."
     }
   },
   "errors": {
@@ -175,6 +199,14 @@
     "single_event": {
       "title": "Neftie App - More Details About {{ event }} Event",
       "description": "See more details about {{ event }}, learn and earn more & fast"
+    },
+    "single_neftie": {
+      "title": "{{ neftie }} Neftie Guide, Counters and Advantages - Patch: {{ patch }}",
+      "description": "Explore our comprehensive guide for {{ neftie }} in Patch {{ patch }}. Learn about the best strategies to counter {{ neftie }} and discover the characters or elements where {{ neftie }} excels. Stay updated and ahead in your Seekers of Tokane game."
+    },
+    "single_tier_list": {
+      "title": "{{username}} Tier List for Patch: {{ patch }}",
+      "description": "See which Nefties {{username}} thinks the strongest and the weakest.."
     }
   },
   "recently_added_videos": "Recently Added Videos",

@@ -75,6 +75,30 @@
     },
     "bloomer": {
       "description": "Este ovo emana uma fragrância doce, encantando todos que o sentem, mas de onde veio? Ninguém sabe, mas cativa todos que o veem!"
+    },
+    "leaf": {
+      "description": "Camadas de folhas verdes exuberantes se entrelaçam intrincadamente para envolver este ovo, criando padrões fascinantes em sua superfície."
+    },
+    "clover": {
+      "description": "O ovo de trevo é um símbolo de boa sorte. Promete sorte para quem encontrar um, tornando-o muito cobiçado entre os Buscadores."
+    },
+    "mirage": {
+      "description": "Este precioso ovo é difícil de encontrar, pois sua natureza ilusória faz com que alguns o percebam como uma joia incrustada na paisagem, enquanto outros o confundem com uma mera formação rochosa."
+    },
+    "dune": {
+      "description": "O ovo de duna pode parecer que sua mão poderia atravessá-lo com o toque mais leve, mas muita pressão desloca as partículas e inalar essas partículas causa alucinações."
+    },
+    "frost": {
+      "description": "Os padrões de gelo giratórios sob a superfície translúcida do ovo refratam a luz em uma hipnotizante exibição de cores."
+    },
+    "aurora": {
+      "description": "O ovo Aurora intriga com sua aparência quase de outro mundo. Um leve frio sugere o que ele contém, atraindo aqueles que têm coragem de tocá-lo."
+    },
+    "moss": {
+      "description": "Este ovo é inteiramente feito de musgo verde brilhante. Ao toque, sua superfície parece aveludada e libera um sutil aroma terroso que atrai aqueles que estão por perto."
+    },
+    "marsh": {
+      "description": "O ovo de pântano, formado pela vegetação do pântano, parece delicado, mas resistente, cedendo ligeiramente à pressão enquanto mantém sua forma."
     }
   },
   "errors": {
@@ -174,6 +198,10 @@
     "single_event": {
       "title": "Neftie App - Mais Detalhes Sobre o Evento {{ event }}",
       "description": "Veja mais detalhes sobre {{ event }}, aprenda e ganhe mais e rápido"
+    },
+    "single_neftie": {
+      "title": "Guia Neftie {{ neftie }}, Contadores e Vantagens - Patch: {{ patch }}",
+      "description": "Explore o nosso guia completo para {{ neftie }} no Patch {{ patch }}. Aprenda as melhores estratégias para contrariar {{ neftie }} e descubra os personagens ou elementos onde {{ neftie }} se destaca. Mantenha-se atualizado e à frente no seu jogo Seekers of Tokane."
     }
   },
   "recently_added_videos": "Vídeos Recentemente Adicionados",

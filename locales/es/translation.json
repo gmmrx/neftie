@@ -75,6 +75,30 @@
     },
     "bloomer": {
       "description": "Este huevo emana una fragancia dulce que encanta a todos los que lo huelen, pero ¿de dónde vino? Nadie lo sabe, ¡pero cautiva a todos los que lo ven!"
+    },
+    "leaf": {
+      "description": "Capas de hojas verdes exuberantes se entrelazan intrincadamente para envolver este huevo, creando patrones fascinantes en su superficie."
+    },
+    "clover": {
+      "description": "El huevo de trébol es un símbolo de buena fortuna. Promete suerte a quienes encuentran uno, lo que lo convierte en un objeto muy codiciado entre los Buscadores."
+    },
+    "mirage": {
+      "description": "Este precioso huevo es difícil de encontrar ya que su naturaleza ilusoria hace que algunos lo perciban como una gema incrustada en el paisaje, mientras que otros lo confunden con una simple formación rocosa."
+    },
+    "dune": {
+      "description": "El huevo de duna puede parecer que tu mano podría atravesarlo con el toque más ligero, pero demasiada presión desprende partículas y su inhalación causa alucinaciones."
+    },
+    "frost": {
+      "description": "Los patrones de escarcha arremolinados debajo de la superficie translúcida del huevo refractan la luz en una hipnotizante exhibición de colores."
+    },
+    "aurora": {
+      "description": "El huevo Aurora intriga con su apariencia casi de otro mundo. Un suave escalofrío insinúa lo que contiene en su interior, atrayendo a aquellos lo suficientemente valientes como para tocarlo."
+    },
+    "moss": {
+      "description": "Este huevo está completamente hecho de musgo verde brillante. Al tocarlo, su superficie se siente aterciopelada y libera un sutil aroma terroso que atrae a los que están cerca."
+    },
+    "marsh": {
+      "description": "El huevo de pantano, formado por vegetación de pantano, parece delicado pero resistente, cediendo ligeramente a la presión mientras mantiene su forma."
     }
   },
   "errors": {
@@ -174,6 +198,10 @@
     "single_event": {
       "title": "Neftie App - Más Detalles Sobre el Evento {{ event }}",
       "description": "Ver más detalles sobre {{ event }}, aprende y gana más y rápido"
+    },
+    "single_neftie": {
+      "title": "Guía de Neftie {{ neftie }}, Contadores y Ventajas - Parche: {{ patch }}",
+      "description": "Explora nuestra guía completa para {{ neftie }} en el Parche {{ patch }}. Aprende las mejores estrategias para contrarrestar a {{ neftie }} y descubre los personajes o elementos donde {{ neftie }} sobresale. Mantente actualizado y a la vanguardia en tu juego Seekers of Tokane."
     }
   },
   "recently_added_videos": "Videos Añadidos Recientemente",

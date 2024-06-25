@@ -75,6 +75,30 @@
     },
     "bloomer": {
       "description": "Cet œuf dégage un doux parfum, envoûtant tous ceux qui le sentent, mais d'où vient-il ? Personne ne le sait, mais il captive tous ceux qui le voient !"
+    },
+    "leaf": {
+      "description": "Des couches de feuilles vertes luxuriantes se tissent ensemble pour envelopper cet œuf, créant des motifs fascinants sur sa surface."
+    },
+    "clover": {
+      "description": "L'œuf de trèfle est un symbole de bonne fortune. Il promet la chance à ceux qui en trouvent un, ce qui en fait un objet très convoité parmi les Chercheurs."
+    },
+    "mirage": {
+      "description": "Cet œuf précieux est difficile à trouver car sa nature illusoire fait que certains le perçoivent comme une gemme nichée dans le paysage, tandis que d'autres le prennent pour une simple formation rocheuse."
+    },
+    "dune": {
+      "description": "L'œuf de dune peut sembler permettre à votre main de passer à travers avec la plus légère pression, mais une pression excessive déloge les particules et les inhaler provoque des hallucinations."
+    },
+    "frost": {
+      "description": "Les motifs de givre tourbillonnant sous la surface translucide de l'œuf réfractent la lumière en un spectacle hypnotisant de couleurs."
+    },
+    "aurora": {
+      "description": "L'œuf Aurora intrigue par son apparence presque surnaturelle. Une légère fraîcheur laisse entrevoir ce qu'il contient, attirant ceux qui osent le toucher."
+    },
+    "moss": {
+      "description": "Cet œuf est entièrement composé de mousse verte brillante. Lorsqu'on le touche, sa surface est veloutée et dégage une subtile odeur terreuse qui attire les personnes à proximité."
+    },
+    "marsh": {
+      "description": "L'œuf de marais, formé de végétation marécageuse, semble délicat mais robuste, cédant légèrement à la pression tout en conservant sa forme."
     }
   },
   "errors": {
@@ -174,6 +198,10 @@
     "single_event": {
       "title": "Neftie App - Plus de Détails sur l'Événement {{ event }}",
       "description": "Voyez plus de détails sur {{ event }}, apprenez et gagnez plus & rapidement"
+    },
+    "single_neftie": {
+      "title": "Guide Neftie {{ neftie }}, Contres et Avantages - Patch : {{ patch }}",
+      "description": "Découvrez notre guide complet pour {{ neftie }} dans le Patch {{ patch }}. Apprenez les meilleures stratégies pour contrer {{ neftie }} et découvrez les personnages ou éléments où {{ neftie }} excelle. Restez à jour et en avance dans votre jeu Seekers of Tokane."
     }
   },
   "recently_added_videos": "Vidéos Récemment Ajoutées",

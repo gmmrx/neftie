@@ -75,6 +75,30 @@
     },
     "bloomer": {
       "description": "Questo uovo emana un dolce profumo, incantando tutti coloro che lo annusano, ma da dove viene? Nessuno lo sa, eppure cattura tutti coloro che lo vedono!"
+    },
+    "leaf": {
+      "description": "Strati di foglie verdi lussureggianti si intrecciano intricatamente per racchiudere questo uovo, creando motivi affascinanti sulla sua superficie."
+    },
+    "clover": {
+      "description": "L'uovo di trifoglio è un simbolo di buona fortuna. Promette fortuna a coloro che ne trovano uno, rendendolo molto ambito tra i Cercatori."
+    },
+    "mirage": {
+      "description": "Questo prezioso uovo è difficile da trovare poiché la sua natura illusoria fa sì che alcuni lo percepiscano come una gemma incastonata nel paesaggio, mentre altri lo scambiano per una semplice formazione rocciosa."
+    },
+    "dune": {
+      "description": "L'uovo di Dune può sembrare che la tua mano possa attraversarlo con il minimo tocco, ma troppa pressione sposta le particelle e l'inalazione provoca allucinazioni."
+    },
+    "frost": {
+      "description": "I motivi di gelo vorticosi sotto la superficie traslucida dell'uovo rifrangono la luce in una mostra ipnotizzante di colori."
+    },
+    "aurora": {
+      "description": "L'uovo Aurora affascina con il suo aspetto quasi ultraterreno. Un leggero freddo suggerisce ciò che contiene, attirando chi ha abbastanza coraggio per toccarlo."
+    },
+    "moss": {
+      "description": "Questo uovo è interamente fatto di muschio verde brillante. Al tatto, la sua superficie sembra vellutata e rilascia un sottile profumo terroso che attira chiunque nelle vicinanze."
+    },
+    "marsh": {
+      "description": "L'uovo di palude, formato dalla vegetazione paludosa, sembra delicato ma robusto, cedendo leggermente alla pressione pur mantenendo la sua forma."
     }
   },
   "errors": {
@@ -174,6 +198,10 @@
     "single_event": {
       "title": "Neftie App - Più Dettagli sull'Evento {{ event }}",
       "description": "Vedi più dettagli su {{ event }}, impara e guadagna di più & velocemente"
+    },
+    "single_neftie": {
+      "title": "Guida di Neftie {{ neftie }}, Contromisure e Vantaggi - Patch: {{ patch }}",
+      "description": "Esplora la nostra guida completa per {{ neftie }} nella Patch {{ patch }}. Impara le migliori strategie per contrastare {{ neftie }} e scopri i personaggi o gli elementi in cui {{ neftie }} eccelle. Rimani aggiornato e all'avanguardia nel tuo gioco Seekers of Tokane."
     }
   },
   "recently_added_videos": "Video Aggiunti di Recente",

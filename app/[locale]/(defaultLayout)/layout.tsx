@@ -9,6 +9,7 @@ import { Toaster } from "@/components/ui/toaster";
 import StatCounter from "statcounter";
 
 const i18nNamespaces = ["translation", "nefties"];
+const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";
 
 export default async function RootLayout({
   children,
@@ -64,7 +65,7 @@ export default async function RootLayout({
             <Toaster />
           </Providers>
         </TranslationProvider>
-        <StatCounter sc_project={12998877} sc_security="d944ad70" />
+        {isProd && <StatCounter sc_project={12998877} sc_security="d944ad70" />}
 
         <script
           type="application/ld+json"
