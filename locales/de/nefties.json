@@ -1,0 +1,652 @@
+{
+  "bitebit": {
+    "description": "Bitebit ist ein Alleskönner, der sich auf schnelle Nahkampfangriffe verlässt, um Hype zu erzeugen. Sein vielfältiges Arsenal an Fähigkeiten ist in jeder Situation nützlich!",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "BLITZSCHRITTE I",
+        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen."
+      },
+      {
+        "name": "VERDERBLICHE REBE I",
+        "description": "Verursacht für 2 Runden Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP."
+      },
+      {
+        "name": "DONNERPUNCH II",
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus."
+      },
+      {
+        "name": "STURMBRECHERS EIFER III",
+        "description": "Dein Angriff wird für 3 Runden um 3 Stufen erhöht. Anschließend führe einen Fernkampfangriff mit 70 Stärke aus."
+      }
+    ]
+  },
+  "dipking": {
+    "description": "Dipking verfügt über Fähigkeiten mit hohen Kosten, aber keine Sorge; wenn du lange genug durchhältst und ausweichende Aktionen nutzt, kann er explosiven Schaden verursachen!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "NEBLIGE SCHRITTE II",
+        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen. Wenn ausgelöst, wird dein Angriff für 2 Runden um 1 Stufe erhöht."
+      },
+      {
+        "name": "REINIGENDE WELLE I",
+        "description": "Beseitigt Status-Effekte beim Gegner."
+      },
+      {
+        "name": "SINNFLUT II",
+        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus."
+      },
+      {
+        "name": "FLUTWELLE III",
+        "description": "Führe einen Nahkampfangriff mit 85 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+      }
+    ]
+  },
+  "dinobit": {
+    "description": "Dinobit hat die höchsten HP unter den Nefties, und du kannst dies zu deinem Vorteil nutzen, da du mehr Schaden verursachst, wenn seine Gesundheit die des Gegners übersteigt!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "SCHLAMMHAMMER II",
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus."
+      },
+      {
+        "name": "FELSENMAUER II",
+        "description": "Erhöhe für 2 Runden ein Schild, das 20% deiner maximalen HP entspricht."
+      },
+      {
+        "name": "UMSTURZ I",
+        "description": "Führe einen Nahkampfangriff mit 75 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
+      },
+      {
+        "name": "VITALITÄTS-SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 45 Stärke aus. Wenn deine aktuellen HP höher sind als die des Gegners, führe einen zusätzlichen Nahkampfangriff aus."
+      }
+    ]
+  },
+  "number-9": {
+    "description": "Number 9 ist bekannt für seine Vielzahl von Fähigkeiten, um Hype zu erzeugen und seine Angriffe zu verstärken. Pass auf, bevor sein Fluch Wirkung zeigt!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "FRAGILITÄTS-FLUSS I",
+        "description": "Deine Verteidigung wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "AUFSCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 30 Stärke aus. Wenn dein aktueller Hype niedriger ist als der des Gegners, erhalte 3 Hype."
+      },
+      {
+        "name": "EXPLOSIVER KONTER I",
+        "description": "Weiche einmal aus und führe einen Gegenangriff mit 40 Stärke aus, wenn du in dieser Runde angegriffen wirst."
+      },
+      {
+        "name": "VERSENGENDER BISS II",
+        "description": "Führe einen Nahkampfangriff mit 85 Stärke aus."
+      },
+      {
+        "name": "DETONATION III",
+        "description": "Verursacht Fluch beim Gegner. Nach einem Countdown von 2 Runden verursacht der Fluch 30% der maximalen HP des Gegners als Schaden. Wiederholtes Anwenden des Fluchs erhöht den anfänglichen Schaden des Fluchs um 50%. Dieser Effekt kann sich stapeln und setzt die Fluchdauer nicht zurück."
+      }
+    ]
+  },
+  "axobubble": {
+    "description": "Axobubble opfert seine Verteidigung, um Hype aufzubauen, reflektiert aber einen Teil des zugefügten Schadens an seinen Gegner. Wenn der richtige Moment kommt, flutet er die Arena, um zu gewinnen!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "FRAGILITÄTS-FLUSS I",
+        "description": "Deine Verteidigung wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "BLASENKETTE II",
+        "description": "Reflektiere 65% des in dieser Runde zugefügten Schadens an den Gegner. Du nimmst den verbleibenden Schaden."
+      },
+      {
+        "name": "REINIGENDE FLUT I",
+        "description": "Beseitigt Status-Effekte bei dir und dem Gegner."
+      },
+      {
+        "name": "BRECHENDE WELLE II",
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+      },
+      {
+        "name": "BLITZSCHLAG III",
+        "description": "Führe einen Fernkampfangriff mit 115 Stärke aus."
+      }
+    ]
+  },
+  "unika": {
+    "description": "Unika priorisiert die Verteidigung und verwandelt sich bei Verstärkung in einen mächtigen Schadensverursacher. Mach dich bereit für einen engen Kampf!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Deine Verteidigung wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "DICKES FELL I",
+        "description": "Erhöht deine Verteidigung für 2 Runden um 2 Stufen."
+      },
+      {
+        "name": "VERDERBLICHE REBE I",
+        "description": "Verursacht für 2 Runden Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP."
+      },
+      {
+        "name": "UMSTURZ I",
+        "description": "Führe einen Nahkampfangriff mit 75 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
+      },
+      {
+        "name": "FELSENHAGEL II",
+        "description": "Führe einen Fernkampfangriff mit 45 Stärke aus. Wenn deine Verteidigung höher ist als die des Gegners, führe einen zusätzlichen Fernkampfangriff aus."
+      }
+    ]
+  },
+  "zzoo": {
+    "description": "Zzoo setzt eine defensive Strategie ein, um Gegner durch Abwehren von Angriffen, präzise Gegenangriffe und den Einsatz der vollen Kraft des Windes im richtigen Moment zu besiegen!",
+    "element": "air",
+    "skills": [
+      {
+        "name": "FLÜGELKLINGE II",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "KRALLENSCHUTZ I",
+        "description": "Deflektiere 80% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs. Wenn ausgelöst, erhalte 2 Hype zurück."
+      },
+      {
+        "name": "SANDECHOS II",
+        "description": "Führe einen Fernkampfangriff mit 45 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff. Wenn er trifft, reinige dich selbst."
+      },
+      {
+        "name": "SPIEGELSCHILD II",
+        "description": "Reflektiere 85% des Schadens von Nahkampfangriffen in dieser Runde an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, reinige Status-Effekte beim Gegner."
+      },
+      {
+        "name": "STURMWEBERS RUF III",
+        "description": "Führe einen Fernkampfangriff mit niedriger Priorität und 170 Stärke aus. Dieser Angriff geht fast immer als letzter."
+      }
+    ]
+  },
+  "block-choy": {
+    "description": "Block Choy ist gut ausgerüstet, um Gegner durch Lebensraub und den Einsatz von Gift zu überdauern, über Zeit Schaden zu verursachen und letztendlich den Kampf zu gewinnen!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FLIESSENDER SCHLAG I",
+        "description": "Führe einen Fernkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "SAEULENSMACK II",
+        "description": "Führe einen Nahkampfangriff mit 30 Stärke aus."
+      },
+      {
+        "name": "MINTSCHUTZ I",
+        "description": "Erhöhe für 2 Runden ein Schild, das 15% deiner maximalen HP entspricht."
+      },
+      {
+        "name": "VAMPIRISCHE WURZEL I",
+        "description": "Führe einen Fernkampfangriff mit 70 Stärke aus. Lebensraub 35% des verursachten Schadens."
+      },
+      {
+        "name": "ERSTICKENDE WURZELN II",
+        "description": "Verursacht für 5 Runden Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP des Gegners."
+      }
+    ]
+  },
+  "shiba-ignite": {
+    "description": "Shiba Ignite hat beträchtliche HP, die durch Lebensraub genutzt werden können, um seinen Hype zu steigern. Dies befähigt ihn, doppelten Schaden zu verursachen, wenn seine Gesundheit unter der des Gegners liegt!",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "LEBENSZAPFRITUAL I",
+        "description": "Selbstangriff mit 10 Stärke."
+      },
+      {
+        "name": "AURANY'S WUT II",
+        "description": "Wenn du in dieser Runde getroffen wirst, wird dein Angriff für 2 Runden um 2 Stufen erhöht."
+      },
+      {
+        "name": "EXPLOSIVER KONTER I",
+        "description": "Weiche einmal aus und führe einen Gegenangriff mit 40 Stärke aus, wenn du in dieser Runde angegriffen wirst."
+      },
+      {
+        "name": "FEUERIGE TOLLWUT II",
+        "description": "Führe einen Fernkampfangriff mit 60 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+      },
+      {
+        "name": "ERDBEBEN I",
+        "description": "Führe einen Nahkampfangriff mit 90 Stärke aus."
+      }
+    ]
+  },
+  "raccoin": {
+    "description": "Raccoin, bekannt für seine verschlagene Natur und entspannte Haltung, ist berühmt für seine Agilität und Liebe zu schattigen, ruhigen Ruheplätzen.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "KRAFTHEIST I",
+        "description": "Führe einen Nahkampfangriff mit 10 Stärke aus. Wenn deine aktuelle Geschwindigkeit niedriger ist als die des Gegners, erhöhe deine Geschwindigkeit für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "TEILE DEN REICHTUM I",
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus. Erhöhe die Geschwindigkeit deines Gegners für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "GAMMELN II",
+        "description": "Heile dich um 15% deiner maximalen HP. Senke deine Verteidigung für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "GLÜCKSREFLEXE II",
+        "description": "Weiche aus und führe dann einen Gegenangriff mit 40 Stärke aus, wenn du in dieser Runde von einem Nahkampfangriff getroffen wirst. Wenn ausgelöst, senke die Verteidigung des Gegners für 2 Runden um 2 Stufen."
+      },
+      {
+        "name": "FEUER IM HERZEN III",
+        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Wenn deine Geschwindigkeit höher ist als die des Gegners, führe einen zusätzlichen Nahkampfangriff mit 35 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
+      }
+    ]
+  },
+  "shibark": {
+    "description": "Shibark streift durch weite Lande, schnüffelt nach Schätzen und beansprucht stolz sein Territorium mit mächtigen Heulern.",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "RASENDER HEULER I",
+        "description": "Dein Angriff wird für 1 Runde um 1 Stufe erhöht. Der Angriff des Gegners wird für 1 Runde um 1 Stufe erhöht."
+      },
+      {
+        "name": "AUSHALTEN II",
+        "description": "Deflektiere 45% des Schadens eines Angriffs in dieser Runde. Wenn ausgelöst, erhalte 2 Hype."
+      },
+      {
+        "name": "FLAMMENFUNKEN I",
+        "description": "Führe einen Fernkampfangriff mit 25 Stärke aus. Dein Angriff wird für 2 Runden um 1 Stufe erhöht."
+      },
+      {
+        "name": "STEINJAGD II",
+        "description": "Führe einen Nahkampfangriff mit hoher Priorität und 50 Stärke aus. Dieser Angriff geht vor reaktiven Fähigkeiten und geht fast immer zuerst."
+      },
+      {
+        "name": "GRIMMIGE FANGZÄHNE III",
+        "description": "Führe einen Nahkampfangriff mit 110 Stärke aus. Wenn er trifft, verursache Fluch beim Gegner. Am Ende der Runde verursacht der Fluch 10% der maximalen HP des Gegners als Schaden. Wiederholtes Anwenden des Fluchs erhöht den anfänglichen Schaden des Fluchs um 50%. Dieser Effekt kann sich stapeln und setzt die Fluchdauer nicht zurück."
+      }
+    ]
+  },
+  "unikirin": {
+    "description": "Jeder Schritt von Unikirin hallt mit dem Knistern elektrischer Energie wider, ein Beweis für seinen wilden und ungezähmten Geist.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "AUFLADEN I",
+        "description": "Deine Geschwindigkeit wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "BLITZSCHRITTE I",
+        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen."
+      },
+      {
+        "name": "FLAMMENWERFER I",
+        "description": "Führe einen Fernkampfangriff mit 80 Stärke aus."
+      },
+      {
+        "name": "DONNERSCHLAG II",
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus. Deine Geschwindigkeit wird für 2 Runden um 1 Stufe erhöht."
+      },
+      {
+        "name": "ELEKTRISCHE ÜBERLASTUNG II",
+        "description": "Wenn deine Geschwindigkeit derzeit verringert ist, führe einen Fernkampfangriff mit 135 Stärke aus. Anschließend reinige deine Geschwindigkeit."
+      }
+    ]
+  },
+  "chocomint": {
+    "description": "Chocomint gehört zu den schnellsten Nefties. Nutze seine Geschwindigkeit, um auszuweichen und präzise zu kontern. Nutze die Macht der Sonne, um deinen Gegner zu besiegen!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "STACHELBLATT II",
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Wenn der Angriff schwach ist, verursache 1 Runde lang Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP des Gegners. Dieser Angriff geht fast immer zuerst."
+      },
+      {
+        "name": "FROSTBOLZEN II",
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
+      },
+      {
+        "name": "BLITZSCHRITTE I",
+        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen."
+      },
+      {
+        "name": "ÄTHERWIRBEL I",
+        "description": "Der Angriff des Gegners wird für 3 Runden um 3 Stufen verringert."
+      },
+      {
+        "name": "SONNENSTRAHL III",
+        "description": "Führe einen Fernkampfangriff mit 155 Stärke aus."
+      }
+    ]
+  },
+  "cybertooth": {
+    "description": "Cybertooth nutzt seine dicke Haut, um seine Verteidigung zu stärken, schwächt geschickt Gegner mit seinen Fähigkeiten, um einen Vorteil zu erlangen und erheblichen Schaden zu verursachen.",
+    "element": "air",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "AQUABOLZEN I",
+        "description": "Führe einen Fernkampfangriff mit 30 Stärke aus."
+      },
+      {
+        "name": "ZEPHYRA'S SCHUTZ I",
+        "description": "Erhöhe für 2 Runden ein Schild, das 20% deiner maximalen HP entspricht."
+      },
+      {
+        "name": "ZERSPLITTERNDER WIND II",
+        "description": "Reinige das Schild des Gegners und führe dann einen Fernkampfangriff mit 105 Stärke aus."
+      },
+      {
+        "name": "GLEICHGEWICHTS-SCHWANKUNG II",
+        "description": "Deine Verteidigung und dein Angriff werden für 2 Runden um 2 Stufen erhöht. Die Verteidigung und der Angriff des Gegners werden für 2 Runden um 2 Stufen verringert."
+      }
+    ]
+  },
+  "wassie": {
+    "description": "Wassie ist ein flinkes Neftie, das dafür bekannt ist, seine Fähigkeiten zu nutzen, um seine Geschwindigkeit zu steigern und erheblichen Schaden zu verursachen.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "SCHWÄCHENDE FLUT I",
+        "description": "Dein Angriff wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "ADRENALIN-KICK II",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn er trifft, erhalte 3 Hype."
+      },
+      {
+        "name": "LUFTTANZ II",
+        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen. Wenn ausgelöst, wird deine Geschwindigkeit für 2 Runden um 1 Stufe erhöht."
+      },
+      {
+        "name": "DONNERSCHLAG II",
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus. Deine Geschwindigkeit wird für 2 Runden um 1 Stufe erhöht."
+      },
+      {
+        "name": "BLITZSCHLAG III",
+        "description": "Führe einen Nahkampfangriff mit 160 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
+      }
+    ]
+  },
+  "dracurve": {
+    "description": "Dracurve bestimmt den Verlauf des Kampfes durch Änderungen der Werte und Status-Effekte. Sei vorsichtig, denn ein paar strategische Entscheidungen können schnell den Weg zur Zerstörung ebnen.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "DRACHENBRÜLLEN II",
+        "description": "Dein Angriff wird um 1 erhöht und deine Verteidigung um 1 für 1 Runde gesenkt. Führe dann einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "LUFTSCHLAG II",
+        "description": "Führe einen Fernkampfangriff mit 30 Stärke aus."
+      },
+      {
+        "name": "DONNERSCHILD II",
+        "description": "Erhöhe für 2 Runden ein Schild, das 15% deiner maximalen HP entspricht. Deine Verteidigung wird für 2 Runden um 2 erhöht."
+      },
+      {
+        "name": "VERSENGENDER BISS II",
+        "description": "Führe einen Nahkampfangriff mit 85 Stärke aus."
+      },
+      {
+        "name": "DONNERLORD'S RAMPAGE II",
+        "description": "Führe einen Fernkampfangriff mit 60 Stärke aus. Wenn du ein aktives Schild hast, upgrade dein Schild auf 25% deiner maximalen HP für 2 Runden. Führe dann einen Fernkampfangriff mit 30 Stärke aus."
+      }
+    ]
+  },
+  "bloomtail": {
+    "description": "Bloomtail ist ein lebhaftes Neftie, das von der Blume auf seinem Rücken angetrieben wird. Es wird gesagt, dass die Blume gelegentlich seine Bewegungen beeinflusst und ihm eine interessante Wendung verleiht!",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "ADRENALIN-KICK II",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn er trifft, erhalte 3 Hype."
+      },
+      {
+        "name": "GIFTIGER BOUQUET I",
+        "description": "Verursacht für 2 Runden Gift bei dir und dem Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP."
+      },
+      {
+        "name": "SYMBIOTISCHER SCHLAG II",
+        "description": "Führe einen Nahkampfangriff mit 45 Stärke aus. Verursache doppelten Schaden, wenn der Gegner derzeit vergiftet ist."
+      },
+      {
+        "name": "VERZWEIFELTER KONTER II",
+        "description": "Weiche aus, wenn du in dieser Runde getroffen wirst. Wenn du derzeit vergiftet bist, führe auch einen Gegenangriff mit 50 Stärke aus."
+      },
+      {
+        "name": "VAMPIRISCHE BLÜTE III",
+        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus. Wenn du derzeit vergiftet bist, raube 60% des verursachten Schadens als Leben."
+      }
+    ]
+  },
+  "ghouliath": {
+    "description": "Ghouliaths waren einst mächtige Drachen, doch nun verweilen sie als Geister, bis ihre unerledigten Angelegenheiten geklärt sind...",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "LEBENSZAPFRITUAL I",
+        "description": "Selbstangriff mit 10 Stärke."
+      },
+      {
+        "name": "LUFTSCHLAG II",
+        "description": "Führe einen Fernkampfangriff mit 30 Stärke aus."
+      },
+      {
+        "name": "SEELENSAUGEN II",
+        "description": "Wenn dein Gegner verflucht ist, heile dich um 15% deiner maximalen HP und erhöhe deinen Angriff und deine Verteidigung für 2 Runden um 2."
+      },
+      {
+        "name": "VERFLUCHTE FLAMMEN II",
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus. Wenn er trifft, verursache Fluch beim Gegner. Nach einem Countdown von 2 Runden verursacht der Fluch 20% der maximalen HP des Gegners als Schaden."
+      },
+      {
+        "name": "BLIGHTQUAKE III",
+        "description": "Führe einen Fernkampfangriff mit 55 Stärke aus. Wenn der Gegner verflucht ist, verursache doppelten Schaden."
+      }
+    ]
+  },
+  "chocorex": {
+    "description": "Für seine Loyalität geschätzt, ist Chocorex ein bevorzugter Begleiter und vertrauenswürdiges Reittier in Tokane. Aufgrund seiner begrenzten Intelligenz benötigt es jedoch erfahrene Reiter.",
+    "element": "water",
+    "skills": [
+      {
+        "name": "ENERGETISCHER SCHLAG I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "HARTES VERHALTEN I",
+        "description": "Wenn du in dieser Runde getroffen wirst, wird deine Verteidigung für 3 Runden um 1 erhöht."
+      },
+      {
+        "name": "SICHERER UNTERGANG III",
+        "description": "Verursache Fluch bei dir selbst und erhöhe deinen Angriff für 2 Runden um 5 Stufen. Nach einem Countdown von 2 Runden verursacht der Fluch 100% deiner maximalen HP als Schaden."
+      },
+      {
+        "name": "BRECHENDE WELLE II",
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+      },
+      {
+        "name": "GROSSZÜGIGER BISS II",
+        "description": "Führe einen Nahkampfangriff mit 95 Stärke aus. Raube 20% des verursachten Schadens als Leben."
+      }
+    ]
+  },
+  "keybab": {
+    "description": "Wenn Keybab seinen Selbstverteidigungsmechanismus aktiviert, wechselt er die Farbe zu kochendem Rot, und sein scharfer Dampf bringt jeden, der ihn einatmet, zum Weinen.",
+    "element": "fire",
+    "skills": [
+      {
+        "name": "BRAND I",
+        "description": "Selbstangriff mit 25 Stärke."
+      },
+      {
+        "name": "RUHE I",
+        "description": "Heile dich um 10% deiner maximalen HP."
+      },
+      {
+        "name": "GEWÜRZSCHICHT II",
+        "description": "Erhöhe für 2 Runden ein Schild, das 15% deiner maximalen HP entspricht. Wenn deine aktuellen HP niedriger sind als die des Gegners, upgrade dein Schild auf 30% deiner maximalen HP."
+      },
+      {
+        "name": "BRENNENDES SELBSTVERTRAUEN II",
+        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn deine aktuellen HP höher sind als die des Gegners, verursache doppelten Schaden."
+      },
+      {
+        "name": "FEURIGE TOLLWUT II",
+        "description": "Führe einen Fernkampfangriff mit 60 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+      }
+    ]
+  },
+  "beeblock": {
+    "description": "Beeblock, bekannt für seine ruhige Natur, wird wegen seiner Produktion eines köstlich süßen Gels namens Nury gezähmt. Doch wenn es bedroht wird, setzt es mächtige Stiche ein, um jeden Angreifer abzuwehren.",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "POLLENISIEREN I",
+        "description": "Heile dich um 7% deiner maximalen HP."
+      },
+      {
+        "name": "SUMMENDER TANZ II",
+        "description": "Deflektiere 40% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs. Wenn ausgelöst, wird deine Geschwindigkeit für 2 Runden um 1 Stufe erhöht und erhalte 1 Hype."
+      },
+      {
+        "name": "DORNIGER KONTER II",
+        "description": "Weiche einmal aus und führe dann einen Gegenangriff mit 45 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff, wenn du in dieser Runde getroffen wirst."
+      },
+      {
+        "name": "SUPERSTACHEL III",
+        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Wenn er trifft, verursache Gift und senke den Angriff und die Verteidigung des Gegners für 2 Runden um 2 Stufen. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP des Gegners."
+      },
+      {
+        "name": "SYLPHOR'S REINIGUNG III",
+        "description": "Reinige dich selbst. Anschließend führe einen Fernkampfangriff mit 160 Stärke aus."
+      }
+    ]
+  },
+  "walpuff": {
+    "description": "Walpuffs sind bekannt für ihre weichen Köpfe, aber robusten Körper. Deshalb tragen sie einen schützenden Kopfschutz, der mit scharfen Stoßzähnen verziert ist und eine formidable Rüstung bietet!",
+    "element": "water",
+    "skills": [
+      {
+        "name": "AUSHALTEN II",
+        "description": "Deflektiere 45% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs. Wenn ausgelöst, erhalte 2 Hype."
+      },
+      {
+        "name": "STEINHAUT I",
+        "description": "Erhöht deine Verteidigung für 2 Runden um 1 Stufe. Senke die Verteidigung des Gegners für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "KOPFSTOSS II",
+        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Senke deine Verteidigung um 1 Stufe, aber erhöhe deinen Angriff für 2 Runden um 2 Stufen."
+      },
+      {
+        "name": "ARKTISCHE BARRIERE II",
+        "description": "Erhöhe für 2 Runden ein Schild, das 15% deiner maximalen HP entspricht. Wenn deine Verteidigung derzeit erhöht ist, upgrade dein Schild auf 40% deiner maximalen HP."
+      },
+      {
+        "name": "GEPANZERTER SCHLAG III",
+        "description": "Führe einen Nahkampfangriff mit niedriger Priorität und 155 Stärke aus und nutze dabei deine Verteidigung statt Angriff. Dieser Angriff geht fast immer als letzter."
+      }
+    ]
+  },
+  "whiskube": {
+    "description": "Whiskubes ruhen gerne auf Eis, aber ihre reflektierenden Körper lassen es beim Schlafen schmelzen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser und weckt sie ordentlich auf!",
+    "element": "earth",
+    "skills": [
+      {
+        "name": "ENERGIEGELADENE REFLEXION I",
+        "description": "Reflektiere 30% des in dieser Runde zugefügten Schadens an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, erhalte 3 Hype."
+      },
+      {
+        "name": "MONDSCHEINNEBEL II",
+        "description": "Senke deinen Angriff und den Angriff des Gegners für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "NACHSCHUSS II",
+        "description": "Senke die Verteidigung des Gegners für 5 Runden um 3 Stufen."
+      },
+      {
+        "name": "SCHLAMMLAWINE II",
+        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Erhöht deine Verteidigung für 2 Runden um 1 Stufe."
+      },
+      {
+        "name": "SAUGKONTER III",
+        "description": "Reflektiere 50% des in dieser Runde zugefügten Schadens an den Gegner zurück und führe einen Gegenangriff mit 50 Stärke aus und nutze dabei deine Verteidigung statt Angriff. Du nimmst den verbleibenden Schaden."
+      }
+    ]
+  },
+  "dinotusk": {
+    "description": "Dinotusks nutzen ihre einzigartigen Schwänze, um sich mit Tokane zu verbinden, Energie zu erzeugen und das Überleben in rauen Umgebungen zu ermöglichen.",
+    "element": "lightning",
+    "skills": [
+      {
+        "name": "SCHWÄCHENDE FLUT I",
+        "description": "Dein Angriff wird für 2 Runden um 1 Stufe verringert."
+      },
+      {
+        "name": "VERZWEIFELTES ZURÜCKSCHLAGEN III",
+        "description": "Führe einen Nahkampfangriff mit 15 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, erhalte 3 zusätzliche Hype."
+      },
+      {
+        "name": "KEIN SCHMERZ, KEIN GEWINN I",
+        "description": "Selbstangriff mit 40 Stärke. Erhöht deine Verteidigung für 3 Runden um 3 Stufen."
+      },
+      {
+        "name": "GETEILTES SCHICKSAL III",
+        "description": "Verursacht Fluch bei dir und dem Gegner. Nach einem Countdown von 3 Runden verursacht der Fluch 40% der maximalen HP von dir und dem Gegner als Schaden."
+      },
+      {
+        "name": "BLITZSCHLAG III",
+        "description": "Führe einen Fernkampfangriff mit 115 Stärke aus."
+      }
+    ]
+  },
+  "tokoma": {
+    "description": "Tokomas, die loyalsten unter den Nefties, bilden eine lebenslange Bindung und werden ihren Trainer um jeden Preis beschützen!",
+    "element": "air",
+    "skills": [
+      {
+        "name": "FLIESSENDER SCHLAG I",
+        "description": "Führe einen Fernkampfangriff mit 20 Stärke aus."
+      },
+      {
+        "name": "ÄTHERWACHE II",
+        "description": "Deflektiere 80% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs."
+      },
+      {
+        "name": "HIMMELSZORN II",
+        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn er trifft, wird deine Geschwindigkeit für 2 Runden um 2 erhöht."
+      },
+      {
+        "name": "ERDZORN II",
+        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn er trifft, wird dein Angriff für 2 Runden um 2 erhöht."
+      },
+      {
+        "name": "BLITZ SCHLÄGT ZWEIMAL EIN I",
+        "description": "Erhöht deinen Angriff und deine Geschwindigkeit für 2 Runden um 2 Stufen."
+      }
+    ]
+  }
+}
