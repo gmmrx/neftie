@@ -4,52 +4,67 @@ import { useNefties } from "@/providers/NeftiesProvider";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
-  TableFooter,
   TableHead,
   TableHeader,
   TableRow,
 } from "../ui/table";
 import { useTranslation } from "react-i18next";
 import { DeleteIcon, EditIcon } from "lucide-react";
+import React, { useState } from "react";
+import AddNeftieModal from "./add-neftie";
 
 const NeftiesTable = () => {
-  const { nefties } = useNefties();
+  const { nefties } = useNefties(); // Your provider/context hook
   const { t } = useTranslation();
+  const [selectedNeftie, setSelectedNeftie] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleEdit = (neftie) => {
+    setSelectedNeftie(neftie);
+    setIsModalOpen(true);
+  };
 
   return (
     <div>
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead className="">{t("translation:name")}</TableHead>
+            <TableHead>{t("translation:name")}</TableHead>
             <TableHead>{t("translation:element")}</TableHead>
             <TableHead>{t("translation:actions")}</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
           {nefties.map((neftie) => (
-            <TableRow key={neftie.name}>
-              <TableCell className="font-medium flex gap-2 items-center">
+            <TableRow key={neftie.id}>
+              <TableCell className="flex items-center gap-2">
                 <img
                   src={`/images/mini-nefties/${neftie.slug}.png`}
-                  className="rounded-[100%] w-[30px] h-[30px]"
+                  className="rounded-full w-8 h-8"
                 />
                 {neftie.name}
               </TableCell>
-              <TableCell>
-                {" "}
-                {t(`translation:elements.${neftie.element}`).toUpperCase()}
-              </TableCell>
-              <TableCell className="flex gap-4">
-                <EditIcon size={20} className="cursor-pointer" />
+              <TableCell>{neftie.element.toUpperCase()}</TableCell>
+              <TableCell className="flex items-center gap-2">
+                <EditIcon
+                  size={20}
+                  className="cursor-pointer"
+                  onClick={() => handleEdit(neftie)}
+                />
                 <DeleteIcon size={20} className="cursor-pointer" />
               </TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
+      {isModalOpen && (
+        <AddNeftieModal
+          isOpen={isModalOpen}
+          onToggle={setIsModalOpen}
+          initialData={selectedNeftie}
+        />
+      )}
     </div>
   );
 };
