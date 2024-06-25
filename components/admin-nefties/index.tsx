@@ -13,7 +13,7 @@ const AdminNeftiesHome: NextPage = () => {
     useState<boolean>(false);
 
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll pb-6">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll pb-6 no-scrollbar">
       <div className="w-full flex justify-end mb-4">
         <Button
           variant="outline"

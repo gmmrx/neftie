@@ -145,7 +145,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             })}
         </div>
 
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll w-full lg:w-[33%]">
+        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll no-scrollbar w-full lg:w-[33%]">
           <div className="bg-secondary p-2 text-sm text-ibmplex uppercase">
             {t("translation:neutral_against")}
           </div>
