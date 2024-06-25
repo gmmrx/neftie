@@ -44,7 +44,7 @@ const EventPage: NextPage = ({ eventData }) => {
   );
   const status = getStatus(eventData.startsAt, eventData.endsAt);
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll no-scrollbar">
       <div className="flex flex-col md:flex-row justify-center md:justify-auto items-center md:items-start">
         <div className="p-4 rounded-sm w-full text-center md:text-left">
           <div className="flex justify-between items-center flex-col md:items-start">

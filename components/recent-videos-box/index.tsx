@@ -28,7 +28,7 @@ const RecentVideosBox: FC = () => {
           </div>
         </Link>
       </div>
-      <div className="flex flex-wrap gap-4 mt-4 justify-between">
+      <div className="flex flex-wrap gap-4 mt-4 gap-4">
         {videos &&
           videos.length > 0 &&
           videos.slice(0, 3).map((video) => {
