@@ -2,14 +2,16 @@ import Providers from "@/components/providers";
 import initTranslations from "../../i18n";
 import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
-import AdminSidebar from "@/components/admin-sidebar";
+import StatCounter from "statcounter";
+import WikiSidebar from "@/components/wiki-sidebar";
 
 import "../../globals.css";
 import "../../nprogress.css";
 
-const i18nNamespaces = ["translation", "nefties", "admin"];
+const i18nNamespaces = ["translation", "nefties", "wiki"];
+const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";
 
-export default async function RootLayout({
+export default async function WikiLayout({
   children,
   params: { locale },
 }: {
@@ -19,8 +21,8 @@ export default async function RootLayout({
   let jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Neftie App",
-    url: "https://neftie.app/",
+    name: "Neftie Wiki",
+    url: "https://neftie.app/wiki",
   };
   const { resources } = await initTranslations(locale, i18nNamespaces);
 
@@ -39,19 +41,20 @@ export default async function RootLayout({
         />
       </head>
       <body>
-        <Providers locale={locale}>
-          <TranslationProvider
-            locale={locale}
-            resources={resources}
-            namespaces={i18nNamespaces}
-          >
+        <TranslationProvider
+          locale={locale}
+          resources={resources}
+          namespaces={i18nNamespaces}
+        >
+          <Providers locale={locale}>
             <div className="w-full mt-0 mb-0 bg-page-bg">
               <div className="bg-page-bg">
+                {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
                   <div className="bg-page-bg">
                     <div className="flex flex-col lg:flex-row">
-                      <AdminSidebar />
-                      <div className="bg-[#161618] w-full lg:w-[calc(100%-240px)]">
+                      <WikiSidebar />
+                      <div className="bg-[#161618] w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0">
                         {children}
                       </div>
                     </div>
@@ -60,8 +63,9 @@ export default async function RootLayout({
               </div>
             </div>
             <Toaster />
-          </TranslationProvider>
-        </Providers>
+          </Providers>
+        </TranslationProvider>
+        {isProd && <StatCounter sc_project={12998877} sc_security="d944ad70" />}
 
         <script
           type="application/ld+json"

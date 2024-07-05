@@ -1,12 +1,12 @@
 import Sidebar from "@/components/sidebar";
-import "../../globals.css";
-import "../../nprogress.css";
-import { SessionProvider } from "next-auth/react";
 import Providers from "@/components/providers";
 import initTranslations from "../../i18n";
 import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
 import StatCounter from "statcounter";
+
+import "../../globals.css";
+import "../../nprogress.css";
 
 const i18nNamespaces = ["translation", "nefties"];
 const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";

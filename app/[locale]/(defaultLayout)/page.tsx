@@ -6,7 +6,7 @@ import { syncAndForceDB } from "@/lib/create-tables";
 import { Metadata, ResolvingMetadata } from "next";
 
 export default async function Home() {
-  // await syncAndForceDB();
+  await syncAndForceDB();
   return (
     <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] font-ibmplex">
       <WhatIsNeftieBox />

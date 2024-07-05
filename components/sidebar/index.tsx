@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { LayoutDashboard, Play } from "lucide-react";
+import { LayoutDashboard, Play, SwatchBook } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -202,6 +202,12 @@ const Sidebar = () => {
               ></path>
             </svg>
             {t("translation:events")}
+          </div>
+        </Link>
+        <Link href="/wiki">
+          <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
+            <SwatchBook size="22" />
+            Wiki
           </div>
         </Link>
         {session && session.user.isAdmin && (
