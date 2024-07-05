@@ -44,7 +44,7 @@ async function handleGet(req: NextRequest) {
     const translatedNefties = nefties.map((neftie) => {
       const neftieData = neftie.get({ plain: true });
       const { name, description, skills, ...rest } = neftieData;
-      const translation = data[name.toLowerCase()];
+      const translation = data[name.replace(" ", "-").toLowerCase()];
 
       const { good, bad, neutral } = findNeftiesByElement(
         neftieData.element,
