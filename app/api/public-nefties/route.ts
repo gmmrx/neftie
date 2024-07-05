@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse as Response } from "next/server";
 import { promises as fs } from "fs";
+import path from "path";
 
 import { models } from "@/lib/db";
 import { ElementList } from "@/lib/data/elements";
@@ -28,10 +29,11 @@ function findNeftiesByElement(targetElement, nefties) {
 async function handleGet(req: NextRequest) {
   const language = req.nextUrl.searchParams.get("lang") || "en";
   try {
-    const file = await fs.readFile(
-      process.cwd() + `/locales/${language}/nefties.json`,
-      "utf8"
+    const filePath = path.resolve(
+      process.cwd(),
+      `locales/${language}/nefties.json`
     );
+    const file = await fs.readFile(filePath, "utf8");
     const data = JSON.parse(file);
 
     const nefties = await models.Nefties.findAll();
