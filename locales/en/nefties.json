@@ -61,15 +61,15 @@
       },
       {
         "name": "MUDHAMMER II",
-        "description": "Perform a Ranged attack of 50 Power."
+        "description": "Perform a Ranged attack of 40 Power using your Defense intead of Attack."
       },
       {
         "name": "ROCK WALL II",
         "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
       },
       {
-        "name": "KNOCKDOWN I",
-        "description": "Perform a Melee attack of 60 Power using your Defense instead of Attack."
+        "name": "STAMPEDE III",
+        "description": "Perform a Melee attack of 110 Power. If your opponent's Defense is currently raised, drop the opponent's Defense by 2 stages for 3 turns."
       },
       {
         "name": "VITALITY STRIKE I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "FRAGILITY FLUX I",
-        "description": "Your Defense is dropped by 1 stage for 2 turns."
+        "name": "RECKLESS SHRIEK II",
+        "description": "Drop your Defense by 1 stage for 2 turns. Raise your Attack by 1 stage until the end of this turn."
       },
       {
         "name": "BUBBLECHAIN II",
@@ -142,8 +142,8 @@
         "description": "Raise your Defense by 2 stage for 2 turns."
       },
       {
-        "name": "PUTRID VINE I",
-        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 10% of max HP."
+        "name": "CLEANSING TIDE I",
+        "description": "Cleanse status effects on you and the opponent."
       },
       {
         "name": "KNOCKDOWN I",

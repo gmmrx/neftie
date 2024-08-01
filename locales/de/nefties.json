@@ -61,15 +61,15 @@
       },
       {
         "name": "SCHLAMMHAMMER II",
-        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus."
+        "description": "Führe einen Fernkampfangriff mit 40 Stärke aus, wobei du deine Verteidigung anstelle des Angriffs verwendest."
       },
       {
         "name": "FELSENMAUER II",
         "description": "Erhöhe für 2 Runden ein Schild, das 20% deiner maximalen HP entspricht."
       },
       {
-        "name": "UMSTURZ I",
-        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
+        "name": "STURMANGRIFF III",
+        "description": "Führe einen Nahkampfangriff mit 110 Stärke aus. Wenn die Verteidigung deines Gegners derzeit erhöht ist, verringere die Verteidigung des Gegners um 2 Stufen für 3 Runden."
       },
       {
         "name": "VITALITÄTS-SCHLAG I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "FRAGILITÄTS-FLUSS I",
-        "description": "Deine Verteidigung wird für 2 Runden um 1 Stufe verringert."
+        "name": "RÜCKSICHTSLOSER SCHREI II",
+        "description": "Verringere deine Verteidigung um 1 Stufe für 2 Runden. Erhöhe deinen Angriff um 1 Stufe bis zum Ende dieser Runde."
       },
       {
         "name": "BLASENKETTE II",
@@ -142,8 +142,8 @@
         "description": "Erhöht deine Verteidigung für 2 Runden um 2 Stufen."
       },
       {
-        "name": "VERDERBLICHE REBE I",
-        "description": "Verursacht für 2 Runden Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP."
+        "name": "REINIGENDE FLUT I",
+        "description": "Beseitigt Status-Effekte bei dir und dem Gegner."
       },
       {
         "name": "UMSTURZ I",

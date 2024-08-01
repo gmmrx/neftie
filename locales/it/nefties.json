@@ -61,15 +61,15 @@
       },
       {
         "name": "MARTELLO DI FANGO II",
-        "description": "Effettua un attacco a distanza con 50 Potenza."
+        "description": "Esegui un attacco a distanza di 40 Potenza utilizzando la tua Difesa al posto dell'Attacco."
       },
       {
         "name": "MURO DI ROCCIA II",
         "description": "Alza uno scudo pari al 20% dei tuoi HP massimi per 2 turni."
       },
       {
-        "name": "ABBATTIMENTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 60 usando la tua Difesa invece dell'Attacco."
+        "name": "CALPESTATA III",
+        "description": "Esegui un attacco corpo a corpo di 110 Potenza. Se la Difesa dell'avversario è attualmente aumentata, riduci la Difesa dell'avversario di 2 stadi per 3 turni."
       },
       {
         "name": "COLPO VITALE I",
@@ -108,8 +108,8 @@
     "element": "acqua",
     "skills": [
       {
-        "name": "FLUSSO DI FRAGILITÀ I",
-        "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
+        "name": "URLO SFRENATO II",
+        "description": "Riduci la tua Difesa di 1 stadio per 2 turni. Aumenta il tuo Attacco di 1 stadio fino alla fine di questo turno."
       },
       {
         "name": "CATENA DI BOLLE II",
@@ -142,8 +142,8 @@
         "description": "Aumenta la tua Difesa di 2 livelli per 2 turni."
       },
       {
-        "name": "VITE PUTRIDA I",
-        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 10% degli HP massimi."
+        "name": "MAREA PURIFICANTE I",
+        "description": "Pulisci gli effetti di status su di te e sull'avversario."
       },
       {
         "name": "ABBATTIMENTO I",
