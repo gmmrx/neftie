@@ -21,7 +21,7 @@
       },
       {
         "name": "STURMBRECHERS EIFER III",
-        "description": "Dein Angriff wird für 3 Runden um 3 Stufen erhöht. Anschließend führe einen Fernkampfangriff mit 70 Stärke aus."
+        "description": "Dein Angriff wird für 3 Runden um 3 Stufen erhöht. Anschließend führe einen Fernkampfangriff mit 75 Stärke aus."
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       {
         "name": "FLUTWELLE III",
-        "description": "Führe einen Nahkampfangriff mit 85 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+        "description": "Führe einen Nahkampfangriff mit 75 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "name": "UMSTURZ I",
-        "description": "Führe einen Nahkampfangriff mit 75 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
       },
       {
         "name": "VITALITÄTS-SCHLAG I",
@@ -87,7 +87,7 @@
       },
       {
         "name": "AUFSCHLAG I",
-        "description": "Führe einen Nahkampfangriff mit 30 Stärke aus. Wenn dein aktueller Hype niedriger ist als der des Gegners, erhalte 3 Hype."
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn dein aktueller Hype niedriger ist als der des Gegners, erhalte 3 Hype."
       },
       {
         "name": "EXPLOSIVER KONTER I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "BRECHENDE WELLE II",
-        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 70 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
       },
       {
         "name": "BLITZSCHLAG III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "UMSTURZ I",
-        "description": "Führe einen Nahkampfangriff mit 75 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus und nutze dabei deine Verteidigung statt Angriff."
       },
       {
         "name": "FELSENHAGEL II",
-        "description": "Führe einen Fernkampfangriff mit 45 Stärke aus. Wenn deine Verteidigung höher ist als die des Gegners, führe einen zusätzlichen Fernkampfangriff aus."
+        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus. Wenn deine Verteidigung höher ist als die des Gegners, führe einen zusätzlichen Fernkampfangriff aus."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "SANDECHOS II",
-        "description": "Führe einen Fernkampfangriff mit 45 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff. Wenn er trifft, reinige dich selbst."
+        "description": "Führe einen Fernkampfangriff mit 45 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
       },
       {
         "name": "SPIEGELSCHILD II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "SAEULENSMACK II",
-        "description": "Führe einen Nahkampfangriff mit 30 Stärke aus."
+        "description": "Führe einen Nahkampfangriff mit 35 Stärke aus."
       },
       {
-        "name": "MINTSCHUTZ I",
-        "description": "Erhöhe für 2 Runden ein Schild, das 15% deiner maximalen HP entspricht."
+        "name": "GEWÜRZSCHICHT II",
+        "description": "Erhöhe ein Schild, das 15% deines maximalen HP entspricht. Wenn dein aktuelles HP niedriger ist als das des Gegners, erhöhe dein Schild auf 30% deines maximalen HP."
       },
       {
         "name": "VAMPIRISCHE WURZEL I",
-        "description": "Führe einen Fernkampfangriff mit 70 Stärke aus. Lebensraub 35% des verursachten Schadens."
+        "description": "Führe einen Fernkampfangriff mit 75 Stärke aus. Lebensraub 40% des verursachten Schadens."
       },
       {
         "name": "ERSTICKENDE WURZELN II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "AURANY'S WUT II",
-        "description": "Wenn du in dieser Runde getroffen wirst, wird dein Angriff für 2 Runden um 2 Stufen erhöht."
+        "description": "Wenn du in dieser Runde getroffen wirst, erhöhe deinen Angriff um 2 Stufen für 2 Runden. Wenn deine HP niedriger sind als die deines Gegners, erhöhe deinen Angriff um eine zusätzliche Stufe und deine Verteidigung um 2 Stufen für 2 Runden."
       },
       {
         "name": "EXPLOSIVER KONTER I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "FEUERIGE TOLLWUT II",
-        "description": "Führe einen Fernkampfangriff mit 60 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+        "description": "Führe einen Fernkampfangriff mit 70 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
       },
       {
         "name": "ERDBEBEN I",
-        "description": "Führe einen Nahkampfangriff mit 90 Stärke aus."
+        "description": "Führe einen Nahkampfangriff mit 100 Stärke aus."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "KRAFTHEIST I",
-        "description": "Führe einen Nahkampfangriff mit 10 Stärke aus. Wenn deine aktuelle Geschwindigkeit niedriger ist als die des Gegners, erhöhe deine Geschwindigkeit für 2 Runden um 1 Stufe."
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn deine aktuelle Geschwindigkeit niedriger ist als die des Gegners, erhöhe deine Geschwindigkeit für 2 Runden um 1 Stufe."
       },
       {
         "name": "TEILE DEN REICHTUM I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "GAMMELN II",
-        "description": "Heile dich um 15% deiner maximalen HP. Senke deine Verteidigung für 2 Runden um 1 Stufe."
+        "description": "Heile dich um 15% deines maximalen HP. Verringere deine Verteidigung bis zum Ende der Runde um 1 Stufe."
       },
       {
         "name": "GLÜCKSREFLEXE II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "FLAMMENFUNKEN I",
-        "description": "Führe einen Fernkampfangriff mit 25 Stärke aus. Dein Angriff wird für 2 Runden um 1 Stufe erhöht."
+        "description": "Führe einen Fernkampfangriff mit 35 Stärke aus. Dein Angriff wird für 2 Runden um 1 Stufe erhöht."
       },
       {
         "name": "STEINJAGD II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "AUFLADEN I",
-        "description": "Deine Geschwindigkeit wird für 2 Runden um 1 Stufe verringert."
+        "description": "Verringere deine Geschwindigkeit um 1 Stufe für 2 Runden. Erhöhe deine Verteidigung um 1 Stufe bis zum Ende dieser Runde."
       },
       {
         "name": "BLITZSCHRITTE I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "ELEKTRISCHE ÜBERLASTUNG II",
-        "description": "Wenn deine Geschwindigkeit derzeit verringert ist, führe einen Fernkampfangriff mit 135 Stärke aus. Anschließend reinige deine Geschwindigkeit."
+        "description": "Wenn deine Geschwindigkeit derzeit verringert ist, führe einen Fernkampfangriff mit 150 Stärke aus. Dann reinige dich."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "STACHELBLATT II",
-        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Wenn der Angriff schwach ist, verursache 1 Runde lang Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP des Gegners. Dieser Angriff geht fast immer zuerst."
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 25 Stärke aus. Wenn der Angriff schwach ist, verursache 1 Runde lang Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP des Gegners. Dieser Angriff geht fast immer zuerst."
       },
       {
         "name": "FROSTBOLZEN II",
-        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
+        "description": "Führe einen Fernkampfangriff mit 55 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
       },
       {
         "name": "BLITZSCHRITTE I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "ÄTHERWIRBEL I",
-        "description": "Der Angriff des Gegners wird für 3 Runden um 3 Stufen verringert."
+        "description": "Der Angriff des Gegners wird für 3 Runden um 3 Stufen gesenkt. Erhöhe deine Geschwindigkeit für 3 Runden um 1 Stufe."
       },
       {
         "name": "SONNENSTRAHL III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "GLEICHGEWICHTS-SCHWANKUNG II",
-        "description": "Deine Verteidigung und dein Angriff werden für 2 Runden um 2 Stufen erhöht. Die Verteidigung und der Angriff des Gegners werden für 2 Runden um 2 Stufen verringert."
+        "description": "Erhöhe deinen Angriff und deine Verteidigung um 1 für 3 Runden. Verringere den Angriff und die Verteidigung deines Gegners um 1 für 3 Runden."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "DRACHENBRÜLLEN II",
-        "description": "Dein Angriff wird um 1 erhöht und deine Verteidigung um 1 für 1 Runde gesenkt. Führe dann einen Nahkampfangriff mit 20 Stärke aus."
+        "description": "Dein Angriff wird um 1 erhöht und deine Verteidigung um 1 für 1 Runde gesenkt. Führe dann einen Nahkampfangriff mit 15 Stärke aus."
       },
       {
         "name": "LUFTSCHLAG II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPIRISCHE BLÜTE III",
-        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus. Wenn du derzeit vergiftet bist, raube 60% des verursachten Schadens als Leben."
+        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus. Wenn du derzeit vergiftet bist, raube 50% des verursachten Schadens als Leben."
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "name": "VERFLUCHTE FLAMMEN II",
-        "description": "Führe einen Fernkampfangriff mit 50 Stärke aus. Wenn er trifft, verursache Fluch beim Gegner. Nach einem Countdown von 2 Runden verursacht der Fluch 20% der maximalen HP des Gegners als Schaden."
+        "description": "Führe einen Fernkampfangriff mit 65 Stärke aus. Wenn er trifft, verursache Fluch beim Gegner. Nach einem Countdown von 3 Runden verursacht der Fluch 20% der maximalen HP des Gegners als Schaden."
       },
       {
         "name": "BLIGHTQUAKE III",
@@ -477,7 +477,7 @@
       },
       {
         "name": "HARTES VERHALTEN I",
-        "description": "Wenn du in dieser Runde getroffen wirst, wird deine Verteidigung für 3 Runden um 1 erhöht."
+        "description": "Wenn du in dieser Runde getroffen wirst, wird deine Verteidigung für 3 Runden um 2 erhöht."
       },
       {
         "name": "SICHERER UNTERGANG III",
@@ -485,11 +485,11 @@
       },
       {
         "name": "BRECHENDE WELLE II",
-        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 40 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 70 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
       },
       {
         "name": "GROSSZÜGIGER BISS II",
-        "description": "Führe einen Nahkampfangriff mit 95 Stärke aus. Raube 20% des verursachten Schadens als Leben."
+        "description": "Führe einen Nahkampfangriff mit 110 Stärke aus. Raube 20% des verursachten Schadens als Leben."
       }
     ]
   },
@@ -511,11 +511,11 @@
       },
       {
         "name": "BRENNENDES SELBSTVERTRAUEN II",
-        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn deine aktuellen HP höher sind als die des Gegners, verursache doppelten Schaden."
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus. Wenn deine aktuellen HP höher sind als die des Gegners, verursache doppelten Schaden."
       },
       {
         "name": "FEURIGE TOLLWUT II",
-        "description": "Führe einen Fernkampfangriff mit 60 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+        "description": "Führe einen Fernkampfangriff mit 70 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
       }
     ]
   },
@@ -567,7 +567,7 @@
       },
       {
         "name": "GEPANZERTER SCHLAG III",
-        "description": "Führe einen Nahkampfangriff mit niedriger Priorität und 155 Stärke aus und nutze dabei deine Verteidigung statt Angriff. Dieser Angriff geht fast immer als letzter."
+        "description": "Führe einen Nahkampfangriff mit niedriger Priorität und 150 Stärke aus, wobei du deine Verteidigung anstelle des Angriffs verwendest. Verringere dann deine Verteidigung um 5 Stufen für 3 Runden. Dieser Angriff erfolgt fast immer zuletzt."
       }
     ]
   },
@@ -637,11 +637,11 @@
       },
       {
         "name": "HIMMELSZORN II",
-        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn er trifft, wird deine Geschwindigkeit für 2 Runden um 2 erhöht."
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus. Wenn er trifft, wird deine Geschwindigkeit für 2 Runden um 2 erhöht."
       },
       {
         "name": "ERDZORN II",
-        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Wenn er trifft, wird dein Angriff für 2 Runden um 2 erhöht."
+        "description": "Führe einen Nahkampfangriff mit 60 Stärke aus. Wenn er trifft, wird dein Angriff für 2 Runden um 2 erhöht."
       },
       {
         "name": "BLITZ SCHLÄGT ZWEIMAL EIN I",

@@ -21,7 +21,7 @@
       },
       {
         "name": "FIRTINA KIRICININ COŞKUSU III",
-        "description": "Saldırın 3 tur boyunca 3 aşama artar. Ardından, 70 Güçlü bir Menzilli saldırı yap."
+        "description": "Saldırın 3 tur boyunca 3 aşama artar. Ardından, 75 Güçlü bir Menzilli saldırı yap."
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       {
         "name": "AKINTI III",
-        "description": "85 Güçlü bir Yakın Dövüş saldırısı yap. Eğer mevcut HP'nin rakibinkinden düşükse, çift hasar ver."
+        "description": "75 Güçlü bir Yakın Dövüş saldırısı yap. Eğer mevcut HP'nin rakibinkinden düşükse, çift hasar ver."
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "name": "DEVRİLME I",
-        "description": "Savunmanı kullanarak 75 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Savunmanı kullanarak 60 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "CANLI VURUŞ I",
@@ -87,7 +87,7 @@
       },
       {
         "name": "YETİŞEN YUMRUK I",
-        "description": "30 Güçlü bir Yakın Dövüş saldırısı yap. Eğer mevcut Heyecanın rakibinkinden düşükse, 3 Hype kazan."
+        "description": "20 Güçlü bir Yakın Dövüş saldırısı yap. Eğer mevcut Heyecanın rakibinkinden düşükse, 3 Hype kazan."
       },
       {
         "name": "PATLAYICI KARŞI SALDIRI I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "ÇARPIŞAN DALGA II",
-        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
+        "description": "70 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
       },
       {
         "name": "VOLT DALGASI III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "DEVRİLME I",
-        "description": "Savunmanı kullanarak 75 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Savunmanı kullanarak 60 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "KAYA ÇARPMASI II",
-        "description": "45 Güçlü bir Menzilli saldırı yap. Savunman rakibinkinden yüksekse, ek bir Menzilli saldırı yap."
+        "description": "50 Güçlü bir Menzilli saldırı yap. Savunman rakibinkinden yüksekse, ek bir Menzilli saldırı yap."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "KUM EKO'ları II",
-        "description": "Saldırı yerine Hızını kullanarak 45 Güçlük Uzaktan saldırı gerçekleştir. İsabet ederse, kendini temizle."
+        "description": "Saldırı yerine Hızını kullanarak 45 Güçlük Uzaktan saldırı gerçekleştir."
       },
       {
         "name": "AYNA KABUĞU II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "FİDAN DARBESİ II",
-        "description": "30 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "35 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
-        "name": "NANELİ KORUMA I",
-        "description": "2 tur boyunca maksimum HP'nin %15'i kadar bir Kalkan oluştur."
+        "name": "BAHARAT KATMANI II",
+        "description": "Maksimum HP'nizin %15'i kadar bir Kalkan yükseltin. Mevcut HP'niz rakibinizinkinden düşükse, Kalkanınızı maksimum HP'nizin %30'u kadar yükseltin."
       },
       {
         "name": "VAMPİRİK KÖK I",
-        "description": "70 Güçlü bir Menzilli saldırı yap. Verilen hasarın %35'ini yaşam çal."
+        "description": "75 Güçlü bir Menzilli saldırı yap. Verilen hasarın %40'ini yaşam çal."
       },
       {
         "name": "BOĞUCU KÖKLER II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "AURANY'NİN ÖFKESİ II",
-        "description": "Bu turda vurulursan, saldırın 2 tur boyunca 2 aşama artar."
+        "description": "Bu turda vurulursanız, Saldırınızı 2 aşama artırın ve 2 tur boyunca bu şekilde kalır. HP'niz rakibinizinkinden düşükse, Saldırınızı ek olarak 1 aşama ve Savunmanızı 2 aşama artırın ve 2 tur boyunca bu şekilde kalır."
       },
       {
         "name": "PATLAYICI KARŞI SALDIRI I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "ALEV SALDIRISI II",
-        "description": "60 Güçlü bir Menzilli saldırı yap. Eğer mevcut HP'nin rakibinkinden düşükse, çift hasar ver."
+        "description": "70 Güçlü bir Menzilli saldırı yap. Eğer mevcut HP'nin rakibinkinden düşükse, çift hasar ver."
       },
       {
         "name": "DEPREM I",
-        "description": "90 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "100 Güçlü bir Yakın Dövüş saldırısı yap."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "GÜÇ HIRSIZLIĞI I",
-        "description": "10 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut Hızınız rakibinizden düşükse, Hızınızı 2 tur boyunca 1 aşama artırın."
+        "description": "20 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut Hızınız rakibinizden düşükse, Hızınızı 2 tur boyunca 1 aşama artırın."
       },
       {
         "name": "SERVETİ PAYLAŞ I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "RAHATLAMA II",
-        "description": "Maksimum HP'nizin %15'ini kendinizi iyileştirin. Savunmanızı 2 tur boyunca 1 aşama azaltın."
+        "description": "Maksimum HP'nizin %15'ini iyileştirin. Turun sonuna kadar Savunmanızı 1 aşama düşürün."
       },
       {
         "name": "ŞANSLI REFLEKSLER II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "ALEV KIVILCIMI I",
-        "description": "25 Güçlü bir Menzilli saldırı yap. Saldırın 2 tur boyunca 1 aşama artar."
+        "description": "35 Güçlü bir Menzilli saldırı yap. Saldırın 2 tur boyunca 1 aşama artar."
       },
       {
         "name": "KAYA TAKİBİ II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "YENİDEN ŞARJ I",
-        "description": "Hızın 2 tur boyunca 1 aşama düşer."
+        "description": "Hızınızı 2 tur boyunca 1 aşama düşürün. Bu turun sonuna kadar Savunmanızı 1 aşama artırın."
       },
       {
         "name": "PARLAYAN ADIMLAR I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "ELEKTRİKSEL AŞIRI YÜK II",
-        "description": "Hızın şu anda düşmüşse, 135 Güçlü bir Menzilli saldırı yap. Ardından, Hızını temizle."
+        "description": "Hızınız şu anda düşmüşse, 150 Güçlük bir Uzak saldırı gerçekleştirin. Sonra kendinizi temizleyin."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "DİKENLİ YAPRAK II",
-        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Saldırı zayıfsa, rakibe 1 tur boyunca Zehir uygula. Her turun sonunda, Zehir rakibin maksimum HP'sinin %10'u kadar hasar verir. Bu saldırı neredeyse her zaman ilk gider."
+        "description": "25 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Saldırı zayıfsa, rakibe 1 tur boyunca Zehir uygula. Her turun sonunda, Zehir rakibin maksimum HP'sinin %10'u kadar hasar verir. Bu saldırı neredeyse her zaman ilk gider."
       },
       {
         "name": "BUZLU YILDIRIM II",
-        "description": "Saldırı yerine Hızınızı kullanarak 50 Güçlük Uzaktan saldırı gerçekleştir."
+        "description": "Saldırı yerine Hızınızı kullanarak 55 Güçlük Uzaktan saldırı gerçekleştir."
       },
       {
         "name": "PARLAYAN ADIMLAR I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "ETEREYSEL GİRDAP I",
-        "description": "Rakibin Saldırısı 3 tur boyunca 3 aşama düşer."
+        "description": "Rakibin Saldırısı 3 tur boyunca 3 aşama düşer. Hızınızı 3 tur boyunca 1 aşama artırın."
       },
       {
         "name": "GÜNEŞ PATLAMASI III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "DENGE DEĞİŞİMİ II",
-        "description": "Savunman ve Saldırın 2 tur boyunca 2 aşama artar. Rakibin Savunması ve Saldırısı 2 tur boyunca 2 aşama düşer."
+        "description": "Saldırınızı ve Savunmanızı 3 tur boyunca 1 artırın. Rakibinizin Saldırısını ve Savunmasını 3 tur boyunca 1 düşürün."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "DRAKONİK KÜKREME II",
-        "description": "Saldırın artar ve Savunman 1 tur boyunca 1 aşama düşer. Ardından, 20 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "Saldırın artar ve Savunman 1 tur boyunca 1 aşama düşer. Ardından, 15 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "HAVA KESİĞİ II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPİRİK ÇİÇEK III",
-        "description": "110 Güçlük Uzaktan saldırı gerçekleştir. Şu anda Zehirlenmişseniz, verilen hasarın %60'ını can çalma olarak alın."
+        "description": "110 Güçlük Uzaktan saldırı gerçekleştir. Şu anda Zehirlenmişseniz, verilen hasarın %50'sini can çalma olarak alın."
       }
     ]
   },
@@ -460,7 +460,7 @@
       },
       {
         "name": "LANETLİ ALEVLER II",
-        "description": "50 Güçlük Uzaktan saldırı gerçekleştir. İsabet ederse, rakibe Lanet uygula. 2 tur geri sayımdan sonra, Lanet rakibin maksimum HP'sinin %20'si kadar hasar verir."
+        "description": "65 Güçlük Uzaktan saldırı gerçekleştir. İsabet ederse, rakibe Lanet uygula. 3 tur geri sayımdan sonra, Lanet rakibin maksimum HP'sinin %20'si kadar hasar verir."
       },
       {
         "name": "LANETLİ DEPREM III",
@@ -478,7 +478,7 @@
       },
       {
         "name": "ZORLU DAVRANIŞ I",
-        "description": "Bu turda vurulursanız, Savunmanızı 3 tur boyunca 1 artırın."
+        "description": "Bu turda vurulursanız, Savunmanızı 3 tur boyunca 2 artırın."
       },
       {
         "name": "KESİN KADER III",
@@ -486,11 +486,11 @@
       },
       {
         "name": "ÇARPIŞAN DALGA II",
-        "description": "40 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
+        "description": "70 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
       },
       {
         "name": "CÖMERT ISIRIK II",
-        "description": "95 Güçlük Yakın dövüş saldırısı gerçekleştir. Verilen hasarın %20'sini can çalma olarak geri alır."
+        "description": "110 Güçlük Yakın dövüş saldırısı gerçekleştir. Verilen hasarın %20'sini can çalma olarak geri alır."
       }
     ]
   },
@@ -512,11 +512,11 @@
       },
       {
         "name": "YANAN GÜVEN II",
-        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut HP'niz rakibinizden yüksekse, çift hasar verin."
+        "description": "60 Güçlük Yakın dövüş saldırısı gerçekleştir. Mevcut HP'niz rakibinizden yüksekse, çift hasar verin."
       },
       {
         "name": "ATEŞLİ KATLİAM II",
-        "description": "60 Güçlük Uzaktan saldırı gerçekleştir. Mevcut HP'niz rakibinizden düşükse, çift hasar verin."
+        "description": "70 Güçlük Uzaktan saldırı gerçekleştir. Mevcut HP'niz rakibinizden düşükse, çift hasar verin."
       }
     ]
   },
@@ -568,7 +568,7 @@
       },
       {
         "name": "ZIRHLI DARBE III",
-        "description": "Saldırı yerine Savunmanızı kullanarak 155 Güçlük düşük öncelikli bir Yakın dövüş saldırısı gerçekleştirin. Bu saldırı neredeyse her zaman son gider."
+        "description": "Düşük öncelikli 150 Güçlük bir Yakın dövüş saldırısı gerçekleştirirken, Saldırı yerine Savunmanızı kullanın. Ardından Savunmanızı 3 tur boyunca 5 aşama düşürün. Bu saldırı neredeyse her zaman en son gerçekleşir."
       }
     ]
   },
@@ -638,11 +638,11 @@
       },
       {
         "name": "GÖKYÜZÜNÜN ÖFKESİ II",
-        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Hızınızı 2 tur boyunca 2 artırın."
+        "description": "60 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Hızınızı 2 tur boyunca 2 artırın."
       },
       {
         "name": "YERYÜZÜNÜN GAZABI II",
-        "description": "55 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Saldırınızı 2 tur boyunca 2 aşama artırın."
+        "description": "60 Güçlük Yakın dövüş saldırısı gerçekleştir. İsabet ederse, Saldırınızı 2 tur boyunca 2 aşama artırın."
       },
       {
         "name": "ŞİMŞEK İKİ KERE ÇARPAR I",

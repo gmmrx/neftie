@@ -21,7 +21,7 @@
       },
       {
         "name": "ZELO DEL DISTRUTTORE DI TEMPESTE III",
-        "description": "La tua Attacco aumenta di 3 stadi per 3 turni. Poi, esegui un attacco a distanza di Potenza 70."
+        "description": "La tua Attacco aumenta di 3 stadi per 3 turni. Poi, esegui un attacco a distanza di Potenza 75."
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       {
         "name": "MAREMOTO III",
-        "description": "Esegui un attacco corpo a corpo di Potenza 85. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+        "description": "Esegui un attacco corpo a corpo di Potenza 75. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "name": "ABBATTIMENTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 75 usando la tua Difesa invece dell'Attacco."
+        "description": "Esegui un attacco corpo a corpo di Potenza 60 usando la tua Difesa invece dell'Attacco."
       },
       {
         "name": "COLPO VITALE I",
@@ -87,7 +87,7 @@
       },
       {
         "name": "COLPO RIMONTA I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 30. Se il tuo Hype attuale è inferiore a quello dell'avversario, guadagni 3 Hype."
+        "description": "Esegui un attacco corpo a corpo di Potenza 20. Se il tuo Hype attuale è inferiore a quello dell'avversario, guadagni 3 Hype."
       },
       {
         "name": "CONTRO ESPLOSIVO I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "ONDA IMPETUOSA II",
-        "description": "Effettua un attacco a distanza ad alta priorità di 40 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
+        "description": "Effettua un attacco a distanza ad alta priorità di 70 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
       },
       {
         "name": "SBARCO DI CORRENTE III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "ABBATTIMENTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 75 usando la tua Difesa invece dell'Attacco."
+        "description": "Esegui un attacco corpo a corpo di Potenza 60 usando la tua Difesa invece dell'Attacco."
       },
       {
         "name": "SCHIANTO DEL MASSO II",
-        "description": "Esegui un attacco a distanza di Potenza 45. Se la tua Difesa è superiore a quella dell'avversario, esegui un attacco a distanza aggiuntivo."
+        "description": "Esegui un attacco a distanza di Potenza 50. Se la tua Difesa è superiore a quella dell'avversario, esegui un attacco a distanza aggiuntivo."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "ECHI DI SABBIA II",
-        "description": "Effettua un attacco a distanza di 45 Potenza utilizzando la tua Velocità invece dell'Attacco. Se colpisce, purificati."
+        "description": "Effettua un attacco a distanza di 45 Potenza utilizzando la tua Velocità invece dell'Attacco."
       },
       {
         "name": "SPECCHIO COAT II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "SCOPPIO DI GERMALI II",
-        "description": "Esegui un attacco corpo a corpo di Potenza 30."
+        "description": "Esegui un attacco corpo a corpo di Potenza 35."
       },
       {
-        "name": "PROTEZIONE MINTY I",
-        "description": "Alza uno scudo pari al 15% dei tuoi HP massimi per 2 turni."
+        "name": "STRATO DI SPEZIE II",
+        "description": "Alza uno Scudo pari al 15% del tuo HP massimo. Se il tuo HP attuale è inferiore a quello dell'avversario, aumenta il tuo Scudo al 30% del tuo HP massimo."
       },
       {
         "name": "RADICE VAMPIRICA I",
-        "description": "Esegui un attacco a distanza di Potenza 70. Assorbi il 35% dei danni inflitti."
+        "description": "Esegui un attacco a distanza di Potenza 75. Assorbi il 40% dei danni inflitti."
       },
       {
         "name": "RADICI STRANGOLANTI II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "IRA DI AURANY II",
-        "description": "Se sei colpito questa azione, il tuo Attacco aumenta di 2 stadi per 2 turni."
+        "description": "Se vieni colpito in questo turno, aumenta il tuo Attacco di 2 stadi per 2 turni. Se i tuoi HP sono inferiori a quelli del tuo avversario, aumenta il tuo Attacco di uno stadio aggiuntivo e la tua Difesa di 2 stadi per 2 turni."
       },
       {
         "name": "CONTRO ESPLOSIVO I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "RAGGIO INFUOCATO II",
-        "description": "Esegui un attacco a distanza di Potenza 60. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+        "description": "Esegui un attacco a distanza di Potenza 70. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
       },
       {
         "name": "TERREMOTO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 90."
+        "description": "Esegui un attacco corpo a corpo di Potenza 100."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "FURTO DI VIGORE I",
-        "description": "Effettua un attacco corpo a corpo di 10 Potenza. Se la tua Velocità attuale è inferiore a quella dell'avversario, aumenta la tua Velocità di 1 livello per 2 turni."
+        "description": "Effettua un attacco corpo a corpo di 20 Potenza. Se la tua Velocità attuale è inferiore a quella dell'avversario, aumenta la tua Velocità di 1 livello per 2 turni."
       },
       {
         "name": "CONDIVIDI LA RICCHEZZA I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "RILASSATI II",
-        "description": "Curati del 15% dei tuoi HP massimi. Riduci la tua Difesa di 1 livello per 2 turni."
+        "description": "Guarisci del 15% del tuo HP massimo. Riduci la tua Difesa di 1 stadio fino alla fine del turno."
       },
       {
         "name": "RIFLESSI FORTUNATI II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "SCINTILLA FOCOSA I",
-        "description": "Esegui un attacco a distanza di Potenza 25. Il tuo Attacco aumenta di 1 stadio per 2 turni."
+        "description": "Esegui un attacco a distanza di Potenza 35. Il tuo Attacco aumenta di 1 stadio per 2 turni."
       },
       {
         "name": "INSEGUIMENTO ROCCIOSO II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "RIGENERAZIONE I",
-        "description": "La tua Velocità diminuisce di 1 per 2 turni."
+        "description": "Riduci la tua Velocità di 1 stadio per 2 turni. Aumenta la tua Difesa di 1 stadio fino alla fine di questo turno."
       },
       {
         "name": "PASSI FULMINEI I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "SOVRACCARICO ELETTRICO II",
-        "description": "Se la tua Velocità è attualmente diminuita, esegui un attacco a distanza di Potenza 135. Poi, pulisci la tua Velocità."
+        "description": "Se la tua Velocità è attualmente ridotta, esegui un attacco a distanza di 150 di Potenza. Poi, purificati."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "FOGLIA SPINATA II",
-        "description": "Effettua un attacco a distanza ad alta priorità di 40 Potenza. Se l'attacco è debole, infligge Veleno all'avversario per 1 turno. Alla fine di ogni turno, il Veleno infligge danni pari al 10% degli HP massimi dell'avversario. Questo attacco va quasi sempre per primo."
+        "description": "Effettua un attacco a distanza ad alta priorità di 25 Potenza. Se l'attacco è debole, infligge Veleno all'avversario per 1 turno. Alla fine di ogni turno, il Veleno infligge danni pari al 10% degli HP massimi dell'avversario. Questo attacco va quasi sempre per primo."
       },
       {
         "name": "BOLT GELATO II",
-        "description": "Effettua un attacco a distanza di 50 Potenza utilizzando la tua Velocità invece dell'Attacco."
+        "description": "Effettua un attacco a distanza di 55 Potenza utilizzando la tua Velocità invece dell'Attacco."
       },
       {
         "name": "PASSI FULMINEI I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "TURBINIO ETHEREO I",
-        "description": "La Difesa dell'avversario diminuisce di 3 stadi per 3 turni."
+        "description": "L'Attacco dell'avversario viene ridotto di 3 stadi per 3 turni. Aumenta la tua Velocità di 1 stadio per 3 turni."
       },
       {
         "name": "ESPLOSIONE SOLARE III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "FURIA DELLA FENICE II",
-        "description": "Ripristina il 50% dei tuoi HP massimi. Poi, esegui un attacco corpo a corpo di Potenza 70."
+        "description": "Aumenta il tuo Attacco e Difesa di 1 per 3 turni. Riduci l'Attacco e Difesa del tuo avversario di 1 per 3 turni."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "RUGGITO DRACONICO II",
-        "description": "Il tuo Attacco aumenta e la tua Difesa diminuisce di 1 per 1 turno. Poi, effettua un attacco corpo a corpo di 20 Potenza."
+        "description": "Il tuo Attacco aumenta e la tua Difesa diminuisce di 1 per 1 turno. Poi, effettua un attacco corpo a corpo di 15 Potenza."
       },
       {
         "name": "COLPO AEREO II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "FIORE VAMPIRICO III",
-        "description": "Effettua un attacco a distanza di 110 Potenza. Se sei attualmente Avvelenato, assorbi il 60% dei danni inflitti."
+        "description": "Effettua un attacco a distanza di 110 Potenza. Se sei attualmente Avvelenato, assorbi il 50% dei danni inflitti."
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "name": "FIAMME MALEDETTE II",
-        "description": "Esegui un attacco a distanza di 50 Potere. Se colpisce, infliggi Maledizione all'avversario. Dopo un conto alla rovescia di 2 turni, la Maledizione infligge il 20% degli HP massimi dell'avversario."
+        "description": "Esegui un attacco a distanza di 65 Potere. Se colpisce, infliggi Maledizione all'avversario. Dopo un conto alla rovescia di 3 turni, la Maledizione infligge il 20% degli HP massimi dell'avversario."
       },
       {
         "name": "TERREMOTO MALEDETTO III",
@@ -477,7 +477,7 @@
       },
       {
         "name": "ATTO DURO I",
-        "description": "Se vieni colpito in questa azione di turno, aumenta la tua Difesa di 1 per 3 turni."
+        "description": "Se vieni colpito in questa azione di turno, aumenta la tua Difesa di 2 per 3 turni."
       },
       {
         "name": "DESTINO CERTO III",
@@ -485,11 +485,11 @@
       },
       {
         "name": "ONDA IMPETUOSA II",
-        "description": "Effettua un attacco a distanza ad alta priorità di 40 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
+        "description": "Effettua un attacco a distanza ad alta priorità di 70 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
       },
       {
         "name": "MORENTE GENEROSO II",
-        "description": "Effettua un attacco corpo a corpo di 95 Potenza. Assorbe il 20% dei danni inflitti come Vita."
+        "description": "Effettua un attacco corpo a corpo di 110 Potenza. Assorbe il 20% dei danni inflitti come Vita."
       }
     ]
   },
@@ -511,11 +511,11 @@
       },
       {
         "name": "FIDUCIA ARDENTE II",
-        "description": "Effettua un attacco corpo a corpo di 55 Potenza. Se i tuoi HP attuali sono superiori a quelli dell'avversario, infliggi danni doppi."
+        "description": "Effettua un attacco corpo a corpo di 60 Potenza. Se i tuoi HP attuali sono superiori a quelli dell'avversario, infliggi danni doppi."
       },
       {
         "name": "RAMPAGE FIAMMANTE II",
-        "description": "Effettua un attacco a distanza di 60 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+        "description": "Effettua un attacco a distanza di 70 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
       }
     ]
   },
@@ -567,7 +567,7 @@
       },
       {
         "name": "COLPO CORAZZATO III",
-        "description": "Effettua un attacco corpo a corpo di Bassa Priorità di 155 Potenza utilizzando la tua Difesa invece dell'Attacco. Questo attacco va quasi sempre per ultimo."
+        "description": "Esegui un attacco corpo a corpo a bassa priorità di 150 Potenza utilizzando la tua Difesa al posto dell'Attacco. Poi, riduci la tua Difesa di 5 stadi per 3 turni. Questo attacco va quasi sempre per ultimo."
       }
     ]
   },
@@ -637,11 +637,11 @@
       },
       {
         "name": "FURIA DEL CIELO II",
-        "description": "Effettua un attacco corpo a corpo di 55 Potenza. Se colpisce, aumenta la tua Velocità di 2 per 2 turni."
+        "description": "Effettua un attacco corpo a corpo di 60 Potenza. Se colpisce, aumenta la tua Velocità di 2 per 2 turni."
       },
       {
         "name": "IRA DELLA TERRA II",
-        "description": "Effettua un attacco corpo a corpo di 55 Potenza. Se colpisce, aumenta il tuo Attacco di 2 livelli per 2 turni."
+        "description": "Effettua un attacco corpo a corpo di 60 Potenza. Se colpisce, aumenta il tuo Attacco di 2 livelli per 2 turni."
       },
       {
         "name": "IL FULMINE COLPISCE DUE VOLTE I",

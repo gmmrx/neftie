@@ -21,7 +21,7 @@
       },
       {
         "name": "ZÈLE DU BRISÉ-STORM III",
-        "description": "Votre Attaque est augmentée de 3 niveaux pendant 3 tours. Ensuite, effectuez une attaque à distance de 70 de puissance."
+        "description": "Votre Attaque est augmentée de 3 niveaux pendant 3 tours. Ensuite, effectuez une attaque à distance de 75 de puissance."
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       {
         "name": "GRAND COURANT III",
-        "description": "Effectuez une attaque au corps à corps de 85 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
+        "description": "Effectuez une attaque au corps à corps de 75 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "name": "RENVERSEMENT I",
-        "description": "Effectuez une attaque au corps à corps de 75 de puissance en utilisant votre Défense à la place de l'Attaque."
+        "description": "Effectuez une attaque au corps à corps de 60 de puissance en utilisant votre Défense à la place de l'Attaque."
       },
       {
         "name": "COUP DE VITALITÉ I",
@@ -87,7 +87,7 @@
       },
       {
         "name": "COUP DE RATTRAPAGE I",
-        "description": "Effectuez une attaque au corps à corps de 30 de puissance. Si votre Engouement actuel est inférieur à celui de l'adversaire, gagnez 3 Engouement."
+        "description": "Effectuez une attaque au corps à corps de 20 de puissance. Si votre Engouement actuel est inférieur à celui de l'adversaire, gagnez 3 Engouement."
       },
       {
         "name": "CONTRE EXPLOSIF I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "VAGUE DÉFERLANTE II",
-        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
+        "description": "Effectuer une attaque à distance de haute priorité de 70 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
       },
       {
         "name": "SURCHARGE DE VOLT III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "RENVERSEMENT I",
-        "description": "Effectuez une attaque au corps à corps de 75 de puissance en utilisant votre Défense à la place de l'Attaque."
+        "description": "Effectuez une attaque au corps à corps de 60 de puissance en utilisant votre Défense à la place de l'Attaque."
       },
       {
         "name": "FRAPPE DE BOULDER II",
-        "description": "Effectuez une attaque à distance de 45 de puissance. Si votre Défense est supérieure à celle de l'adversaire, effectuez une attaque supplémentaire à distance."
+        "description": "Effectuez une attaque à distance de 50 de puissance. Si votre Défense est supérieure à celle de l'adversaire, effectuez une attaque supplémentaire à distance."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "ÉCHOS DE SABLE II",
-        "description": "Effectuer une attaque à distance de 45 Puissance en utilisant votre Vitesse au lieu de l'Attaque. Si elle touche, nettoyez-vous."
+        "description": "Effectuer une attaque à distance de 45 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
       },
       {
         "name": "MIROIR DE COAT II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "COUP DE POUSSE II",
-        "description": "Effectuez une attaque au corps à corps de 30 de puissance."
+        "description": "Effectuez une attaque au corps à corps de 35 de puissance."
       },
       {
-        "name": "PROTECTION MENTHOLÉE I",
-        "description": "Élevez un Bouclier égal à 15% de vos PV max pendant 2 tours."
+        "name": "COUCHE D'ÉPICES II",
+        "description": "Élevez un Bouclier égal à 15% de votre HP maximum. Si vos HP actuels sont inférieurs à ceux de l'adversaire, augmentez votre Bouclier à 30% de votre HP maximum."
       },
       {
         "name": "RACINE VAMPIRIQUE I",
-        "description": "Effectuez une attaque à distance de 70 de puissance. Vol de vie de 35% des dégâts infligés."
+        "description": "Effectuez une attaque à distance de 75 de puissance. Vol de vie de 40% des dégâts infligés."
       },
       {
         "name": "RACINES ÉTRANGLANTES II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "RAGE D'AURANY II",
-        "description": "Si vous êtes touché cette action de tour, votre Attaque est augmentée de 2 niveaux pendant 2 tours."
+        "description": "Si vous êtes touché ce tour-ci, augmentez votre Attaque de 2 niveaux pendant 2 tours. Si vos PV sont inférieurs à ceux de votre adversaire, augmentez votre Attaque d'un niveau supplémentaire et votre Défense de 2 niveaux pendant 2 tours."
       },
       {
         "name": "CONTRE EXPLOSIF I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "RAMPAGE ENFLAMMÉ II",
-        "description": "Effectuez une attaque à distance de 60 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
+        "description": "Effectuez une attaque à distance de 70 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
       },
       {
         "name": "TREMBLEMENT DE TERRE I",
-        "description": "Effectuez une attaque au corps à corps de 90 de puissance."
+        "description": "Effectuez une attaque au corps à corps de 100 de puissance."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "VOL DE VIGUEUR I",
-        "description": "Effectuer une attaque de Mêlée de 10 Puissance. Si votre Vitesse actuelle est inférieure à celle de l'adversaire, augmentez votre Vitesse de 1 niveau pendant 2 tours."
+        "description": "Effectuer une attaque de Mêlée de 20 Puissance. Si votre Vitesse actuelle est inférieure à celle de l'adversaire, augmentez votre Vitesse de 1 niveau pendant 2 tours."
       },
       {
         "name": "PARTAGER LA RICHESSE I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "REPOS II",
-        "description": "Soignez-vous de 15% de vos PV max. Réduisez votre Défense de 1 niveau pendant 2 tours."
+        "description": "Soignez-vous de 15% de votre HP maximum. Réduisez votre Défense de 1 niveau jusqu'à la fin du tour."
       },
       {
         "name": "REFLEXES CHANCEUX II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "ÉTINCELLE DE FLAMME I",
-        "description": "Effectuez une attaque à distance de 25 de puissance. Votre Attaque est augmentée de 1 niveau pendant 2 tours."
+        "description": "Effectuez une attaque à distance de 35 de puissance. Votre Attaque est augmentée de 1 niveau pendant 2 tours."
       },
       {
         "name": "POURSUITE ROCHEUSE II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "RECHARGE I",
-        "description": "Votre Vitesse est réduite de 1 pendant 2 tours."
+        "description": "Réduisez votre Vitesse de 1 niveau pendant 2 tours. Augmentez votre Défense de 1 niveau jusqu'à la fin de ce tour."
       },
       {
         "name": "PAS FULGURANTS I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "SURCHARGE ÉLECTRIQUE II",
-        "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 135 de puissance. Ensuite, purgez votre Vitesse."
+        "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 150 Puissance. Ensuite, purifiez-vous."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "FEUILLE BARBELÉE II",
-        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Si l'attaque est faible, infligez Poison à l'adversaire pendant 1 tour. À la fin de chaque tour, le Poison inflige des dégâts égaux à 10% des PV max de l'adversaire. Cette attaque arrive presque toujours en premier."
+        "description": "Effectuer une attaque à distance de haute priorité de 25 Puissance. Si l'attaque est faible, infligez Poison à l'adversaire pendant 1 tour. À la fin de chaque tour, le Poison inflige des dégâts égaux à 10% des PV max de l'adversaire. Cette attaque arrive presque toujours en premier."
       },
       {
         "name": "BOLT GIVRÉ II",
-        "description": "Effectuer une attaque à distance de 50 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
+        "description": "Effectuer une attaque à distance de 55 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
       },
       {
         "name": "PAS FULGURANTS I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "TOURBILLON D'ÉTHER I",
-        "description": "L'Attaque de l'adversaire est réduite de 3 niveaux pendant 3 tours."
+        "description": "L'Attaque de l'adversaire est réduite de 3 niveaux pendant 3 tours. Augmentez votre Vitesse de 1 niveau pendant 3 tours."
       },
       {
         "name": "EXPLOSION SOLAIRE III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "DÉPLACEMENT D'ÉQUILIBRE II",
-        "description": "Votre Défense et votre Attaque sont augmentées de 2 pendant 2 tours. La Défense et l'Attaque de l'adversaire sont réduites de 2 pendant 2 tours."
+        "description": "Augmentez votre Attaque et Défense de 1 pendant 3 tours. Réduisez l'Attaque et Défense de l'adversaire de 1 pendant 3 tours."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "RUGISSEMENT DRACONIQUE II",
-        "description": "Votre Attaque est augmentée et votre Défense est réduite de 1 pendant 1 tour. Ensuite, effectuez une attaque au corps à corps de 20 de puissance."
+        "description": "Votre Attaque est augmentée et votre Défense est réduite de 1 pendant 1 tour. Ensuite, effectuez une attaque au corps à corps de 15 de puissance."
       },
       {
         "name": "ENTAILLE AÉRIENNE II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "FLEUR VAMPIRIQUE III",
-        "description": "Effectuer une attaque à distance de 110 Puissance. Si vous êtes actuellement Empoisonné, vole-vie de 60% des dégâts infligés."
+        "description": "Effectuer une attaque à distance de 110 Puissance. Si vous êtes actuellement Empoisonné, vole-vie de 50% des dégâts infligés."
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "name": "FLAMMES MAUDITES II",
-        "description": "Effectuer une attaque à distance de 50 Puissance. Si elle touche, infligez une Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige 20% des PV max de l'adversaire."
+        "description": "Effectuer une attaque à distance de 65 Puissance. Si elle touche, infligez une Malédiction à l'adversaire. Après un compte à rebours de 3 tours, la Malédiction inflige 20% des PV max de l'adversaire."
       },
       {
         "name": "TREMBLEMENT DE MALÉDICTION III",
@@ -477,7 +477,7 @@
       },
       {
         "name": "ACTE DUR I",
-        "description": "Si vous êtes touché cette action de tour, augmentez votre Défense de 1 pendant 3 tours."
+        "description": "Si vous êtes touché cette action de tour, augmentez votre Défense de 2 pendant 3 tours."
       },
       {
         "name": "DESTIN CERTAIN III",
@@ -485,11 +485,11 @@
       },
       {
         "name": "VAGUE DÉFERLANTE II",
-        "description": "Effectuer une attaque à distance de haute priorité de 40 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
+        "description": "Effectuer une attaque à distance de haute priorité de 70 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
       },
       {
         "name": "MORSURE GÉNÉREUSE II",
-        "description": "Effectuer une attaque de Mêlée de 95 Puissance. Vole-vie 20% des dégâts infligés."
+        "description": "Effectuer une attaque de Mêlée de 110 Puissance. Vole-vie 20% des dégâts infligés."
       }
     ]
   },
@@ -511,11 +511,11 @@
       },
       {
         "name": "CONFIANCE BRÛLANTE II",
-        "description": "Effectuez une attaque de Mêlée de 55 Puissance. Si vos PV actuels sont supérieurs à ceux de l'adversaire, infligez des dégâts doubles."
+        "description": "Effectuez une attaque de Mêlée de 60 Puissance. Si vos PV actuels sont supérieurs à ceux de l'adversaire, infligez des dégâts doubles."
       },
       {
         "name": "RAVAGE ENFLAMMÉ II",
-        "description": "Effectuez une attaque à distance de 60 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doubles."
+        "description": "Effectuez une attaque à distance de 70 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doubles."
       }
     ]
   },
@@ -567,7 +567,7 @@
       },
       {
         "name": "COUP BLINDÉ III",
-        "description": "Effectuez une attaque de Mêlée de Basse Priorité de 155 Puissance en utilisant votre Défense au lieu de l'Attaque. Cette attaque arrive presque toujours en dernier."
+        "description": "Effectuez une attaque physique de basse priorité de 150 Puissance en utilisant votre Défense à la place de l'Attaque. Ensuite, réduisez votre Défense de 5 niveaux pendant 3 tours. Cette attaque est presque toujours la dernière à être exécutée."
       }
     ]
   },
@@ -637,11 +637,11 @@
       },
       {
         "name": "FUREUR DU CIEL II",
-        "description": "Effectuer une attaque de Mêlée de 55 Puissance. Si elle touche, augmentez votre Vitesse de 2 pendant 2 tours."
+        "description": "Effectuer une attaque de Mêlée de 60 Puissance. Si elle touche, augmentez votre Vitesse de 2 pendant 2 tours."
       },
       {
         "name": "COLÈRE DE LA TERRE II",
-        "description": "Effectuer une attaque de Mêlée de 55 Puissance. Si elle touche, augmentez votre Attaque de 2 niveaux pendant 2 tours."
+        "description": "Effectuer une attaque de Mêlée de 60 Puissance. Si elle touche, augmentez votre Attaque de 2 niveaux pendant 2 tours."
       },
       {
         "name": "LA FOUDRE FRAPPE DEUX FOIS I",

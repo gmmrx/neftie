@@ -21,7 +21,7 @@
       },
       {
         "name": "ZELO DO QUEBRADOR DE TEMPESTADES III",
-        "description": "Seu Ataque é aumentado em 3 estágios por 3 turnos. Em seguida, realize um ataque à distância com 70 de Poder."
+        "description": "Seu Ataque é aumentado em 3 estágios por 3 turnos. Em seguida, realize um ataque à distância com 75 de Poder."
       }
     ]
   },
@@ -47,33 +47,34 @@
       },
       {
         "name": "MARÉ III",
-        "description": "Realize um ataque corpo a corpo com 85 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
+        "description": "Realize um ataque corpo a corpo com 75 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
       }
     ]
   },
+
   "dinobit": {
-    "description": "Dinobit tem o maior HP entre os Nefties, e você pode usar isso a seu favor, pois causa mais dano quando sua saúde supera a do oponente!",
-    "element": "earth",
+    "description": "Dinobit tem o maior HP entre os Nefties, e você pode usar isso a seu favor, já que você causa mais dano quando sua saúde supera a de seu oponente!",
+    "element": "terra",
     "skills": [
       {
         "name": "GOLPE ENERGÉTICO I",
-        "description": "Realize um ataque corpo a corpo com 20 de Poder."
+        "description": "Realize um ataque Corpo a Corpo de 20 de Poder."
       },
       {
         "name": "MARTELO DE LAMA II",
-        "description": "Realize um ataque à distância com 50 Poder."
+        "description": "Realize um ataque à Distância de 50 de Poder."
       },
       {
-        "name": "PAREDE DE ROCHA II",
-        "description": "Levante um Escudo igual a 20% do seu HP máximo por 2 turnos."
+        "name": "PAREDE DE PEDRA II",
+        "description": "Levante um Escudo igual a 20% do seu HP máximo por 2 rodadas."
       },
       {
         "name": "DERRUBADA I",
-        "description": "Realize um ataque corpo a corpo com 30 de Poder usando sua Defesa em vez do Ataque."
+        "description": "Realize um ataque Corpo a Corpo de 60 de Poder usando sua Defesa em vez de Ataque."
       },
       {
         "name": "GOLPE DE VITALIDADE I",
-        "description": "Realize um ataque corpo a corpo com 45 de Poder. Se seu HP atual for maior que o do oponente, realize um ataque corpo a corpo adicional."
+        "description": "Realize um ataque Corpo a Corpo de 45 de Poder. Se seu HP atual for maior que o do oponente, realize um ataque Corpo a Corpo adicional."
       }
     ]
   },
@@ -87,7 +88,7 @@
       },
       {
         "name": "SOCORRO PANCADA I",
-        "description": "Realize um ataque corpo a corpo com 30 de Poder. Se seu Hype atual for menor que o do oponente, ganhe 3 Hypes."
+        "description": "Realize um ataque corpo a corpo com 20 de Poder. Se seu Hype atual for menor que o do oponente, ganhe 3 Hypes."
       },
       {
         "name": "CONTRA-ATAQUE EXPLOSIVO I",
@@ -121,7 +122,7 @@
       },
       {
         "name": "ONDA DE CHOQUE II",
-        "description": "Realiza um ataque à distância de alta prioridade de 40 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
+        "description": "Realiza um ataque à distância de alta prioridade de 70 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
       },
       {
         "name": "SURTO DE VOLTAGEM III",
@@ -147,11 +148,11 @@
       },
       {
         "name": "DERRUBADA I",
-        "description": "Realize um ataque corpo a corpo com 75 de Poder usando sua Defesa em vez do Ataque."
+        "description": "Realize um ataque corpo a corpo com 60 de Poder usando sua Defesa em vez do Ataque."
       },
       {
         "name": "IMPACTO DE PEDRA II",
-        "description": "Realize um ataque à distância com 45 de Poder. Se sua Defesa for maior que a do oponente, realize um ataque à distância adicional."
+        "description": "Realize um ataque à distância com 50 de Poder. Se sua Defesa for maior que a do oponente, realize um ataque à distância adicional."
       }
     ]
   },
@@ -169,7 +170,7 @@
       },
       {
         "name": "ECOS DE AREIA II",
-        "description": "Realiza um ataque à distância de 45 Poder usando sua Velocidade em vez de Ataque. Se acertar, purifica-se."
+        "description": "Realiza um ataque à distância de 45 Poder usando sua Velocidade em vez de Ataque."
       },
       {
         "name": "REVESTIMENTO DE ESPELHO II",
@@ -191,15 +192,15 @@
       },
       {
         "name": "GOLPE DE MUDINHA II",
-        "description": "Realize um ataque corpo a corpo com 30 de Poder."
+        "description": "Realize um ataque corpo a corpo com 35 de Poder."
       },
       {
-        "name": "PROTEÇÃO MENTOLADA I",
-        "description": "Levante um Escudo igual a 15% do seu HP máximo por 2 turnos."
+        "name": "CAMADA DE TEMPEROS II",
+        "description": "Levante um Escudo igual a 15% do seu HP máximo. Se o seu HP atual for menor que o do oponente, aumente seu Escudo para 30% do seu HP máximo."
       },
       {
         "name": "RAIZ VAMPÍRICA I",
-        "description": "Realize um ataque à distância com 70 de Poder. Roube 35% do dano causado como vida."
+        "description": "Realize um ataque à distância com 75 de Poder. Roube 40% do dano causado como vida."
       },
       {
         "name": "RAÍZES ESTRANGULADORAS II",
@@ -217,7 +218,7 @@
       },
       {
         "name": "FÚRIA DE AURANY II",
-        "description": "Se você for atingido nesta ação de turno, seu Ataque é aumentado em 2 estágios por 2 turnos."
+        "description": "Se você for atingido nesta rodada, aumente seu Ataque em 2 estágios por 2 rodadas. Se seu HP estiver abaixo do seu oponente, aumente seu Ataque em um estágio adicional e sua Defesa em 2 estágios por 2 rodadas."
       },
       {
         "name": "CONTRA-ATAQUE EXPLOSIVO I",
@@ -225,11 +226,11 @@
       },
       {
         "name": "DESTRUIÇÃO FURIOSA II",
-        "description": "Realize um ataque à distância com 60 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
+        "description": "Realize um ataque à distância com 70 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
       },
       {
         "name": "TERREMOTO I",
-        "description": "Realize um ataque corpo a corpo com 90 de Poder."
+        "description": "Realize um ataque corpo a corpo com 100 de Poder."
       }
     ]
   },
@@ -239,7 +240,7 @@
     "skills": [
       {
         "name": "ROUBO DE VIGOR I",
-        "description": "Realiza um ataque corpo a corpo de 10 Poder. Se sua Velocidade atual for menor que a do oponente, aumente sua Velocidade em 1 nível por 2 turnos."
+        "description": "Realiza um ataque corpo a corpo de 20 Poder. Se sua Velocidade atual for menor que a do oponente, aumente sua Velocidade em 1 nível por 2 turnos."
       },
       {
         "name": "COMPARTILHAR A RIQUEZA I",
@@ -247,7 +248,7 @@
       },
       {
         "name": "RELAXAR II",
-        "description": "Cure-se em 15% do seu HP máximo. Reduza sua Defesa em 1 nível por 2 turnos."
+        "description": "Cure-se em 15% do seu HP máximo. Reduza sua Defesa em 1 estágio até o final da rodada."
       },
       {
         "name": "REFLEXOS DE SORTE II",
@@ -273,7 +274,7 @@
       },
       {
         "name": "FAÍSCA DE FOGO I",
-        "description": "Realize um ataque à distância com 25 de Poder. Seu Ataque é aumentado em 1 estágio por 2 turnos."
+        "description": "Realize um ataque à distância com 35 de Poder. Seu Ataque é aumentado em 1 estágio por 2 turnos."
       },
       {
         "name": "PERSEGUIÇÃO ROCHOSA II",
@@ -291,7 +292,7 @@
     "skills": [
       {
         "name": "RECARREGAR I",
-        "description": "Sua Velocidade é reduzida em 1 por 2 turnos."
+        "description": "Reduza sua Velocidade em 1 estágio por 2 rodadas. Aumente sua Defesa em 1 estágio até o final desta rodada."
       },
       {
         "name": "PASSOS FULGURANTES I",
@@ -307,7 +308,7 @@
       },
       {
         "name": "SOBRECARGA ELÉTRICA II",
-        "description": "Se sua Velocidade estiver reduzida, realize um ataque à distância com 135 de Poder. Em seguida, limpe sua Velocidade."
+        "description": "Se sua Velocidade estiver atualmente reduzida, realize um ataque à distância de 150 de Poder. Em seguida, limpe-se."
       }
     ]
   },
@@ -317,11 +318,11 @@
     "skills": [
       {
         "name": "FOLHA CORTANTE II",
-        "description": "Realiza um ataque à distância de alta prioridade de 40 Poder. Se o ataque for fraco, inflige Veneno no oponente por 1 turno. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo do oponente. Este ataque quase sempre é o primeiro."
+        "description": "Realiza um ataque à distância de alta prioridade de 25 Poder. Se o ataque for fraco, inflige Veneno no oponente por 1 turno. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo do oponente. Este ataque quase sempre é o primeiro."
       },
       {
         "name": "RAIO GEADO II",
-        "description": "Realiza um ataque à distância de 50 Poder usando sua Velocidade em vez de Ataque."
+        "description": "Realiza um ataque à distância de 55 Poder usando sua Velocidade em vez de Ataque."
       },
       {
         "name": "PASSOS FULGURANTES I",
@@ -329,7 +330,7 @@
       },
       {
         "name": "REDEMOINHO DE ÉTER I",
-        "description": "O Ataque do oponente é reduzido em 3 estágios por 3 turnos."
+        "description": "O Ataque do oponente é reduzido em 3 estágios por 3 rodadas. Aumente sua Velocidade em 1 estágio por 3 rodadas."
       },
       {
         "name": "EXPLOSÃO SOLAR III",
@@ -359,7 +360,7 @@
       },
       {
         "name": "MUDANÇA DE BALANÇO II",
-        "description": "Sua Defesa e Ataque são aumentados em 2 por 2 turnos. A Defesa e o Ataque do oponente são reduzidos em 2 por 2 turnos."
+        "description": "Aumente seu Ataque e Defesa em 1 por 3 rodadas. Reduza o Ataque e Defesa do oponente em 1 por 3 rodadas."
       }
     ]
   },
@@ -395,7 +396,7 @@
     "skills": [
       {
         "name": "RUGIDO DRACÔNICO II",
-        "description": "Seu Ataque é aumentado e sua Defesa é reduzida em 1 por 1 turno. Em seguida, realize um ataque corpo a corpo com 20 de Poder."
+        "description": "Seu Ataque é aumentado e sua Defesa é reduzida em 1 por 1 turno. Em seguida, realize um ataque corpo a corpo com 15 de Poder."
       },
       {
         "name": "CORTE AÉREO II",
@@ -437,7 +438,7 @@
       },
       {
         "name": "FLOR VAMPÍRICA III",
-        "description": "Realiza um ataque à distância de 110 Poder. Se estiver atualmente Envenenado, rouba 60% do dano causado como vida."
+        "description": "Realiza um ataque à distância de 110 Poder. Se estiver atualmente Envenenado, rouba 50% do dano causado como vida."
       }
     ]
   },
@@ -459,7 +460,7 @@
       },
       {
         "name": "CHAMAS AMALDIÇOADAS II",
-        "description": "Realiza um ataque à distância de 50 Poder. Se acertar, inflige Maldição no oponente. Após uma contagem regressiva de 2 turnos, a Maldição causa 20% do HP máximo do oponente."
+        "description": "Realiza um ataque à distância de 65 Poder. Se acertar, inflige Maldição no oponente. Após uma contagem regressiva de 3 turnos, a Maldição causa 20% do HP máximo do oponente."
       },
       {
         "name": "TERREMOTO AMALDIÇOADO III",
@@ -477,7 +478,7 @@
       },
       {
         "name": "ATO RESISTENTE I",
-        "description": "Se for atingido nesta ação de turno, aumenta sua Defesa em 1 por 3 turnos."
+        "description": "Se for atingido nesta ação de turno, aumenta sua Defesa em 2 por 3 turnos."
       },
       {
         "name": "DESTINO CERTO III",
@@ -485,11 +486,11 @@
       },
       {
         "name": "ONDA DE CHOQUE II",
-        "description": "Realiza um ataque à distância de alta prioridade de 40 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
+        "description": "Realiza um ataque à distância de alta prioridade de 70 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
       },
       {
         "name": "MORDIDA GENEROSA II",
-        "description": "Realiza um ataque corpo a corpo de 95 Poder. Rouba 20% do dano causado como vida."
+        "description": "Realiza um ataque corpo a corpo de 110 Poder. Rouba 20% do dano causado como vida."
       }
     ]
   },
@@ -511,11 +512,11 @@
       },
       {
         "name": "CONFIANÇA ARDENTE II",
-        "description": "Realiza um ataque corpo a corpo de 55 Poder. Se o seu HP atual for maior que o do oponente, cause dano dobrado."
+        "description": "Realiza um ataque corpo a corpo de 60 Poder. Se o seu HP atual for maior que o do oponente, cause dano dobrado."
       },
       {
         "name": "DESTRUIÇÃO ARDENTE II",
-        "description": "Realiza um ataque à distância de 60 Poder. Se o seu HP atual for menor que o do oponente, cause dano dobrado."
+        "description": "Realiza um ataque à distância de 70 Poder. Se o seu HP atual for menor que o do oponente, cause dano dobrado."
       }
     ]
   },
@@ -567,7 +568,7 @@
       },
       {
         "name": "GOLPE BLINDADO III",
-        "description": "Realiza um ataque corpo a corpo de Baixa Prioridade de 155 Poder usando sua Defesa em vez do Ataque. Este ataque quase sempre é o último."
+        "description": "Realize um ataque corpo a corpo de baixa prioridade de 150 de Poder usando sua Defesa em vez de Ataque. Em seguida, reduza sua Defesa em 5 estágios por 3 rodadas. Este ataque quase sempre é o último a ser executado."
       }
     ]
   },
@@ -637,11 +638,11 @@
       },
       {
         "name": "FÚRIA DO CÉU II",
-        "description": "Realiza um ataque corpo a corpo de 55 Poder. Se acertar, aumenta sua Velocidade em 2 por 2 turnos."
+        "description": "Realiza um ataque corpo a corpo de 60 Poder. Se acertar, aumenta sua Velocidade em 2 por 2 turnos."
       },
       {
         "name": "IRA DA TERRA II",
-        "description": "Realiza um ataque corpo a corpo de 55 Poder. Se acertar, aumenta seu Ataque em 2 níveis por 2 turnos."
+        "description": "Realiza um ataque corpo a corpo de 60 Poder. Se acertar, aumenta seu Ataque em 2 níveis por 2 turnos."
       },
       {
         "name": "RAIOS CAEM DUAS VEZES I",

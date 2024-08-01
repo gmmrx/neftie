@@ -21,7 +21,7 @@
       },
       {
         "name": "CELO DEL ROMPETORMENTAS III",
-        "description": "Tu Ataque se incrementa en 3 niveles durante 3 turnos. Luego, realiza un ataque a distancia de 70 poder."
+        "description": "Tu Ataque se incrementa en 3 niveles durante 3 turnos. Luego, realiza un ataque a distancia de 75 poder."
       }
     ]
   },
@@ -47,33 +47,33 @@
       },
       {
         "name": "MAREA III",
-        "description": "Realiza un ataque cuerpo a cuerpo de 85 poder. Si tu HP actual es menor que la del oponente, inflige el doble de daño."
+        "description": "Realiza un ataque cuerpo a cuerpo de 75 poder. Si tu HP actual es menor que la del oponente, inflige el doble de daño."
       }
     ]
   },
   "dinobit": {
-    "description": "Dinobit tiene la HP más alta entre los Nefties, y puedes usar esto a tu favor ya que infliges más daño cuando su salud supera la del oponente.",
-    "element": "earth",
+    "description": "¡Dinobit tiene el HP más alto entre los Nefties, y puedes usar esto a tu favor ya que infliges más daño cuando su salud supera a la de su oponente!",
+    "element": "tierra",
     "skills": [
       {
         "name": "GOLPE ENERGÉTICO I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 20 poder."
+        "description": "Realiza un ataque cuerpo a cuerpo de 20 de poder."
       },
       {
-        "name": "MARTILLO DE LODO II",
-        "description": "Realiza un ataque a distancia de 50 Poder."
+        "name": "MARTILLO DE BARRO II",
+        "description": "Realiza un ataque a distancia de 50 de poder."
       },
       {
         "name": "MURO DE ROCA II",
-        "description": "Levanta un Escudo igual al 20% de tu HP máxima durante 2 turnos."
+        "description": "Levanta un escudo igual al 20% de tu HP máximo durante 2 turnos."
       },
       {
         "name": "DERRIBO I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 30 poder usando tu Defensa en lugar de Ataque."
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 de poder usando tu Defensa en lugar de Ataque."
       },
       {
         "name": "GOLPE DE VITALIDAD I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 45 poder. Si tu HP actual es mayor que la del oponente, realiza un ataque cuerpo a cuerpo adicional."
+        "description": "Realiza un ataque cuerpo a cuerpo de 45 de poder. Si tu HP actual es mayor que el del oponente, realiza un ataque cuerpo a cuerpo adicional."
       }
     ]
   },
@@ -87,7 +87,7 @@
       },
       {
         "name": "PUÑO DE ALCANCE I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 30 poder. Si tu hype actual es menor que la del oponente, gana 3 hype."
+        "description": "Realiza un ataque cuerpo a cuerpo de 20 poder. Si tu hype actual es menor que la del oponente, gana 3 hype."
       },
       {
         "name": "CONTRAGOLPE EXPLOSIVO I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "OLA ROMPEDORA II",
-        "description": "Realiza un ataque a distancia de alta prioridad de 40 Poder. Este ataque va antes de Reflejos, Contraataques y Esquivas y casi siempre va primero."
+        "description": "Realiza un ataque a distancia de alta prioridad de 70 Poder. Este ataque va antes de Reflejos, Contraataques y Esquivas y casi siempre va primero."
       },
       {
         "name": "SURGE ELÉCTRICO III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "DERRIBO I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 75 poder usando tu Defensa en lugar de Ataque."
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 poder usando tu Defensa en lugar de Ataque."
       },
       {
         "name": "GOLPE DE ROCA II",
-        "description": "Realiza un ataque a distancia de 45 poder. Si tu Defensa es mayor que la del oponente, realiza un ataque a distancia adicional."
+        "description": "Realiza un ataque a distancia de 50 poder. Si tu Defensa es mayor que la del oponente, realiza un ataque a distancia adicional."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "ECOS DE ARENA II",
-        "description": "Realiza un ataque a distancia de 45 Poder utilizando tu Velocidad en lugar de Ataque. Si acierta, límpiate."
+        "description": "Realiza un ataque a distancia de 45 Poder utilizando tu Velocidad en lugar de Ataque."
       },
       {
         "name": "ESPEJO DE ABRIGO II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "GOLPE DE PLÁNTULA II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 30 poder."
+        "description": "Realiza un ataque cuerpo a cuerpo de 35 poder."
       },
       {
-        "name": "PROTECCIÓN MENTOLADA I",
-        "description": "Levanta un Escudo igual al 15% de tu HP máxima durante 2 turnos."
+        "name": "CAPA DE ESPECIAS II",
+        "description": "Levanta un Escudo igual al 15% de tu HP máximo. Si tu HP actual es menor que el del oponente, aumenta tu Escudo al 30% de tu HP máximo."
       },
       {
         "name": "RAÍZ VAMPÍRICA I",
-        "description": "Realiza un ataque a distancia de 70 poder. Robo de vida del 35% del daño infligido."
+        "description": "Realiza un ataque a distancia de 75 poder. Robo de vida del 40% del daño infligido."
       },
       {
         "name": "RAÍCES ESTRANGULADORAS II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "FURIA DE AURANY II",
-        "description": "Si eres golpeado en esta acción de turno, tu Ataque se incrementa en 2 niveles durante 2 turnos."
+        "description": "Si eres golpeado en este turno, aumenta tu Ataque en 2 niveles por 2 turnos. Si tus HP son menores que los de tu oponente, aumenta tu Ataque en un nivel adicional y tu Defensa en 2 niveles por 2 turnos."
       },
       {
         "name": "CONTRAGOLPE EXPLOSIVO I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "DESENFRENO ÍGNEO II",
-        "description": "Realiza un ataque a distancia de 60 poder. Si tu HP actual es menor que la del oponente, inflige el doble de daño."
+        "description": "Realiza un ataque a distancia de 70 poder. Si tu HP actual es menor que la del oponente, inflige el doble de daño."
       },
       {
         "name": "TERREMOTO I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 90 poder."
+        "description": "Realiza un ataque cuerpo a cuerpo de 100 poder."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "ROBO DE VIGOR I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 10 Poder. Si tu Velocidad actual es menor que la del oponente, aumenta tu Velocidad en 1 nivel por 2 turnos."
+        "description": "Realiza un ataque cuerpo a cuerpo de 20 Poder. Si tu Velocidad actual es menor que la del oponente, aumenta tu Velocidad en 1 nivel por 2 turnos."
       },
       {
         "name": "COMPARTIR LA RIQUEZA I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "RELÁJATE II",
-        "description": "Cúrate un 15% de tu HP máximo. Reduce tu Defensa en 1 nivel por 2 turnos."
+        "description": "Cúrate un 15% de tu HP máximo. Reduce tu Defensa en 1 nivel hasta el final del turno."
       },
       {
         "name": "REFLEJOS AFORTUNADOS II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "CHISPA FLAMEANTE I",
-        "description": "Realiza un ataque a distancia de 25 poder. Tu Ataque se incrementa en 1 nivel durante 2 turnos."
+        "description": "Realiza un ataque a distancia de 35 poder. Tu Ataque se incrementa en 1 nivel durante 2 turnos."
       },
       {
         "name": "PERSECUCIÓN ROCOSA II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "RECARGA I",
-        "description": "Tu Velocidad disminuye en 1 durante 2 turnos."
+        "description": "Reduce tu Velocidad en 1 nivel durante 2 turnos. Aumenta tu Defensa en 1 nivel hasta el final de este turno."
       },
       {
         "name": "PASOS FULGURANTES I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "SOBRECARGA ELÉCTRICA II",
-        "description": "Si tu Velocidad está actualmente disminuida, realiza un ataque a distancia de 135 poder. Luego, limpia tu Velocidad."
+        "description": "Si tu Velocidad está actualmente reducida, realiza un ataque a distancia de 150 de Poder. Luego, límpiate."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "HOJA ESPINOSA II",
-        "description": "Realiza un ataque a distancia de alta prioridad de 40 Poder. Si el ataque es débil, inflige Veneno al oponente durante 1 turno. Al final de cada turno, el Veneno inflige daño igual al 10% del HP máximo del oponente. Este ataque casi siempre va primero."
+        "description": "Realiza un ataque a distancia de alta prioridad de 25 Poder. Si el ataque es débil, inflige Veneno al oponente durante 1 turno. Al final de cada turno, el Veneno inflige daño igual al 10% del HP máximo del oponente. Este ataque casi siempre va primero."
       },
       {
         "name": "RAYO HELADO II",
-        "description": "Realiza un ataque a distancia de 50 Poder utilizando tu Velocidad en lugar de Ataque."
+        "description": "Realiza un ataque a distancia de 55 Poder utilizando tu Velocidad en lugar de Ataque."
       },
       {
         "name": "PASOS FULGURANTES I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "TORBELLINO ÉTER I",
-        "description": "El Ataque del oponente disminuye en 3 niveles durante 3 turnos."
+        "description": "El Ataque del oponente se reduce en 3 niveles durante 3 turnos. Aumenta tu Velocidad en 1 nivel durante 3 turnos."
       },
       {
         "name": "EXPLOSIÓN SOLAR III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "CAMBIO DE BALANCE II",
-        "description": "Tu Defensa y Ataque se incrementan en 2 durante 2 turnos. La Defensa y Ataque del oponente disminuyen en 2 durante 2 turnos."
+        "description": "Aumenta tu Ataque y Defensa en 1 durante 3 turnos. Reduce el Ataque y Defensa del oponente en 1 durante 3 turnos."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "RUGIDO DRACÓNICO II",
-        "description": "Tu Ataque se incrementa y tu Defensa disminuye en 1 durante 1 turno. Luego, realiza un ataque cuerpo a cuerpo de 20 poder."
+        "description": "Tu Ataque se incrementa y tu Defensa disminuye en 1 durante 1 turno. Luego, realiza un ataque cuerpo a cuerpo de 15 poder."
       },
       {
         "name": "TAJO AÉREO II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "FLOR VAMPÍRICA III",
-        "description": "Realiza un ataque a distancia de 110 Poder. Si estás actualmente Envenenado, roba vida por el 60% del daño infligido."
+        "description": "Realiza un ataque a distancia de 110 Poder. Si estás actualmente Envenenado, roba vida por el 50% del daño infligido."
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "name": "LLAMAS MALDITAS II",
-        "description": "Realiza un ataque a distancia de 50 Poder. Si acierta, inflige Maldición al oponente. Después de una cuenta regresiva de 2 turnos, la Maldición inflige el 20% del HP máximo del oponente."
+        "description": "Realiza un ataque a distancia de 65 Poder. Si acierta, inflige Maldición al oponente. Después de una cuenta regresiva de 3 turnos, la Maldición inflige el 20% del HP máximo del oponente."
       },
       {
         "name": "TERREMOTO MALDITO III",
@@ -477,7 +477,7 @@
       },
       {
         "name": "ACTO RESISTENTE I",
-        "description": "Si eres golpeado en esta acción de turno, aumenta tu Defensa en 1 durante 3 turnos."
+        "description": "Si eres golpeado en esta acción de turno, aumenta tu Defensa en 2 durante 3 turnos."
       },
       {
         "name": "DESTINO CERTERO III",
@@ -485,11 +485,11 @@
       },
       {
         "name": "OLA ROMPEDORA II",
-        "description": "Realiza un ataque a distancia de alta prioridad de 40 Poder. Este ataque va antes de Reflejos, Contraataques y Esquivas y casi siempre va primero."
+        "description": "Realiza un ataque a distancia de alta prioridad de 70 Poder. Este ataque va antes de Reflejos, Contraataques y Esquivas y casi siempre va primero."
       },
       {
         "name": "MORDISCO GENEROSO II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 95 Poder. Roba vida del 20% del daño infligido."
+        "description": "Realiza un ataque cuerpo a cuerpo de 110 Poder. Roba vida del 20% del daño infligido."
       }
     ]
   },
@@ -511,11 +511,11 @@
       },
       {
         "name": "CONFIANZA ARDIENTE II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si tu HP actual es mayor que el del oponente, inflige el doble de daño."
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 Poder. Si tu HP actual es mayor que el del oponente, inflige el doble de daño."
       },
       {
         "name": "RÁFAGA ARDIENTE II",
-        "description": "Realiza un ataque a distancia de 60 Poder. Si tu HP actual es menor que el del oponente, inflige el doble de daño."
+        "description": "Realiza un ataque a distancia de 70 Poder. Si tu HP actual es menor que el del oponente, inflige el doble de daño."
       }
     ]
   },
@@ -567,7 +567,7 @@
       },
       {
         "name": "GOLPE ACORAZADO III",
-        "description": "Realiza un ataque cuerpo a cuerpo de Baja Prioridad de 155 Poder usando tu Defensa en lugar de tu Ataque. Este ataque casi siempre va último."
+        "description": "Realiza un ataque cuerpo a cuerpo de baja prioridad de 150 de Poder usando tu Defensa en lugar de Ataque. Luego, reduce tu Defensa en 5 niveles durante 3 turnos. Este ataque casi siempre se ejecuta al final."
       }
     ]
   },
@@ -637,11 +637,11 @@
       },
       {
         "name": "FURIA DEL CIELO II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si acierta, aumenta tu Velocidad en 2 durante 2 turnos."
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 Poder. Si acierta, aumenta tu Velocidad en 2 durante 2 turnos."
       },
       {
         "name": "IRA DE LA TIERRA II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 55 Poder. Si acierta, aumenta tu Ataque en 2 niveles durante 2 turnos."
+        "description": "Realiza un ataque cuerpo a cuerpo de 60 Poder. Si acierta, aumenta tu Ataque en 2 niveles durante 2 turnos."
       },
       {
         "name": "EL RAYO CAE DOS VECES I",
