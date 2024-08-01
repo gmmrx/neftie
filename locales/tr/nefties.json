@@ -61,15 +61,15 @@
       },
       {
         "name": "ÇAMUR ÇEKİCİ II",
-        "description": "50 Güçlük Menzilli saldırı yap."
+        "description": "Saldırı yerine Savunmanızı kullanarak 40 Güçlük bir Uzak saldırı gerçekleştirin."
       },
       {
         "name": "KAYA DUVARI II",
         "description": "2 tur boyunca maksimum HP'nin %20'si kadar bir Kalkan oluştur."
       },
       {
-        "name": "DEVRİLME I",
-        "description": "Savunmanı kullanarak 60 Güçlü bir Yakın Dövüş saldırısı yap."
+        "name": "EZİCİ SALDIRI III",
+        "description": "110 Güçlük bir Yakın dövüş saldırısı gerçekleştirin. Rakibinizin Savunması şu anda artırılmışsa, rakibin Savunmasını 3 tur boyunca 2 aşama düşürün."
       },
       {
         "name": "CANLI VURUŞ I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "KIRILGANLIK AKIŞI I",
-        "description": "Savunman 2 tur boyunca 1 aşama düşer."
+        "name": "DÜŞÜNCESİZ ÇIĞLIK II",
+        "description": "Savunmanızı 2 tur boyunca 1 aşama düşürün. Bu turun sonuna kadar Saldırınızı 1 aşama artırın."
       },
       {
         "name": "BALON ZİNCİRİ II",
@@ -142,8 +142,8 @@
         "description": "Savunmanızı 2 tur boyunca 2 aşama artırın."
       },
       {
-        "name": "ÇÜRÜK ASMA I",
-        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %10'ü kadar hasar verir."
+        "name": "TEMİZLEYİCİ GELGİT I",
+        "description": "Senin ve rakibin durum etkilerini temizle."
       },
       {
         "name": "DEVRİLME I",

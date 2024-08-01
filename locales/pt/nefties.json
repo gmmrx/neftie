@@ -61,15 +61,15 @@
       },
       {
         "name": "MARTELO DE LAMA II",
-        "description": "Realiza um ataque à distância de 50 de Poder."
+        "description": "Realiza um ataque à distância de 40 de Poder usando a tua Defesa em vez de Ataque."
       },
       {
         "name": "PAREDE DE PEDRA II",
         "description": "Levanta um escudo igual a 20% do seu HP máximo por 2 turnos."
       },
       {
-        "name": "DERRUBADA I",
-        "description": "Realiza um ataque corpo a corpo de 60 de Poder usando sua Defesa em vez de Ataque."
+        "name": "INVESTIDA III",
+        "description": "Realiza um ataque corpo a corpo de 110 de Poder. Se a Defesa do oponente estiver atualmente aumentada, reduz a Defesa do oponente em 2 estágios por 3 turnos."
       },
       {
         "name": "GOLPE DE VITALIDADE I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "FLUXO DE FRAGILIDADE I",
-        "description": "A tua Defesa é reduzida em 1 nível durante 2 turnos."
+        "name": "GRITO IMPRUDENTE II",
+        "description": "Reduz a tua Defesa em 1 estágio por 2 turnos. Aumenta o teu Ataque em 1 estágio até ao final deste turno."
       },
       {
         "name": "BOLHA REFLETORA II",
@@ -142,8 +142,8 @@
         "description": "Aumenta a sua Defesa em 2 níveis por 2 turnos."
       },
       {
-        "name": "VIDEIRA PÚTRIDA I",
-        "description": "Inflige Veneno ao oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo."
+        "name": "MARÉ PURIFICADORA I",
+        "description": "Limpa os efeitos de status em ti e no oponente."
       },
       {
         "name": "DERRUBADA I",

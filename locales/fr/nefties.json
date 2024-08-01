@@ -61,15 +61,15 @@
       },
       {
         "name": "MASSUE DE BOUE II",
-        "description": "Effectue une attaque à distance de 50 Puissance."
+        "description": "Effectuez une attaque à distance de 40 Puissance en utilisant votre Défense à la place de l'Attaque."
       },
       {
         "name": "MUR DE ROCHE II",
         "description": "Élevez un Bouclier égal à 20% de vos PV max pendant 2 tours."
       },
       {
-        "name": "RENVERSEMENT I",
-        "description": "Effectuez une attaque au corps à corps de 60 de puissance en utilisant votre Défense à la place de l'Attaque."
+        "name": "CHARGE III",
+        "description": "Effectuez une attaque physique de 110 Puissance. Si la Défense de votre adversaire est actuellement augmentée, réduisez-la de 2 niveaux pendant 3 tours."
       },
       {
         "name": "COUP DE VITALITÉ I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "FLUX DE FRAGILITÉ I",
-        "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
+        "name": "CRI IMPRUDENT II",
+        "description": "Réduisez votre Défense de 1 niveau pendant 2 tours. Augmentez votre Attaque de 1 niveau jusqu'à la fin de ce tour."
       },
       {
         "name": "CHAÎNE DE BULLES II",
@@ -142,8 +142,8 @@
         "description": "Augmentez votre Défense de 2 niveaux pendant 2 tours."
       },
       {
-        "name": "LIANE PUTRIDE I",
-        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 10% des PV max."
+        "name": "MARÉE PURIFIANTE I",
+        "description": "Purge les effets de statut sur vous et l'adversaire."
       },
       {
         "name": "RENVERSEMENT I",

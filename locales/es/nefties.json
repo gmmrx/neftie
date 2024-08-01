@@ -61,15 +61,15 @@
       },
       {
         "name": "MARTILLO DE BARRO II",
-        "description": "Realiza un ataque a distancia de 50 de poder."
+        "description": "Realiza un ataque a distancia de 40 de Poder usando tu Defensa en lugar de Ataque."
       },
       {
         "name": "MURO DE ROCA II",
         "description": "Levanta un escudo igual al 20% de tu HP máximo durante 2 turnos."
       },
       {
-        "name": "DERRIBO I",
-        "description": "Realiza un ataque cuerpo a cuerpo de 60 de poder usando tu Defensa en lugar de Ataque."
+        "name": "ESTAMPIDA III",
+        "description": "Realiza un ataque cuerpo a cuerpo de 110 de Poder. Si la Defensa de tu oponente está actualmente aumentada, reduce la Defensa del oponente en 2 niveles durante 3 turnos."
       },
       {
         "name": "GOLPE DE VITALIDAD I",
@@ -108,8 +108,8 @@
     "element": "water",
     "skills": [
       {
-        "name": "FLUJO DE FRAGILIDAD I",
-        "description": "Tu Defensa disminuye en 1 nivel durante 2 turnos."
+        "name": "GRITO TEMERARIO II",
+        "description": "Reduce tu Defensa en 1 nivel durante 2 turnos. Aumenta tu Ataque en 1 nivel hasta el final de este turno."
       },
       {
         "name": "CADENA DE BURBUJAS II",
@@ -142,8 +142,8 @@
         "description": "Aumenta tu Defensa en 2 niveles durante 2 turnos."
       },
       {
-        "name": "VIDA PUTREFACTA I",
-        "description": "Inflige Veneno al oponente durante 2 turnos. Al final de cada turno, el Veneno inflige un daño igual al 10% de la HP máxima."
+        "name": "OLA PURIFICANTE I",
+        "description": "Limpia los efectos de estado en ti y en el oponente."
       },
       {
         "name": "DERRIBO I",
