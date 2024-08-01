@@ -21,7 +21,7 @@
       },
       {
         "name": "STORMBREAKER'S ZEAL III",
-        "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 70 Power."
+        "description": "Your Attack is raised by 3 stages for 3 turns. Then, perform a Ranged attack of 75 Power."
       }
     ]
   },
@@ -47,7 +47,7 @@
       },
       {
         "name": "RIPTIDE III",
-        "description": "Perform a Melee attack of 85 Power. If your current HP is lower than the opponent, deal double damage."
+        "description": "Perform a Melee attack of 75 Power. If your current HP is lower than the opponent, deal double damage."
       }
     ]
   },
@@ -69,7 +69,7 @@
       },
       {
         "name": "KNOCKDOWN I",
-        "description": "Perform a Melee attack of 75 Power using your Defense instead of Attack."
+        "description": "Perform a Melee attack of 60 Power using your Defense instead of Attack."
       },
       {
         "name": "VITALITY STRIKE I",
@@ -87,7 +87,7 @@
       },
       {
         "name": "CATCH UP PUNCH I",
-        "description": "Perform a Melee attack of 30 Power. If your current Hype is lower than the opponent, earn 3 Hype."
+        "description": "Perform a Melee attack of 20 Power. If your current Hype is lower than the opponent, earn 3 Hype."
       },
       {
         "name": "EXPLOSIVE COUNTER I",
@@ -121,7 +121,7 @@
       },
       {
         "name": "CRASHING WAVE II",
-        "description": "Perform a high priority Ranged attack of 40 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
+        "description": "Perform a high priority Ranged attack of 70 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
       },
       {
         "name": "VOLT SURGE III",
@@ -147,11 +147,11 @@
       },
       {
         "name": "KNOCKDOWN I",
-        "description": "Perform a Melee attack of 75 Power using your Defense instead of Attack."
+        "description": "Perform a Melee attack of 60 Power using your Defense instead of Attack."
       },
       {
         "name": "BOULDER BASH II",
-        "description": "Perform a Ranged attack of 45 Power. If your Defense is higher than the opponent, perform an additional Ranged attack."
+        "description": "Perform a Ranged attack of 50 Power. If your Defense is higher than the opponent, perform an additional Ranged attack."
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "SAND ECHOES II",
-        "description": "Perform a Ranged attack of 45 Power using your Speed instead of Attack. If it hits, Cleanse yourself."
+        "description": "Perform a Ranged attack of 45 Power using your Speed instead of Attack."
       },
       {
         "name": "MIRROR COAT II",
@@ -191,15 +191,15 @@
       },
       {
         "name": "SAPLING SMACK II",
-        "description": "Perform a Melee attack of 30 Power."
+        "description": "Perform a Melee attack of 35 Power."
       },
       {
-        "name": "MINTY PROTECTION I",
-        "description": "Raise a Shield equal to 15% of your max HP for 2 turns."
+        "name": "SPICE LAYER II",
+        "description": "Raise a Shield equal to 15% of your max HP. If your current HP is lower than the opponent, upgrade your Shield equal to 30% of your max HP."
       },
       {
         "name": "VAMPIRIC ROOT I",
-        "description": "Perform a Ranged attack of 70 Power. Lifesteal 35% of the damage dealt."
+        "description": "Perform a Ranged attack of 75 Power. Lifesteal 40% of the damage dealt."
       },
       {
         "name": "STRANGLING ROOTS II",
@@ -217,7 +217,7 @@
       },
       {
         "name": "AURANY'S RAGE II",
-        "description": "If you are hit this turn action, your Attack is raised by 2 stages for 2 turns."
+        "description": "If you are hit this turn action, raise your Attack by 2 stages for 2 turns. If your HP is lower than your opponent, raise your Attack by an aditional stage and your Defense by 2 stages for 2 turns."
       },
       {
         "name": "EXPLOSIVE COUNTER I",
@@ -225,11 +225,11 @@
       },
       {
         "name": "FIERY RAMPAGE II",
-        "description": "Perform a Ranged attack of 60 Power. If your current HP is lower than the opponent, deal double damage."
+        "description": "Perform a Ranged attack of 70 Power. If your current HP is lower than the opponent, deal double damage."
       },
       {
         "name": "EARTHQUAKE I",
-        "description": "Perform a Melee attack of 90 Power."
+        "description": "Perform a Melee attack of 100 Power."
       }
     ]
   },
@@ -239,7 +239,7 @@
     "skills": [
       {
         "name": "VIGOR HEIST I",
-        "description": "Perform a Melee attack of 10 Power. If your current Speed is lower than the opponent, raise your Speed by 1 stage for 2 turns."
+        "description": "Perform a Melee attack of 20 Power. If your current Speed is lower than the opponent, raise your Speed by 1 stage for 2 turns."
       },
       {
         "name": "SHARE THE WEALTH I",
@@ -247,7 +247,7 @@
       },
       {
         "name": "SLACK OFF II",
-        "description": "Heal yourself of 15% of your max HP. Drop your Defense by 1 stage for 2 turns."
+        "description": "Heal yourself of 15% of your max HP. Drop your Defense by 1 stage until the end of the turn."
       },
       {
         "name": "LUCKY REFLEXES II",
@@ -273,7 +273,7 @@
       },
       {
         "name": "FLAME SPARK I",
-        "description": "Perform a Ranged attack of 25 Power. Your Attack is raised by 1 stage for 2 turns."
+        "description": "Perform a Ranged attack of 35 Power. Your Attack is raised by 1 stage for 2 turns."
       },
       {
         "name": "ROCKY PURSUIT II",
@@ -291,7 +291,7 @@
     "skills": [
       {
         "name": "RECHARGE I",
-        "description": "Your Speed is dropped by 1 for 2 turns."
+        "description": "Drop your Speed by 1 stage for 2 turns. Raise your Defense by 1 stage until the end of this turn."
       },
       {
         "name": "FULGUROUS STEPS I",
@@ -307,7 +307,7 @@
       },
       {
         "name": "ELECTRICAL OVERLOAD II",
-        "description": "If your Speed is currently dropped, perform a Ranged attack of 135 Power. Then, Cleanse your Speed."
+        "description": "If your Speed is currently dropped, perform a Ranged attack of 150 Power. Then, Cleanse yourself."
       }
     ]
   },
@@ -317,11 +317,11 @@
     "skills": [
       {
         "name": "BARBED LEAF II",
-        "description": "Perform a high priority Ranged attack of 40 Power. If the attack is weak, inflict Poison on the opponent for 1 turn. At the end of each turn, Poison deals damage equal to 10% of the opponent's max HP. This attack almost always goes first."
+        "description": "Perform a high priority Ranged attack of 25 Power. If the attack is weak, inflict Poison on the opponent for 1 turn. At the end of each turn, Poison deals damage equal to 10% of the opponent's max HP. This attack almost always goes first."
       },
       {
         "name": "FROSTED BOLT II",
-        "description": "Perform a Ranged attack of 50 Power using your Speed instead of Attack."
+        "description": "Perform a Ranged attack of 55 Power using your Speed instead of Attack."
       },
       {
         "name": "FULGUROUS STEPS I",
@@ -329,7 +329,7 @@
       },
       {
         "name": "ETHER WHIRLWIND I",
-        "description": "The opponent's Attack is dropped by 3 stages for 3 turns."
+        "description": "The opponent's Attack is dropped by 3 stages for 3 turns. Raise your Speed by 1 stage for 3 turns."
       },
       {
         "name": "SUN BLAST III",
@@ -359,7 +359,7 @@
       },
       {
         "name": "BALANCE SHIFT II",
-        "description": "Your Defense and Attack are raised by 2 for 2 turns. The opponent's Defense and Attack are dropped by 2 for 2 turns."
+        "description": "Raise your Attack and Defense by 1 for 3 turns. Drop your opponent's Attack and Defense by 1 for 3 turns."
       }
     ]
   },
@@ -395,7 +395,7 @@
     "skills": [
       {
         "name": "DRACONIC ROAR II",
-        "description": "Your Attack is raised and your Defense is dropped by 1 for 1 turn. Then, perform a Melee attack of 20 Power."
+        "description": "Your Attack is raised and your Defense is dropped by 1 for 1 turn. Then, perform a Melee attack of 15 Power."
       },
       {
         "name": "AERIAL SLASH II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPIRIC BLOOM III",
-        "description": "Perform a Ranged attack of 110 Power. If you are currently Poisoned, Lifesteal 60% of the damage dealt."
+        "description": "Perform a Ranged attack of 110 Power. If you are currently Poisoned, Lifesteal 50% of the damage dealt."
       }
     ]
   },
@@ -459,7 +459,7 @@
       },
       {
         "name": "ACCURSED FLAMES II",
-        "description": "Perform a Ranged attack of 50 Power. If it hits, inflict Curse on the opponent. After a countdown of 2 turns, Curse deals 20% of the opponent's max HP."
+        "description": "Perform a Ranged attack of 65 Power. If it hits, inflict Curse on the opponent. After a countdown of 3 turns, Curse deals 20% of the opponent's max HP."
       },
       {
         "name": "BLIGHTQUAKE III",
@@ -477,7 +477,7 @@
       },
       {
         "name": "TOUGH ACT I",
-        "description": "If you are hit this turn action, raise your Defense by 1 for 3 turns."
+        "description": "If you are hit this turn action, raise your Defense by 2 for 3 turns."
       },
       {
         "name": "CERTAIN DOOM III",
@@ -485,11 +485,11 @@
       },
       {
         "name": "CRASHING WAVE II",
-        "description": "Perform a high priority Ranged attack of 40 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
+        "description": "Perform a high priority Ranged attack of 70 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
       },
       {
         "name": "GENEROUS BITE II",
-        "description": "Perform a Melee attack of 95 Power. Lifesteals 20% of damage dealt."
+        "description": "Perform a Melee attack of 110 Power. Lifesteals 20% of damage dealt."
       }
     ]
   },
@@ -511,11 +511,11 @@
       },
       {
         "name": "BURNING CONFIDENCE II",
-        "description": "Perform a Melee attack of 55 Power. If your current HP is higher than the opponent, deal double damage."
+        "description": "Perform a Melee attack of 60 Power. If your current HP is higher than the opponent, deal double damage."
       },
       {
         "name": "FIERY RAMPAGE II",
-        "description": "Perform a Ranged attack of 60 Power. If your current HP is lower than the opponent, deal double damage."
+        "description": "Perform a Ranged attack of 70 Power. If your current HP is lower than the opponent, deal double damage."
       }
     ]
   },
@@ -567,7 +567,7 @@
       },
       {
         "name": "ARMORED BLOW III",
-        "description": "Perform a Low Priority Melee Attack of 155 Power using your Defense instead of Attack. This attack almost always goes last."
+        "description": "Perform a Low Priority Melee attack of 150 Power using your Defense instead of Attack. Then, drop your Defense by 5 stages for 3 turns. This attack almost always goes last."
       }
     ]
   },
@@ -637,11 +637,11 @@
       },
       {
         "name": "SKY'S FURY II",
-        "description": "Perform a Melee attack of 55 Power. If it hits, Raise your Speed by 2 for 2 turns."
+        "description": "Perform a Melee attack of 60 Power. If it hits, Raise your Speed by 2 for 2 turns."
       },
       {
         "name": "EARTH'S WRATH II",
-        "description": "Perform a Melee attack of 55 Power. If it hits, raise your Attack by 2 stages for 2 turns."
+        "description": "Perform a Melee attack of 60 Power. If it hits, raise your Attack by 2 stages for 2 turns."
       },
       {
         "name": "LIGHTNING STRIKES TWICE I",
