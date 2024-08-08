@@ -28,6 +28,7 @@ function findNeftiesByElement(targetElement, nefties) {
 
 async function handleGet(req: NextRequest) {
   const language = req.nextUrl.searchParams.get("lang") || "en";
+  const name = req.nextUrl.searchParams.get("name");
   try {
     const filePath = path.resolve(
       process.cwd(),
@@ -36,13 +37,25 @@ async function handleGet(req: NextRequest) {
     const file = await fs.readFile(filePath, "utf8");
     const data = JSON.parse(file);
 
-    const nefties = await models.Nefties.findAll();
+    let nefties;
+    if (name) {
+      const neftie = await models.Nefties.findOne({ where: { slug: name } });
+      if (!neftie) {
+        return new Response(`Neftie named "${name}" not found`, {
+          status: 404,
+        });
+      }
+      nefties = [neftie];
+    } else {
+      nefties = await models.Nefties.findAll();
+    }
 
-    if (!nefties) {
+    if (!nefties || nefties.length === 0) {
       return new Response("Neftie list is empty", {
         status: 403,
       });
     }
+
     const translatedNefties = nefties.map((neftie) => {
       const neftieData = neftie.get({ plain: true });
       const { name, description, skills, ...rest } = neftieData;
