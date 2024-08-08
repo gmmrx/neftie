@@ -51,10 +51,10 @@ async function handleGet(req: NextRequest) {
 
     if (name) {
       // Normalize the search name to lowercase and replace hyphens with spaces
-      const normalizedName = name.toLowerCase().replace(/-/g, " ");
+      const normalizedName = name.toLowerCase().replace(" ", "-");
       nefties = allNefties.filter(
         (neftie) =>
-          neftie.name.toLowerCase().replace(/ /g, "-") === normalizedName
+          neftie.name.toLowerCase().replace(" ", "-") === normalizedName
       );
 
       if (nefties.length === 0) {
