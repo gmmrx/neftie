@@ -29,6 +29,7 @@ function findNeftiesByElement(targetElement, nefties) {
 async function handleGet(req: NextRequest) {
   const language = req.nextUrl.searchParams.get("lang") || "en";
   const name = req.nextUrl.searchParams.get("name");
+
   try {
     const filePath = path.resolve(
       process.cwd(),
@@ -37,33 +38,40 @@ async function handleGet(req: NextRequest) {
     const file = await fs.readFile(filePath, "utf8");
     const data = JSON.parse(file);
 
-    let nefties;
-    if (name) {
-      const neftie = await models.Nefties.findOne({ where: { slug: name } });
-      if (!neftie) {
-        return new Response(`Neftie named "${name}" not found`, {
-          status: 404,
-        });
-      }
-      nefties = [neftie];
-    } else {
-      nefties = await models.Nefties.findAll();
-    }
+    // Fetch all nefties to evaluate relationships
+    const allNefties = await models.Nefties.findAll();
 
-    if (!nefties || nefties.length === 0) {
+    if (!allNefties || allNefties.length === 0) {
       return new Response("Neftie list is empty", {
         status: 403,
       });
     }
 
+    let nefties = allNefties;
+
+    if (name) {
+      // Normalize the search name to lowercase and replace hyphens with spaces
+      const normalizedName = name.toLowerCase().replace(/-/g, " ");
+      nefties = allNefties.filter(
+        (neftie) =>
+          neftie.name.toLowerCase().replace(/ /g, "-") === normalizedName
+      );
+
+      if (nefties.length === 0) {
+        return new Response(`Neftie named "${name}" not found`, {
+          status: 404,
+        });
+      }
+    }
+
     const translatedNefties = nefties.map((neftie) => {
       const neftieData = neftie.get({ plain: true });
       const { name, description, skills, ...rest } = neftieData;
-      const translation = data[name.replace(" ", "-").toLowerCase()];
+      const translation = data[name.replace(/ /g, "-").toLowerCase()];
 
       const { good, bad, neutral } = findNeftiesByElement(
         neftieData.element,
-        nefties
+        allNefties
       );
 
       return {
