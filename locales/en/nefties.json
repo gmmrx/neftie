@@ -580,20 +580,20 @@
         "description": "Reflect back to the opponent 30% of the damage dealt this turn action. You take the remaining damage. If triggered, earn 3 Hype."
       },
       {
-        "name": "ARCTIC DAZE II",
+        "name": "MOONSHINE HAZE II",
         "description": "Drop your Attack and your Opponent's Attack by 1 stage for 2 turns."
       },
       {
-        "name": "ICEBREAKER II",
-        "description": "Drop the opponent's Defense by 2 stages for 5 turns."
+        "name": "AFTERSHOT II",
+        "description": "Drop the opponent's Defense by 3 stages for 5 turns."
       },
       {
-        "name": "LOW BLOW III",
-        "description": "Reflect back to the opponent 50% of the damage dealt this turn action and perform a Counter Attack of 50 Power using your Defense instead of Attack. You take the remaining damage."
+        "name": "MUD SLIDE II",
+        "description": "Perform a Melee attack of 70 Power. Raise your Defense by 1 for 2 turns."
       },
       {
-        "name": "MUD SLIDE III",
-        "description": "Perform a Melee attack of 50 Power using your Defense instead of Attack. Raise your Defense by 1 for 2 turns. "
+        "name": "SUCKER COUNTER III",
+        "description": "Reflect back to the opponent 50% of the damage dealt this turn action and perform a counter attack of 50 Power using your Defense instead of Attack. You take the remaining damage."
       }
     ]
   },

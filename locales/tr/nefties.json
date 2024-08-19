@@ -573,28 +573,28 @@
     ]
   },
   "whiskube": {
-    "description": "Whiskubeler buz üzerinde dinlenmeyi sever, ancak yansıtıcı bedenleri, uyurken buzu eritir. Bu, aniden soğuk suya dalmalarına neden olur ve bu da onlara oldukça sert bir uyandırma çağrısı verir!",
-    "element": "toprak",
+    "description": "Whiskube'ler buzun üzerinde dinlenmeyi severler, ancak yansıtıcı vücutları uyurken buzun erimesine neden olur. Bu, soğuk suya ani bir dalışla sonuçlanır ve onları oldukça sert uyandırır!",
+    "element": "earth",
     "skills": [
       {
-        "name": "CANLANDIRICI YANSIMA I",
-        "description": "Bu hareket sırasında verilen hasarın %30'unu rakibe geri yansıtın. Kalan hasarı siz alırsınız. Eğer tetiklenirse, 3 Hype kazanın."
+        "name": "ENERJİ VEREN YANSIMA I",
+        "description": "Bu turdaki verilen hasarın %30'unu rakibe yansıtın. Kalan hasarı alırsınız. Tetiklenirse, 3 Hype kazanın."
       },
       {
-        "name": "ARCTİK SERSEMLİK II",
-        "description": "Saldırınızı ve Rakibinizin Saldırısını 2 tur boyunca 1 kademe düşürün."
+        "name": "AY IŞIĞI SİSİ II",
+        "description": "Saldırınızı ve Rakibinizin Saldırısını 2 tur boyunca 1 aşama düşürün."
       },
       {
-        "name": "BUZKIRAN II",
-        "description": "Rakibin Savunmasını 5 tur boyunca 2 kademe düşürün."
+        "name": "SONRASALDIRI II",
+        "description": "Rakibinizin Savunmasını 5 tur boyunca 3 aşama düşürün."
       },
       {
-        "name": "DÜŞÜK VURUŞ III",
-        "description": "Bu hareket sırasında verilen hasarın %50'sini rakibe geri yansıtın ve Saldırı yerine Savunmanızı kullanarak 50 Güçlük bir Karşı Saldırı gerçekleştirin. Kalan hasarı siz alırsınız."
+        "name": "ÇAMUR KAYMASI II",
+        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştirin. Savunmanızı 2 tur boyunca 1 artırın."
       },
       {
-        "name": "ÇAMUR KAYMASI III",
-        "description": "Saldırı yerine Savunmanızı kullanarak 50 Güçlük bir Yakın Dövüş saldırısı gerçekleştirin. Savunmanızı 2 tur boyunca 1 artırın."
+        "name": "EMİCİ KARŞI SALDIRI III",
+        "description": "Bu turda verilen hasarın %50'sini rakibe yansıtın ve Saldırı yerine Savunmanızı kullanarak 50 Güçlük bir karşı saldırı gerçekleştirin. Kalan hasarı alırsınız."
       }
     ]
   },
