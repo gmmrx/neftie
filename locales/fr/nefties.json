@@ -571,30 +571,29 @@
       }
     ]
   },
-
   "whiskube": {
-    "description": "Les Whiskubes aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant leur sommeil. Cela entraîne une chute soudaine dans l'eau froide, ce qui leur donne un réveil assez brutal!",
-    "element": "terre",
+    "description": "Les Whiskubes aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant qu'ils dorment. Cela entraîne une plongée soudaine dans l'eau froide, les réveillant en sursaut!",
+    "element": "earth",
     "skills": [
       {
         "name": "RÉFLEXION ÉNERGISANTE I",
-        "description": "Renvoie à l'adversaire 30 % des dégâts infligés lors de cette action. Vous subissez les dégâts restants. Si déclenché, gagnez 3 Hype."
+        "description": "Réfléchit à l'adversaire 30% des dégâts infligés cette action de tour. Vous subissez les dégâts restants. Si déclenché, gagnez 3 Hype."
       },
       {
-        "name": "ÉTOURDISSEMENT ARCTIQUE II",
-        "description": "Réduisez votre Attaque et celle de votre adversaire d'un niveau pour 2 tours."
+        "name": "BRUME DE CLAIR DE LUNE II",
+        "description": "Réduisez votre Attaque et celle de votre adversaire de 1 niveau pendant 2 tours."
       },
       {
-        "name": "BRISE-GLACE II",
-        "description": "Réduisez la Défense de l'adversaire de 2 niveaux pour 5 tours."
+        "name": "APRÈS-COUP II",
+        "description": "Réduisez la Défense de l'adversaire de 3 niveaux pendant 5 tours."
       },
       {
-        "name": "COUP BAS III",
-        "description": "Renvoie à l'adversaire 50 % des dégâts infligés lors de cette action et effectue une Contre-Attaque de 50 Puissance en utilisant votre Défense à la place de l'Attaque. Vous subissez les dégâts restants."
+        "name": "GLISSADE DE BOUE II",
+        "description": "Effectuez une attaque de Mêlée de 70 Puissance. Augmentez votre Défense de 1 pendant 2 tours."
       },
       {
-        "name": "COULÉE DE BOUE III",
-        "description": "Effectue une attaque Mêlée de 50 Puissance en utilisant votre Défense à la place de l'Attaque. Augmente votre Défense de 1 pour 2 tours."
+        "name": "CONTRATTAQUE FATAL III",
+        "description": "Réfléchit à l'adversaire 50% des dégâts infligés cette action de tour et effectuez une contre-attaque de 50 Puissance en utilisant votre Défense au lieu de l'Attaque. Vous subissez les dégâts restants."
       }
     ]
   },

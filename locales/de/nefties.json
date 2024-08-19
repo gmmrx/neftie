@@ -572,28 +572,28 @@
     ]
   },
   "whiskube": {
-    "description": "Whiskubes lieben es, sich auf Eis auszuruhen, aber ihre reflektierenden Körper lassen es schmelzen, während sie schlafen. Dies führt zu einem plötzlichen Eintauchen in kaltes Wasser, was ihnen einen ordentlichen Weckruf verschafft!",
-    "element": "erde",
+    "description": "Whiskubes ruhen gerne auf Eis, aber ihre reflektierenden Körper lassen es beim Schlafen schmelzen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser und weckt sie ordentlich auf!",
+    "element": "earth",
     "skills": [
       {
-        "name": "ENERGIESPIEGEL I",
-        "description": "Reflektiert 30% des in dieser Aktion verursachten Schadens auf den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, erhältst du 3 Hype."
+        "name": "ENERGIEGELADENE REFLEXION I",
+        "description": "Reflektiere 30% des in dieser Runde zugefügten Schadens an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, erhalte 3 Hype."
       },
       {
-        "name": "ARKTISCHER TAUMEL II",
-        "description": "Verringere deinen Angriff und den Angriff deines Gegners um 1 Stufe für 2 Runden."
+        "name": "MONDSCHEINNEBEL II",
+        "description": "Senke deinen Angriff und den Angriff des Gegners für 2 Runden um 1 Stufe."
       },
       {
-        "name": "EISBRECHER II",
-        "description": "Verringere die Verteidigung des Gegners um 2 Stufen für 5 Runden."
+        "name": "NACHSCHUSS II",
+        "description": "Senke die Verteidigung des Gegners für 5 Runden um 3 Stufen."
       },
       {
-        "name": "TIEFER SCHLAG III",
-        "description": "Reflektiert 50% des in dieser Aktion verursachten Schadens auf den Gegner zurück und führt einen Gegenangriff mit 50 Kraft aus, wobei deine Verteidigung anstelle des Angriffs verwendet wird. Du nimmst den verbleibenden Schaden."
+        "name": "SCHLAMMLAWINE II",
+        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Erhöht deine Verteidigung für 2 Runden um 1 Stufe."
       },
       {
-        "name": "SCHLAMMLAWINE III",
-        "description": "Führe einen Nahkampfangriff mit 50 Kraft aus, wobei deine Verteidigung anstelle des Angriffs verwendet wird. Erhöhe deine Verteidigung um 1 für 2 Runden."
+        "name": "SAUGKONTER III",
+        "description": "Reflektiere 50% des in dieser Runde zugefügten Schadens an den Gegner zurück und führe einen Gegenangriff mit 50 Stärke aus und nutze dabei deine Verteidigung statt Angriff. Du nimmst den verbleibenden Schaden."
       }
     ]
   },
