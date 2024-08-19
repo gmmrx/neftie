@@ -572,28 +572,28 @@
     ]
   },
   "whiskube": {
-    "description": "I Whiskube amano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo porta a un'improvvisa immersione nell'acqua fredda, svegliandoli di colpo!",
-    "element": "earth",
+    "description": "I Whiskube adorano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo porta a un improvviso tuffo in acqua fredda, dando loro una bella sveglia!",
+    "element": "terra",
     "skills": [
       {
-        "name": "RIFLESSIONE ENERGIZZANTE I",
-        "description": "Rifletti all'avversario il 30% dei danni inflitti in questa azione di turno. Subisci i danni rimanenti. Se attivato, guadagna 3 Hype."
+        "name": "RIFLESSO ENERGIZZANTE I",
+        "description": "Riflette il 30% del danno inflitto all'avversario durante questa azione. Subisci il danno rimanente. Se attivato, guadagni 3 Hype."
       },
       {
-        "name": "NEBBIA DI CHIAR DI LUNA II",
-        "description": "Riduci il tuo Attacco e quello dell'avversario di 1 livello per 2 turni."
+        "name": "STORDIMENTO ARTICO II",
+        "description": "Riduci il tuo Attacco e l'Attacco del tuo avversario di 1 livello per 2 turni."
       },
       {
-        "name": "COLPO DI RITORNO II",
-        "description": "Riduci la Difesa dell'avversario di 3 livelli per 5 turni."
+        "name": "ROMPIGHIACCIO II",
+        "description": "Riduci la Difesa dell'avversario di 2 livelli per 5 turni."
       },
       {
-        "name": "SCIVOLATA DI FANGO II",
-        "description": "Effettua un attacco corpo a corpo di 70 Potenza. Aumenta la tua Difesa di 1 per 2 turni."
+        "name": "COLPO BASSO III",
+        "description": "Riflette il 50% del danno inflitto all'avversario durante questa azione ed esegue un Contrattacco di 50 Potenza usando la tua Difesa invece dell'Attacco. Subisci il danno rimanente."
       },
       {
-        "name": "CONTRO ATTACCO FATALE III",
-        "description": "Rifletti all'avversario il 50% dei danni inflitti in questa azione di turno ed effettua un contrattacco di 50 Potenza utilizzando la tua Difesa invece dell'Attacco. Subisci i danni rimanenti."
+        "name": "FRANA DI FANGO III",
+        "description": "Esegui un attacco in mischia di 50 Potenza usando la tua Difesa invece dell'Attacco. Aumenta la tua Difesa di 1 per 2 turni."
       }
     ]
   },
