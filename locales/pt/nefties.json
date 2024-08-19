@@ -572,28 +572,28 @@
     ]
   },
   "whiskube": {
-    "description": "Os Whiskubes adoram descansar no gelo, mas seus corpos reflexivos fazem com que ele derreta enquanto dormem. Isso leva a uma súbita imersão em água fria, despertando-os abruptamente!",
-    "element": "earth",
+    "description": "Os Whiskubes adoram descansar no gelo, mas os seus corpos refletivos fazem-no derreter enquanto dormem. Isto leva a um mergulho repentino em água fria, dando-lhes um bom susto!",
+    "element": "terra",
     "skills": [
       {
         "name": "REFLEXO ENERGIZANTE I",
-        "description": "Reflete de volta para o oponente 30% do dano causado nesta ação de turno. Você recebe o dano restante. Se ativado, ganhe 3 Hype."
+        "description": "Reflete 30% do dano causado de volta ao oponente nesta ação. Você recebe o dano restante. Se ativado, ganhe 3 Hype."
       },
       {
-        "name": "NÉVOA DE LUAR II",
-        "description": "Reduza seu Ataque e o Ataque do oponente em 1 nível por 2 turnos."
+        "name": "ENTORPECIMENTO ÁRTICO II",
+        "description": "Reduz o seu Ataque e o Ataque do oponente em 1 nível por 2 turnos."
       },
       {
-        "name": "GOLPE SEGUINTE II",
-        "description": "Reduza a Defesa do oponente em 3 níveis por 5 turnos."
+        "name": "QUEBRA-GELO II",
+        "description": "Reduz a Defesa do oponente em 2 níveis por 5 turnos."
       },
       {
-        "name": "DESLIZAMENTO DE LAMA II",
-        "description": "Realiza um ataque corpo a corpo de 70 Poder. Aumente sua Defesa em 1 por 2 turnos."
+        "name": "GOLPE BAIXO III",
+        "description": "Reflete 50% do dano causado de volta ao oponente nesta ação e realiza um Contra-Ataque de 50 de Poder usando a sua Defesa em vez do Ataque. Você recebe o dano restante."
       },
       {
-        "name": "CONTRAGOLPE FATAL III",
-        "description": "Reflete de volta para o oponente 50% do dano causado nesta ação de turno e realiza um contra-ataque de 50 Poder usando sua Defesa em vez do Ataque. Você recebe o dano restante."
+        "name": "DESLIZAMENTO DE LAMA III",
+        "description": "Realiza um ataque Corpo a Corpo de 50 de Poder usando a sua Defesa em vez do Ataque. Aumenta a sua Defesa em 1 por 2 turnos."
       }
     ]
   },

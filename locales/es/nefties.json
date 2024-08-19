@@ -572,54 +572,28 @@
     ]
   },
   "whiskube": {
-    "description": "A los Whiskubes les encanta descansar sobre el hielo, pero sus cuerpos reflectantes hacen que se derrita mientras duermen. Esto provoca una repentina inmersión en agua fría, ¡dándoles un buen despertar!",
-    "element": "earth",
+    "description": "A los Whiskubes les encanta descansar sobre el hielo, pero sus cuerpos reflectantes lo derriten mientras duermen. Esto provoca una caída repentina en agua fría, ¡dándoles un buen susto!",
+    "element": "tierra",
     "skills": [
       {
         "name": "REFLEJO ENERGIZANTE I",
-        "description": "Refleja al oponente el 30% del daño infligido en esta acción de turno. Recibes el daño restante. Si se activa, gana 3 Hype."
+        "description": "Refleja el 30% del daño infligido al oponente en esta acción. Recibes el daño restante. Si se activa, gana 3 Hype."
       },
       {
-        "name": "NIEBLA DE LUNA II",
-        "description": "Reduce tu Ataque y el Ataque del oponente en 1 nivel durante 2 turnos."
+        "name": "ATURDIMIENTO ÁRTICO II",
+        "description": "Reduce tu Ataque y el Ataque de tu oponente en 1 nivel durante 2 turnos."
       },
       {
-        "name": "CONTRAGOLPE II",
-        "description": "Reduce la Defensa del oponente en 3 niveles durante 5 turnos."
+        "name": "ROMPEHIELOS II",
+        "description": "Reduce la Defensa del oponente en 2 niveles durante 5 turnos."
       },
       {
-        "name": "DESLIZAMIENTO DE LODO II",
-        "description": "Realiza un ataque cuerpo a cuerpo de 70 Poder. Aumenta tu Defensa en 1 durante 2 turnos."
+        "name": "GOLPE BAJO III",
+        "description": "Refleja el 50% del daño infligido al oponente en esta acción y realiza un Contraataque de 50 de Poder usando tu Defensa en lugar de Ataque. Recibes el daño restante."
       },
       {
-        "name": "CONTRATAQUE FATAL III",
-        "description": "Refleja al oponente el 50% del daño infligido en esta acción de turno y realiza un contraataque de 50 Poder usando tu Defensa en lugar de tu Ataque. Recibes el daño restante."
-      }
-    ]
-  },
-  "dinotusk": {
-    "description": "Los Dinotusks usan sus colas únicas para arraigarse a Tokane, generando energía y permitiéndoles sobrevivir en entornos hostiles.",
-    "element": "lightning",
-    "skills": [
-      {
-        "name": "FLUJO DEBILITANTE I",
-        "description": "Tu Ataque se reduce en 1 nivel durante 2 turnos."
-      },
-      {
-        "name": "REBOTE DESESPERADO III",
-        "description": "Realiza un ataque cuerpo a cuerpo de 15 Poder. Si tu HP actual es menor que el del oponente, gana 3 Hype adicionales."
-      },
-      {
-        "name": "SIN DOLOR, NO HAY GANANCIA I",
-        "description": "Ataque personal de 40 Poder. Aumenta tu Defensa en 3 niveles durante 3 turnos."
-      },
-      {
-        "name": "DESTINO COMPARTIDO III",
-        "description": "Inflige Maldición a ti mismo y al oponente. Después de una cuenta regresiva de 3 turnos, la Maldición inflige un daño igual al 40% del HP máximo de ambos."
-      },
-      {
-        "name": "SURGE DE VOLTAJE III",
-        "description": "Realiza un ataque a distancia de 115 Poder."
+        "name": "DESLIZAMIENTO DE LODO III",
+        "description": "Realiza un ataque cuerpo a cuerpo de 50 de Poder usando tu Defensa en lugar de Ataque. Aumenta tu Defensa en 1 durante 2 turnos."
       }
     ]
   },
