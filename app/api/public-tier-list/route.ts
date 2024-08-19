@@ -92,6 +92,7 @@ async function handleGet(req: NextRequest) {
       JSON.stringify({
         status: 200,
         result: true,
+        patch: CURRENT_PATCH_VERSION,
         data: {
           ...tiers,
         },
