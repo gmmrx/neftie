@@ -115,7 +115,7 @@ const PostNewEvent = ({ isOpen, setIsOpen }) => {
   };
 
   return (
-    <div className="pt-4 text-xl font-semibold px-4 max-w-[70rem]">
+    <div className="pt-4 text-xl font-semibold px-4 max-w-[70rem] mx-auto">
       <Dialog
         open={isOpen}
         onOpenChange={(open) => !isLoading && setIsOpen(open)}

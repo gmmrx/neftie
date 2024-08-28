@@ -44,7 +44,7 @@ const EventPage: NextPage = ({ eventData }) => {
   );
   const status = getStatus(eventData.startsAt, eventData.endsAt);
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll no-scrollbar">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] mx-auto overflow-y-scroll no-scrollbar">
       <div className="flex flex-col md:flex-row justify-center md:justify-auto items-center md:items-start">
         <div className="p-4 rounded-sm w-full text-center md:text-left">
           <div className="flex justify-between items-center flex-col md:items-start">
@@ -59,8 +59,8 @@ const EventPage: NextPage = ({ eventData }) => {
                   status === "ONGOING"
                     ? "bg-green-100 text-green-800"
                     : status === "INCOMING"
-                    ? "bg-blue-100 text-blue-800"
-                    : "bg-red-100 text-red-800"
+                      ? "bg-blue-100 text-blue-800"
+                      : "bg-red-100 text-red-800"
                 }`}
               >
                 {t(`translation:${status.toLowerCase()}`)}

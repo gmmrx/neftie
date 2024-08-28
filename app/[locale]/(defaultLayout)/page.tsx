@@ -8,11 +8,9 @@ import { Metadata, ResolvingMetadata } from "next";
 export default async function Home() {
   await syncAndForceDB();
   return (
-    <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] font-ibmplex">
+    <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] mx-auto font-ibmplex">
       <WhatIsNeftieBox />
-      <div className="mt-4 flex gap-2 w-full flex-wrap md:justify-between">
-        <NeftieListHome />
-      </div>
+
       <RecentVideosBox />
     </main>
   );

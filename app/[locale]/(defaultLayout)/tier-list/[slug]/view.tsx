@@ -48,7 +48,7 @@ const SingleTierList: NextPage = ({ data }) => {
 
   return (
     <Suspense>
-      <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
+      <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] mx-auto">
         <div className="text-center font-normal">
           List of
           <span className="text-center font-bold">

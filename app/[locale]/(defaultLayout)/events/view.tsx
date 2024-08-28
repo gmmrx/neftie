@@ -24,7 +24,7 @@ const EventsPage: NextPage = () => {
   );
 
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll no-scrollbar">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]  mx-auto overflow-y-scroll no-scrollbar">
       <div className="p-4 rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
