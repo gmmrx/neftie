@@ -13,7 +13,7 @@ const NeftieBox: FC<{ neftie: Neftie; className?: string }> = ({
   return (
     <Link href={`/neftie/${neftie.slug}`}>
       <div
-        className={`p-4 max-w-[155px] rounded-sm w-full text-center border w-[155px] h-[130px] cursor-pointer hover:border-[#4d4d4d] transition-all relative bg-[#27272a] ${className}`}
+        className={`p-4 max-w-[155px] rounded-sm w-full text-center border w-[155px] h-[140px] cursor-pointer hover:border-[#4d4d4d] hover:scale-110 transition-all relative bg-[#27272a] ${className}`}
       >
         <div
           style={{ backgroundImage: `url(${url})` }}

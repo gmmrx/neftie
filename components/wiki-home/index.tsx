@@ -13,13 +13,26 @@ import { useTranslation } from "react-i18next";
 const WikiHome = () => {
   const { t } = useTranslation();
   return (
-    <Card className="w-full rounded-sm">
-      <CardHeader>
-        <CardTitle className="uppercase mb-4">{t('wiki:welcome_title')}</CardTitle>
-        <CardDescription className="text-base">{t('wiki:welcome_desc')}</CardDescription>
-      </CardHeader>
-      
-    </Card>
+    <div>
+      <Card className="w-full rounded-sm">
+        <CardHeader className="flex flex-row items-center gap-8">
+          <img
+            src={
+              "https://images.cdn.aurory.io/consumables/hype-potion/rare.png"
+            }
+            className="max-w-[7rem]"
+          />
+          <div>
+            <CardTitle className="uppercase mb-4">
+              {t("wiki:welcome_title")}
+            </CardTitle>
+            <CardDescription className="text-base">
+              {t("wiki:welcome_desc")}
+            </CardDescription>
+          </div>
+        </CardHeader>
+      </Card>
+    </div>
   );
 };
 

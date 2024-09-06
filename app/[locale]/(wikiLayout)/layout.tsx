@@ -52,9 +52,9 @@ export default async function WikiLayout({
                 {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
                   <div className="bg-page-bg">
-                    <div className="flex flex-col lg:flex-row">
+                    <div className="flex flex-col">
                       <WikiSidebar />
-                      <div className="bg-[#161618] w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0">
+                      <div className="w-full lg:w-[calc(100%-240px)] max-w-[70rem] mx-auto pb-24 md:pb-0">
                         {children}
                       </div>
                     </div>

@@ -33,7 +33,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
   if (nefties.length === 0) return null;
   const url = neftie?.image;
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh]">
+    <div className="text-left pt-10 text-xl font-semibold px-6 max-w-[1100px] mx-auto">
       <div className="w-full rounded-sm p-2 flex flex-wrap lg:justify-start justify-center gap-4 items-center">
         <div
           style={{ backgroundImage: `url(${url})` }}
@@ -47,12 +47,12 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
               {t(`translation:elements.${neftie?.element}`).toUpperCase()}
             </span>
           </div>
-          <div className="font-normal mt-1 text-sm max-w-[600px]">
+          <div className="font-normal mt-1 text-sm max-w-[600px] text-[#c7c7c7]">
             {t(`nefties:${neftie?.description}`)}
           </div>
         </div>
       </div>
-      <div className="skills flex flex-wrap lg:flex-nowrap gap-2 my-6">
+      <div className="skills grid grid-cols-3 gap-2 my-6">
         {neftie?.skills.map((skill, index) => {
           const skills = t(`nefties:${neftie?.slug}.skills`, {
             returnObjects: true,
@@ -60,21 +60,28 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
 
           return (
             <div
-              className="border w-full rounded-md p-4 mb-4 border-[#706F6F] relative pb-8"
+              className="border w-full rounded-md p-4 mb-4 border-[#2a2a2a] bg-[#141414] relative flex justify-between items-start cursor-pointer group"
               key={skill.description}
             >
-              <div></div>
-              <div className="font-semibold text-base flex items-center gap-2">
+              <div className="font-semibold text-base flex items-start gap-2 max-w-[70%]">
                 {" "}
                 <img src={skill.icon} className="max-w-[20px]" />
-                {skills && skills.length > 0 && skills[index].name}
+                <div>
+                  {skills && skills.length > 0 && skills[index].name}
+                  <div className="font-normal text-xs mt-2 text-[#c7c7c7] transition-all">
+                    {skills && skills.length > 0 && skills[index].description}
+                  </div>
+                </div>
               </div>
-              <div className="font-normal text-xs">
-                {skills && skills.length > 0 && skills[index].description}
-              </div>
-              <div className="absolute bottom-2 right-2 text-sm flex gap-2 lowercase border p-1 rounded-sm px-2">
-                <img src="/images/hype.png" alt="Hype" className="w-[18px]" />
-                <span className="" style={{ fontVariant: "all-small-caps" }}>{skill?.hype} Hype</span>
+              <div className="text-sm flex gap-2 lowercase p-1 border rounded-sm px-2 h-[30px] w-[60px]">
+                <img
+                  src="/images/hype.png"
+                  alt="Hype"
+                  className="w-[18px] h-[18px]"
+                />
+                <span className="" style={{ fontVariant: "all-small-caps" }}>
+                  {skill?.hype}
+                </span>
               </div>
             </div>
           );

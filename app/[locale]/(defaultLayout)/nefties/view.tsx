@@ -38,7 +38,7 @@ const ListNefties: NextPage = () => {
 
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] mx-auto max-w-[70rem]">
-      <div className="p-4 rounded-sm w-full text-left">
+      <div className="rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
             <strong className="bg-secondary p-2 rounded-sm">
@@ -51,7 +51,7 @@ const ListNefties: NextPage = () => {
           {t("translation:nefties_page_desc")}
         </h3>
       </div>
-      <div className="filter-area flex flex-col lg:flex-row gap-6 ml-4 mb-4 mt-6 border-b pb-4 items-center">
+      <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 border-b pb-4 items-center">
         <Input
           placeholder={t("translation:search_nefties")}
           className="rounded-none w-full lg:max-w-[150px] transition-all lg:focus:max-w-[250px]"

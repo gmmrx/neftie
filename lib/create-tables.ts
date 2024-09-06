@@ -42,11 +42,11 @@ export async function syncAndForceDB() {
     // for (const egg of example_eggs) {
     //   await models.Eggs.create({ ...egg });
     // }
-    // await models.WikiPage.sync({ force: true, alter: true });
-    // await models.WikiPageRevision.sync({ force: true, alter: true });
+    await models.WikiPage.sync({ force: true, alter: true });
+    await models.WikiPageRevision.sync({ force: true, alter: true });
 
-    // await models.WikiArticle.sync({ force: true, alter: true });
-    // await models.WikiArticleRevision.sync({ force: true, alter: true });
+    await models.WikiArticle.sync({ force: true, alter: true });
+    await models.WikiArticleRevision.sync({ force: true, alter: true });
 
   } catch (e) {
     console.log("Error Syncing ---> ", e);

@@ -44,11 +44,41 @@ export class WikiPage
   }
 
   static async getLatestRevision(
-    pageId: number
+    pageId: number,
+    language: string = "en"
   ): Promise<WikiPageRevision | null> {
     return WikiPageRevision.findOne({
-      where: { pageId },
+      where: {
+        pageId,
+        language,
+      },
       order: [["createdAt", "DESC"]],
     });
+  }
+
+  static async getLatestRevisions(
+    limit: number = 10,
+    language: string = "en"
+  ): Promise<Array<{ page: WikiPage; revision: WikiPageRevision | null }>> {
+    const pages = await WikiPage.findAll({
+      where: {
+        language,
+      },
+      order: [["createdAt", "DESC"]],
+      limit,
+    });
+
+    const results = await Promise.all(
+      pages.map(async (page) => {
+        const latestRevision = await WikiPageRevision.findOne({
+          where: { pageId: page.id },
+          order: [["createdAt", "DESC"]],
+        });
+
+        return { page, revision: latestRevision };
+      })
+    );
+
+    return results;
   }
 }

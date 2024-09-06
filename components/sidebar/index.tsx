@@ -24,7 +24,7 @@ const Sidebar = () => {
 
   return (
     <div className="w-full border-r font-ibmplex bg-black">
-      <div className="max-w-[70rem] py-4 px-8 w-full mx-auto">
+      <div className="max-w-[70rem] py-2 px-8 w-full mx-auto">
         <div className="text-center text-2xl cursor-pointer flex justify-between items-center">
           <div className="flex items-center gap-4">
             <img
@@ -89,7 +89,7 @@ const Sidebar = () => {
               </div>
             </Link>
             <Link href="/tier-list">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
+              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={"18px"}
                   height={"18px"}
@@ -109,14 +109,14 @@ const Sidebar = () => {
                 {t("translation:tier_list")}
               </div>
             </Link>
-            <Link href="/videos">
+            {/* <Link href="/videos">
               <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
                 <Play className="w-[1.125rem]" />
                 {t("translation:videos")}
               </div>
-            </Link>
+            </Link> */}
             <Link href="/events">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
+              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width="20px"
                   height="20px"
@@ -140,80 +140,80 @@ const Sidebar = () => {
                 {t("translation:events")}
               </div>
             </Link>
+            <Link href="/wiki">
+              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+                <SwatchBook size="22" />
+                Wiki
+              </div>
+            </Link>
+          </div>
+          <div className="flex items-center gap-8">
+            {!session ? (
+              <div
+                onClick={() => signIn("discord")}
+                className="bg-[#5d6af3] p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold mt-3 mb-4 cursor-pointer text-xs"
+              >
+                <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
+                {t("translation:login_with_discord")}
+              </div>
+            ) : (
+              <div
+                className="bg-destructive p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold text-xs mt-3 mb-4 cursor-pointer font-semibold"
+                onClick={() => signOut()}
+              >
+                {t("translation:logout")}
+              </div>
+            )}
+            <div className="-mt-2">
+              <DropdownMenu>
+                <DropdownMenuTrigger>
+                  <img
+                    src={`/images/flags/${i18n.language}.svg`}
+                    className="w-[20px]"
+                    alt={i18n.language}
+                  />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="">
+                  {LANGUAGE.map((lang) => {
+                    return (
+                      <DropdownMenuItem
+                        key={lang.code}
+                        onClick={(e) => {
+                          let newPath;
+                          if (i18n.language !== "en") {
+                            newPath = newPath = pathname.replace(
+                              /^\/[a-z]{2}\/?/,
+                              `/${lang.code}/`
+                            );
+
+                            i18n.changeLanguage(lang.code);
+                            return router.push(newPath);
+                          } else {
+                            i18n.changeLanguage(lang.code);
+                            return router.push(`/${lang.code}${pathname}`);
+                          }
+                        }}
+                      >
+                        <img
+                          src={`/images/flags/${lang.code}.svg`}
+                          className="w-[20px] mr-2"
+                          alt={i18n.language}
+                        />{" "}
+                        {lang.value}
+                      </DropdownMenuItem>
+                    );
+                  })}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
             {session && session.user.isAdmin && (
               <Link href="/admin">
                 <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
-                  Admin
+                  Adm
                 </div>
               </Link>
             )}
           </div>
-
-          <Link href="/tier-list">
-            <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-              <svg
-                width={"18px"}
-                height={"18px"}
-                viewBox="0 0 32 32"
-                fill={"white"}
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M28 12.0653L24.3445 22.6867L8.20038 21.4929L7.13202 21.3893L4 12.0653L5.13532 10.2463L9.74356 14.1198L10.0449 13.9941L15.4263 5H16.5737L22.0403 14.0821L22.366 14.0664L27.4795 10.7804L28 12.0653Z"
-                  fill={"white"}
-                />
-                <path
-                  d="M7.60989 22.96L8.29169 25.1654L22.8226 27L23.7418 24.3611L7.60989 22.96Z"
-                  fill={"white"}
-                />
-              </svg>
-              {t("translation:tier_list")}
-            </div>
-          </Link>
-          <Link href="/videos">
-            <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-              <Play className="w-[1.125rem]" />
-              {t("translation:videos")}
-            </div>
-          </Link>
-          <Link href="/events">
-            <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-              <svg
-                width="20px"
-                height="20px"
-                fill="currentColor"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5.85499 3.83185L5.62516 7.91717L26.7518 9.02631L27 4.62673L26.191 3.73018L6.5537 3L5.8458 3.83185H5.85499ZM21.0242 7.11305L12.4191 6.59545L12.9524 5.12584L20.5921 5.48631L21.0242 7.11305Z"
-                  fill="currentColor"
-                ></path>
-                <path
-                  d="M7.3995 11.2261L24.8855 11.9378L24.3982 26.6338L23.8926 27.1422L7.05015 26.8279L6.86628 26.6154L7.3995 11.2261ZM5.62516 9.30359L5 27.2901L6.21354 28.658L24.6465 29L26.2186 27.4102L26.7885 10.1539L5.62516 9.30359Z"
-                  fill="currentColor"
-                ></path>
-                <path
-                  d="M16.8504 13.5923L18.0731 17.2339L21.9528 18.6665L21.9712 19.0547L19.0384 21.6982L19.2683 24.9886L19.1304 25.3768L15.7656 23.6299C15.6277 23.5375 12.2628 24.8223 12.2628 24.8223L11.7572 24.7391L12.3732 20.5891L10.1759 17.5851L10.6264 17.2432L14.3038 16.8642L16.3448 13.8418L16.8504 13.6015V13.5923Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-              {t("translation:events")}
-            </div>
-          </Link>
-          <Link href="/wiki">
-            <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-              <SwatchBook size="22" />
-              Wiki
-            </div>
-          </Link>
-          {session && session.user.isAdmin && (
-            <Link href="/admin">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer mt-2 hover:bg-secondary py-2 px-2">
-                Admin
-              </div>
-            </Link>
-          )}
         </div>
       </div>
 

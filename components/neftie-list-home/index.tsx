@@ -18,7 +18,7 @@ const NeftieListHome: FC = () => {
           <NeftieBox
             key={neftie.name}
             neftie={neftie}
-            className="bg-[white] border-0 text-sm uppercase text-black"
+            className="bg-[#2b2b2b]/80 border-0 text-sm uppercase text-white"
           />
         );
       })}
