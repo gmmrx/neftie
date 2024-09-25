@@ -30,6 +30,14 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
       </div>
     );
   }
+
+  const sameElementNefties = (neftie) => {
+    if (nefties.length === 0) return null;
+    return nefties.filter(
+      (singleNeftie) => singleNeftie.element === neftie.element
+    );
+  };
+
   if (nefties.length === 0) return null;
   const url = neftie?.image;
   return (
@@ -87,9 +95,9 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
           );
         })}
       </div>
-      <div className="vsat flex flex-col lg:flex-row gap-6">
-        <div className="goodat border border-[#007f39] ml-1 rounded-md w-full lg:w-[33%]">
-          <div className="bg-[#007f39] p-2 text-sm text-ibmplex uppercase mb-1">
+      <div className="vsat flex flex-col lg:flex-row gap-8 flex-wrap">
+        <div className="goodat border border-[#007f39] ml-1 rounded-md w-full lg:w-[48%]">
+          <div className="bg-[#007f39] p-2 text-sm text-ibmplex uppercase mb-1 w-full">
             {t("translation:strong_against")}
           </div>
           {getNeftieVsResults &&
@@ -120,7 +128,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             })}
         </div>
 
-        <div className="goodat border border-[#8d0000] ml-1 rounded-md w-full lg:w-[33%]">
+        <div className="goodat border border-[#8d0000] ml-1 rounded-md w-full lg:w-[48%]">
           <div className="bg-[#8d0000] p-2 text-sm text-ibmplex uppercase">
             {t("translation:weak_against")}
           </div>
@@ -152,7 +160,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
             })}
         </div>
 
-        <div className="goodat border ml-1 rounded-md w-[33%] max-h-[31.25rem] overflow-x-scroll no-scrollbar w-full lg:w-[33%]">
+        <div className="goodat border ml-1 rounded-md w-[48%] max-h-[31.25rem] overflow-x-scroll no-scrollbar w-full lg:w-[48%]">
           <div className="bg-secondary p-2 text-sm text-ibmplex uppercase">
             {t("translation:neutral_against")}
           </div>
@@ -185,6 +193,39 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug }) => {
                 </Link>
               );
             })}
+        </div>
+
+        <div className="goodat border ml-1 rounded-md w-[48%] max-h-[31.25rem] overflow-x-scroll no-scrollbar w-full lg:w-[48%]">
+          <div className="bg-secondary p-2 text-sm text-ibmplex uppercase">
+            {t("translation:same_element")}
+          </div>
+          {sameElementNefties(neftie)?.map((neftie) => {
+            const neftieImageUrl = neftie.image;
+            return (
+              <Link href={`/neftie/${neftie.slug}`} key={neftie.name}>
+                <div
+                  key={neftie.name}
+                  className="flex gap-2 items-center  p-3 hover:bg-black"
+                >
+                  <div
+                    style={{ backgroundImage: `url(${neftieImageUrl})` }}
+                    className={`rounded-full w-[40px] h-[40px] object-cover bg-center bg-[length:170%_180%]`}
+                  />
+                  <div>
+                    <div className="text-sm">{neftie.name}</div>
+                    <div className="font-thin text-xs uppercase">
+                      {t("translation:element")}:{" "}
+                      <span className="font-normal">
+                        {t(
+                          `translation:elements.${neftie.element}`
+                        ).toUpperCase()}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>

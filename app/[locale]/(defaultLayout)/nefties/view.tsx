@@ -51,7 +51,7 @@ const ListNefties: NextPage = () => {
           {t("translation:nefties_page_desc")}
         </h3>
       </div>
-      <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 border-b pb-4 items-center">
+      <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 pb-2 items-center">
         <Input
           placeholder={t("translation:search_nefties")}
           className="rounded-none w-full lg:max-w-[150px] transition-all lg:focus:max-w-[250px]"
@@ -85,7 +85,7 @@ const ListNefties: NextPage = () => {
           })}
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 pb-6">
+      <div className="p-6 border border-[#27272a] bg-[#000] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 gap-6 justify-center">
         {filteredAndSortedNefties &&
           filteredAndSortedNefties.length > 0 &&
           filteredAndSortedNefties.map((neftie) => {

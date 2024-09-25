@@ -85,11 +85,11 @@ const EggBox: FC<{ egg: EggsAttributes }> = ({ egg }) => {
                 })}
             </div>
           </div>
-          <div className="flex gap-2 font-thin rounded-sm items-center text-xs uppercase flex-col">
+          <div className="flex font-thin rounded-sm items-center text-xs uppercase flex-col">
             <div className="bg-black w-full p-2 text-lg font-bold">
               {t("translation:obtainable_from")}
             </div>
-            <div className="pb-2 flex items-center gap-4  bg-[#171717]">
+            <div className="pb-2 flex items-center gap-4 w-full p-2 bg-[#171717] justify-center">
               {egg.foundAt &&
                 egg.foundAt.length > 0 &&
                 egg.foundAt.map((foundAt) => {

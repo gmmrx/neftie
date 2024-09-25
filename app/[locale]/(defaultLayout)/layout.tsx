@@ -7,6 +7,7 @@ import StatCounter from "statcounter";
 
 import "../../globals.css";
 import "../../nprogress.css";
+import Topbar from "@/components/topbar";
 
 const i18nNamespaces = ["translation", "nefties"];
 const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";
@@ -52,7 +53,8 @@ export default async function RootLayout({
                 {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
                   <div className="bg-page-bg">
-                    <div className="flex flex-col">
+                    <Topbar />
+                    <div className="flex flex-row">
                       <Sidebar />
                       <div className="bg-transparent w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0 mx-auto">
                         {children}

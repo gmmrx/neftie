@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useRef } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import {
   DropdownMenu,
@@ -22,27 +22,112 @@ const Sidebar = () => {
   const router = useRouter();
   const pathname = usePathname();
 
+  // State to handle sidebar hover
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const sidebarRef = useRef(null);
+
+  // Function to handle mouse enter
+  const handleMouseEnter = () => {
+    setIsSidebarOpen(true);
+  };
+
+  // Function to handle mouse leave
+  const handleMouseLeave = () => {
+    setIsSidebarOpen(false);
+  };
+
+  // Function to handle clicks inside the dropdown content
+  const handleDropdownContentClick = (event) => {
+    event.stopPropagation(); // Prevents mouseleave event from being triggered
+  };
+
   return (
-    <div className="w-full border-r font-ibmplex bg-black">
-      <div className="max-w-[70rem] py-2 px-8 w-full mx-auto">
-        <div className="text-center text-2xl cursor-pointer flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <img
-              src={"/images/logo-black.png"}
-              className="max-w-[55px] rounded-[100%]"
-            />
+    <div
+      ref={sidebarRef}
+      className={`w-full border-r font-ibmplex bg-black max-w-[15rem] fixed h-full ${isSidebarOpen ? "max-w-[15rem]" : "max-w-[5.2rem]"} transition-all z-[100] top-0`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className="px-4 w-full mx-auto">
+        <div className="text-center text-2xl cursor-pointer flex justify-between my-4 flex-col items-start">
+          <div className="flex items-center justify-between w-full gap-4 mb-4 border-b pb-4 border-[#151515]">
+            <div className="flex items-center gap-3">
+              <img
+                src={"/images/logo-black.png"}
+                className="max-w-[50px] rounded-[100%]"
+              />
+              {isSidebarOpen ? (
+                <span className="text-base font-medium">NEFTIE</span>
+              ) : (
+                ""
+              )}
+            </div>
+
+            <div className="-mt-2" onMouseEnter={handleDropdownContentClick}>
+              <DropdownMenu>
+                <DropdownMenuTrigger onMouseEnter={handleDropdownContentClick}>
+                  <img
+                    src={`/images/flags/${i18n.language}.svg`}
+                    className="w-[20px]"
+                    alt={i18n.language}
+                  />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent
+                  asChild
+                  className="bg-black z-[10]"
+                  onMouseEnter={handleDropdownContentClick}
+                >
+                  <>
+                    {LANGUAGE.map((lang) => {
+                      return (
+                        <DropdownMenuItem
+                          key={lang.code}
+                          onClick={(e) => {
+                            let newPath;
+                            if (i18n.language !== "en") {
+                              newPath = newPath = pathname.replace(
+                                /^\/[a-z]{2}\/?/,
+                                `/${lang.code}/`
+                              );
+
+                              i18n.changeLanguage(lang.code);
+                              return router.push(newPath);
+                            } else {
+                              i18n.changeLanguage(lang.code);
+                              return router.push(`/${lang.code}${pathname}`);
+                            }
+                          }}
+                        >
+                          <img
+                            src={`/images/flags/${lang.code}.svg`}
+                            className="w-[20px] mr-2"
+                            alt={i18n.language}
+                          />{" "}
+                          {lang.value}
+                        </DropdownMenuItem>
+                      );
+                    })}
+                  </>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
           </div>
-          <div className="hidden lg:flex items-center justify-between gap-4">
-            <Link href="/">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <LayoutDashboard size={18} /> {t("translation:home")}
+
+          <div className="hidden lg:flex flex-col items-start justify-between gap-4 w-full">
+            <Link href="/" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm w-full">
+                <LayoutDashboard
+                  size={23}
+                  className={`${isSidebarOpen ? "" : "mx-auto"}`}
+                />{" "}
+                {isSidebarOpen ? t("translation:home") : ""}
               </div>
             </Link>
-            <Link href="/eggs">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link href="/eggs" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
-                  width="18px"
-                  height="18px"
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
                   fill="currentColor"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,14 +137,24 @@ const Sidebar = () => {
                     fill="currentColor"
                   ></path>
                 </svg>{" "}
-                {t("translation:eggs")}
+                {isSidebarOpen ? (
+                  <span
+                    className={`transition-opacity ease-in-out duration-1000 delay-750 ${
+                      isSidebarOpen ? "opacity-1" : "opacity-0"
+                    }`}
+                  >
+                    {t("translation:eggs")}
+                  </span>
+                ) : (
+                  ""
+                )}
               </div>
             </Link>
-            <Link href="/nefties">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link href="/nefties" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
-                  width="18px"
-                  height="18px"
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,14 +180,14 @@ const Sidebar = () => {
                     </g>
                   </g>
                 </svg>{" "}
-                {t("translation:nefties")}
+                {isSidebarOpen ? t("translation:nefties") : ""}
               </div>
             </Link>
-            <Link href="/tier-list">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link href="/tier-list" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
-                  width={"18px"}
-                  height={"18px"}
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
                   viewBox="0 0 32 32"
                   fill={"white"}
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,117 +201,128 @@ const Sidebar = () => {
                     fill={"white"}
                   />
                 </svg>
-                {t("translation:tier_list")}
+                {isSidebarOpen ? t("translation:tier_list") : ""}
               </div>
             </Link>
             {/* <Link href="/videos">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2">
                 <Play className="w-[1.125rem]" />
                 {t("translation:videos")}
               </div>
             </Link> */}
-            <Link href="/events">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+
+            <Link href="/bosses" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
-                  width="20px"
-                  height="20px"
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
                   fill="currentColor"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M5.85499 3.83185L5.62516 7.91717L26.7518 9.02631L27 4.62673L26.191 3.73018L6.5537 3L5.8458 3.83185H5.85499ZM21.0242 7.11305L12.4191 6.59545L12.9524 5.12584L20.5921 5.48631L21.0242 7.11305Z"
+                    d="M6.11243 20.037L5.80571 19.0094L6.14861 15.4802L8.16195 10.2256L13.3683 6.95785L18.3136 7.42752L18.2271 6.76299L19.8834 5.802L16.0612 4.73108L9.20322 6.51816L4.6968 12.3341L4 19.8205L5.19542 22.9416L6.11243 20.037Z"
                     fill="currentColor"
                   ></path>
                   <path
-                    d="M7.3995 11.2261L24.8855 11.9378L24.3982 26.6338L23.8926 27.1422L7.05015 26.8279L6.86628 26.6154L7.3995 11.2261ZM5.62516 9.30359L5 27.2901L6.21354 28.658L24.6465 29L26.2186 27.4102L26.7885 10.1539L5.62516 9.30359Z"
+                    d="M26.9631 15.6351L25.9139 15.5685L26.12 17.7386L22.6643 25.0701L16.0612 27.9148L13.8339 27.2653L13.1166 27.9764L10.1706 28.2446L13.6153 30L20.0642 29.3271L25.4688 25.1051L28.2387 17.2923L27.7338 14.0679L26.9631 15.6351Z"
                     fill="currentColor"
                   ></path>
                   <path
-                    d="M16.8504 13.5923L18.0731 17.2339L21.9528 18.6665L21.9712 19.0547L19.0384 21.6982L19.2683 24.9886L19.1304 25.3768L15.7656 23.6299C15.6277 23.5375 12.2628 24.8223 12.2628 24.8223L11.7572 24.7391L12.3732 20.5891L10.1759 17.5851L10.6264 17.2432L14.3038 16.8642L16.3448 13.8418L16.8504 13.6015V13.5923Z"
+                    d="M7.8568 18.0168L8.31609 17.8619L9.36366 16.9492L7.77973 16.9325L7.8568 18.0168Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M11.9464 12.5523L10.784 10.8418L9.62162 11.5013L11.2276 12.8687L11.8237 12.867L11.9464 12.5523Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M16.3002 10.9067L16.4245 10.5903L16.7344 8.36187L15.3895 8.55506L15.5798 10.5903L16.0014 11.0367L16.3002 10.9067Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M15.3329 26.1527L15.4886 25.668L16.3694 24.5771L16.3553 26.2526L15.3329 26.1527Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M20.5691 21.924L22.1625 23.1865L21.5176 24.4039L20.2577 22.6785L20.2687 22.0489L20.5691 21.924Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M22.205 17.3456L22.5054 17.2206L24.6147 16.9325L24.4071 18.3548L22.4897 18.1133L22.076 17.6587L22.205 17.3456Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M20.3238 10.3388L14.2743 15.1937L16.0344 16.0898L12.7911 16.6044L7.24494 21.0396L4.94061 27.9764L12.1635 26.3809L23.1755 13.7014L21.277 12.509L20.3238 10.3388Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M23.6536 9.18296L21.4657 7.35591L19.9746 7.56076L22.2364 11.5696L25.7881 14.1511L26.3119 13.0019L24.5848 10.2322L23.6536 9.18296Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M26.5824 6.53148L23.5042 9.4461C23.5042 9.4461 22.9741 9.99572 23.4256 10.4637C23.844 10.8968 24.3001 10.6353 24.3001 10.6353L26.5966 8.49844L27.6253 7.60573L27.9807 7.30927L28.278 7.11108L28.5155 6.71136L29 6.12011L28.0562 5.18243L27.4774 5.44391L27.4098 5.68874L26.5808 6.52982L26.5824 6.53148Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M26.8593 7.18269C26.8593 7.18269 26.6611 6.97284 26.4786 7.01614C24.8333 7.41253 23.8691 7.24432 23.424 6.71802C23.0103 6.22836 23.3894 5.12914 23.3925 4.82935C23.3957 4.52956 23.6552 4.4746 23.6552 4.4746C23.6552 4.4746 23.6348 4.58285 23.7024 4.68112C23.7716 4.77938 23.7732 4.88597 24.146 5.42393C24.5187 5.96355 24.9953 6.24169 25.3901 6.41823C25.6969 6.55647 26.4613 6.57978 26.79 6.58478C26.79 6.58478 26.9552 6.49151 26.9945 6.61476C27.0338 6.73801 27.0637 6.84959 27.015 6.94453C26.9662 7.03946 27.0024 7.22933 26.8593 7.18103V7.18269Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M27.9745 6.05682C27.9745 6.05682 27.7149 5.69374 27.479 5.44558C26.5761 4.49458 25.6166 4.20479 25.3241 3.73678C25.0331 3.26878 24.7877 2.58759 25.0897 2.01466C24.6037 1.90973 24.0374 2.39772 24.0422 2.53929C24.0469 2.68086 23.8613 3.43366 24.4527 4.19479C25.0457 4.95592 26.0744 5.34898 26.5321 5.55051C26.7806 5.66043 26.8797 5.92524 26.9206 6.11511C26.9206 6.11511 26.908 6.37826 27.177 6.40657C27.177 6.40657 27.339 6.54481 27.5372 6.47652C27.7354 6.40824 27.9776 6.20172 27.9745 6.05682Z"
                     fill="currentColor"
                   ></path>
                 </svg>
-                {t("translation:events")}
+                {isSidebarOpen ? "Bosses" : ""}
               </div>
             </Link>
-            <Link href="/wiki">
-              <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <SwatchBook size="22" />
-                Wiki
+            <Link href="/items" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+                <svg
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
+                  viewBox="0 0 24 24"
+                  className={isSidebarOpen ? "" : "ml-auto"}
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.69507 18.9963C1.70335 16.2156 3.94274 13.9886 6.71818 14.003C9.46257 14.0195 11.6709 16.259 11.6709 19.0232C11.6709 21.7998 9.43567 24.0103 6.63953 24C3.87444 23.9896 1.68887 21.777 1.69714 18.9963H1.69507ZM9.17282 22.0477C8.51673 21.3515 7.88134 20.6821 7.19421 19.9528C7.19421 20.9383 7.18593 21.8039 7.2087 22.6695C7.2087 22.7418 7.43222 22.874 7.54398 22.8678C8.15661 22.8327 8.67403 22.5745 9.17282 22.0497V22.0477ZM7.18593 18.1101C7.88755 17.3622 8.52294 16.6866 9.16247 16.0049C8.6761 15.4678 8.14626 15.2074 7.5088 15.2033C7.40117 15.2033 7.20042 15.3459 7.19835 15.4264C7.17558 16.2776 7.18386 17.1308 7.18386 18.1121L7.18593 18.1101ZM5.83443 18.5935C5.09348 17.8973 4.41877 17.261 3.73371 16.6164C3.21629 17.0854 2.95137 17.5977 2.91411 18.2092C2.90584 18.3332 3.04864 18.5728 3.12936 18.5769C3.98414 18.6038 4.84098 18.5935 5.83443 18.5935ZM7.6723 18.6017C8.65333 18.6017 9.49155 18.61 10.3298 18.5914C10.4229 18.5893 10.5905 18.4323 10.5905 18.3497C10.5905 17.67 10.3484 17.0936 9.76475 16.635C9.07554 17.2837 8.40911 17.9097 7.6723 18.6038V18.6017ZM7.66816 19.4467C8.41118 20.1491 9.09417 20.7916 9.77096 21.43C10.4539 20.7916 10.6775 20.207 10.5285 19.4467H7.66816ZM6.3208 19.9549C5.67506 20.6387 5.08935 21.242 4.53053 21.87C4.46844 21.9403 4.51191 22.2398 4.58641 22.277C5.03346 22.5022 5.49707 22.6964 5.97103 22.8637C6.05382 22.8926 6.30218 22.7418 6.30425 22.6695C6.32701 21.8039 6.31873 20.9362 6.31873 19.9549H6.3208ZM5.83236 19.4591C4.84512 19.4591 3.99035 19.4488 3.13971 19.4756C3.05692 19.4777 2.90584 19.7132 2.91411 19.833C2.94723 20.4445 3.21629 20.9569 3.7275 21.4403C4.41049 20.7978 5.08521 20.1636 5.83443 19.4591H5.83236ZM6.33529 18.1183C6.33529 17.1453 6.33529 16.3189 6.33529 15.4946C6.33529 15.2653 6.23802 15.1041 5.98345 15.1971C5.51363 15.3686 5.04588 15.5525 4.59469 15.7652C4.51811 15.8024 4.44982 16.0772 4.50156 16.135C5.07693 16.7837 5.67506 17.4118 6.33736 18.1204L6.33529 18.1183ZM6.69748 18.5274C6.53398 18.7897 6.35806 18.9467 6.37875 19.0728C6.40152 19.207 6.61677 19.4054 6.73681 19.3992C6.86099 19.393 7.05347 19.1761 7.06382 19.0397C7.07417 18.9137 6.88169 18.7711 6.69541 18.5274H6.69748ZM13.217 8.60066C13.2377 9.20597 13.2666 9.20804 12.6395 9.20804C10.3153 9.20804 7.98896 9.20804 5.66472 9.20804C4.36082 9.20804 4.37531 9.20804 4.41877 7.91684C4.44568 7.09461 4.42498 6.27031 4.42498 5.39437C4.15592 5.51212 3.9593 5.62781 3.74612 5.68153C3.34875 5.78069 3.24112 6.01414 3.25768 6.40666C3.28873 7.15659 3.23698 7.91271 3.27838 8.66264C3.30321 9.12747 3.12729 9.23696 2.70094 9.21424C2.14212 9.18531 1.5771 9.19151 1.01829 9.22043C0.387038 9.25555 -0.00206146 9.63362 8.21577e-06 10.1563C0.00207789 10.6893 0.432571 11.0715 1.0721 11.0921C1.71163 11.1128 2.35323 11.1335 2.99276 11.1335C6.69748 11.1376 10.4001 11.1376 14.1049 11.1335C14.6326 11.1335 15.1625 11.1211 15.6902 11.0839C16.2428 11.0446 16.6174 10.6624 16.6299 10.1728C16.6423 9.67493 16.2966 9.301 15.7296 9.2349C15.4295 9.19977 15.1211 9.19977 14.8168 9.21217C14.5209 9.22457 14.4236 9.10268 14.4277 8.81758C14.4401 8.08212 14.4422 7.34459 14.4215 6.60912C14.4174 6.46657 14.3284 6.25792 14.2146 6.20007C13.9351 6.05752 13.6185 5.98522 13.2108 5.84887C13.2108 6.81571 13.188 7.70819 13.219 8.60066H13.217ZM2.69887 14.9224C5.14109 12.6147 8.88306 12.9246 10.8886 15.193C10.9817 15.2983 11.1597 15.381 11.3004 15.3851C12.2773 15.4016 13.2542 15.3996 14.2332 15.3851C14.3325 15.3851 14.5147 15.2446 14.5167 15.1661C14.5354 14.1166 14.5291 13.0672 14.5291 11.9929H2.60159V14.9575C2.67196 14.9347 2.69059 14.9347 2.70094 14.9244L2.69887 14.9224ZM12.2215 17.6927C12.2587 17.7795 12.4512 17.8415 12.5712 17.8415C14.1711 17.8374 15.771 17.8229 17.3708 17.8043C17.7827 17.7981 18.1428 17.6411 18.298 17.2424C18.4036 16.9738 18.5609 16.9407 18.8051 16.9407C20.2787 16.9469 21.7502 16.9469 23.2239 16.9407C23.6978 16.9387 24.0021 16.6846 24 16.3334C23.9979 15.9822 23.6937 15.7446 23.2135 15.7405C22.5574 15.7322 21.9013 15.7405 21.2452 15.7384C18.8755 15.7281 16.5078 15.7136 14.138 15.7033C13.2315 15.6991 12.327 15.7033 11.4226 15.7033C11.6999 16.4057 11.9441 17.0564 12.2194 17.6948L12.2215 17.6927ZM12.7989 0.42998C13.0535 1.76456 13.3122 3.09914 13.5688 4.43372C13.6516 4.86756 13.7427 5.28487 14.2725 5.41089C14.8292 5.54311 15.3239 5.46874 15.7358 5.05142C16.2077 4.5742 16.3505 3.99574 16.3029 3.33672C16.2201 2.16328 15.6054 1.22742 14.9845 0.29363C14.9038 0.171742 14.7485 0.0271277 14.6223 0.02093C14.0179 -0.00799278 13.4136 0.00853451 12.772 0.00853451C12.7823 0.186203 12.7761 0.312223 12.7989 0.432046V0.42998ZM2.01794 1.10967C1.89997 1.40716 1.77372 1.70465 1.71163 2.01453C1.62884 2.41739 1.54192 2.83677 1.57503 3.24169C1.60815 3.66107 1.7344 4.09078 1.90411 4.47917C2.16282 5.06795 2.82098 5.36338 3.41705 5.23529C4.08141 5.09274 4.36082 4.74154 4.42912 3.99781C4.51604 3.05989 4.62574 2.12196 4.71473 1.18404C4.82857 0.000270903 4.82443 0.000270869 3.65092 0.000270869C2.85754 0.000270869 2.31322 0.370069 2.01794 1.10967ZM7.68265 4.59486C7.68265 4.73947 7.76751 4.90474 7.86271 5.02044C8.41118 5.69599 9.48534 5.72904 10.0731 5.08654C10.1725 4.97912 10.2594 4.80765 10.2553 4.66923C10.2077 3.21483 10.1456 1.76043 10.0669 0.308092C10.0607 0.20273 9.89514 0.0229959 9.79786 0.0188641C9.14591 -0.00799277 8.49189 0.00440269 7.67644 0.00440269C7.67644 1.59309 7.6723 3.09501 7.68472 4.59486H7.68265ZM4.76027 4.55974C4.74578 4.72294 4.8534 4.9316 4.96723 5.06382C5.42049 5.58856 6.21525 5.71665 6.80304 5.33445C7.01001 5.20017 7.26458 4.944 7.27492 4.73327C7.34943 3.26441 7.3722 1.79142 7.39083 0.318421C7.39083 0.215126 7.23146 0.0229959 7.1404 0.0188641C6.51949 -0.00799277 5.89652 0.00440269 5.21973 0.00440269C5.0583 1.5683 4.89687 3.06195 4.76234 4.55974H4.76027ZM10.6588 4.66097C10.7002 5.22496 11.1742 5.53072 11.702 5.66293C12.2173 5.79309 12.7037 5.68772 13.0576 5.27248C13.1756 5.13406 13.2646 4.88822 13.2335 4.71468C12.9727 3.25202 12.6871 1.79348 12.3932 0.337014C12.3684 0.21306 12.2256 0.0250618 12.1283 0.0188641C11.5902 -0.0121246 11.0479 0.00440269 10.4415 0.00440269C10.5119 1.60135 10.5471 3.13426 10.6609 4.66097H10.6588ZM13.0762 19.8372C13.3494 21.0519 13.6268 22.2667 13.9041 23.4814C13.9703 23.7727 14.1235 24.0062 14.4629 23.9463C14.8086 23.8843 14.8499 23.6095 14.8127 23.3141C14.7982 23.2046 14.7713 23.0951 14.7465 22.9856C14.5084 21.9258 14.2663 20.866 14.0324 19.8062C13.8586 19.0232 13.8524 19.0149 12.9417 19.1554C12.9914 19.4054 13.0266 19.6223 13.0762 19.8372ZM12.3104 18.2071C12.3291 18.4199 12.3415 18.5852 12.3622 18.8249C13.0928 18.6224 13.9331 19.1533 14.5457 18.2071H12.3104Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                {isSidebarOpen ? "Items" : ""}
               </div>
             </Link>
-          </div>
-          <div className="flex items-center gap-8">
-            {!session ? (
-              <div
-                onClick={() => signIn("discord")}
-                className="bg-[#5d6af3] p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold mt-3 mb-4 cursor-pointer text-xs"
-              >
-                <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
-                {t("translation:login_with_discord")}
-              </div>
-            ) : (
-              <div
-                className="bg-destructive p-2 rounded-sm flex items-center gap-2 font-ibmplex justify-center font-semibold text-xs mt-3 mb-4 cursor-pointer font-semibold"
-                onClick={() => signOut()}
-              >
-                {t("translation:logout")}
-              </div>
-            )}
-            <div className="-mt-2">
-              <DropdownMenu>
-                <DropdownMenuTrigger>
-                  <img
-                    src={`/images/flags/${i18n.language}.svg`}
-                    className="w-[20px]"
-                    alt={i18n.language}
-                  />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent className="">
-                  {LANGUAGE.map((lang) => {
-                    return (
-                      <DropdownMenuItem
-                        key={lang.code}
-                        onClick={(e) => {
-                          let newPath;
-                          if (i18n.language !== "en") {
-                            newPath = newPath = pathname.replace(
-                              /^\/[a-z]{2}\/?/,
-                              `/${lang.code}/`
-                            );
-
-                            i18n.changeLanguage(lang.code);
-                            return router.push(newPath);
-                          } else {
-                            i18n.changeLanguage(lang.code);
-                            return router.push(`/${lang.code}${pathname}`);
-                          }
-                        }}
-                      >
-                        <img
-                          src={`/images/flags/${lang.code}.svg`}
-                          className="w-[20px] mr-2"
-                          alt={i18n.language}
-                        />{" "}
-                        {lang.value}
-                      </DropdownMenuItem>
-                    );
-                  })}
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </div>
-            {session && session.user.isAdmin && (
-              <Link href="/admin">
-                <div className="text-base font-normal flex items-center gap-2 cursor-pointer hover:bg-secondary py-2 px-2">
-                  Adm
-                </div>
-              </Link>
-            )}
           </div>
         </div>
       </div>
+      <div className="flex items-center gap-8 w-full mt-auto absolute bottom-0">
+        {!session ? (
+          <div
+            onClick={() => signIn("discord")}
+            className="bg-[#5d6af3] p-2 w-full flex items-center gap-3 font-ibmplex justify-center font-semibold cursor-pointer text-xs h-[46px]"
+          >
+            <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
+            {isSidebarOpen ? t("translation:login_with_discord") : ""}
+          </div>
+        ) : (
+          <div
+            className="bg-destructive p-2 flex w-full items-center gap-3 font-ibmplex justify-center font-semibold text-xs cursor-pointer font-semibold"
+            onClick={() => signOut()}
+          >
+            {t("translation:logout")}
+          </div>
+        )}
 
+        {session && session.user.isAdmin && (
+          <Link href="/admin">
+            <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2">
+              Adm
+            </div>
+          </Link>
+        )}
+      </div>
       <div className="lg:hidden">
         <MobileMenu />
       </div>

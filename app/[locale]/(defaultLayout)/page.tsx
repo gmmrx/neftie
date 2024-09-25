@@ -1,4 +1,5 @@
 import { useTranslation } from "@/app/i18n";
+import LastNeftieSales from "@/components/last-sales";
 import NeftieListHome from "@/components/neftie-list-home";
 import RecentVideosBox from "@/components/recent-videos-box";
 import WhatIsNeftieBox from "@/components/what-is-neftie-box";
@@ -10,8 +11,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] mx-auto font-ibmplex">
       <WhatIsNeftieBox />
-
-      {/* <RecentVideosBox /> */}
+      <LastNeftieSales />
     </main>
   );
 }

@@ -2,5 +2,12 @@
   "page_title": "Neftie App - Aurory & Seekers of Tokane Wiki",
   "description": "Welcome to the ultimate guide for Aurory and Seekers of Tokane! This comprehensive wiki is your go-to resource for everything related to Nefties, their habitats, abilities, bosses, consumables and the rich world of Tokane. Stay informed and enhance your gaming experience with detailed articles, guides, and community-contributed insights.",
   "welcome_title": "Welcome to Wiki, Aurorian!",
-  "welcome_desc": "We're delighted to have you join us! Our goal is to become the premier resource for the world of Aurory and Seekers of Tokane on the internet, encompassing all facets of this captivating universe. Whether your expertise lies in the lore, creatures, gameplay strategies, or community events—your contributions are invaluable."
+  "welcome_desc": "We're delighted to have you join us! Our goal is to become the premier resource for the world of Aurory and Seekers of Tokane on the internet, encompassing all facets of this captivating universe. Whether your expertise lies in the lore, creatures, gameplay strategies, or community events—your contributions are invaluable.",
+  "create_page": {
+    "title": "Create New Wiki Page",
+    "check_title": "Write your page title here:",
+    "check_title_desc": "We need to check if the name is available before continue.",
+    "page_title": "Page Title",
+    "page_content": "Page Content"
+  }
 }
