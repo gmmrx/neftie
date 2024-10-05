@@ -1,7 +1,7 @@
 import { example_eggs } from "./data/eggs";
-
 import { NeftieList } from "./data/nefties";
-import { models, sequelize } from "./db";
+import { models } from "./db";
+
 
 export async function syncAndForceDB() {
   try {
@@ -42,11 +42,7 @@ export async function syncAndForceDB() {
     // for (const egg of example_eggs) {
     //   await models.Eggs.create({ ...egg });
     // }
-    await models.WikiPage.sync({ force: true, alter: true });
-    await models.WikiPageRevision.sync({ force: true, alter: true });
-
-    await models.WikiArticle.sync({ force: true, alter: true });
-    await models.WikiArticleRevision.sync({ force: true, alter: true });
+    await models.Bosses.sync({ force: true, alter: true });
 
   } catch (e) {
     console.log("Error Syncing ---> ", e);

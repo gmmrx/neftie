@@ -9,10 +9,7 @@ import { Video } from "./Videos";
 import { VideoCategoryList } from "./VideoCategoryList";
 import { Events } from "./Events";
 import { EventDetails } from "./EventDetails";
-import { WikiPage } from "./WikiPage";
-import { WikiPageRevision } from "./WikiPageRevision";
-import { WikiArticle } from "./WikiArticle";
-import { WikiArticleRevision } from "./WikiArticleRevision";
+import { Bosses } from "./Bosses";
 
 export function initModels(sequelize: Sequelize) {
   Nefties.initModel(sequelize);
@@ -25,11 +22,7 @@ export function initModels(sequelize: Sequelize) {
   VideoCategoryList.initModel(sequelize);
   Events.initModel(sequelize);
   EventDetails.initModel(sequelize);
-
-  WikiPage.initModel(sequelize);
-  WikiPageRevision.initModel(sequelize);
-  WikiArticle.initModel(sequelize);
-  WikiArticleRevision.initModel(sequelize);
+  Bosses.initModel(sequelize);
 
   Nefties.belongsToMany(Eggs, {
     through: EggsNefties,
@@ -61,25 +54,6 @@ export function initModels(sequelize: Sequelize) {
   EventDetails.belongsTo(Events, { foreignKey: "eventId", as: "event" });
   Events.hasOne(EventDetails, { foreignKey: "eventId", as: "details" });
 
-  WikiPage.hasMany(WikiArticle, { foreignKey: "pageId" });
-  WikiArticle.belongsTo(WikiPage, { foreignKey: "pageId" });
-
-  WikiPage.hasMany(WikiPageRevision, { foreignKey: "pageId" });
-  WikiPageRevision.belongsTo(WikiPage, { foreignKey: "pageId" });
-
-  WikiArticle.hasMany(WikiArticleRevision, {
-    foreignKey: "articleId",
-  });
-  WikiArticleRevision.belongsTo(WikiArticle, {
-    foreignKey: "articleId",
-  });
-
-  User.hasMany(WikiPageRevision, { foreignKey: "userId" });
-  WikiPageRevision.belongsTo(User, { foreignKey: "userId" });
-
-  User.hasMany(WikiArticleRevision, { foreignKey: "userId" });
-  WikiArticleRevision.belongsTo(User, { foreignKey: "userId" });
-
   return {
     Nefties: sequelize.models.Nefties,
     Eggs: sequelize.models.Eggs,
@@ -91,9 +65,6 @@ export function initModels(sequelize: Sequelize) {
     VideoCategoryList: sequelize.models.VideoCategoryList,
     Events: sequelize.models.Events,
     EventDetails: sequelize.models.EventDetails,
-    WikiPage: sequelize.models.WikiPage,
-    WikiPageRevision: sequelize.models.WikiPageRevision,
-    WikiArticle: sequelize.models.WikiArticle,
-    WikiArticleRevision: sequelize.models.WikiArticleRevision,
+    Bosses: sequelize.models.Bosses,
   };
 }

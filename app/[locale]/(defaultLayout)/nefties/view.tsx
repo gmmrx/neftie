@@ -85,7 +85,7 @@ const ListNefties: NextPage = () => {
           })}
         </div>
       </div>
-      <div className="p-6 border border-[#27272a] bg-[#000] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 gap-6 justify-center">
+      <div className="py-6 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 rounded-md gap-6 justify-center">
         {filteredAndSortedNefties &&
           filteredAndSortedNefties.length > 0 &&
           filteredAndSortedNefties.map((neftie) => {

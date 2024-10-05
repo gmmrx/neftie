@@ -11,7 +11,7 @@ const WhatIsNeftieBox: FC = () => {
   return (
     <>
       <div className="p-8 rounded-sm w-full text-left bg-whatsNeftieBg relative">
-        <div className="absolute top-0 left-0 w-full h-full bg-black/30" />
+        <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
         <div className="flex justify-between items-center relative z-[1]">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0 bg-black p-2 rounded-sm">
             <Trans

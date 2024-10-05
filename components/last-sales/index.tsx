@@ -56,8 +56,13 @@ export const LastNeftieSales = () => {
   };
   return (
     <div className="overflow-x-auto w-[60%] p-[0.2rem] bg-black rounded-md mt-4 pl-4 pt-4">
-      <div className="text-[1.4rem] mb-1 font-medium">Latest Neftie Sales</div>
-      <div className="max-h-[400px] overflow-y-auto no-scrollbar">
+      <div className="text-[1.4rem] mb-1 font-medium flex justify-between">
+        Latest Neftie Sales{" "}
+        <div className="pr-4 text-sm">
+          <a href="https://x.com/neftiesales" target="_blank" className="border border-white p-1 px-2 rounded-md">Follow on X</a>
+        </div>
+      </div>
+      <div className="max-h-[12.8125rem] overflow-y-auto no-scrollbar">
         <table className="min-w-full bg-black border-separate border-spacing-[1rem]">
           <thead className="sticky top-0 bg-black">
             <tr>
@@ -140,7 +145,7 @@ function StatDialog({ generated_attributes }) {
           </div>
 
           <h2 className="text-lg mb-2 mt-4 font-medium">DNA Stats:</h2>
-          <div className="p-2 bg-black">
+          <div className="p-4 bg-black text-sm font-bold">
             <div>
               Health: {generated_attributes.BLITZ.base_stat_percentiles.hp}/100
             </div>

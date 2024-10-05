@@ -21,12 +21,34 @@ const NeftieListHome: FC = () => {
   return (
     <>
       {randomNefties.map((neftie) => {
+        console.log(neftie.element);
+
+        // Determine the background based on the element
+        const getElementBackground = (element) => {
+          switch (element.toLowerCase()) {
+            case "lightning":
+              return "hover:bg-lightningGradient";
+            case "plant":
+              return "hover:bg-plantGradient";
+            case "earth":
+              return "hover:bg-earthGradient";
+            case "water":
+              return "hover:bg-waterGradient";
+            case "air":
+              return "hover:bg-airGradient";
+            case "fire":
+              return "hover:bg-gradient-to-r from-red-500 to-orange-500";
+            default:
+              return "bg-gray-500"; // Default background if element doesn't match
+          }
+        };
+
         return (
           <NeftieBox
             key={neftie.name}
             neftie={neftie}
             hideName={true}
-            className="!bg-[#2b2b2b]/80 border-0 text-sm uppercase text-white opacity-60 hover:opacity-100"
+            className={`${getElementBackground(neftie.element)} !p-[0.3rem] !bg-[#fff]/20 border-0 text-sm uppercase text-white hover:opacity-100`}
           />
         );
       })}

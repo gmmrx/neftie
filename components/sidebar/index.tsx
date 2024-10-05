@@ -1,18 +1,11 @@
 "use client";
 import React, { useState, useRef } from "react";
-import { useSession, signIn, signOut } from "next-auth/react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import { useSession } from "next-auth/react";
 
-import { LayoutDashboard, Play, SwatchBook } from "lucide-react";
+import { LayoutDashboard, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LANGUAGE } from "@/lib/data/constants";
 import { usePathname } from "next/navigation";
 import MobileMenu from "../mobile-menu";
 
@@ -36,11 +29,6 @@ const Sidebar = () => {
     setIsSidebarOpen(false);
   };
 
-  // Function to handle clicks inside the dropdown content
-  const handleDropdownContentClick = (event) => {
-    event.stopPropagation(); // Prevents mouseleave event from being triggered
-  };
-
   return (
     <div
       ref={sidebarRef}
@@ -57,59 +45,10 @@ const Sidebar = () => {
                 className="max-w-[50px] rounded-[100%]"
               />
               {isSidebarOpen ? (
-                <span className="text-base font-medium">NEFTIE</span>
+                <span className="text-[1.1rem] font-bold">NEFTIE</span>
               ) : (
                 ""
               )}
-            </div>
-
-            <div className="-mt-2" onMouseEnter={handleDropdownContentClick}>
-              <DropdownMenu>
-                <DropdownMenuTrigger onMouseEnter={handleDropdownContentClick}>
-                  <img
-                    src={`/images/flags/${i18n.language}.svg`}
-                    className="w-[20px]"
-                    alt={i18n.language}
-                  />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent
-                  asChild
-                  className="bg-black z-[10]"
-                  onMouseEnter={handleDropdownContentClick}
-                >
-                  <>
-                    {LANGUAGE.map((lang) => {
-                      return (
-                        <DropdownMenuItem
-                          key={lang.code}
-                          onClick={(e) => {
-                            let newPath;
-                            if (i18n.language !== "en") {
-                              newPath = newPath = pathname.replace(
-                                /^\/[a-z]{2}\/?/,
-                                `/${lang.code}/`
-                              );
-
-                              i18n.changeLanguage(lang.code);
-                              return router.push(newPath);
-                            } else {
-                              i18n.changeLanguage(lang.code);
-                              return router.push(`/${lang.code}${pathname}`);
-                            }
-                          }}
-                        >
-                          <img
-                            src={`/images/flags/${lang.code}.svg`}
-                            className="w-[20px] mr-2"
-                            alt={i18n.language}
-                          />{" "}
-                          {lang.value}
-                        </DropdownMenuItem>
-                      );
-                    })}
-                  </>
-                </DropdownMenuContent>
-              </DropdownMenu>
             </div>
           </div>
 
@@ -183,33 +122,6 @@ const Sidebar = () => {
                 {isSidebarOpen ? t("translation:nefties") : ""}
               </div>
             </Link>
-            <Link href="/tier-list" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <svg
-                  width={isSidebarOpen ? "25px" : "100%"}
-                  height={"25px"}
-                  viewBox="0 0 32 32"
-                  fill={"white"}
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28 12.0653L24.3445 22.6867L8.20038 21.4929L7.13202 21.3893L4 12.0653L5.13532 10.2463L9.74356 14.1198L10.0449 13.9941L15.4263 5H16.5737L22.0403 14.0821L22.366 14.0664L27.4795 10.7804L28 12.0653Z"
-                    fill={"white"}
-                  />
-                  <path
-                    d="M7.60989 22.96L8.29169 25.1654L22.8226 27L23.7418 24.3611L7.60989 22.96Z"
-                    fill={"white"}
-                  />
-                </svg>
-                {isSidebarOpen ? t("translation:tier_list") : ""}
-              </div>
-            </Link>
-            {/* <Link href="/videos">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2">
-                <Play className="w-[1.125rem]" />
-                {t("translation:videos")}
-              </div>
-            </Link> */}
 
             <Link href="/bosses" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
@@ -276,7 +188,35 @@ const Sidebar = () => {
                 {isSidebarOpen ? "Bosses" : ""}
               </div>
             </Link>
-            <Link href="/items" className="w-full">
+            <Link href="/tier-list" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+                <svg
+                  width={isSidebarOpen ? "25px" : "100%"}
+                  height={"25px"}
+                  viewBox="0 0 32 32"
+                  fill={"white"}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28 12.0653L24.3445 22.6867L8.20038 21.4929L7.13202 21.3893L4 12.0653L5.13532 10.2463L9.74356 14.1198L10.0449 13.9941L15.4263 5H16.5737L22.0403 14.0821L22.366 14.0664L27.4795 10.7804L28 12.0653Z"
+                    fill={"white"}
+                  />
+                  <path
+                    d="M7.60989 22.96L8.29169 25.1654L22.8226 27L23.7418 24.3611L7.60989 22.96Z"
+                    fill={"white"}
+                  />
+                </svg>
+                {isSidebarOpen ? t("translation:tier_list") : ""}
+              </div>
+            </Link>
+            <Link href="/videos" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+                <Play className={`w-[1.5625rem] ml-1`} />
+                {isSidebarOpen ? t("translation:videos") : ""}
+              </div>
+            </Link>
+
+            {/* <Link href="/items" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
@@ -293,36 +233,11 @@ const Sidebar = () => {
                 </svg>
                 {isSidebarOpen ? "Items" : ""}
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-8 w-full mt-auto absolute bottom-0">
-        {!session ? (
-          <div
-            onClick={() => signIn("discord")}
-            className="bg-[#5d6af3] p-2 w-full flex items-center gap-3 font-ibmplex justify-center font-semibold cursor-pointer text-xs h-[46px]"
-          >
-            <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
-            {isSidebarOpen ? t("translation:login_with_discord") : ""}
-          </div>
-        ) : (
-          <div
-            className="bg-destructive p-2 flex w-full items-center gap-3 font-ibmplex justify-center font-semibold text-xs cursor-pointer font-semibold"
-            onClick={() => signOut()}
-          >
-            {t("translation:logout")}
-          </div>
-        )}
 
-        {session && session.user.isAdmin && (
-          <Link href="/admin">
-            <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2">
-              Adm
-            </div>
-          </Link>
-        )}
-      </div>
       <div className="lg:hidden">
         <MobileMenu />
       </div>
