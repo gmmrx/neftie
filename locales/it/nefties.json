@@ -571,8 +571,8 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "I Whiskube amano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo porta a un'improvvisa immersione nell'acqua fredda, svegliandoli di colpo!",
+  "oogrock": {
+    "description": "I Oogrock amano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo porta a un'improvvisa immersione nell'acqua fredda, svegliandoli di colpo!",
     "element": "earth",
     "skills": [
       {

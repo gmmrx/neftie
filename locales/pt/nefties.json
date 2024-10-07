@@ -571,8 +571,8 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Os Whiskubes adoram descansar no gelo, mas seus corpos reflexivos fazem com que ele derreta enquanto dormem. Isso leva a uma súbita imersão em água fria, despertando-os abruptamente!",
+  "oogrock": {
+    "description": "Os Oogrocks adoram descansar no gelo, mas seus corpos reflexivos fazem com que ele derreta enquanto dormem. Isso leva a uma súbita imersão em água fria, despertando-os abruptamente!",
     "element": "earth",
     "skills": [
       {

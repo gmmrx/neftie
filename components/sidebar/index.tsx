@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { useSession } from "next-auth/react";
 
-import { LayoutDashboard, Play } from "lucide-react";
+import { GraduationCap, LayoutDashboard, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -123,7 +123,7 @@ const Sidebar = () => {
               </div>
             </Link>
 
-            <Link href="/bosses" className="w-full">
+            {/* <Link href="/bosses" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
@@ -187,7 +187,7 @@ const Sidebar = () => {
                 </svg>
                 {isSidebarOpen ? "Bosses" : ""}
               </div>
-            </Link>
+            </Link> */}
             <Link href="/tier-list" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
@@ -211,11 +211,16 @@ const Sidebar = () => {
             </Link>
             <Link href="/videos" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <Play className={`w-[1.5625rem] ml-1`} />
+                <Play className={`w-[1.5625rem]`} />
                 {isSidebarOpen ? t("translation:videos") : ""}
               </div>
             </Link>
-
+            <Link href="/tutorials" className="w-full">
+              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+                <GraduationCap className={`w-[1.5625rem]`} />
+                {isSidebarOpen ? t("translation:video_categories.tutorials.title") : ""}
+              </div>
+            </Link>
             {/* <Link href="/items" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg

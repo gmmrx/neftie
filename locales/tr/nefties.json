@@ -572,8 +572,8 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Whiskube'ler buzun üzerinde dinlenmeyi severler, ancak yansıtıcı vücutları uyurken buzun erimesine neden olur. Bu, soğuk suya ani bir dalışla sonuçlanır ve onları oldukça sert uyandırır!",
+  "oogrock": {
+    "description": "Oogrock'lar buzun üzerinde dinlenmeyi severler, ancak yansıtıcı vücutları uyurken buzun erimesine neden olur. Bu, soğuk suya ani bir dalışla sonuçlanır ve onları oldukça sert uyandırır!",
     "element": "earth",
     "skills": [
       {

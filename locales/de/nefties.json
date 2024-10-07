@@ -571,8 +571,8 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Whiskubes ruhen gerne auf Eis, aber ihre reflektierenden Körper lassen es beim Schlafen schmelzen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser und weckt sie ordentlich auf!",
+  "oogrock": {
+    "description": "Oogrocks ruhen gerne auf Eis, aber ihre reflektierenden Körper lassen es beim Schlafen schmelzen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser und weckt sie ordentlich auf!",
     "element": "earth",
     "skills": [
       {

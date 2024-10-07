@@ -8,6 +8,7 @@ import StatCounter from "statcounter";
 import "../../globals.css";
 import "../../nprogress.css";
 import Topbar from "@/components/topbar";
+import Footer from "@/components/footer";
 
 const i18nNamespaces = ["translation", "nefties"];
 const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";
@@ -60,6 +61,7 @@ export default async function RootLayout({
                         {children}
                       </div>
                     </div>
+                    <Footer />
                   </div>
                 </div>
               </div>

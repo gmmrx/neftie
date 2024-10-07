@@ -52,7 +52,7 @@ const TierListNefties: NextPage = ({ data }) => {
     );
   };
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] mx-auto">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto">
       <WhatIsTierListBox />
       <div className="my-2 text-sm ml-4 max-w-fit p-2 rounded-sm bg-secondary text-xs font-normal uppercase">
         {t("translation:current_patch")}:

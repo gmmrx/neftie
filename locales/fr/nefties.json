@@ -571,8 +571,8 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Les Whiskubes aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant qu'ils dorment. Cela entraîne une plongée soudaine dans l'eau froide, les réveillant en sursaut!",
+  "oogrock": {
+    "description": "Les Oogrocks aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant qu'ils dorment. Cela entraîne une plongée soudaine dans l'eau froide, les réveillant en sursaut!",
     "element": "earth",
     "skills": [
       {

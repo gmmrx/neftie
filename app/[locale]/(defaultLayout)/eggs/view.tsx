@@ -15,7 +15,7 @@ const ListNefties: NextPage = () => {
     if (eggs.length > 0 && !selectedEgg) setSelectedEgg(eggs[0]);
   }, [eggs, selectedEgg]);
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] mx-auto overflow-y-scroll no-scrollbar pb-6 flex flex-col">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto overflow-y-scroll no-scrollbar pb-6 flex flex-col">
       <aside className="bg-[#121212] flex overflow-y-hidden overflow-x-scroll rounded-md flex-row no-scrollbar flex-grow w-[100%] max-h-[100px]">
         {eggs &&
           eggs.length > 0 &&
