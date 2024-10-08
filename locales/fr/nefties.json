@@ -8,8 +8,8 @@
         "description": "Effectuez une attaque au corps à corps de 20 de puissance."
       },
       {
-        "name": "PAS FULGURANTS I",
-        "description": "100% de chance d'esquiver une attaque cette action de tour."
+        "name": "DANSE DU CIEL II",
+        "description": "Esquivez une attaque ce tour-ci. Si déclenché, augmentez votre Vitesse d'un niveau pendant 2 tours."
       },
       {
         "name": "LIANE PUTRIDE I",
@@ -176,8 +176,8 @@
         "description": "Réfléchit à l'adversaire 85% des dégâts infligés par les attaques de Mêlée cette action de tour. Vous subissez les dégâts restants. Si déclenché, nettoyez les effets de statut sur l'adversaire."
       },
       {
-        "name": "CRI DU TISSEUR DE TEMPÊTE III",
-        "description": "Effectuer une attaque à distance de 170 Puissance de faible priorité. Cette attaque arrive presque toujours en dernier."
+        "name": "PURGE DE SYLPHOR",
+        "description": "Purifiez-vous. Ensuite, effectuez une attaque à distance de 160 de Puissance."
       }
     ]
   },
@@ -247,15 +247,15 @@
       },
       {
         "name": "REPOS II",
-        "description": "Soignez-vous de 15% de votre HP maximum. Réduisez votre Défense de 1 niveau jusqu'à la fin du tour."
+        "description": "Soignez-vous de 17% de votre HP maximum. Réduisez votre Défense de 1 niveau jusqu'à la fin du tour."
       },
       {
-        "name": "REFLEXES CHANCEUX II",
-        "description": "Esquivez et effectuez ensuite une Contre-attaque de 40 Puissance si vous êtes touché par une attaque de Mêlée cette action de tour. Si déclenché, réduisez la Défense de l'adversaire de 2 pendant 2 tours."
+        "name": "BONNE FORTUNE I",
+        "description": "Esquivez une attaque ce tour-ci. Si déclenché, nettoyez les effets de statut sur vous-même."
       },
       {
         "name": "EN FEU III",
-        "description": "Effectuer une attaque de Mêlée de 70 Puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque de Mêlée supplémentaire de 35 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
+        "description": "Effectuer une attaque de Mêlée de 90 Puissance. Si votre Vitesse est supérieure à celle de l'adversaire, effectuez une attaque de Mêlée supplémentaire de 35 Puissance en utilisant votre Vitesse au lieu de l'Attaque."
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "name": "SURCHARGE ÉLECTRIQUE II",
-        "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 150 Puissance. Ensuite, purifiez-vous."
+        "description": "Si votre Vitesse est actuellement réduite, effectuez une attaque à distance de 140 Puissance. Ensuite, purifiez-vous."
       }
     ]
   },
@@ -572,28 +572,28 @@
     ]
   },
   "oogrock": {
-    "description": "Les Oogrocks aiment se reposer sur la glace, mais leurs corps réfléchissants la font fondre pendant qu'ils dorment. Cela entraîne une plongée soudaine dans l'eau froide, les réveillant en sursaut!",
-    "element": "earth",
+    "description": "Oogrock aime se reposer sur la glace, mais leurs corps réfléchissants font fondre la glace pendant leur sommeil. Cela entraîne une chute soudaine dans l'eau froide, ce qui les réveille brusquement!",
+    "element": "terre",
     "skills": [
       {
         "name": "RÉFLEXION ÉNERGISANTE I",
-        "description": "Réfléchit à l'adversaire 30% des dégâts infligés cette action de tour. Vous subissez les dégâts restants. Si déclenché, gagnez 3 Hype."
+        "description": "Renvoyez à l'adversaire 30% des dégâts infligés lors de cette action de tour. Vous prenez les dégâts restants. Si activé, gagnez 3 Hype."
       },
       {
-        "name": "BRUME DE CLAIR DE LUNE II",
-        "description": "Réduisez votre Attaque et celle de votre adversaire de 1 niveau pendant 2 tours."
+        "name": "ÉBLOUISSEMENT ARCTIQUE II",
+        "description": "Réduisez votre Attaque et l'Attaque de votre Adversaire d'un niveau pendant 2 tours."
       },
       {
-        "name": "APRÈS-COUP II",
-        "description": "Réduisez la Défense de l'adversaire de 3 niveaux pendant 5 tours."
+        "name": "BRISE-GLACE II",
+        "description": "Réduisez la Défense de l'adversaire de 2 niveaux pendant 5 tours."
       },
       {
         "name": "GLISSADE DE BOUE II",
-        "description": "Effectuez une attaque de Mêlée de 70 Puissance. Augmentez votre Défense de 1 pendant 2 tours."
+        "description": "Effectuez une attaque de mêlée de 50 Puissance. Augmentez votre Défense de 1 pendant 2 tours."
       },
       {
-        "name": "CONTRATTAQUE FATAL III",
-        "description": "Réfléchit à l'adversaire 50% des dégâts infligés cette action de tour et effectuez une contre-attaque de 50 Puissance en utilisant votre Défense au lieu de l'Attaque. Vous subissez les dégâts restants."
+        "name": "COUP BAS III",
+        "description": "Renvoyez à l'adversaire 50% des dégâts infligés lors de cette action de tour et effectuez une Contre-attaque de 50 Puissance en utilisant votre Défense au lieu de l'Attaque. Vous prenez les dégâts restants."
       }
     ]
   },
@@ -607,11 +607,11 @@
       },
       {
         "name": "REBOND DÉSESPÉRÉ III",
-        "description": "Effectuer une attaque de Mêlée de 15 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, gagnez 3 Hype supplémentaires."
+        "description": "Effectuez une attaque de mêlée de 40 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, gagnez 3 Hype supplémentaires mais réduisez votre Défense d'un niveau pendant 4 tours."
       },
       {
         "name": "PAS DE DOULEUR, PAS DE GAIN I",
-        "description": "Attaque personnelle de 40 Puissance. Augmentez votre Défense de 3 niveaux pendant 3 tours."
+        "description": "Attaque personnelle de 60 Puissance. Augmentez votre Défense de 2 niveaux pendant 3 tours."
       },
       {
         "name": "DESTIN PARTAGÉ III",

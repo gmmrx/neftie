@@ -8,8 +8,8 @@
         "description": "Realiza um ataque corpo a corpo com 20 de Poder."
       },
       {
-        "name": "PASSOS FULGURANTES I",
-        "description": "100% de chance de desviar de um ataque nesta ação de turno."
+        "name": "DANÇA DO CÉU II",
+        "description": "Esquiva um ataque nesta rodada. Se ativado, aumenta a tua Velocidade em 1 nível durante 2 turnos."
       },
       {
         "name": "VIDEIRA PÚTRIDA I",
@@ -176,8 +176,8 @@
         "description": "Reflete de volta para o oponente 85% do dano causado por ataques corpo a corpo nesta ação de turno. Você recebe o dano restante. Se ativado, purifica os efeitos de status no oponente."
       },
       {
-        "name": "GRITO DO TECELÃO DA TEMPESTADE III",
-        "description": "Realiza um ataque à distância de 170 Poder de baixa prioridade. Este ataque quase sempre é o último."
+        "name": "PURIFICAÇÃO DE SYLPHOR",
+        "description": "Purifica-te. Em seguida, realiza um ataque à distância de 160 de Poder."
       }
     ]
   },
@@ -247,15 +247,15 @@
       },
       {
         "name": "RELAXAR II",
-        "description": "Cura-te em 15% do teu HP máximo. Reduz a tua Defesa em 1 estágio até ao final do turno."
+        "description": "Cura-te em 17% do teu HP máximo. Reduz a tua Defesa em 1 estágio até ao final do turno."
       },
       {
-        "name": "REFLEXOS DE SORTE II",
-        "description": "Desvie e depois realize um Contra-Ataque de 40 Poder se for atingido por um ataque corpo a corpo nesta ação de turno. Se ativado, reduza a Defesa do oponente em 2 por 2 turnos."
+        "name": "BOA SORTE I",
+        "description": "Esquiva um ataque nesta rodada. Se ativado, purifica os efeitos negativos de status em ti."
       },
       {
         "name": "AQUECIDO III",
-        "description": "Realiza um ataque corpo a corpo de 70 Poder. Se sua Velocidade for maior que a do oponente, realize um ataque corpo a corpo adicional de 35 Poder usando sua Velocidade em vez do Ataque."
+        "description": "Realiza um ataque corpo a corpo de 90 Poder. Se sua Velocidade for maior que a do oponente, realize um ataque corpo a corpo adicional de 35 Poder usando sua Velocidade em vez do Ataque."
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "name": "SOBRECARGA ELÉTRICA II",
-        "description": "Se a tua Velocidade estiver atualmente reduzida, realiza um ataque à distância de 150 de Poder. Em seguida, purifica-te."
+        "description": "Se a tua Velocidade estiver atualmente reduzida, realiza um ataque à distância de 140 de Poder. Em seguida, purifica-te."
       }
     ]
   },
@@ -572,28 +572,28 @@
     ]
   },
   "oogrock": {
-    "description": "Os Oogrocks adoram descansar no gelo, mas seus corpos reflexivos fazem com que ele derreta enquanto dormem. Isso leva a uma súbita imersão em água fria, despertando-os abruptamente!",
-    "element": "earth",
+    "description": "Oogrock adora descansar no gelo, mas seus corpos reflexivos fazem com que o derretam enquanto dormem. Isso leva a uma queda repentina na água fria, dando-lhes um grande susto para acordar!",
+    "element": "terra",
     "skills": [
       {
         "name": "REFLEXO ENERGIZANTE I",
-        "description": "Reflete de volta para o oponente 30% do dano causado nesta ação de turno. Você recebe o dano restante. Se ativado, ganhe 3 Hype."
+        "description": "Reflete de volta ao oponente 30% do dano causado nesta ação de turno. Você recebe o dano restante. Se ativado, ganhe 3 Hype."
       },
       {
-        "name": "NÉVOA DE LUAR II",
-        "description": "Reduza seu Ataque e o Ataque do oponente em 1 nível por 2 turnos."
+        "name": "TRANSE ÁRTICO II",
+        "description": "Reduza seu Ataque e o Ataque do seu Oponente em 1 estágio por 2 turnos."
       },
       {
-        "name": "GOLPE SEGUINTE II",
-        "description": "Reduza a Defesa do oponente em 3 níveis por 5 turnos."
+        "name": "QUEBRA-GELO II",
+        "description": "Reduza a Defesa do oponente em 2 estágios por 5 turnos."
       },
       {
         "name": "DESLIZAMENTO DE LAMA II",
-        "description": "Realiza um ataque corpo a corpo de 70 Poder. Aumente sua Defesa em 1 por 2 turnos."
+        "description": "Realize um ataque Corpo a Corpo de 50 de Poder. Aumente sua Defesa em 1 por 2 turnos."
       },
       {
-        "name": "CONTRAGOLPE FATAL III",
-        "description": "Reflete de volta para o oponente 50% do dano causado nesta ação de turno e realiza um contra-ataque de 50 Poder usando sua Defesa em vez do Ataque. Você recebe o dano restante."
+        "name": "GOLPE BAIXO III",
+        "description": "Reflete de volta ao oponente 50% do dano causado nesta ação de turno e realiza um Contra-Ataque de 50 de Poder usando sua Defesa em vez de Ataque. Você recebe o dano restante."
       }
     ]
   },
@@ -607,11 +607,11 @@
       },
       {
         "name": "REBOTE DESESPERADO III",
-        "description": "Realiza um ataque corpo a corpo de 15 Poder. Se seu HP atual for menor que o do oponente, ganhe 3 Hype adicionais."
+        "description": "Realize um ataque Corpo a Corpo de 40 de Poder. Se seu HP atual for menor que o do oponente, ganhe 3 Hype adicionais, mas reduza sua Defesa em 1 estágio por 4 turnos."
       },
       {
         "name": "SEM DOR, SEM GANHO I",
-        "description": "Ataque próprio de 40 Poder. Aumente sua Defesa em 3 níveis por 3 turnos."
+        "description": "Ataque próprio de 60 Poder. Aumente sua Defesa em 2 níveis por 3 turnos."
       },
       {
         "name": "DESTINO COMPARTILHADO III",

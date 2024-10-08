@@ -44,7 +44,7 @@ const VideosPage: NextPage = () => {
       <div className="p-4 rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
-            <strong className="bg-secondary p-2 rounded-sm">
+            <strong className="">
               {t("translation:videos")}
             </strong>
           </h2>

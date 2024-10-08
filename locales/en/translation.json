@@ -12,9 +12,10 @@
   "what_is_a_tier_list": "What is a <Neftie>Tier List?</Neftie>",
   "tier_list_desc": "A tier list is a ranking system that categorizes Nefties based on their effectiveness, strength, or popularity. These rankings are divided into tiers, with the highest performers placed in the S-tier, followed by A and B.",
   "videos": "Videos",
-  "videos_page_desc": "A dynamic hub where the community comes together to share their most engaging moments in Seekers of Tokane. From in-depth tutorials that guide you through complex challenges to hilarious clips that capture the unpredictability of the game, every video is a glimpse into the diverse experiences of our players. Dive into the categories, explore user-submitted content, and perhaps find the inspiration to share your own adventures with us!",
+  "videos_page_desc": "Discover top moments from Seekers of Tokane! Explore tutorials, funny clips, and user content, all capturing the best of the game. Join the community and share your adventures!",
   "events": "Events",
   "events_page_desc": "Stay up-to-date with all the latest happenings in Seekers of Tokané. Learn about all official & fan-organized events and be a part of the vibrant Aurory community.",
+  "tutorials_page_desc": "Level up your skills in Seekers of Tokane with our comprehensive video tutorials. This series takes you from the basics to expert-level strategies, helping you master every aspect of the game.",
   "element": "Element",
   "more": "More",
   "back": "Back",
@@ -208,6 +209,10 @@
     "single_tier_list": {
       "title": "{{username}} Tier List for Patch: {{ patch }}",
       "description": "See which Nefties {{username}} thinks the strongest and the weakest.."
+    },
+    "tutorials": {
+      "title": "Neftie App - Seekers of Tokane Tutorials, Master the Game quickly!",
+      "description": "Watch our Seekers of Tokane tutorial series. Learn from the ground up with beginner tips, advanced strategies, and expert insights to dominate the game."
     }
   },
   "recently_added_videos": "Recently Added Videos",

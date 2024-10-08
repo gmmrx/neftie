@@ -1,27 +1,13 @@
 "use client";
-import React, { useState, useRef } from "react";
-import { useSession, signIn, signOut } from "next-auth/react";
+import React from "react";
+import { useSession } from "next-auth/react";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-
-import {
-  Copyright,
   Github,
-  LayoutDashboard,
-  Play,
-  SwatchBook,
   Twitter,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { LANGUAGE } from "@/lib/data/constants";
 import { usePathname } from "next/navigation";
-import MobileMenu from "../mobile-menu";
 
 const Footer = () => {
   const { data: session } = useSession();
@@ -36,7 +22,7 @@ const Footer = () => {
       </div>
       <div className="flex items-center gap-8 w-full">
         <div className="uppercase text-xs text-[#9e9e9e] cursor-pointer hover:text-white transition-all">
-          About Us
+          <a href="/about-us">About Us</a>
         </div>
         <div className="uppercase text-xs text-[#9e9e9e] cursor-pointer hover:text-white transition-all">
           PrIvacy PolIcy

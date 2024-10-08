@@ -85,7 +85,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug, gifs, videos }) => {
           const skills = t(`nefties:${neftie?.slug}.skills`, {
             returnObjects: true,
           });
-          console.log(videoUrl);
+
           return (
             <Dialog key={skill.description}>
               <DialogTrigger asChild>

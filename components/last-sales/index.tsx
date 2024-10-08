@@ -59,7 +59,13 @@ export const LastNeftieSales = () => {
       <div className="text-[1.4rem] mb-1 font-medium flex justify-between">
         Latest Neftie Sales{" "}
         <div className="pr-4 text-sm">
-          <a href="https://x.com/neftiesales" target="_blank" className="border border-white p-1 px-2 rounded-md">Follow on X</a>
+          <a
+            href="https://x.com/neftiesales"
+            target="_blank"
+            className="border border-white p-1 px-2 rounded-md"
+          >
+            Follow on X
+          </a>
         </div>
       </div>
       <div className="max-h-[12.8125rem] overflow-y-auto no-scrollbar">
@@ -128,7 +134,6 @@ export const LastNeftieSales = () => {
 };
 
 function StatDialog({ generated_attributes }) {
-  console.log(generated_attributes);
   return (
     <Dialog>
       <DialogTrigger asChild>

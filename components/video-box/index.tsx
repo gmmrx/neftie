@@ -26,8 +26,16 @@ const VideoBox: FC<{ video: VideoAttributes }> = ({ video }) => {
       <CardHeader className="p-0 bg-transparent border-0">
         <div className="flex flex-col items-start gap-0 relative">
           <img src={video.thumbnail} alt={video.name} className="max-w-full" />
-          <div className="text-center absolute bottom-4 bg-grey w-full">
-            <CardTitle className="text-center text-sm">{video.name}</CardTitle>
+          <div
+            className="text-center absolute bottom-4 bg-grey w-full"
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 45%)",
+            }}
+          >
+            <CardTitle className="text-center text-md max-w-[80%] mx-auto">
+              {video.name}
+            </CardTitle>
           </div>
         </div>
       </CardHeader>

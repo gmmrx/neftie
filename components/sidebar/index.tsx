@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useSession } from "next-auth/react";
 
 import { GraduationCap, LayoutDashboard, Play } from "lucide-react";
@@ -7,52 +7,82 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
-import MobileMenu from "../mobile-menu";
 
-const Sidebar = () => {
+const Sidebar = ({ isTopBar = false, isOpened = false }) => {
   const { data: session } = useSession();
   const { t, i18n } = useTranslation();
   const router = useRouter();
   const pathname = usePathname();
 
   // State to handle sidebar hover
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const sidebarRef = useRef(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(isOpened);
 
+  const sidebarRef = useRef(null);
+  const [isLargeDevice, setIsLargeDevice] = useState(false);
+
+  useEffect(() => {
+    // Ensure this code runs only on the client
+    const handleResize = () => {
+      setIsLargeDevice(window.matchMedia("(min-width: 1024px)").matches);
+    };
+
+    // Call the function initially to set the state
+    handleResize();
+
+    // Add resize event listener
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isOpened !== isSidebarOpen) setIsSidebarOpen(isOpened);
+  }, [isOpened]);
   // Function to handle mouse enter
   const handleMouseEnter = () => {
-    setIsSidebarOpen(true);
+    if (isLargeDevice) {
+      setIsSidebarOpen(true);
+    }
   };
 
   // Function to handle mouse leave
   const handleMouseLeave = () => {
-    setIsSidebarOpen(false);
+    if (isLargeDevice) {
+      setIsSidebarOpen(false);
+    }
   };
 
   return (
     <div
       ref={sidebarRef}
-      className={`w-full border-r font-ibmplex bg-black max-w-[15rem] fixed h-full ${isSidebarOpen ? "max-w-[15rem]" : "max-w-[5.2rem]"} transition-all z-[100] top-0`}
+      className={`w-full ${!isTopBar ? "hidden lg:block h-full top-0" : "block lg:hidden h-[calc(100%-80px)] top-[80px] left-0"}  border-r font-ibmplex bg-black fixed ${isSidebarOpen ? `${isTopBar ? "max-w-[100%]" : "max-w-[15rem]"}` : `${isTopBar ? "max-w-[0rem]" : "max-w-[5.2rem]"}`} transition-all z-[100] top-0`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div className="px-4 w-full mx-auto">
         <div className="text-center text-2xl cursor-pointer flex justify-between my-4 flex-col items-start">
-          <div className="flex items-center justify-between w-full gap-4 mb-4 border-b pb-4 border-[#151515]">
-            <div className="flex items-center gap-3">
-              <img
-                src={"/images/logo-black.png"}
-                className="max-w-[50px] rounded-[100%]"
-              />
-              {isSidebarOpen ? (
-                <span className="text-[1.1rem] font-bold">NEFTIE</span>
-              ) : (
-                ""
-              )}
+          {!isTopBar && (
+            <div className="flex items-center justify-between w-full gap-4 mb-4 border-b pb-4 border-[#151515]">
+              <div className="flex items-center gap-3">
+                <a href="/" className="flex items-center gap-3">
+                  <img
+                    src={"/images/logo-black.png"}
+                    className="max-w-[50px] rounded-[100%]"
+                  />
+                  {isSidebarOpen ? (
+                    <span className="text-[1.1rem] font-bold">NEFTIE</span>
+                  ) : (
+                    ""
+                  )}
+                </a>
+              </div>
             </div>
-          </div>
+          )}
 
-          <div className="hidden lg:flex flex-col items-start justify-between gap-4 w-full">
+          <div className="flex flex-col items-start justify-between gap-4 w-full">
             <Link href="/" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm w-full">
                 <LayoutDashboard
@@ -218,7 +248,9 @@ const Sidebar = () => {
             <Link href="/tutorials" className="w-full">
               <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <GraduationCap className={`w-[1.5625rem]`} />
-                {isSidebarOpen ? t("translation:video_categories.tutorials.title") : ""}
+                {isSidebarOpen
+                  ? t("translation:video_categories.tutorials.title")
+                  : ""}
               </div>
             </Link>
             {/* <Link href="/items" className="w-full">
@@ -241,10 +273,6 @@ const Sidebar = () => {
             </Link> */}
           </div>
         </div>
-      </div>
-
-      <div className="lg:hidden">
-        <MobileMenu />
       </div>
     </div>
   );

@@ -21,8 +21,6 @@ const NeftieListHome: FC = () => {
   return (
     <>
       {randomNefties.map((neftie) => {
-        console.log(neftie.element);
-
         // Determine the background based on the element
         const getElementBackground = (element) => {
           switch (element.toLowerCase()) {
