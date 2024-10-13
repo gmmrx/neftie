@@ -85,6 +85,13 @@ const AboutUs: NextPage = () => {
                 Becks
               </a>
             </li>
+
+            <li>
+              <strong>Neftie App Logo</strong> -{" "}
+              <a href="https://x.com/Kandaroshi" target="_blank" rel="nofollow">
+                Kandaroshi
+              </a>
+            </li>
           </ul>
           <div className="font-normal text-base">
             Our journey with Neftie App has always been fueled by the passion
