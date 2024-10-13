@@ -16,11 +16,11 @@ const Footer = () => {
   const pathname = usePathname();
 
   return (
-    <div className="w-full bg-black mt-8 h-[80px] pl-[11rem] pr-[4rem] flex justify-start items-center gap-8">
+    <div className="w-full bg-black mt-8 lg:h-[80px] lg:pl-[11rem] py-4 lg:py-0 lg:pr-[4rem] flex flex-col lg:flex-row justify-center lg:justify-start items-center gap-8">
       <div>
         <img src={"/images/footer-logo.png"} className="max-w-[100px]" />
       </div>
-      <div className="flex items-center gap-8 w-full">
+      <div className="flex flex-col lg:flex-row items-center gap-8 w-full">
         <div className="uppercase text-xs text-[#9e9e9e] cursor-pointer hover:text-white transition-all">
           <a href="/about-us">About Us</a>
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="uppercase text-xs text-[#9e9e9e] cursor-pointer hover:text-white transition-all">
           Terms of ServIce
         </div>
-        <div className="text-xs flex items-center gap-8 justify-center ml-auto text-[#9e9e9e]">
+        <div className="text-xs flex items-center gap-8 lg:justify-center lg:ml-auto text-[#9e9e9e]">
           <div className="flex gap-4">
             <a href="https://github.com/gmmrx/neftie" target="_blank">
               <Github size={18} />

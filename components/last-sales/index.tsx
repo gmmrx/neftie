@@ -55,7 +55,7 @@ export const LastNeftieSales = () => {
     );
   };
   return (
-    <div className="overflow-x-auto w-[60%] p-[0.2rem] bg-black rounded-md mt-4 pl-4 pt-4">
+    <div className="overflow-x-auto w-full lg:w-[60%] p-[0.2rem] bg-black rounded-md mt-4 pl-4 pt-4">
       <div className="text-[1.4rem] mb-1 font-medium flex justify-between">
         Latest Neftie Sales{" "}
         <div className="pr-4 text-sm">
@@ -68,7 +68,7 @@ export const LastNeftieSales = () => {
           </a>
         </div>
       </div>
-      <div className="max-h-[12.8125rem] overflow-y-auto no-scrollbar">
+      <div className="lg:max-h-[12.8125rem] overflow-y-auto no-scrollbar">
         <table className="min-w-full bg-black border-separate border-spacing-[1rem]">
           <thead className="sticky top-0 bg-black">
             <tr>

@@ -27,7 +27,7 @@ const WhatIsNeftieBox: FC = () => {
             </div>
           </Link>
         </div>
-        <div className="flex items-center justify-between rounded-md gap-8  mt-4 w-full">
+        <div className="flex items-center justify-between rounded-md overflow-y-visible gap-8 overflow-x-scroll no-scrollbar lg:overflow-visible mt-4 w-full">
           <NeftieListHome />
         </div>
       </div>

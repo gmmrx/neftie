@@ -14,12 +14,12 @@ export const RandomEgg = () => {
   }, [eggs, selectedEgg]);
 
   return (
-    <div className="overflow-x-auto w-[35%] p-[0.2rem] bg-black rounded-md mt-4 pl-4 pt-4 h-[260px]">
+    <div className="overflow-x-auto w-full lg:w-[35%] p-[0.2rem] bg-black rounded-md mt-4 pl-4 pt-4 h-[260px]">
       <div className="text-[1.4rem] mb-1 font-medium flex justify-between">
         <a href="/eggs"> {selectedEgg?.name} Egg</a>
       </div>
       {selectedEgg && (
-        <div className="max-h-[400px] overflow-y-auto no-scrollbar flex items-center gap-4">
+        <div className="lg:max-h-[400px] overflow-y-auto no-scrollbar flex items-center gap-4">
           <img
             src={selectedEgg.image}
             className={`w-[200px] h-[200px] object-contain bg-center mx-auto min-w-[30px]`}

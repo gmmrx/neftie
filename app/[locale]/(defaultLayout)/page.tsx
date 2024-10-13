@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] min-h-[84.5vh] mx-auto font-ibmplex">
       <WhatIsNeftieBox />
-      <div className="flex justify-between w-full">
+      <div className="flex justify-between w-full flex-col lg:flex-row">
         <LastNeftieSales />
         <RandomEgg />
       </div>

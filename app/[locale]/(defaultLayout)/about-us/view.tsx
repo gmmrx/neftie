@@ -12,7 +12,7 @@ const AboutUs: NextPage = () => {
           </h2>
         </div>
 
-        <div className="scroll-m-20 text-lg font-normal mt-3">
+        <div className="scroll-m-20 text-base font-normal mt-3">
           <strong> Neftie App</strong> is an open-source project developed by{" "}
           <a href="https://x.com/gumm3rr" target="_blank" rel="nofollow">
             Gummer
@@ -86,9 +86,9 @@ const AboutUs: NextPage = () => {
               </a>
             </li>
           </ul>
-          <div className="font-normal text-lg">
+          <div className="font-normal text-base">
             Our journey with Neftie App has always been fueled by the passion
-            and creativity of the Seekers of Tokane community. Each
+            and creativity of the Aurory community. Each
             collaboration, from helpful tutorials to engaging content, has
             brought us closer to our goal of empowering players and enhancing
             the game experience.
