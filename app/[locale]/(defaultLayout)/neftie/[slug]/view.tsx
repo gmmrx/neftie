@@ -79,7 +79,7 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug, gifs, videos }) => {
           </div>
         </div>
       </div>
-      <div className="skills grid grid-cols-3 gap-2 my-6">
+      <div className="skills grid md:grid-cols-2 lg:grid-cols-3 gap-2 my-6">
         {neftie?.skills.map((skill, index) => {
           const videoUrl = videos && videos.length > 0 && videos[index];
           const skills = t(`nefties:${neftie?.slug}.skills`, {
