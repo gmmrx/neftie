@@ -247,7 +247,11 @@
       },
       {
         "name": "SLACK OFF II",
+<<<<<<< HEAD
         "description": "Heal yourself of 17% of your max HP. Drop your Defense by 1 stage until the end of the turn."
+=======
+        "description": "Heal yourself of 15% of your max HP. Drop your Defense by 1 stage until the end of the turn."
+>>>>>>> main
       },
       {
         "name": "GOOD FORTUNE I",
@@ -307,7 +311,11 @@
       },
       {
         "name": "ELECTRICAL OVERLOAD II",
+<<<<<<< HEAD
         "description": "If your Speed is currently dropped, perform a Ranged attack of 140 Power. Then, Cleanse yourself."
+=======
+        "description": "If your Speed is currently dropped, perform a Ranged attack of 150 Power. Then, Cleanse yourself."
+>>>>>>> main
       }
     ]
   },
