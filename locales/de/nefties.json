@@ -8,8 +8,8 @@
         "description": "Führe einen Nahkampfangriff mit 20 Stärke aus."
       },
       {
-        "name": "BLITZSCHRITTE I",
-        "description": "100% Chance, in dieser Runde einem Angriff auszuweichen."
+        "name": "HIMMELSTANZ II",
+        "description": "Weiche in dieser Runde einem Angriff aus. Falls ausgelöst, erhöhe deine Geschwindigkeit für 2 Runden um 1 Stufe."
       },
       {
         "name": "VERDERBLICHE REBE I",
@@ -176,8 +176,8 @@
         "description": "Reflektiere 85% des Schadens von Nahkampfangriffen in dieser Runde an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, reinige Status-Effekte beim Gegner."
       },
       {
-        "name": "STURMWEBERS RUF III",
-        "description": "Führe einen Fernkampfangriff mit niedriger Priorität und 170 Stärke aus. Dieser Angriff geht fast immer als letzter."
+        "name": "SYLPHORS REINIGUNG",
+        "description": "Reinige dich selbst. Führe dann einen Fernangriff mit 160 Kraft aus."
       }
     ]
   },
@@ -247,15 +247,15 @@
       },
       {
         "name": "GAMMELN II",
-        "description": "Heile dich um 15% deines maximalen HP. Verringere deine Verteidigung bis zum Ende der Runde um 1 Stufe."
+        "description": "Heile dich um 17% deines maximalen HP. Verringere deine Verteidigung bis zum Ende der Runde um 1 Stufe."
       },
       {
-        "name": "GLÜCKSREFLEXE II",
-        "description": "Weiche aus und führe dann einen Gegenangriff mit 40 Stärke aus, wenn du in dieser Runde von einem Nahkampfangriff getroffen wirst. Wenn ausgelöst, senke die Verteidigung des Gegners für 2 Runden um 2 Stufen."
+        "name": "GUTES GLÜCK I",
+        "description": "Weiche in dieser Runde einem Angriff aus. Falls ausgelöst, reinige Statusveränderungen an dir."
       },
       {
         "name": "FEUER IM HERZEN III",
-        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Wenn deine Geschwindigkeit höher ist als die des Gegners, führe einen zusätzlichen Nahkampfangriff mit 35 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
+        "description": "Führe einen Nahkampfangriff mit 90 Stärke aus. Wenn deine Geschwindigkeit höher ist als die des Gegners, führe einen zusätzlichen Nahkampfangriff mit 35 Stärke aus und nutze dabei deine Geschwindigkeit statt Angriff."
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "name": "ELEKTRISCHE ÜBERLASTUNG II",
-        "description": "Wenn deine Geschwindigkeit derzeit verringert ist, führe einen Fernkampfangriff mit 150 Stärke aus. Dann reinige dich."
+        "description": "Wenn deine Geschwindigkeit derzeit verringert ist, führe einen Fernkampfangriff mit 140 Stärke aus. Dann reinige dich."
       }
     ]
   },
@@ -571,29 +571,29 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Whiskubes ruhen gerne auf Eis, aber ihre reflektierenden Körper lassen es beim Schlafen schmelzen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser und weckt sie ordentlich auf!",
-    "element": "earth",
+  "oogrock": {
+    "description": "Oogrock lieben es, auf Eis zu ruhen, aber ihre reflektierenden Körper lassen das Eis schmelzen, während sie schlafen. Dies führt zu einem plötzlichen Sturz ins kalte Wasser, was ihnen einen ziemlichen Weckruf beschert!",
+    "element": "erde",
     "skills": [
       {
-        "name": "ENERGIEGELADENE REFLEXION I",
-        "description": "Reflektiere 30% des in dieser Runde zugefügten Schadens an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, erhalte 3 Hype."
+        "name": "ENERGIESPIEGEL I",
+        "description": "Reflektiert 30% des Schadens zurück auf den Gegner, der in dieser Zugaktion verursacht wurde. Du erleidest den restlichen Schaden. Wenn aktiviert, erhalte 3 Hype."
       },
       {
-        "name": "MONDSCHEINNEBEL II",
-        "description": "Senke deinen Angriff und den Angriff des Gegners für 2 Runden um 1 Stufe."
+        "name": "ARKTISCHER RÜCKSCHLAG II",
+        "description": "Senke deinen Angriff und den deines Gegners um 1 Stufe für 2 Runden."
       },
       {
-        "name": "NACHSCHUSS II",
-        "description": "Senke die Verteidigung des Gegners für 5 Runden um 3 Stufen."
+        "name": "EISBRECHER II",
+        "description": "Senke die Verteidigung des Gegners um 2 Stufen für 5 Runden."
       },
       {
         "name": "SCHLAMMLAWINE II",
-        "description": "Führe einen Nahkampfangriff mit 70 Stärke aus. Erhöht deine Verteidigung für 2 Runden um 1 Stufe."
+        "description": "Führe einen Nahkampfangriff mit 50 Stärke aus. Erhöhe deine Verteidigung um 1 für 2 Runden."
       },
       {
-        "name": "SAUGKONTER III",
-        "description": "Reflektiere 50% des in dieser Runde zugefügten Schadens an den Gegner zurück und führe einen Gegenangriff mit 50 Stärke aus und nutze dabei deine Verteidigung statt Angriff. Du nimmst den verbleibenden Schaden."
+        "name": "TIEFSCHLAG III",
+        "description": "Reflektiert 50% des Schadens zurück auf den Gegner, der in dieser Zugaktion verursacht wurde, und führe einen Gegenangriff mit 50 Stärke durch, wobei deine Verteidigung anstelle des Angriffs verwendet wird. Du erleidest den restlichen Schaden."
       }
     ]
   },
@@ -607,11 +607,11 @@
       },
       {
         "name": "VERZWEIFELTES ZURÜCKSCHLAGEN III",
-        "description": "Führe einen Nahkampfangriff mit 15 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, erhalte 3 zusätzliche Hype."
+        "description": "Führe einen Nahkampfangriff mit 40 Stärke aus. Wenn dein aktuelles HP niedriger ist als das des Gegners, erhalte zusätzlich 3 Hype, aber reduziere deine Verteidigung um 1 Stufe für 4 Runden."
       },
       {
         "name": "KEIN SCHMERZ, KEIN GEWINN I",
-        "description": "Selbstangriff mit 40 Stärke. Erhöht deine Verteidigung für 3 Runden um 3 Stufen."
+        "description": "Selbstangriff mit 60 Stärke. Erhöht deine Verteidigung für 2 Runden um 3 Stufen."
       },
       {
         "name": "GETEILTES SCHICKSAL III",

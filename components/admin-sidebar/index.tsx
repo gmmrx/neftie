@@ -155,7 +155,6 @@ const AdminSidebar = () => {
           </div>
         </Link>
       </div>
-      <div className="lg:hidden">{/* <MobileMenu /> */}</div>
     </div>
   );
 };

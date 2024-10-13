@@ -1,34 +1,55 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import { useNefties } from "@/providers/NeftiesProvider";
-import React, { useState, FC } from "react";
+import React, { FC } from "react";
 import NeftieBox from "../neftie-box";
-import { useTranslation } from "react-i18next";
-import { ChevronRight } from "lucide-react";
-import { useRouter } from "next/navigation";
 
 const NeftieListHome: FC = () => {
   const { nefties } = useNefties();
-  const { t } = useTranslation();
-  const router = useRouter();
+  // Function to shuffle an array using Fisher-Yates algorithm
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
+  // Shuffle the array and select the first 6 random items
+  const randomNefties = shuffleArray([...nefties]).slice(0, 7);
+
   return (
     <>
-      {nefties.slice(0, 5).map((neftie) => {
-        return <NeftieBox key={neftie.name} neftie={neftie} />;
+      {randomNefties.map((neftie) => {
+        // Determine the background based on the element
+        const getElementBackground = (element) => {
+          switch (element.toLowerCase()) {
+            case "lightning":
+              return "hover:bg-lightningGradient";
+            case "plant":
+              return "hover:bg-plantGradient";
+            case "earth":
+              return "hover:bg-earthGradient";
+            case "water":
+              return "hover:bg-waterGradient";
+            case "air":
+              return "hover:bg-airGradient";
+            case "fire":
+              return "hover:bg-gradient-to-r from-red-500 to-orange-500";
+            default:
+              return "bg-gray-500"; // Default background if element doesn't match
+          }
+        };
+
+        return (
+          <NeftieBox
+            key={neftie.name}
+            neftie={neftie}
+            hideName={true}
+            className={`${getElementBackground(neftie.element)} !p-[0.3rem] !bg-[#fff]/20 border-0 text-sm uppercase text-white hover:opacity-100`}
+          />
+        );
       })}
-      {nefties && nefties.length > 0 && (
-        <div className="ml-4 p-4 max-w-[130px] rounded-sm w-full text-center border w-[150px] h-[155px] cursor-pointer hover:border-[#4d4d4d] transition-all relative">
-          <div className="flex flex-col relative">
-            <div
-              className={`rounded-full w-[80px] h-[80px] flex items-center justify-center text-center mx-auto`}
-              onClick={() => router.push("/nefties")}
-            >
-              <ChevronRight />
-            </div>
-            <div className="font-medium mt-4">{t("translation:more")}</div>
-          </div>
-        </div>
-      )}
     </>
   );
 };

@@ -75,6 +75,14 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        whatsNeftieBg: "url(/images/sot_bg.jpeg)",
+        plantGradient: "linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)",
+        waterGradient: "linear-gradient(to top, #4481eb 0%, #04befe 100%)",
+        airGradient: "linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%)",
+        lightningGradient: "linear-gradient(to top, #f7971e, #ffd200)",
+        earthGradient: "linear-gradient(to top, #a73737, #7a2828)",
+      },
     },
   },
 

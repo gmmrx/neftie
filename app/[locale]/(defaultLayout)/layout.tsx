@@ -1,12 +1,14 @@
 import Sidebar from "@/components/sidebar";
-import "../../globals.css";
-import "../../nprogress.css";
-import { SessionProvider } from "next-auth/react";
 import Providers from "@/components/providers";
 import initTranslations from "../../i18n";
 import TranslationProvider from "../TranslationProvider";
 import { Toaster } from "@/components/ui/toaster";
 import StatCounter from "statcounter";
+
+import "../../globals.css";
+import "../../nprogress.css";
+import Topbar from "@/components/topbar";
+import Footer from "@/components/footer";
 
 const i18nNamespaces = ["translation", "nefties"];
 const isProd = process.env.NEXT_PUBLIC_ENVIRONMENT === "PROD";
@@ -52,12 +54,14 @@ export default async function RootLayout({
                 {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
                   <div className="bg-page-bg">
-                    <div className="flex flex-col lg:flex-row">
+                    <Topbar />
+                    <div className="flex flex-row">
                       <Sidebar />
-                      <div className="bg-[#161618] w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0">
+                      <div className="bg-transparent w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0 mx-auto">
                         {children}
                       </div>
                     </div>
+                    <Footer />
                   </div>
                 </div>
               </div>

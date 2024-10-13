@@ -1,6 +1,6 @@
 import { useTranslation } from "@/app/i18n";
-import NeftieListHome from "@/components/neftie-list-home";
-import RecentVideosBox from "@/components/recent-videos-box";
+import LastNeftieSales from "@/components/last-sales";
+import { RandomEgg } from "@/components/random-egg";
 import WhatIsNeftieBox from "@/components/what-is-neftie-box";
 import { syncAndForceDB } from "@/lib/create-tables";
 import { Metadata, ResolvingMetadata } from "next";
@@ -8,12 +8,12 @@ import { Metadata, ResolvingMetadata } from "next";
 export default async function Home() {
   // await syncAndForceDB();
   return (
-    <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] font-ibmplex">
+    <main className="flex min-h-screen flex-col items-start p-10 !pl-6 max-w-[70rem] min-h-[84.5vh] mx-auto font-ibmplex">
       <WhatIsNeftieBox />
-      <div className="mt-4 flex gap-2 w-full flex-wrap md:justify-between">
-        <NeftieListHome />
+      <div className="flex justify-between w-full flex-col lg:flex-row">
+        <LastNeftieSales />
+        <RandomEgg />
       </div>
-      <RecentVideosBox />
     </main>
   );
 }

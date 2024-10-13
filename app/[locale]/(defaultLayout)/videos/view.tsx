@@ -3,7 +3,6 @@
 import PostNewVideo from "@/components/post-new-video";
 import { Button } from "@/components/ui/button";
 import VideoBox from "@/components/video-box";
-import { useEggs } from "@/providers/EggsProvider";
 import { useVideos } from "@/providers/VideosProvider";
 import { Video } from "lucide-react";
 import { NextPage } from "next";
@@ -12,11 +11,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   DropdownMenu,
-  DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { LANGUAGE } from "@/lib/data/constants";
@@ -44,11 +40,11 @@ const VideosPage: NextPage = () => {
   };
 
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem] overflow-y-scroll no-scrollbar">
+    <div className="text-left pt-10 text-xl font-semibold px-6  mx-auto max-w-[70rem] overflow-y-scroll no-scrollbar">
       <div className="p-4 rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
-            <strong className="bg-secondary p-2 rounded-sm">
+            <strong className="">
               {t("translation:videos")}
             </strong>
           </h2>

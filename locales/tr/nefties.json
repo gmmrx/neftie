@@ -8,8 +8,8 @@
         "description": "20 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
-        "name": "PARLAYAN ADIMLAR I",
-        "description": "Bu turda bir saldırıdan kaçma şansı %100."
+        "name": "GÖKYÜZÜ DANSI II",
+        "description": "Bu turda bir saldırıdan kaçın. Eğer tetiklenirse, Hızınızı 2 tur boyunca 1 kademe artırın.."
       },
       {
         "name": "ÇÜRÜK ASMA I",
@@ -176,8 +176,8 @@
         "description": "Bu turdaki Yakın dövüş saldırılarının verdiği hasarın %85'ini rakibe geri yansıt. Kalan hasarı alırsın. Tetiklenirse, rakibin durum etkilerini temizle."
       },
       {
-        "name": "FIRTINADOKUYUCUNUN ÇIĞLIĞI III",
-        "description": "170 Güçlük düşük öncelikli bir Uzaktan saldırı gerçekleştir. Bu saldırı neredeyse her zaman son gider."
+        "name": "SYLPHOR'UN ARINMASI",
+        "description": "Kendini arındır. Ardından, 160 Güçlük bir Uzaktan saldırı gerçekleştir."
       }
     ]
   },
@@ -247,15 +247,15 @@
       },
       {
         "name": "RAHATLAMA II",
-        "description": "Maksimum HP'nizin %15'ini iyileştirin. Turun sonuna kadar Savunmanızı 1 aşama düşürün."
+        "description": "Maksimum HP'nizin %17'sini iyileştirin. Turun sonuna kadar Savunmanızı 1 aşama düşürün."
       },
       {
-        "name": "ŞANSLI REFLEKSLER II",
-        "description": "Bu turda Yakın dövüş saldırısıyla vurulursanız, kaçının ve ardından 40 Güçlük bir Karşı Saldırı gerçekleştirin. Tetiklenirse, rakibinizin Savunmasını 2 tur boyunca 2 düşürün."
+        "name": "İYİ ŞANS I",
+        "description": "Bu turda bir saldırıdan kaçın. Eğer tetiklenirse, üzerinizdeki durum etkilerini temizleyin."
       },
       {
         "name": "ATEŞLİ III",
-        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştir. Hızınız rakibinizden yüksekse, Saldırı yerine Hızınızı kullanarak 35 Güçlük ek bir Yakın dövüş saldırısı gerçekleştirin."
+        "description": "90 Güçlük Yakın dövüş saldırısı gerçekleştir. Hızınız rakibinizden yüksekse, Saldırı yerine Hızınızı kullanarak 35 Güçlük ek bir Yakın dövüş saldırısı gerçekleştirin."
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "name": "ELEKTRİKSEL AŞIRI YÜK II",
-        "description": "Hızınız şu anda düşmüşse, 150 Güçlük bir Uzak saldırı gerçekleştirin. Sonra kendinizi temizleyin."
+        "description": "Hızınız şu anda düşmüşse, 140 Güçlük bir Uzak saldırı gerçekleştirin. Sonra kendinizi temizleyin."
       }
     ]
   },
@@ -572,29 +572,29 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "Whiskube'ler buzun üzerinde dinlenmeyi severler, ancak yansıtıcı vücutları uyurken buzun erimesine neden olur. Bu, soğuk suya ani bir dalışla sonuçlanır ve onları oldukça sert uyandırır!",
-    "element": "earth",
+  "oogrock": {
+    "description": "Oogrock buz üzerinde dinlenmeyi sever, ancak yansıtıcı bedenleri uyurken buzu eritmelerine neden olur. Bu da onları aniden soğuk suya düşürür, bu da onlara ciddi bir uyanma çağrısı olur!",
+    "element": "toprak",
     "skills": [
       {
-        "name": "ENERJİ VEREN YANSIMA I",
-        "description": "Bu turdaki verilen hasarın %30'unu rakibe yansıtın. Kalan hasarı alırsınız. Tetiklenirse, 3 Hype kazanın."
+        "name": "ENERJİK YANSIMA I",
+        "description": "Bu tur eyleminde verilen hasarın %30'unu rakibe geri yansıt. Kalan hasarı alırsın. Eğer tetiklenirse, 3 Hype kazan."
       },
       {
-        "name": "AY IŞIĞI SİSİ II",
-        "description": "Saldırınızı ve Rakibinizin Saldırısını 2 tur boyunca 1 aşama düşürün."
+        "name": "ARCTIC ŞAŞKINLIK II",
+        "description": "Saldırını ve Rakibin Saldırısını 2 tur boyunca 1 kademe düşür."
       },
       {
-        "name": "SONRASALDIRI II",
-        "description": "Rakibinizin Savunmasını 5 tur boyunca 3 aşama düşürün."
+        "name": "BUZKIRAN II",
+        "description": "Rakibin Savunmasını 5 tur boyunca 2 kademe düşür."
       },
       {
         "name": "ÇAMUR KAYMASI II",
-        "description": "70 Güçlük Yakın dövüş saldırısı gerçekleştirin. Savunmanızı 2 tur boyunca 1 artırın."
+        "description": "50 Güçlük bir Yakın Dövüş saldırısı yap. Savunmanı 2 tur boyunca 1 artır."
       },
       {
-        "name": "EMİCİ KARŞI SALDIRI III",
-        "description": "Bu turda verilen hasarın %50'sini rakibe yansıtın ve Saldırı yerine Savunmanızı kullanarak 50 Güçlük bir karşı saldırı gerçekleştirin. Kalan hasarı alırsınız."
+        "name": "ALÇAK VURUŞ III",
+        "description": "Bu tur eyleminde verilen hasarın %50'sini rakibe geri yansıt ve Saldırı yerine Savunmanı kullanarak 50 Güçlük bir Karşı Saldırı gerçekleştir. Kalan hasarı alırsın."
       }
     ]
   },
@@ -608,11 +608,11 @@
       },
       {
         "name": "UMUTSUZ YANSIMA III",
-        "description": "15 Güçlük Yakın dövüş saldırısı gerçekleştirin. Mevcut HP'niz rakibinizden düşükse, ek olarak 3 Hype kazanın."
+        "description": "40 Güçlük bir Yakın Dövüş saldırısı yap. Eğer mevcut HP'n rakibininkinden düşükse, 3 ek Hype kazan, ancak Savunmanı 4 tur boyunca 1 kademe düşür."
       },
       {
         "name": "ACI YOK, KAZANÇ YOK I",
-        "description": "40 Güçlük kendine saldırı. Savunmanızı 3 tur boyunca 3 aşama artırın."
+        "description": "60 Güçlük kendine saldırı. Savunmanızı 2 tur boyunca 3 aşama artırın."
       },
       {
         "name": "PAYLAŞILAN KADER III",

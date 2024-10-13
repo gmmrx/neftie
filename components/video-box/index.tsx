@@ -20,26 +20,22 @@ const VideoBox: FC<{ video: VideoAttributes }> = ({ video }) => {
 
   return (
     <Card
-      className="max-w-[300px] cursor-pointer"
+      className="max-w-[300px] !p-0 cursor-pointer"
       onClick={() => window.open(`https://youtube.com/watch?v=${video.yt_url}`)}
     >
-      <CardHeader>
-        <div className="flex flex-col items-start gap-4">
+      <CardHeader className="p-0 bg-transparent border-0">
+        <div className="flex flex-col items-start gap-0 relative">
           <img src={video.thumbnail} alt={video.name} className="max-w-full" />
-          <div>
-            <CardTitle>{video.name}</CardTitle>
-            <CardDescription className="mt-4 flex gap-2">
-              {t("translation:language")}:{" "}
-              <img
-                src={`/images/flags/${video.locale}.svg`}
-                className="w-[20px] mr-2"
-                alt={"video locale"}
-              />
-              {t("translation:category")}:{" "}
-              {t(
-                `translation:video_categories.${video.VideoCategories[0].name}`
-              )}
-            </CardDescription>
+          <div
+            className="text-center absolute bottom-4 bg-grey w-full"
+            style={{
+              background:
+                "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 45%)",
+            }}
+          >
+            <CardTitle className="text-center text-md max-w-[80%] mx-auto">
+              {video.name}
+            </CardTitle>
           </div>
         </div>
       </CardHeader>

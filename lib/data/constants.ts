@@ -1,4 +1,4 @@
-export const CURRENT_PATCH_VERSION: string = "V0.9.9";
+export const CURRENT_PATCH_VERSION: string = "V0.10.31";
 
 export const LANGUAGE: { code: string; value: string }[] = [
   { code: "en", value: "English" },

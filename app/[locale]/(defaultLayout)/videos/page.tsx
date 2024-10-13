@@ -2,8 +2,6 @@ import "server-only";
 import { Metadata, ResolvingMetadata } from "next";
 
 import VideosPage from "./view";
-import axios from "axios";
-import getApiUrl from "@/lib/get-api-url";
 import { useTranslation } from "@/app/i18n";
 
 export const fetchCache = "force-no-store";

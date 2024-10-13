@@ -8,8 +8,8 @@
         "description": "Esegui un attacco corpo a corpo di Potenza 20."
       },
       {
-        "name": "PASSI FULGURI I",
-        "description": "Probabilità del 100% di schivare un attacco questa azione."
+        "name": "DANZA DEL CIELO II",
+        "description": "Schiva un attacco in questo turno. Se attivato, aumenta la tua Velocità di 1 livello per 2 turni."
       },
       {
         "name": "VITE PUTRIDA I",
@@ -176,8 +176,8 @@
         "description": "Rifletti all'avversario l'85% dei danni inflitti dagli attacchi corpo a corpo in questa azione di turno. Subisci i danni rimanenti. Se attivato, purifica gli effetti di stato sull'avversario."
       },
       {
-        "name": "GRIDO DEL TESSITORE DI TEMPESTE III",
-        "description": "Effettua un attacco a distanza di 170 Potenza a bassa priorità. Questo attacco va quasi sempre per ultimo."
+        "name": "PURIFICAZIONE DI SYLPHOR",
+        "description": "Purificati. Poi esegui un attacco a distanza con 160 di Potenza."
       }
     ]
   },
@@ -247,15 +247,15 @@
       },
       {
         "name": "RILASSATI II",
-        "description": "Guarisci del 15% del tuo HP massimo. Riduci la tua Difesa di 1 stadio fino alla fine del turno."
+        "description": "Guarisci del 17% del tuo HP massimo. Riduci la tua Difesa di 1 stadio fino alla fine del turno."
       },
       {
-        "name": "RIFLESSI FORTUNATI II",
-        "description": "Schiva e poi effettua un contrattacco di 40 Potenza se sei colpito da un attacco corpo a corpo in questa azione di turno. Se attivato, riduci la Difesa dell'avversario di 2 per 2 turni."
+        "name": "BUONA SORTE I",
+        "description": "Schiva un attacco in questo turno. Se attivato, purifica gli effetti di stato su di te."
       },
       {
         "name": "CARICO III",
-        "description": "Effettua un attacco corpo a corpo di 70 Potenza. Se la tua Velocità è superiore a quella dell'avversario, effettua un ulteriore attacco corpo a corpo di 35 Potenza utilizzando la tua Velocità invece dell'Attacco."
+        "description": "Effettua un attacco corpo a corpo di 90 Potenza. Se la tua Velocità è superiore a quella dell'avversario, effettua un ulteriore attacco corpo a corpo di 35 Potenza utilizzando la tua Velocità invece dell'Attacco."
       }
     ]
   },
@@ -307,7 +307,7 @@
       },
       {
         "name": "SOVRACCARICO ELETTRICO II",
-        "description": "Se la tua Velocità è attualmente ridotta, esegui un attacco a distanza di 150 di Potenza. Poi, purificati."
+        "description": "Se la tua Velocità è attualmente ridotta, esegui un attacco a distanza di 140 di Potenza. Poi, purificati."
       }
     ]
   },
@@ -571,29 +571,29 @@
       }
     ]
   },
-  "whiskube": {
-    "description": "I Whiskube amano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo porta a un'improvvisa immersione nell'acqua fredda, svegliandoli di colpo!",
-    "element": "earth",
+  "oogrock": {
+    "description": "Gli Oogrock amano riposare sul ghiaccio, ma i loro corpi riflettenti lo fanno sciogliere mentre dormono. Questo li porta a una caduta improvvisa nell'acqua fredda, dandogli una brusca sveglia!",
+    "element": "terra",
     "skills": [
       {
         "name": "RIFLESSIONE ENERGIZZANTE I",
-        "description": "Rifletti all'avversario il 30% dei danni inflitti in questa azione di turno. Subisci i danni rimanenti. Se attivato, guadagna 3 Hype."
+        "description": "Riflette il 30% del danno inflitto all'avversario durante questa azione di turno. Tu subisci il danno rimanente. Se attivato, guadagna 3 Hype."
       },
       {
-        "name": "NEBBIA DI CHIAR DI LUNA II",
-        "description": "Riduci il tuo Attacco e quello dell'avversario di 1 livello per 2 turni."
+        "name": "STORDIMENTO ARTICO II",
+        "description": "Riduci il tuo Attacco e l'Attacco del tuo Avversario di 1 livello per 2 turni."
       },
       {
-        "name": "COLPO DI RITORNO II",
-        "description": "Riduci la Difesa dell'avversario di 3 livelli per 5 turni."
+        "name": "ROMPIGHIACCIO II",
+        "description": "Riduci la Difesa dell'avversario di 2 livelli per 5 turni."
       },
       {
-        "name": "SCIVOLATA DI FANGO II",
-        "description": "Effettua un attacco corpo a corpo di 70 Potenza. Aumenta la tua Difesa di 1 per 2 turni."
+        "name": "FRANA DI FANGO II",
+        "description": "Esegui un attacco in mischia con 50 Potenza. Aumenta la tua Difesa di 1 per 2 turni."
       },
       {
-        "name": "CONTRO ATTACCO FATALE III",
-        "description": "Rifletti all'avversario il 50% dei danni inflitti in questa azione di turno ed effettua un contrattacco di 50 Potenza utilizzando la tua Difesa invece dell'Attacco. Subisci i danni rimanenti."
+        "name": "COLPO BASSO III",
+        "description": "Riflette il 50% del danno inflitto all'avversario durante questa azione di turno ed esegui un Contrattacco con 50 Potenza usando la tua Difesa invece dell'Attacco. Tu subisci il danno rimanente."
       }
     ]
   },
@@ -607,11 +607,11 @@
       },
       {
         "name": "RIMBALZO DISPERATO III",
-        "description": "Effettua un attacco corpo a corpo di 15 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, guadagna ulteriori 3 Hype."
+        "description": "Esegui un attacco in mischia con 40 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, guadagna 3 Hype aggiuntivi, ma riduci la tua Difesa di 1 livello per 4 turni."
       },
       {
         "name": "NESSUN DOLORE, NESSUN GUADAGNO I",
-        "description": "Attacco personale di 40 Potenza. Aumenta la tua Difesa di 3 livelli per 3 turni."
+        "description": "Attacco personale di 60 Potenza. Aumenta la tua Difesa di 2 livelli per 3 turni."
       },
       {
         "name": "DESTINO CONDIVISO III",

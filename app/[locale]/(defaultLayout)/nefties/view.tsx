@@ -37,11 +37,11 @@ const ListNefties: NextPage = () => {
   }, [nefties, searchTerm, selectedElement]);
 
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[100vh] max-w-[70rem]">
-      <div className="p-4 rounded-sm w-full text-left">
+    <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] mx-auto max-w-[70rem]">
+      <div className="rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
           <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
-            <strong className="bg-secondary p-2 rounded-sm">
+            <strong className="">
               {t("translation:nefties")}
             </strong>
           </h2>
@@ -51,7 +51,7 @@ const ListNefties: NextPage = () => {
           {t("translation:nefties_page_desc")}
         </h3>
       </div>
-      <div className="filter-area flex flex-col lg:flex-row gap-6 ml-4 mb-4 mt-6 border-b pb-4 items-center">
+      <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 pb-2 items-center">
         <Input
           placeholder={t("translation:search_nefties")}
           className="rounded-none w-full lg:max-w-[150px] transition-all lg:focus:max-w-[250px]"
@@ -85,7 +85,7 @@ const ListNefties: NextPage = () => {
           })}
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 pb-6">
+      <div className="py-6 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 rounded-md gap-6 justify-center">
         {filteredAndSortedNefties &&
           filteredAndSortedNefties.length > 0 &&
           filteredAndSortedNefties.map((neftie) => {
