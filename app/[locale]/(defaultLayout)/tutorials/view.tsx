@@ -37,13 +37,25 @@ const tutorialCategories = [
         user_id: 1,
         thumbnail: "https://i.ytimg.com/vi/2HfnoekBnqY/hqdefault.jpg",
       },
+      {
+        id: 3,
+        name: "How to Withdraw or Deposit $AURY & $USDC",
+        description: "",
+        yt_url: "Ukb1n21qOKw",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/Ukb1n21qOKw/hqdefault.jpg",
+      },
     ],
   },
   {
     category: "Lands (PvE)",
     tutorials: [
       {
-        id: 3,
+        id: 4,
         name: "Your First Land & First Battle!",
         description: "",
         yt_url: "QGEJXP5yKrE",
@@ -54,9 +66,21 @@ const tutorialCategories = [
         user_id: 2,
         thumbnail: "https://i.ytimg.com/vi/QGEJXP5yKrE/hqdefault.jpg",
       },
+      {
+        id: 5,
+        name: "Your First Boss Fight!",
+        description: "",
+        yt_url: "sDMyM76ep2Y",
+        is_official: true,
+        is_for_children: false,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 2,
+        thumbnail: "https://i.ytimg.com/vi/sDMyM76ep2Y/hqdefault.jpg",
+      },
     ],
   },
-  
+
   // Add more categories as needed
 ];
 
