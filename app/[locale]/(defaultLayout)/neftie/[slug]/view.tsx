@@ -5,7 +5,7 @@ import { findNeftiesByElement } from "@/lib/data/elements";
 import { useNefties } from "@/providers/NeftiesProvider";
 import { NextPage } from "next";
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   Tooltip,
@@ -120,17 +120,9 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug, gifs, videos }) => {
                   </div>
                 </div>
               </DialogTrigger>
-              <DialogContent className="w-full lg:max-w-[800px] h-full rounded-md">
-                {videoUrl && (
-                  <video
-                    src={videoUrl}
-                    autoPlay
-                    muted
-                    loop
-                    className="h-[480px] w-full"
-                  />
-                )}
-              </DialogContent>
+              
+                {videoUrl && <VideoComponent videoUrl={videoUrl} />}
+             
             </Dialog>
           );
         })}
@@ -270,6 +262,34 @@ const SingleNeftie: NextPage<UserProfileProps> = ({ slug, gifs, videos }) => {
         </div>
       </div>
     </div>
+  );
+};
+const VideoComponent = ({ videoUrl }) => {
+  const [isLoading, setIsLoading] = useState(true); // Track if the video is loading
+
+  return (
+    <DialogContent className="w-full lg:max-w-[800px] h-full rounded-md">
+      {isLoading && (
+        <div className="flex justify-center items-center h-[480px] w-full">
+          {/* Loading spinner or placeholder */}
+          <div className="loader" /> {/* You can use a CSS spinner here */}
+          <p>Loading...</p> {/* Optional loading text */}
+        </div>
+      )}
+
+      {videoUrl && (
+        <video
+          src={videoUrl}
+          autoPlay
+          muted
+          loop
+          className="h-[480px] w-full"
+          onLoadStart={() => setIsLoading(true)} // Set loading state to true when loading starts
+          onLoadedData={() => setIsLoading(false)} // Set loading state to false when the video is loaded
+          style={{ display: isLoading ? "none" : "block" }} // Hide video until it's loaded
+        />
+      )}
+    </DialogContent>
   );
 };
 
