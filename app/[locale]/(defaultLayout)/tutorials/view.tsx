@@ -49,13 +49,25 @@ const tutorialCategories = [
         user_id: 1,
         thumbnail: "https://i.ytimg.com/vi/Ukb1n21qOKw/hqdefault.jpg",
       },
+      {
+        id: 4,
+        name: "How to Send Items?",
+        description: "",
+        yt_url: "h8_YW9cTFSs",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/h8_YW9cTFSs/hqdefault.jpg",
+      },
     ],
   },
   {
     category: "Lands (PvE)",
     tutorials: [
       {
-        id: 4,
+        id: 5,
         name: "Your First Land & First Battle!",
         description: "",
         yt_url: "QGEJXP5yKrE",
@@ -67,7 +79,7 @@ const tutorialCategories = [
         thumbnail: "https://i.ytimg.com/vi/QGEJXP5yKrE/hqdefault.jpg",
       },
       {
-        id: 5,
+        id: 6,
         name: "Your First Boss Fight!",
         description: "",
         yt_url: "sDMyM76ep2Y",
