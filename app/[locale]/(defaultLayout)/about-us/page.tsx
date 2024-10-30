@@ -16,8 +16,8 @@ export async function generateMetadata(
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useTranslation(params.locale, "translation", {});
   return {
-    title: "Neftie App - About Us",
-    description: "Neftie app about the project",
+    title: "Neftie GG - About Us",
+    description: "Neftie GG about the project",
   };
 }
 

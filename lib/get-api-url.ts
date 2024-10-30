@@ -5,7 +5,7 @@ const getApiUrl = (): string => {
     case "DEV":
       return "http://localhost:3000/api";
     case "PROD":
-      return "https://neftie.app/api";
+      return "https://neftie.gg/api";
     default:
       throw new Error("Unknown environment: " + environment);
   }

@@ -13,7 +13,7 @@ const AboutUs: NextPage = () => {
         </div>
 
         <div className="scroll-m-20 text-base font-normal mt-3">
-          <strong> Neftie App</strong> is an open-source project developed by{" "}
+          <strong> Neftie GG</strong> is an open-source project developed by{" "}
           <a href="https://x.com/gumm3rr" target="_blank" rel="nofollow">
             Gummer
           </a>{" "}
@@ -49,7 +49,7 @@ const AboutUs: NextPage = () => {
                   target="_blank"
                   rel="nofollow"
                 >
-                  Neftie App Discord Bot
+                  Neftie GG Discord Bot
                 </a>
               </strong>{" "}
               -{" "}
@@ -87,26 +87,26 @@ const AboutUs: NextPage = () => {
             </li>
 
             <li>
-              <strong>Neftie App Logo</strong> -{" "}
+              <strong>Neftie GG Logo</strong> -{" "}
               <a href="https://x.com/Kandaroshi" target="_blank" rel="nofollow">
                 Kandaroshi
               </a>
             </li>
           </ul>
           <div className="font-normal text-base">
-            Our journey with Neftie App has always been fueled by the passion
+            Our journey with Neftie GG has always been fueled by the passion
             and creativity of the Aurory community. Each collaboration, from
             helpful tutorials to engaging content, has brought us closer to our
             goal of empowering players and enhancing the game experience.
             <div className="my-4" />
-            At its core, Neftie App is more than just a project; it&apos;s a
+            At its core, Neftie GG is more than just a project; it&apos;s a
             shared endeavor that thrives on community contributions and
             partnerships. Together, we&apos;ve created something truly special,
             and we&apos;re excited for what the future holds as we continue to
             grow and innovate.
             <div className="my-4" />
             <strong>By the community, for the community</strong> — this is the
-            heart of Neftie App, and we&apos;re proud to keep building it
+            heart of Neftie GG, and we&apos;re proud to keep building it
             alongside all of you.
             <div className="my-4" />
             To stay updated on our latest developments, tutorials, and community

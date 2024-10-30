@@ -284,7 +284,7 @@ const TierListVote: NextPage = () => {
               {tierListSlug ? (
                 <div className="flex justify-center items-center border min-w-[150px] p-4 my-6">
                   Your Tier List Url:{" "}
-                  {`https://neftie.app/tier-list/${tierListSlug}`}
+                  {`https://neftie.gg/tier-list/${tierListSlug}`}
                 </div>
               ) : (
                 ""

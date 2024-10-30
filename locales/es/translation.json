@@ -172,31 +172,31 @@
   },
   "page_information": {
     "home": {
-      "title": "Neftie App - Tu Dex de Compañeros Mágicos: ¡Descubre, Colecciona y Explora!",
+      "title": "Neftie GG - Tu Dex de Compañeros Mágicos: ¡Descubre, Colecciona y Explora!",
       "description": "Sumérgete en el mundo de los Nefties. Aprende sobre estas fascinantes criaturas, mira los videos añadidos recientemente y explora lo que Tokané tiene para ofrecer."
     },
     "eggs": {
-      "title": "Neftie App - Descubre los Orígenes: ¡Desentraña el Misterio de los Huevos de Neftie!",
+      "title": "Neftie GG - Descubre los Orígenes: ¡Desentraña el Misterio de los Huevos de Neftie!",
       "description": "Los huevos sirven como el lugar de nacimiento de estas criaturas místicas, obtenibles de varias fuentes en Seekers of Tokané. Descubre qué huevo es el adecuado para ti."
     },
     "nefties": {
-      "title": "Neftie App - Conoce a tus Nefties: ¡Sumérgete en Elementos, Movimientos y Estrategias!",
+      "title": "Neftie GG - Conoce a tus Nefties: ¡Sumérgete en Elementos, Movimientos y Estrategias!",
       "description": "Descubre y aprende sobre todos los Nefties disponibles en Seekers of Tokané. Organízalos por tipo, explora sus fortalezas, debilidades, movimientos y planifica tu camino hacia la victoria."
     },
     "tier_list": {
-      "title": "Neftie App - Asciende en el Rango: Explora la Lista de Niveles Definitiva de Neftie",
+      "title": "Neftie GG - Asciende en el Rango: Explora la Lista de Niveles Definitiva de Neftie",
       "description": "Explora la lista de niveles de los Nefties y asciende en el rango. Descubre qué criaturas reinan supremas según su efectividad, fuerza y popularidad."
     },
     "videos": {
-      "title": "Neftie App - Explora el Mundo de Tokané: ¡Sumérgete en tutoriales detallados y clips generados por usuarios!",
+      "title": "Neftie GG - Explora el Mundo de Tokané: ¡Sumérgete en tutoriales detallados y clips generados por usuarios!",
       "description": "Experimenta la emoción de la aventura a través de nuestra colección de videos comunitarios. Desde transmisiones oficiales hasta clips divertidos, sumérgete en las desafiantes experiencias de Seekers of Tokané."
     },
     "events": {
-      "title": "Neftie App - Únete a la Aventura: ¡Explora Eventos Oficiales y Comunitarios!",
+      "title": "Neftie GG - Únete a la Aventura: ¡Explora Eventos Oficiales y Comunitarios!",
       "description": "Mantente al día con todos los últimos acontecimientos en Seekers of Tokané. Conoce todos los eventos oficiales y organizados por fanáticos y sé parte de la vibrante comunidad de Aurory."
     },
     "single_event": {
-      "title": "Neftie App - Más Detalles Sobre el Evento {{ event }}",
+      "title": "Neftie GG - Más Detalles Sobre el Evento {{ event }}",
       "description": "Ver más detalles sobre {{ event }}, aprende y gana más y rápido"
     },
     "single_neftie": {

@@ -38,7 +38,7 @@ export const RandomEgg = () => {
                     style={{ width: width }}
                   >
                     <Link
-                      href={`https://neftie.app/neftie/${neftie.name.toLowerCase().replace(" ", "-")}`}
+                      href={`https://neftie.gg/neftie/${neftie.name.toLowerCase().replace(" ", "-")}`}
                     >
                       <img
                         src={`/images/mini-nefties/${neftie.slug}.png`}

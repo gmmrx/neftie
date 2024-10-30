@@ -19,8 +19,8 @@ export default async function RootLayout({
   let jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Neftie App",
-    url: "https://neftie.app/",
+    name: "Neftie GG",
+    url: "https://neftie.gg/",
   };
   const { resources } = await initTranslations(locale, i18nNamespaces);
 
