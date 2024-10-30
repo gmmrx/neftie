@@ -2,7 +2,6 @@
 FROM node:20 AS dependencies
 WORKDIR /app
 COPY package.json ./
-COPY .env ./
 RUN npm install --legacy-peer-deps
 
 # Stage 2: Build the application
