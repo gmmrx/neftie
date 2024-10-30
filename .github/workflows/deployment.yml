@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  docker:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Set up QEMU
@@ -28,14 +28,38 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: bbugraa/neftie-gg:latest
+        env:
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_PASS: ${{ secrets.DB_PASS }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
+          DISCORD_SECRET: ${{ secrets.DISCORD_SECRET }}
+          NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+          NEXT_PUBLIC_ENVIRONMENT: ${{ secrets.NEXT_PUBLIC_ENVIRONMENT }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
-  deploy:
-    needs: docker
-    runs-on: self-hosted
-    steps:
-      - name: Pull image
-        run: docker pull bbugraa/neftie-gg:latest
-      - name: Remove old container
-        run: docker rm -f neftie-gg-container
-      - name: Start container
-        run: docker run -d -p 3000:3000 --name neftie-gg-container bbugraa/neftie-gg:latest
+deploy:
+  needs: build
+  runs-on: self-hosted
+  steps:
+    - name: Pull image
+      run: docker pull bbugraa/neftie-gg:latest
+
+    - name: Remove old container
+      run: docker rm -f neftie-gg-container
+
+    - name: Start container
+      run: |
+        docker run -d -p 3000:3000 \
+          --name neftie-gg-container \
+          -e DB_NAME=${{ secrets.DB_NAME }} \
+          -e DB_PASS=${{ secrets.DB_PASS }} \
+          -e DB_USER=${{ secrets.DB_USER }} \
+          -e DB_HOST=${{ secrets.DB_HOST }} \
+          -e DISCORD_CLIENT_ID=${{ secrets.DISCORD_CLIENT_ID }} \
+          -e DISCORD_SECRET=${{ secrets.DISCORD_SECRET }} \
+          -e NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }} \
+          -e NEXT_PUBLIC_ENVIRONMENT=${{ secrets.NEXT_PUBLIC_ENVIRONMENT }} \
+          -e YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
+          bbugraa/neftie-gg:latest
