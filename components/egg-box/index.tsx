@@ -37,7 +37,7 @@ const EggBox: FC<{ egg: EggsAttributes }> = ({ egg }) => {
   };
 
   return (
-    <div className="p-4 rounded-sm w-[100%] text-center w-auto transition-all relative mt-6 bg-[#121212]">
+    <div className="p-4 rounded-sm w-[100%] text-center transition-all relative mt-6 bg-[#121212]">
       <div className="flex items-start gap-2 relative flex-col-reverse lg:flex-row justify-center">
         <div className="p-4 w-full lg:w-[300px]">
           <div className="font-semibold text-[2rem] uppercase text-center mb-4">

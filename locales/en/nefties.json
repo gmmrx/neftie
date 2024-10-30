@@ -588,8 +588,8 @@
         "description": "Drop the opponent's Defense by 2 stages for 5 turns."
       },
       {
-        "name": "MUD SLIDE II",
-        "description": "Perform a Melee attack of 50 Power. Raise your Defense by 1 for 2 turns."
+        "name": "EARTHQUAKE I",
+        "description": "Perform a Melee attack of 100 Power."
       },
       {
         "name": "LOW BLOW III",

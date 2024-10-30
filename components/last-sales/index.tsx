@@ -106,7 +106,7 @@ export const LastNeftieSales = () => {
                       <span className="">{lastSale.collection.name}</span>
                     </td>
                     <td className="text-xs font-medium text-left px-4">
-                      LEVEL {lastSale.level}
+                      LVL {lastSale.level}
                     </td>
                     <td>
                       <StarsDisplay

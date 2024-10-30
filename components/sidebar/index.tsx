@@ -8,7 +8,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 
-const Sidebar = ({ isTopBar = false, isOpened = false }) => {
+const Sidebar = ({
+  isTopBar = false,
+  isOpened = false,
+  toggleTopBar = null,
+}) => {
   const { data: session } = useSession();
   const { t, i18n } = useTranslation();
   const router = useRouter();
@@ -83,8 +87,14 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
           )}
 
           <div className="flex flex-col items-start justify-between gap-4 w-full">
-            <Link href="/" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm w-full">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm w-full">
                 <LayoutDashboard
                   size={23}
                   className={`${isSidebarOpen ? "" : "mx-auto"}`}
@@ -92,8 +102,14 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
                 {isSidebarOpen ? t("translation:home") : ""}
               </div>
             </Link>
-            <Link href="/eggs" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/eggs"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
                   height={"25px"}
@@ -119,8 +135,14 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
                 )}
               </div>
             </Link>
-            <Link href="/nefties" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/nefties"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
                   height={"25px"}
@@ -153,8 +175,8 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
               </div>
             </Link>
 
-            {/* <Link href="/bosses" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            {/* <Link onClick={() => { if(isTopBar) toggleTopBar(false); }} href="/bosses" className="w-full">
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
                   height={"25px"}
@@ -218,8 +240,14 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
                 {isSidebarOpen ? "Bosses" : ""}
               </div>
             </Link> */}
-            <Link href="/tier-list" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/tier-list"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
                   height={"25px"}
@@ -239,22 +267,34 @@ const Sidebar = ({ isTopBar = false, isOpened = false }) => {
                 {isSidebarOpen ? t("translation:tier_list") : ""}
               </div>
             </Link>
-            <Link href="/videos" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/videos"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <Play className={`w-[1.5625rem]`} />
                 {isSidebarOpen ? t("translation:videos") : ""}
               </div>
             </Link>
-            <Link href="/tutorials" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/tutorials"
+              className="w-full"
+            >
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <GraduationCap className={`w-[1.5625rem]`} />
                 {isSidebarOpen
                   ? t("translation:video_categories.tutorials.title")
                   : ""}
               </div>
             </Link>
-            {/* <Link href="/items" className="w-full">
-              <div className="text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
+            {/* <Link onClick={() => { if(isTopBar) toggleTopBar(false); }} href="/items" className="w-full">
+              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
                 <svg
                   width={isSidebarOpen ? "25px" : "100%"}
                   height={"25px"}

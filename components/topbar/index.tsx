@@ -25,7 +25,7 @@ const Topbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="w-full bg-black h-[80px] pl-8 pr-8 lg:pr-[4rem] flex justify-between lg:justify-end items-center gap-8">
+    <div className="w-full bg-black h-[80px] pl-2 pr-2 lg:pr-[4rem] flex justify-between lg:justify-end items-center gap-8">
       <div className="lg:hidden">
         <div className="flex items-center gap-3">
           <a href="/" className="flex items-center gap-3">
@@ -113,7 +113,11 @@ const Topbar = () => {
           )}
         </div>
       </div>
-      <Sidebar isTopBar={true} isOpened={isMobileSidebarOpened} />
+      <Sidebar
+        isTopBar={true}
+        isOpened={isMobileSidebarOpened}
+        toggleTopBar={setIsMobileSidebarOpened}
+      />
     </div>
   );
 };
