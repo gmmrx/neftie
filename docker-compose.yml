@@ -1,0 +1,10 @@
+services:
+  app:
+    image: bbugraa/neftie-gg:latest
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: always

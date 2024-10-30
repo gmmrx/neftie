@@ -1,0 +1,39 @@
+name: Deploy Neftie.GG Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login docker hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          tags: bbugraa/neftie-gg:latest
+
+  deploy:
+    needs: docker
+    runs-on: self-hosted
+    steps:
+      - name: Pull image
+        run: docker pull bbugraa/neftie-gg:latest
+      - name: Remove old container
+        run: docker rm -f neftie-gg-container
+      - name: Start container
+        run: docker run -d -p 3000:3000 --name neftie-gg-container bbugraa/neftie-gg:latest
