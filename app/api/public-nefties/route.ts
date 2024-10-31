@@ -97,8 +97,9 @@ async function handleGet(req: NextRequest) {
     });
   } catch (e) {
     console.log(e);
-    return new Response("Something went wrong", {
+    return Response.json({
       status: 500,
+      data: e,
     });
   }
 }
