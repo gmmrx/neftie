@@ -102,6 +102,9 @@
     },
     "marsh": {
       "description": "The marsh egg, formed from swamp vegetation, appears delicate yet sturdy, giving way slightly to pressure while retaining its shape."
+    },
+    "pumpkin": {
+      "description": "Resembling a pumpkin in texture, the egg’s shell is used to bake pies in honor of the Harvest Moon celebration. Earned during the Halloween 2024 Event."
     }
   },
   "errors": {

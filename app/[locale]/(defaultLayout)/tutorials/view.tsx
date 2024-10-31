@@ -37,34 +37,10 @@ const tutorialCategories = [
         user_id: 1,
         thumbnail: "https://i.ytimg.com/vi/2HfnoekBnqY/hqdefault.jpg",
       },
-      {
-        id: 3,
-        name: "How to Withdraw or Deposit $AURY & $USDC",
-        description: "",
-        yt_url: "Ukb1n21qOKw",
-        is_official: false,
-        is_for_children: true,
-        locale: "en",
-        status: "APPROVED",
-        user_id: 1,
-        thumbnail: "https://i.ytimg.com/vi/Ukb1n21qOKw/hqdefault.jpg",
-      },
-      {
-        id: 4,
-        name: "How to Send Items?",
-        description: "",
-        yt_url: "h8_YW9cTFSs",
-        is_official: false,
-        is_for_children: true,
-        locale: "en",
-        status: "APPROVED",
-        user_id: 1,
-        thumbnail: "https://i.ytimg.com/vi/h8_YW9cTFSs/hqdefault.jpg",
-      },
     ],
   },
   {
-    category: "Lands (PvE)",
+    category: "Gameplay Basics",
     tutorials: [
       {
         id: 5,
@@ -90,9 +66,71 @@ const tutorialCategories = [
         user_id: 2,
         thumbnail: "https://i.ytimg.com/vi/sDMyM76ep2Y/hqdefault.jpg",
       },
+      {
+        id: 4,
+        name: "How to Send Items?",
+        description: "",
+        yt_url: "h8_YW9cTFSs",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/h8_YW9cTFSs/hqdefault.jpg",
+      },
     ],
   },
-
+  {
+    category: "Special Events",
+    tutorials: [
+      {
+        id: 7,
+        name: "Your First Event! (Halloween)",
+        description: "",
+        yt_url: "QyBES4TKSUY",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/QyBES4TKSUY/hqdefault.jpg",
+      },
+    ],
+  },
+  {
+    category: "Customization",
+    tutorials: [
+      {
+        id: 7,
+        name: "How to use Skins for Nefties?",
+        description: "",
+        yt_url: "GHD0NAm4p7I",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/GHD0NAm4p7I/hqdefault.jpg",
+      },
+    ],
+  },
+  {
+    category: "In-Game Currency & Transactions",
+    tutorials: [
+      {
+        id: 3,
+        name: "How to Withdraw or Deposit $AURY & $USDC",
+        description: "",
+        yt_url: "Ukb1n21qOKw",
+        is_official: false,
+        is_for_children: true,
+        locale: "en",
+        status: "APPROVED",
+        user_id: 1,
+        thumbnail: "https://i.ytimg.com/vi/Ukb1n21qOKw/hqdefault.jpg",
+      },
+    ],
+  },
   // Add more categories as needed
 ];
 

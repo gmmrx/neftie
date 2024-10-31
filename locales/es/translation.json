@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "El huevo de pantano, formado por vegetación de pantano, parece delicado pero resistente, cediendo ligeramente a la presión mientras mantiene su forma."
+    },
+    "pumpkin": {
+      "description": "Con una textura similar a la de una calabaza, la cáscara del huevo se utiliza para hornear tartas en honor a la celebración de la Luna de la Cosecha. Obtenido durante el Evento de Halloween 2024."
     }
   },
   "errors": {

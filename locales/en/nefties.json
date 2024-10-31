@@ -648,5 +648,31 @@
         "description": "Raise your Attack and Speed by 2 stages for 2 turns."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "This pumpkin-like Neftie is a farmer’s best tool for scaring away sparrows. Its calm demeanor allows it to remain motionless for hours, keeping pests at bay.",
+    "element": "plant",
+    "skills": [
+      {
+        "name": "FIENDISH PYRE I",
+        "description": "Perform a Melee attack of 20 Power. If your opponent is currently Cursed, earn 1 more Hype."
+      },
+      {
+        "name": "SOW II",
+        "description": "Inflict Curse to the opponent. After a countdown of 5 turns, Curse deals 35% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
+      },
+      {
+        "name": "REAP II",
+        "description": "Inflict Curse to the opponent. After a countdown of 2 turns, Curse deals 20% of the opponent's max HP. Reapplying Curse increases initial Curse damage by 50%. This effect can stack and does not reset Curse duration."
+      },
+      {
+        "name": "RETRIBUTION II",
+        "description": "Perform a Melee Attack of 55 Power. Deal double damage if the opponent is currently Cursed."
+      },
+      {
+        "name": "DEVOUR III",
+        "description": "Dodge one attack this turn action. If triggered, Perform a Melee attack of 50 Power, then heal yourself for 13% of your max HP and Cleanse status effects on yourself."
+      }
+    ]
   }
 }

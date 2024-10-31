@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "L'uovo di palude, formato dalla vegetazione paludosa, sembra delicato ma robusto, cedendo leggermente alla pressione pur mantenendo la sua forma."
+    },
+    "pumpkin": {
+      "description": "Con una consistenza simile a una zucca, il guscio dell'uovo viene usato per cuocere torte in onore della festa della Luna del Raccolto. Ottenuto durante l'evento Halloween 2024."
     }
   },
   "errors": {

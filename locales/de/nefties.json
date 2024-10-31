@@ -648,5 +648,32 @@
         "description": "Erhöht deinen Angriff und deine Geschwindigkeit für 2 Runden um 2 Stufen."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Dieser kürbisartige Neftie ist das beste Werkzeug eines Bauern, um Spatzen zu verscheuchen. Seine ruhige Art ermöglicht es ihm, stundenlang regungslos zu bleiben und Schädlinge fernzuhalten.",
+    "element": "pflanze",
+    "skills": [
+      {
+        "name": "TEUFELSFACKEL I",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn dein Gegner derzeit verflucht ist, erhältst du 1 Hype zusätzlich."
+      },
+      {
+        "name": "SÄEN II",
+        "description": "Belege den Gegner mit einem Fluch. Nach einem Countdown von 5 Runden verursacht der Fluch 35% des maximalen HP des Gegners. Das erneute Anwenden des Fluchs erhöht den anfänglichen Fluchschaden um 50%. Dieser Effekt kann gestapelt werden und setzt die Fluchdauer nicht zurück."
+      },
+      {
+        "name": "ERNTEN II",
+        "description": "Belege den Gegner mit einem Fluch. Nach einem Countdown von 2 Runden verursacht der Fluch 20% des maximalen HP des Gegners. Das erneute Anwenden des Fluchs erhöht den anfänglichen Fluchschaden um 50%. Dieser Effekt kann gestapelt werden und setzt die Fluchdauer nicht zurück."
+      },
+      {
+        "name": "VERGELTUNG II",
+        "description": "Führe einen Nahkampfangriff mit 55 Stärke aus. Füge doppelten Schaden zu, wenn der Gegner derzeit verflucht ist."
+      },
+      {
+        "name": "VERSCHLINGEN III",
+        "description": "Weiche in dieser Runde einem Angriff aus. Falls ausgelöst, führe einen Nahkampfangriff mit 50 Stärke aus, heile dich um 13% deines maximalen HP und entferne Status-Effekte von dir."
+      }
+    ]
   }
+
 }

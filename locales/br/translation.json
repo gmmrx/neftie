@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "O ovo de pântano, formado pela vegetação do pântano, parece delicado, mas resistente, cedendo ligeiramente à pressão enquanto mantém sua forma."
+    },
+    "pumpkin": {
+      "description": "Semelhante a uma abóbora em textura, a casca do ovo é usada para assar tortas em homenagem à celebração da Lua da Colheita. Conquistado durante o Evento de Halloween de 2024."
     }
   },
   "errors": {

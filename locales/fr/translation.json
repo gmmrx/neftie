@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "L'œuf de marais, formé de végétation marécageuse, semble délicat mais robuste, cédant légèrement à la pression tout en conservant sa forme."
+    },
+    "pumpkin": {
+      "description": "Ressemblant à une citrouille en texture, la coquille de l'œuf est utilisée pour préparer des tartes en l'honneur de la célébration de la Lune des Moissons. Gagné lors de l'événement Halloween 2024."
     }
   },
   "errors": {

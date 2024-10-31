@@ -648,5 +648,31 @@
         "description": "Aumente seu Ataque e Velocidade em 2 níveis por 2 turnos."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Este Neftie em forma de abóbora é a melhor ferramenta de um agricultor para espantar pardais. Seu temperamento calmo permite-lhe permanecer imóvel por horas, mantendo as pragas afastadas.",
+    "element": "planta",
+    "skills": [
+      {
+        "name": "FOGUEIRA MALIGNA I",
+        "description": "Realiza um ataque corpo a corpo com 20 de Poder. Se o oponente estiver atualmente Amaldiçoado, ganhe 1 Hype adicional."
+      },
+      {
+        "name": "SEMEADURA II",
+        "description": "Inflige uma Maldição no oponente. Após uma contagem de 5 turnos, a Maldição causa 35% do HP máximo do oponente. Reaplicar a Maldição aumenta o dano inicial em 50%. Este efeito pode acumular e não redefine a duração da Maldição."
+      },
+      {
+        "name": "CEIFAR II",
+        "description": "Inflige uma Maldição no oponente. Após uma contagem de 2 turnos, a Maldição causa 20% do HP máximo do oponente. Reaplicar a Maldição aumenta o dano inicial em 50%. Este efeito pode acumular e não redefine a duração da Maldição."
+      },
+      {
+        "name": "RETRIBUIÇÃO II",
+        "description": "Realiza um ataque corpo a corpo com 55 de Poder. Causa dano dobrado se o oponente estiver atualmente Amaldiçoado."
+      },
+      {
+        "name": "DEVORAR III",
+        "description": "Desvia de um ataque nesta ação de turno. Se for acionado, realiza um ataque corpo a corpo com 50 de Poder, cura-se em 13% do seu HP máximo e remove efeitos de status em si próprio."
+      }
+    ]
   }
 }

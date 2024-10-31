@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "Bataklık bitki örtüsünden oluşan bataklık yumurtası, narin ama sağlam görünür, baskıya hafifçe yol verirken şeklini korur."
+    },
+    "pumpkin": {
+      "description": "Doku olarak bir balkabağına benzeyen yumurta kabuğu, Hasat Ayı kutlaması onuruna turta yapmak için kullanılır. 2024 Cadılar Bayramı Etkinliği sırasında kazanıldı."
     }
   },
   "errors": {

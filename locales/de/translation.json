@@ -99,6 +99,9 @@
     },
     "marsh": {
       "description": "Das Marsh-Ei, das aus Sumpfvegetation geformt ist, wirkt zart, aber robust, gibt leicht nach Druck nach, behält aber seine Form."
+    },
+    "pumpkin": {
+      "description": "Mit einer Kürbis-ähnlichen Textur wird die Eierschale verwendet, um Kuchen zu Ehren des Erntemondfestes zu backen. Verdient während des Halloween-Events 2024."
     }
   },
   "errors": {

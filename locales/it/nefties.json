@@ -648,5 +648,31 @@
         "description": "Aumenta il tuo Attacco e la tua Velocità di 2 livelli per 2 turni."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Questo Neftie simile a una zucca è lo strumento migliore di un contadino per spaventare i passeri. Il suo temperamento calmo gli permette di rimanere immobile per ore, tenendo lontani i parassiti.",
+    "element": "pianta",
+    "skills": [
+      {
+        "name": "PIOGGIA MALEFICA I",
+        "description": "Esegui un attacco corpo a corpo di 20 Potenza. Se l'avversario è attualmente Maledetto, guadagna 1 Hype in più."
+      },
+      {
+        "name": "SEMINA II",
+        "description": "Infliggi Maledizione all'avversario. Dopo un conto alla rovescia di 5 turni, la Maledizione infligge il 35% degli HP massimi dell'avversario. Riapplicare la Maledizione aumenta il danno iniziale del 50%. Questo effetto può accumularsi e non reimposta la durata della Maledizione."
+      },
+      {
+        "name": "RACCOLTO II",
+        "description": "Infliggi Maledizione all'avversario. Dopo un conto alla rovescia di 2 turni, la Maledizione infligge il 20% degli HP massimi dell'avversario. Riapplicare la Maledizione aumenta il danno iniziale del 50%. Questo effetto può accumularsi e non reimposta la durata della Maledizione."
+      },
+      {
+        "name": "RETRIBUZIONE II",
+        "description": "Esegui un attacco corpo a corpo di 55 Potenza. Infligge danni doppi se l'avversario è attualmente Maledetto."
+      },
+      {
+        "name": "DIVORARE III",
+        "description": "Schiva un attacco in questa azione di turno. Se attivato, esegui un attacco corpo a corpo di 50 Potenza, cura te stesso del 13% dei tuoi HP massimi e pulisci gli effetti di stato su di te."
+      }
+    ]
   }
 }

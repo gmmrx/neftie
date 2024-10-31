@@ -649,5 +649,31 @@
         "description": "Aumente seu Ataque e Velocidade em 2 níveis por 2 turnos."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Este Neftie parecido com uma abóbora é a melhor ferramenta de um fazendeiro para assustar pardais. Seu temperamento calmo permite que ele permaneça imóvel por horas, mantendo as pragas afastadas.",
+    "element": "planta",
+    "skills": [
+      {
+        "name": "FOGARÉU DIABÓLICO I",
+        "description": "Realize um ataque corpo a corpo com 20 de Poder. Se o oponente estiver atualmente Amaldiçoado, ganhe 1 Hype extra."
+      },
+      {
+        "name": "SEMEAR II",
+        "description": "Inflige Maldição no oponente. Após uma contagem regressiva de 5 turnos, a Maldição causa 35% do HP máximo do oponente. Reaplicar Maldição aumenta o dano inicial em 50%. Esse efeito pode acumular e não redefine a duração da Maldição."
+      },
+      {
+        "name": "COLHER II",
+        "description": "Inflige Maldição no oponente. Após uma contagem regressiva de 2 turnos, a Maldição causa 20% do HP máximo do oponente. Reaplicar Maldição aumenta o dano inicial em 50%. Esse efeito pode acumular e não redefine a duração da Maldição."
+      },
+      {
+        "name": "RETRIBUIÇÃO II",
+        "description": "Realize um ataque corpo a corpo com 55 de Poder. Causa dano dobrado se o oponente estiver atualmente Amaldiçoado."
+      },
+      {
+        "name": "DEVORAR III",
+        "description": "Desvie de um ataque nesta ação de turno. Se acionado, realize um ataque corpo a corpo com 50 de Poder, cure-se em 13% do seu HP máximo e limpe os efeitos de status em você."
+      }
+    ]
   }
 }

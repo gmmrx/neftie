@@ -649,5 +649,31 @@
         "description": "Saldırınızı ve Hızınızı 2 tur boyunca 2 aşama artırın."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Bu balkabağı benzeri Neftie, serçeleri korkutmak için bir çiftçinin en iyi aracıdır. Sakin tavrı, zararlıları uzak tutarak saatlerce hareketsiz kalmasını sağlar.",
+    "element": "bitki",
+    "skills": [
+      {
+        "name": "ŞEYTANİ ALEV I",
+        "description": "20 Güçlük bir Yakın Dövüş saldırısı yap. Rakibin şu anda Lanetliyse, fazladan 1 Hype kazan."
+      },
+      {
+        "name": "EKİM II",
+        "description": "Rakibe Lanet uygula. 5 tur geri sayımdan sonra, Lanet rakibin maksimum HP'sinin %35'ini hasar verir. Laneti tekrar uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikebilir ve Lanet süresini sıfırlamaz."
+      },
+      {
+        "name": "HASAT II",
+        "description": "Rakibe Lanet uygula. 2 tur geri sayımdan sonra, Lanet rakibin maksimum HP'sinin %20'sini hasar verir. Laneti tekrar uygulamak, ilk Lanet hasarını %50 artırır. Bu etki birikebilir ve Lanet süresini sıfırlamaz."
+      },
+      {
+        "name": "İNTİKAM II",
+        "description": "55 Güçlük bir Yakın Dövüş saldırısı yap. Rakip şu anda Lanetliyse çift hasar ver."
+      },
+      {
+        "name": "YUTMA III",
+        "description": "Bu tur bir saldırıdan kaç. Eğer tetiklenirse, 50 Güçlük bir Yakın Dövüş saldırısı yap, maksimum HP'nin %13'ünü iyileştir ve üzerindeki durumlardan arın."
+      }
+    ]
   }
 }

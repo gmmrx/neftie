@@ -648,5 +648,32 @@
         "description": "Aumenta tu Ataque y Velocidad en 2 niveles durante 2 turnos."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Este Neftie similar a una calabaza es la mejor herramienta de un granjero para ahuyentar gorriones. Su temperamento tranquilo le permite permanecer inmóvil durante horas, manteniendo a raya las plagas.",
+    "element": "planta",
+    "skills": [
+      {
+        "name": "HOGUERA DEMONÍACA I",
+        "description": "Realiza un ataque cuerpo a cuerpo con 20 de Poder. Si el oponente está actualmente Maldito, gana 1 Hype adicional."
+      },
+      {
+        "name": "SEMBRAR II",
+        "description": "Inflige Maldición al oponente. Después de una cuenta regresiva de 5 turnos, la Maldición causa el 35% del HP máximo del oponente. Reaplicar Maldición aumenta el daño inicial en un 50%. Este efecto puede acumularse y no reinicia la duración de la Maldición."
+      },
+      {
+        "name": "COSECHAR II",
+        "description": "Inflige Maldición al oponente. Después de una cuenta regresiva de 2 turnos, la Maldición causa el 20% del HP máximo del oponente. Reaplicar Maldición aumenta el daño inicial en un 50%. Este efecto puede acumularse y no reinicia la duración de la Maldición."
+      },
+      {
+        "name": "RETRIBUCIÓN II",
+        "description": "Realiza un ataque cuerpo a cuerpo con 55 de Poder. Inflige daño doble si el oponente está actualmente Maldito."
+      },
+      {
+        "name": "DEVORAR III",
+        "description": "Esquiva un ataque en esta acción de turno. Si se activa, realiza un ataque cuerpo a cuerpo con 50 de Poder, te cura un 13% de tu HP máximo y elimina los efectos de estado en ti."
+      }
+    ]
   }
+
 }

@@ -648,5 +648,32 @@
         "description": "Augmentez votre Attaque et votre Vitesse de 2 niveaux pendant 2 tours."
       }
     ]
+  },
+  "hollowoo": {
+    "description": "Ce Neftie en forme de citrouille est l'outil idéal d'un fermier pour effrayer les moineaux. Son tempérament calme lui permet de rester immobile pendant des heures, éloignant ainsi les nuisibles.",
+    "element": "plante",
+    "skills": [
+      {
+        "name": "BRASIER DIABOLIQUE I",
+        "description": "Effectue une attaque de mêlée de 20 Puissance. Si l'adversaire est actuellement Maudit, gagnez 1 Hype de plus."
+      },
+      {
+        "name": "SEMER II",
+        "description": "Inflige une Malédiction à l'adversaire. Après un compte à rebours de 5 tours, la Malédiction inflige 35% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+      },
+      {
+        "name": "RÉCOLTER II",
+        "description": "Inflige une Malédiction à l'adversaire. Après un compte à rebours de 2 tours, la Malédiction inflige 20% des PV max de l'adversaire. Réappliquer la Malédiction augmente les dégâts initiaux de 50%. Cet effet peut s'accumuler et ne réinitialise pas la durée de la Malédiction."
+      },
+      {
+        "name": "RÉTRIBUTION II",
+        "description": "Effectue une attaque de mêlée de 55 Puissance. Inflige le double de dégâts si l'adversaire est actuellement Maudit."
+      },
+      {
+        "name": "DÉVORER III",
+        "description": "Esquive une attaque pendant cette action de tour. Si déclenché, effectue une attaque de mêlée de 50 Puissance, se soigne de 13% de ses PV max et élimine les effets de statut sur soi-même."
+      }
+    ]
   }
+
 }
