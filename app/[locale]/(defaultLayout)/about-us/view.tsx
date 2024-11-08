@@ -114,8 +114,8 @@ const AboutUs: NextPage = () => {
             and be part of our growing community:
             <div className="my-4" />
             Follow us on X:{" "}
-            <a href="https://x.com/neftieapp" target="_blank">
-              <strong>@NeftieApp</strong>
+            <a href="https://x.com/neftiegg" target="_blank">
+              <strong>@NeftieGG</strong>
             </a>
           </div>
         </div>

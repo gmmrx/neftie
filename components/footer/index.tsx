@@ -35,7 +35,7 @@ const Footer = () => {
             <a href="https://github.com/gmmrx/neftie" target="_blank">
               <Github size={18} />
             </a>
-            <a href="https://x.com/neftieapp" target="_blank">
+            <a href="https://x.com/neftiegg" target="_blank">
               <Twitter size={18} />
             </a>
           </div>
