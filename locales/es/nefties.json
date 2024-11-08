@@ -173,7 +173,7 @@
       },
       {
         "name": "ESPEJO DE ABRIGO II",
-        "description": "Refleja al oponente el 85% del daño causado por ataques cuerpo a cuerpo en esta acción de turno. Tú recibes el daño restante. Si se activa, limpia los efectos de estado en el oponente."
+        "description": "Refleja al oponente el 85% del daño infligido por un ataque en este turno. Recibes el daño restante. Si se activa, elimina los efectos de estado en el oponente."
       },
       {
         "name": "PURGA DE SYLPHOR",

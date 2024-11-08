@@ -173,7 +173,7 @@
       },
       {
         "name": "MIROIR DE COAT II",
-        "description": "Réfléchit à l'adversaire 85% des dégâts infligés par les attaques de Mêlée cette action de tour. Vous subissez les dégâts restants. Si déclenché, nettoyez les effets de statut sur l'adversaire."
+        "description": "Réfléchissez 85 % des dégâts infligés par une attaque au cours de ce tour à l'adversaire. Vous subissez les dégâts restants. Si déclenché, purifie les effets de statut de l'adversaire."
       },
       {
         "name": "PURGE DE SYLPHOR",

@@ -173,7 +173,7 @@
       },
       {
         "name": "SPECCHIO COAT II",
-        "description": "Rifletti all'avversario l'85% dei danni inflitti dagli attacchi corpo a corpo in questa azione di turno. Subisci i danni rimanenti. Se attivato, purifica gli effetti di stato sull'avversario."
+        "description": "Rifletti l'85% del danno inflitto da un attacco in questo turno sull'avversario. Subisci il danno rimanente. Se attivato, rimuovi gli effetti di stato sull'avversario."
       },
       {
         "name": "PURIFICAZIONE DI SYLPHOR",

@@ -173,10 +173,10 @@
       },
       {
         "name": "MIRROR COAT II",
-        "description": "Reflect back to the opponent 85% of the damage dealt by Melee attacks this turn action. You take the remaining damage. If triggered, Cleanse status effects on the opponent."
+        "description": "Reflect back to the opponent 85% of the damage dealt by one attack this turn action. You take the remaining damage. If triggered, Cleanse status effects on the opponent."
       },
       {
-        "name": " SYLPHOR’S PURGE",
+        "name": "SYLPHOR’S PURGE",
         "description": "Cleanse yourself. Then, perform a Ranged attack of 160 Power."
       }
     ]

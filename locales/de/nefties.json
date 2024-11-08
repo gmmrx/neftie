@@ -173,7 +173,7 @@
       },
       {
         "name": "SPIEGELSCHILD II",
-        "description": "Reflektiere 85% des Schadens von Nahkampfangriffen in dieser Runde an den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, reinige Status-Effekte beim Gegner."
+        "description": "Reflektiere 85 % des Schadens eines Angriffs in dieser Runde auf den Gegner zurück. Du nimmst den verbleibenden Schaden. Wenn ausgelöst, reinige Status-Effekte beim Gegner."
       },
       {
         "name": "SYLPHORS REINIGUNG",

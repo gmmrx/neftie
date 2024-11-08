@@ -174,7 +174,7 @@
       },
       {
         "name": "REVESTIMENTO DE ESPELHO II",
-        "description": "Reflete de volta para o oponente 85% do dano causado por ataques corpo a corpo nesta ação de turno. Você recebe o dano restante. Se ativado, purifica os efeitos de status no oponente."
+        "description": "Reflete de volta ao oponente 85% do dano causado por um ataque nesta rodada. Você recebe o dano restante. Se ativado, remove os efeitos de status do oponente."
       },
       {
         "name": "PURIFICAÇÃO DE SYLPHOR",
