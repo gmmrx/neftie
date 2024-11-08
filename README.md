@@ -29,14 +29,4 @@ Our primary objective is to support multiple languages comprehensively. Currentl
 
 ## Developer's Note
 
-In this initial version, I aimed for simplicity to facilitate user onboarding. While I've endeavored to address every aspect single-handedly, some TypeScript errors remain unresolved. Your contributions and feedback are highly valued and crucial for the app's evolution. Feel free to dive in to our To Do List and help improve our project!
-
-
-### To Do List
-
-- [ ] Discord Bot for checking holder status
-- [ ] Better auth handling with Next Auth
-- [ ] Require holder status for `Tier List`voting
-- [ ] Egg management system
-- [ ] Neftie management system
-- [ ] Videos management system
+In this initial version, I aimed for simplicity to facilitate user onboarding. While I've endeavored to address every aspect single-handedly, some TypeScript errors remain unresolved. Your contributions and feedback are highly valued and crucial for the app's evolution.
