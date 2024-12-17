@@ -12,8 +12,8 @@
         "description": "Bu turda bir saldırıdan kaçın. Eğer tetiklenirse, Hızınızı 2 tur boyunca 1 kademe artırın.."
       },
       {
-        "name": "ÇÜRÜK ASMA I",
-        "description": "Rakibe 2 tur boyunca Zehir uygula. Her turun sonunda, Zehir maksimum HP'nin %10'ü kadar hasar verir."
+        "name": "YUT III",
+        "description": "Bu turda bir saldırıdan kaçın. Etkinleşirse, 50 Güçlü bir Yakın Dövüş saldırısı yap, maksimum HP'nin %13'ünü iyileştir ve üzerindeki durum etkilerini temizle."
       },
       {
         "name": "YILDIRIM YUMRUĞU II",
@@ -121,7 +121,7 @@
       },
       {
         "name": "ÇARPIŞAN DALGA II",
-        "description": "70 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
+        "description": "55 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
       },
       {
         "name": "VOLT DALGASI III",
@@ -134,12 +134,12 @@
     "element": "earth",
     "skills": [
       {
-        "name": "ENERJİK YUMRUK I",
-        "description": "Savunman 2 tur boyunca 1 aşama düşer."
+        "name": "ADRENALİN VURUŞU II",
+        "description": "20 Güçlü bir Yakın Dövüş saldırısı gerçekleştir. Eğer isabet ederse, 3 Hype kazan."
       },
       {
-        "name": "KALIN KABUK I",
-        "description": "Savunmanızı 2 tur boyunca 2 aşama artırın."
+        "name": "ŞANSLI REFLEKSLER II",
+        "description": "Bu turda bir Yakın Dövüş saldırısıyla saldırıya uğrarsan, saldırıdan kaçın ve ardından 50 Güçlü bir Karşı Saldırı gerçekleştir. Etkinleşirse, rakibin Savunmasını 2 tur boyunca 1 aşama düşür."
       },
       {
         "name": "TEMİZLEYİCİ GELGİT I",
@@ -191,7 +191,7 @@
       },
       {
         "name": "FİDAN DARBESİ II",
-        "description": "35 Güçlü bir Yakın Dövüş saldırısı yap."
+        "description": "50 Güçlü bir Yakın Dövüş saldırısı yap."
       },
       {
         "name": "BAHARAT KATMANI II",
@@ -212,8 +212,8 @@
     "element": "fire",
     "skills": [
       {
-        "name": "YAŞAM DOKUNUŞU RİTÜELİ I",
-        "description": "10 Güçlü bir Kendine Saldırı yap."
+        "name": "ZİRVE DURUMU I",
+        "description": "HP'nize orantılı Hype üretin: Maksimum sağlıkta 4, kritik seviyede 1'e düşer."
       },
       {
         "name": "AURANY'NİN ÖFKESİ II",
@@ -224,8 +224,8 @@
         "description": "Bir saldırıdan kaç ve bu turda hedef alınmışsan 40 Güçlü bir Karşı Saldırı yap."
       },
       {
-        "name": "ALEV SALDIRISI II",
-        "description": "70 Güçlü bir Menzilli saldırı yap. Eğer mevcut HP'nin rakibinkinden düşükse, çift hasar ver."
+        "name": "PARLAYAN YANGIN II",
+        "description": "HP'nize orantılı bir Uzaktan Saldırı gerçekleştirin: Maksimum sağlıkta 60 Güç, kritik seviyede 130 Güce çıkar."
       },
       {
         "name": "DEPREM I",
@@ -269,7 +269,7 @@
       },
       {
         "name": "DAYANMA II",
-        "description": "Bu turda bir saldırının aldığı hasarın %45'sini saptır. Eğer tetiklenirse, 2 Hype kazan."
+        "description": "Bu turda bir saldırının aldığı hasarın %55'sini saptır. Eğer tetiklenirse, 2 Hype kazan."
       },
       {
         "name": "ALEV KIVILCIMI I",
@@ -351,11 +351,11 @@
       },
       {
         "name": "ZEPHYRA'NIN KORUMASI I",
-        "description": "2 tur boyunca maksimum HP'nin %20'si kadar bir Kalkan oluştur."
+        "description": "Maksimum HP'nin %20'sine eşdeğer bir Kalkan oluştur ve 2 tur boyunca gelen durum etkilerinden korun."
       },
       {
         "name": "PARÇALAYICI RÜZGAR II",
-        "description": "Rakibin kalkanını temizle, ardından 105 Güçlü bir Menzilli saldırı yap."
+        "description": "Rakibin kalkanını temizle, ardından 110 Güçlü bir Menzilli saldırı yap."
       },
       {
         "name": "DENGE DEĞİŞİMİ II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPİRİK ÇİÇEK III",
-        "description": "110 Güçlük Uzaktan saldırı gerçekleştir. Şu anda Zehirlenmişseniz, verilen hasarın %50'sini can çalma olarak alın."
+        "description": "110 Güçlük Uzaktan saldırı gerçekleştir. Şu anda Zehirlenmişseniz, verilen hasarın %40'sini can çalma olarak alın."
       }
     ]
   },
@@ -486,7 +486,7 @@
       },
       {
         "name": "ÇARPIŞAN DALGA II",
-        "description": "70 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
+        "description": "55 Güçlük yüksek öncelikli Uzaktan saldırı gerçekleştir. Bu saldırı, Yansıtmalardan, Karşı saldırılardan ve Kaçışlardan önce gelir ve neredeyse her zaman ilk gider."
       },
       {
         "name": "CÖMERT ISIRIK II",
@@ -526,11 +526,11 @@
     "skills": [
       {
         "name": "TOZLAŞTIRMA I",
-        "description": "Maksimum HP'nizin %7'si kadar kendinizi iyileştirin."
+        "description": "HP'ne orantılı olarak kendini iyileştir: Maksimum sağlıkta maksimum HP'nin %7'si, kritik seviyede %15'e çıkar."
       },
       {
         "name": "VIZILDAYAN DANS II",
-        "description": "Bu turdaki bir saldırının verdiği hasarın %40'ını savuşturun, saldırının önceliğine bakılmaksızın. Tetiklenirse, Hızınızı 2 tur boyunca 1 artırın ve 1 Hype kazanın."
+        "description": "Bu turdaki bir saldırının verdiği hasarın %55'ını savuşturun, saldırının önceliğine bakılmaksızın. Tetiklenirse, Hızınızı 2 tur boyunca 1 artırın ve 1 Hype kazanın."
       },
       {
         "name": "DİKENLİ KARŞI SALDIRI II",
@@ -568,7 +568,7 @@
       },
       {
         "name": "ZIRHLI DARBE III",
-        "description": "Düşük öncelikli 150 Güçlük bir Yakın dövüş saldırısı gerçekleştirirken, Saldırı yerine Savunmanızı kullanın. Ardından Savunmanızı 3 tur boyunca 5 aşama düşürün. Bu saldırı neredeyse her zaman en son gerçekleşir."
+        "description": "Düşük Öncelikli, 150 Güçlü bir Yakın Dövüş saldırısı yap ve Saldırı yerine Savunma kullan. Hasarın %20'sini Geri Tepme olarak al. Bu saldırı neredeyse her zaman en son yapılır."
       }
     ]
   },
@@ -599,28 +599,28 @@
     ]
   },
   "dinotusk": {
-    "description": "Dinotusk'lar benzersiz kuyruklarını Tokane'ye bağlanmak, enerji üretmek ve zorlu ortamlarda hayatta kalmak için kullanırlar.",
-    "element": "lightning",
+    "description": "Dinotusk'lar, Tokane ile topraklanmak için benzersiz kuyruklarını kullanır, enerji üretir ve zorlu ortamlarda hayatta kalmalarını sağlar.",
+    "element": "şimşek",
     "skills": [
       {
-        "name": "GÜÇSÜZLEŞTİRİCİ AKIŞ I",
-        "description": "Saldırınız 2 tur boyunca 1 aşama düşer."
+        "name": "ZİRVE DURUMU I",
+        "description": "HP'ne orantılı Hype üret: Maksimum sağlıkta 4, kritik seviyede 1'e düşer."
       },
       {
-        "name": "UMUTSUZ YANSIMA III",
-        "description": "40 Güçlük bir Yakın Dövüş saldırısı yap. Eğer mevcut HP'n rakibininkinden düşükse, 3 ek Hype kazan, ancak Savunmanı 4 tur boyunca 1 kademe düşür."
+        "name": "ÇARESİZ SIÇRAMA III",
+        "description": "40 Güçlü bir Yakın Dövüş Saldırısı gerçekleştir. Mevcut HP'n rakibinkinden düşükse, ek olarak 2 Hype kazan."
       },
       {
-        "name": "ACI YOK, KAZANÇ YOK I",
-        "description": "60 Güçlük kendine saldırı. Savunmanızı 2 tur boyunca 3 aşama artırın."
+        "name": "ACI YOKSA, KAZANÇ YOK I",
+        "description": "Kendine 60 Güçlü bir saldırı yap. Savunmanı 3 tur boyunca 2 seviye artır."
       },
       {
         "name": "PAYLAŞILAN KADER III",
-        "description": "Kendinize ve rakibinize Lanet uygulayın. 3 tur geri sayımdan sonra, Lanet sizin ve rakibinizin maksimum HP'sinin %40'ı kadar hasar verir."
+        "description": "Kendine ve rakibine Lanet uygula. 3 tur geri sayımın ardından Lanet, senin ve rakibinin maksimum HP'sinin %40'ına eşdeğer hasar verir."
       },
       {
-        "name": "ŞARJ PATLAMASI III",
-        "description": "115 Güçlük Uzaktan saldırı gerçekleştirin."
+        "name": "VOLTAJ PATLAMASI III",
+        "description": "115 Güçlü bir Uzaktan Saldırı gerçekleştir."
       }
     ]
   },
@@ -629,8 +629,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "AKICI VURUŞ I",
-        "description": "20 Güçlük Uzaktan saldırı gerçekleştir."
+        "name": "ZİRVE DURUMU I",
+        "description": "HP'ne orantılı Hype üret: Maksimum sağlıkta 4, kritik seviyede 1'e düşer."
       },
       {
         "name": "ETHER KORUMASI II",

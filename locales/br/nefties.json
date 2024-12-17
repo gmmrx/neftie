@@ -12,8 +12,8 @@
         "description": "Esquive um ataque nesta rodada. Se ativado, aumente sua Velocidade em 1 estágio por 2 turnos."
       },
       {
-        "name": "CIPÓ PODRE I",
-        "description": "Inflija Veneno no oponente por 2 turnos. No final de cada turno, o Veneno causa dano igual a 10% do HP máximo."
+        "name": "DEVORAR III",
+        "description": "Desvie de um ataque nesta rodada. Se ativado, realize um ataque Corpo a Corpo de 50 de Poder, cure-se em 13% do seu HP máximo e remova os efeitos negativos em você."
       },
       {
         "name": "SOCO TROVÃO II",
@@ -122,7 +122,7 @@
       },
       {
         "name": "ONDA DE CHOQUE II",
-        "description": "Realiza um ataque à distância de alta prioridade de 70 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
+        "description": "Realiza um ataque à distância de alta prioridade de 55 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
       },
       {
         "name": "SURTO DE VOLTAGEM III",
@@ -135,12 +135,12 @@
     "element": "earth",
     "skills": [
       {
-        "name": "GOLPE ENERGÉTICO I",
-        "description": "Sua Defesa é reduzida em 1 estágio por 2 turnos."
+        "name": "CHUTE DE ADRENALINA II",
+        "description": "Realize um ataque Corpo a Corpo de 20 de Poder. Se acertar, ganhe 3 Hype."
       },
       {
-        "name": "CASACO GROSSO I",
-        "description": "Aumenta sua Defesa em 2 níveis por 2 turnos."
+        "name": "REFLEXOS DE SORTE II",
+        "description": "Desvie e, em seguida, realize um Contra-ataque de 50 de Poder se for atacado por um ataque Corpo a Corpo nesta rodada. Se ativado, reduza a Defesa do oponente em 1 estágio por 2 turnos."
       },
       {
         "name": "MARÉ PURIFICANTE I",
@@ -192,7 +192,7 @@
       },
       {
         "name": "GOLPE DE MUDINHA II",
-        "description": "Realize um ataque corpo a corpo com 35 de Poder."
+        "description": "Realize um ataque corpo a corpo com 50 de Poder."
       },
       {
         "name": "CAMADA DE TEMPEROS II",
@@ -213,8 +213,8 @@
     "element": "fire",
     "skills": [
       {
-        "name": "RITUAL DE DRENAGEM I",
-        "description": "Auto-ataque com 10 de Poder."
+        "name": "ESTADO DE PICO I",
+        "description": "Gere Hype proporcional à sua vida: 4 com vida máxima, caindo para 1 quando estiver criticamente baixo."
       },
       {
         "name": "FÚRIA DE AURANY II",
@@ -225,8 +225,8 @@
         "description": "Desvie uma vez e realize um Contra-Ataque com 40 de Poder se você for alvo de um ataque nesta ação de turno."
       },
       {
-        "name": "DESTRUIÇÃO FURIOSA II",
-        "description": "Realize um ataque à distância com 70 de Poder. Se seu HP atual for menor que o do oponente, cause o dobro de dano."
+        "name": "ARDENDO INTENSAMENTE II",
+        "description": "Realize um ataque à distância proporcional à sua vida: 60 de Poder com vida máxima, aumentando para 130 de Poder quando estiver criticamente baixo."
       },
       {
         "name": "TERREMOTO I",
@@ -270,7 +270,7 @@
       },
       {
         "name": "RESISTIR II",
-        "description": "Desvie 45% do dano recebido por um ataque nesta ação de turno. Se acionado, ganhe 2 Hypes."
+        "description": "Desvie 55% do dano recebido por um ataque nesta ação de turno. Se acionado, ganhe 2 Hypes."
       },
       {
         "name": "FAÍSCA DE FOGO I",
@@ -352,11 +352,11 @@
       },
       {
         "name": "PROTEÇÃO DE ZEPHYRA I",
-        "description": "Levante um Escudo igual a 20% do seu HP máximo por 2 turnos."
+        "description": "Erga um Escudo equivalente a 20% do seu HP máximo e proteja-se de efeitos de status por 2 turnos."
       },
       {
         "name": "VENTO ESTILHACANTE II",
-        "description": "Limpe o escudo do oponente, depois realize um ataque à distância com 105 de Poder."
+        "description": "Limpe o escudo do oponente, depois realize um ataque à distância com 110 de Poder."
       },
       {
         "name": "MUDANÇA DE BALANÇO II",
@@ -438,7 +438,7 @@
       },
       {
         "name": "FLOR VAMPÍRICA III",
-        "description": "Realiza um ataque à distância de 110 Poder. Se estiver atualmente Envenenado, rouba 50% do dano causado como vida."
+        "description": "Realiza um ataque à distância de 110 Poder. Se estiver atualmente Envenenado, rouba 40% do dano causado como vida."
       }
     ]
   },
@@ -486,7 +486,7 @@
       },
       {
         "name": "ONDA DE CHOQUE II",
-        "description": "Realiza um ataque à distância de alta prioridade de 70 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
+        "description": "Realiza um ataque à distância de alta prioridade de 55 Poder. Este ataque ocorre antes de Reflexos, Contra-ataques e Esquivas e quase sempre é o primeiro."
       },
       {
         "name": "MORDIDA GENEROSA II",
@@ -526,11 +526,11 @@
     "skills": [
       {
         "name": "POLINIZAR I",
-        "description": "Cure-se em 7% do seu HP máximo."
+        "description": "Cure-se proporcionalmente ao seu HP: 7% do HP máximo com vida cheia, aumentando para 15% quando estiver criticamente baixo."
       },
       {
         "name": "DANÇA ZUMBIDORA II",
-        "description": "Desvia 40% do dano causado por um ataque nesta ação de turno, independentemente da prioridade do ataque. Se ativado, aumenta sua Velocidade em 1 por 2 turnos e ganha 1 Hype."
+        "description": "Desvia 55% do dano causado por um ataque nesta ação de turno, independentemente da prioridade do ataque. Se ativado, aumenta sua Velocidade em 1 por 2 turnos e ganha 1 Hype."
       },
       {
         "name": "RIPOSTA ESPINHOSA II",
@@ -568,7 +568,7 @@
       },
       {
         "name": "GOLPE BLINDADO III",
-        "description": "Realize um ataque corpo a corpo de baixa prioridade de 150 de Poder usando sua Defesa em vez de Ataque. Em seguida, reduza sua Defesa em 5 estágios por 3 rodadas. Este ataque quase sempre é o último a ser executado."
+        "description": "Realize um ataque Corpo a Corpo de Baixa Prioridade com 150 de Poder, usando sua Defesa em vez do Ataque. Receba 20% do dano como Recúo. Este ataque quase sempre será o último a agir."
       }
     ]
   },
@@ -599,28 +599,28 @@
     ]
   },
   "dinotusk": {
-    "description": "Os Dinotusk usam suas caudas únicas para se conectar a Tokane, gerando energia e permitindo que sobrevivam em ambientes hostis.",
-    "element": "lightning",
+    "description": "Os Dinotusks usam suas caudas únicas para se conectar a Tokane, gerando energia e permitindo a sobrevivência em ambientes hostis.",
+    "element": "relâmpago",
     "skills": [
       {
-        "name": "FLUXO ENFRAQUECEDOR I",
-        "description": "Seu Ataque é reduzido em 1 nível por 2 turnos."
+        "name": "ESTADO DE PICO I",
+        "description": "Gere Hype proporcional ao seu HP: 4 com vida máxima, caindo para 1 quando estiver criticamente baixo."
       },
       {
         "name": "REBOTE DESESPERADO III",
-        "description": "Executa um ataque Corpo a Corpo com 40 de Poder. Se seu HP atual for menor que o do oponente, ganhe 3 Hype adicionais, mas reduza sua Defesa em 1 estágio por 4 turnos."
+        "description": "Realize um ataque Corpo a Corpo de 40 de Poder. Se o seu HP atual for menor que o do oponente, ganhe 2 Hype adicionais."
       },
       {
         "name": "SEM DOR, SEM GANHO I",
-        "description": "Ataque próprio de 60 Poder. Aumente sua Defesa em 2 níveis por 3 turnos."
+        "description": "Auto-ataque de 60 de Poder. Aumente sua Defesa em 2 estágios por 3 turnos."
       },
       {
         "name": "DESTINO COMPARTILHADO III",
-        "description": "Inflige Maldição a si mesmo e ao oponente. Após uma contagem regressiva de 3 turnos, a Maldição causa dano igual a 40% do HP máximo de ambos."
+        "description": "Aplique Maldição em você e no oponente. Após uma contagem regressiva de 3 turnos, a Maldição causa 40% do HP máximo seu e do oponente."
       },
       {
-        "name": "SURTO DE VOLTAGEM III",
-        "description": "Realiza um ataque à distância de 115 Poder."
+        "name": "SURTO VOLT III",
+        "description": "Realize um ataque à distância de 115 de Poder."
       }
     ]
   },
@@ -629,8 +629,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "GOLPE FLUENTE I",
-        "description": "Realiza um ataque à distância de 20 Poder."
+        "name": "ESTADO DE PICO I",
+        "description": "Gere Hype proporcional ao seu HP: 4 com vida máxima, caindo para 1 quando estiver criticamente baixo."
       },
       {
         "name": "ESCUDO DE ÉTER II",

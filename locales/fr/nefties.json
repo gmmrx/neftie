@@ -12,8 +12,8 @@
         "description": "Esquivez une attaque ce tour-ci. Si déclenché, augmentez votre Vitesse d'un niveau pendant 2 tours."
       },
       {
-        "name": "LIANE PUTRIDE I",
-        "description": "Infligez Poison à l'adversaire pendant 2 tours. À la fin de chaque tour, Poison inflige des dégâts égaux à 10% des PV max."
+        "name": "DÉVORER III",
+        "description": "Esquivez une attaque ce tour-ci. Si déclenché, effectuez une attaque de Mêlée de 50 de Puissance, soignez-vous de 13% de vos PV max et purifiez les effets de statut sur vous."
       },
       {
         "name": "COUP DE TONNERRE II",
@@ -121,7 +121,7 @@
       },
       {
         "name": "VAGUE DÉFERLANTE II",
-        "description": "Effectuer une attaque à distance de haute priorité de 70 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
+        "description": "Effectuer une attaque à distance de haute priorité de 55 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
       },
       {
         "name": "SURCHARGE DE VOLT III",
@@ -134,12 +134,12 @@
     "element": "earth",
     "skills": [
       {
-        "name": "COUP ÉNERGÉTIQUE I",
-        "description": "Votre Défense est réduite de 1 niveau pendant 2 tours."
+        "name": "COUP D'ADRÉNALINE II",
+        "description": "Effectuez une attaque de Mêlée de 20 de Puissance. Si elle touche, gagnez 3 Hype."
       },
       {
-        "name": "ÉPAIS MANTEAU I",
-        "description": "Augmentez votre Défense de 2 niveaux pendant 2 tours."
+        "name": "RÉFLEXES CHANCEUX II",
+        "description": "Esquivez puis effectuez une Contre-attaque de 50 de Puissance si vous êtes attaqué par une attaque de Mêlée ce tour-ci. Si déclenché, réduisez la Défense de l'adversaire d'un niveau pendant 2 tours."
       },
       {
         "name": "MARÉE PURIFIANTE I",
@@ -191,7 +191,7 @@
       },
       {
         "name": "COUP DE POUSSE II",
-        "description": "Effectuez une attaque au corps à corps de 35 de puissance."
+        "description": "Effectuez une attaque au corps à corps de 50 de puissance."
       },
       {
         "name": "COUCHE D'ÉPICES II",
@@ -212,8 +212,8 @@
     "element": "fire",
     "skills": [
       {
-        "name": "RITUEL DE TAPAGE DE VIE I",
-        "description": "Auto-attaque de 10 de puissance."
+        "name": "ÉTAT DE POINTE I",
+        "description": "Générez du Hype proportionnel à vos PV : 4 à pleine santé, descendant à 1 lorsque vos PV sont extrêmement bas."
       },
       {
         "name": "RAGE D'AURANY II",
@@ -224,8 +224,8 @@
         "description": "Esquivez une fois et effectuez une contre-attaque de 40 de puissance si vous êtes ciblé par une attaque cette action de tour."
       },
       {
-        "name": "RAMPAGE ENFLAMMÉ II",
-        "description": "Effectuez une attaque à distance de 70 de puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, infligez des dégâts doublés."
+        "name": "BRÛLANT D’ÉCLAT II",
+        "description": "Effectuez une attaque à distance proportionnelle à vos PV : 60 de Puissance à pleine santé, augmentant à 130 de Puissance lorsque vos PV sont extrêmement bas."
       },
       {
         "name": "TREMBLEMENT DE TERRE I",
@@ -269,7 +269,7 @@
       },
       {
         "name": "ENDURER II",
-        "description": "Déflectez 45% des dégâts subis par une attaque cette action de tour. Si déclenchée, gagnez 2 Engouement."
+        "description": "Déflectez 55% des dégâts subis par une attaque cette action de tour. Si déclenchée, gagnez 2 Engouement."
       },
       {
         "name": "ÉTINCELLE DE FLAMME I",
@@ -351,11 +351,11 @@
       },
       {
         "name": "PROTECTION DE ZÉPHYRA I",
-        "description": "Élevez un Bouclier égal à 20% de vos PV max pendant 2 tours."
+        "description": "Levez un Bouclier équivalent à 20% de vos PV max et protégez-vous des effets de statut entrants pendant 2 tours."
       },
       {
         "name": "VENT FRACASSANT II",
-        "description": "Purge le bouclier de l'adversaire, puis effectuez une attaque à distance de 105 de puissance."
+        "description": "Purge le bouclier de l'adversaire, puis effectuez une attaque à distance de 110 de puissance."
       },
       {
         "name": "DÉPLACEMENT D'ÉQUILIBRE II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "FLEUR VAMPIRIQUE III",
-        "description": "Effectuer une attaque à distance de 110 Puissance. Si vous êtes actuellement Empoisonné, vole-vie de 50% des dégâts infligés."
+        "description": "Effectuer une attaque à distance de 110 Puissance. Si vous êtes actuellement Empoisonné, vole-vie de 40% des dégâts infligés."
       }
     ]
   },
@@ -485,7 +485,7 @@
       },
       {
         "name": "VAGUE DÉFERLANTE II",
-        "description": "Effectuer une attaque à distance de haute priorité de 70 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
+        "description": "Effectuer une attaque à distance de haute priorité de 55 Puissance. Cette attaque passe avant les Réflexions, Contre-attaques et Esquives et arrive presque toujours en premier."
       },
       {
         "name": "MORSURE GÉNÉREUSE II",
@@ -525,11 +525,11 @@
     "skills": [
       {
         "name": "POLLINISER I",
-        "description": "Soignez-vous de 7% de vos PV max."
+        "description": "Soignez-vous proportionnellement à vos PV : 7% de vos PV max à pleine santé, augmentant à 15% lorsque vos PV sont extrêmement bas."
       },
       {
         "name": "DANSE VIBRANTE II",
-        "description": "Dévie 40% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque. Si déclenché, augmentez votre Vitesse de 1 pendant 2 tours et gagnez 1 Hype."
+        "description": "Dévie 55% des dégâts infligés par une attaque cette action de tour, quelle que soit la priorité de l'attaque. Si déclenché, augmentez votre Vitesse de 1 pendant 2 tours et gagnez 1 Hype."
       },
       {
         "name": "RIPOSTE ÉPINEUSE II",
@@ -567,7 +567,7 @@
       },
       {
         "name": "COUP BLINDÉ III",
-        "description": "Effectuez une attaque physique de basse priorité de 150 Puissance en utilisant votre Défense à la place de l'Attaque. Ensuite, réduisez votre Défense de 5 niveaux pendant 3 tours. Cette attaque est presque toujours la dernière à être exécutée."
+        "description": "Effectuez une attaque de Mêlée à faible priorité de 150 Puissance en utilisant votre Défense au lieu de votre Attaque. Subissez 20% des dégâts en contrecoup. Cette attaque agit presque toujours en dernier."
       }
     ]
   },
@@ -598,28 +598,28 @@
     ]
   },
   "dinotusk": {
-    "description": "Les Dinotusks utilisent leurs queues uniques pour se fixer à Tokane, générant de l'énergie et permettant de survivre dans des environnements difficiles.",
-    "element": "lightning",
+    "description": "Les Dinotusk utilisent leurs queues uniques pour s'ancrer à Tokane, générant de l'énergie et permettant de survivre dans des environnements difficiles.",
+    "element": "foudre",
     "skills": [
       {
-        "name": "FLUX AFFAIBLISSANT I",
-        "description": "Votre Attaque est réduite de 1 niveau pendant 2 tours."
+        "name": "ÉTAT DE POINTE I",
+        "description": "Générez du Hype proportionnel à vos PV : 4 à pleine santé, descendant à 1 lorsque vos PV sont extrêmement bas."
       },
       {
-        "name": "REBOND DÉSESPÉRÉ III",
-        "description": "Effectuez une attaque de mêlée de 40 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, gagnez 3 Hype supplémentaires mais réduisez votre Défense d'un niveau pendant 4 tours."
+        "name": "REBONDISSEMENT DÉSESPÉRÉ III",
+        "description": "Effectuez une attaque de Mêlée de 40 Puissance. Si vos PV actuels sont inférieurs à ceux de l'adversaire, gagnez 2 Hype supplémentaires."
       },
       {
         "name": "PAS DE DOULEUR, PAS DE GAIN I",
-        "description": "Attaque personnelle de 60 Puissance. Augmentez votre Défense de 2 niveaux pendant 3 tours."
+        "description": "Auto-attaque de 60 Puissance. Augmentez votre Défense de 2 niveaux pendant 3 tours."
       },
       {
         "name": "DESTIN PARTAGÉ III",
-        "description": "Infligez une Malédiction à vous-même et à l'adversaire. Après un compte à rebours de 3 tours, la Malédiction inflige des dégâts égaux à 40% des PV max des deux."
+        "description": "Infligez Malédiction à vous-même et à l'adversaire. Après un compte à rebours de 3 tours, la Malédiction inflige 40% des PV max de vous et de l'adversaire."
       },
       {
-        "name": "SURVOLTA II",
-        "description": "Effectuer une attaque à distance de 115 Puissance."
+        "name": "SURCHARGE VOLT III",
+        "description": "Effectuez une attaque à distance de 115 Puissance."
       }
     ]
   },
@@ -628,8 +628,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "COUP FLUIDE I",
-        "description": "Effectuer une attaque à distance de 20 Puissance."
+        "name": "ÉTAT DE POINTE I",
+        "description": "Générez du Hype proportionnel à vos PV : 4 à pleine santé, descendant à 1 lorsque vos PV sont extrêmement bas."
       },
       {
         "name": "GARDE D'ÉTHER II",
@@ -675,5 +675,4 @@
       }
     ]
   }
-
 }

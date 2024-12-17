@@ -12,8 +12,8 @@
         "description": "Dodge one attack this turn action. If triggered, raise your Speed by 1 stage for 2 turns."
       },
       {
-        "name": "PUTRID VINE I",
-        "description": "Inflict Poison to the opponent for 2 turns. At the end of each turn, Poison deals damage equal to 10% of max HP."
+        "name": "DEVOUR III",
+        "description": "Dodge one attack this turn action. If triggered, perform a Melee attack of 50 Power, then heal yourself for 13% of your max HP and Cleanse status effects on yourself."
       },
       {
         "name": "THUNDER PUNCH II",
@@ -121,7 +121,7 @@
       },
       {
         "name": "CRASHING WAVE II",
-        "description": "Perform a high priority Ranged attack of 70 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
+        "description": "Perform a high priority Ranged attack of 55 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
       },
       {
         "name": "VOLT SURGE III",
@@ -134,12 +134,12 @@
     "element": "earth",
     "skills": [
       {
-        "name": "ENERGETIC JAB I",
-        "description": "Your Defense is dropped by 1 stage for 2 turns."
+        "name": "ADRENALINE KICK II",
+        "description": "Perform a Melee attack of 20 Power. If it hits, earn 3 Hype."
       },
       {
-        "name": "THICK COAT I",
-        "description": "Raise your Defense by 2 stage for 2 turns."
+        "name": "LUCKY REFLEXES II",
+        "description": "Dodge and then perform a Counter Attack of 50 Power if you are attacked by a Melee attack this turn action. If triggered, drop the opponent's Defense by 1 stage for 2 turns."
       },
       {
         "name": "CLEANSING TIDE I",
@@ -191,7 +191,7 @@
       },
       {
         "name": "SAPLING SMACK II",
-        "description": "Perform a Melee attack of 35 Power."
+        "description": "Perform a Melee attack of 50 Power."
       },
       {
         "name": "SPICE LAYER II",
@@ -212,8 +212,8 @@
     "element": "fire",
     "skills": [
       {
-        "name": "LIFE TAP RITUAL I",
-        "description": "Self attack of 10 Power."
+        "name": "PEAK STATE I",
+        "description": "Generate Hype proportional to your HP: 4 at max health, dropping to 1 when critically low."
       },
       {
         "name": "AURANY'S RAGE II",
@@ -224,8 +224,8 @@
         "description": "Dodge once and perform a Counter Attack of 40 Power if you are targeted by an attack this turn action."
       },
       {
-        "name": "FIERY RAMPAGE II",
-        "description": "Perform a Ranged attack of 70 Power. If your current HP is lower than the opponent, deal double damage."
+        "name": "BURNING BRIGHT II",
+        "description": "Perform a Ranged attack proportional to your HP: 60 Power at max health, increasing to 130 Power when critically low."
       },
       {
         "name": "EARTHQUAKE I",
@@ -269,7 +269,7 @@
       },
       {
         "name": "ENDURE II",
-        "description": "Deflect 45% of the damage taken by one attack this turn action. If triggered, earn 2 Hype."
+        "description": "Deflect 55% of the damage taken by one attack this turn action. If triggered, earn 2 Hype."
       },
       {
         "name": "FLAME SPARK I",
@@ -351,11 +351,11 @@
       },
       {
         "name": "ZEPHYRA'S PROTECTION I",
-        "description": "Raise a Shield equal to 20% of your max HP for 2 turns."
+        "description": "Raise a Shield equal to 20% of your max HP and Protect yourself from incoming status effects for 2 turns."
       },
       {
         "name": "SHATTERING WIND II",
-        "description": "Cleanse the opponent's shield, then perform a Ranged attack of 100 Power."
+        "description": "Cleanse the opponent's shield, then perform a Ranged attack of 110 Power."
       },
       {
         "name": "BALANCE SHIFT II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPIRIC BLOOM III",
-        "description": "Perform a Ranged attack of 110 Power. If you are currently Poisoned, Lifesteal 50% of the damage dealt."
+        "description": "Perform a Ranged attack of 110 Power. If you are currently Poisoned, Lifesteal 40% of the damage dealt."
       }
     ]
   },
@@ -485,7 +485,7 @@
       },
       {
         "name": "CRASHING WAVE II",
-        "description": "Perform a high priority Ranged attack of 70 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
+        "description": "Perform a high priority Ranged attack of 55 Power. This attack goes before Reflects, Counters and Dodges and almost always goes first."
       },
       {
         "name": "GENEROUS BITE II",
@@ -525,11 +525,11 @@
     "skills": [
       {
         "name": "POLLENIZE I",
-        "description": "Heal yourself for 7% of your max HP."
+        "description": "Heal yourself proportional to your HP: 7% of max HP at max health, increasing to 15% when critically low."
       },
       {
         "name": "BUZZING DANCE II",
-        "description": "Deflect 40% of the damage dealt by one attack this turn action, regardless of the attack's priority. If triggered, raise your Speed by 1 for 2 turns and earn 1 Hype."
+        "description": "Deflect 55% of the damage dealt by one attack this turn action, regardless of the attack's priority. If triggered, raise your Speed by 1 for 2 turns and earn 1 Hype."
       },
       {
         "name": "THORNY RIPOSTE II",
@@ -567,7 +567,7 @@
       },
       {
         "name": "ARMORED BLOW III",
-        "description": "Perform a Low Priority Melee attack of 150 Power using your Defense instead of Attack. Then, drop your Defense by 5 stages for 3 turns. This attack almost always goes last."
+        "description": "Perform a Low Priority Melee attack of 150 Power using your Defense instead of Attack. Take 20% of the damage as Recoil. This attack almost always goes last."
       }
     ]
   },
@@ -602,12 +602,12 @@
     "element": "lightning",
     "skills": [
       {
-        "name": "ENFEEBLING FLUX I",
-        "description": "Your Attack is dropped by 1 stage for 2 turns."
+        "name": "PEAK STATE I",
+        "description": "Generate Hype proportional to your HP: 4 at max health, dropping to 1 when critically low."
       },
       {
         "name": "DESPERATE REBOUND III",
-        "description": "Perform a Melee Attack of 40 Power. If your current HP is lower than the opponent, earn an additional 3 Hype but drop your Defense by 1 stage for 4 turns."
+        "description": "Perform a Melee Attack of 40 Power. If your current HP is lower than the opponent, earn an additional 2 Hype."
       },
       {
         "name": "NO PAIN, NO GAIN I",
@@ -628,8 +628,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "FLOWING STRIKE I",
-        "description": "Perform a Ranged attack of 20 Power."
+        "name": "PEAK STATE I",
+        "description": "Generate Hype proportional to your HP: 4 at max health, dropping to 1 when critically low."
       },
       {
         "name": "AETHER WARD II",

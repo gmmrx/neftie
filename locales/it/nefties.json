@@ -12,8 +12,8 @@
         "description": "Schiva un attacco in questo turno. Se attivato, aumenta la tua Velocità di 1 livello per 2 turni."
       },
       {
-        "name": "VITE PUTRIDA I",
-        "description": "Infliggi Avvelenamento all'avversario per 2 turni. Alla fine di ogni turno, l'Avvelenamento infligge danni pari al 10% degli HP massimi."
+        "name": "DIVORARE III",
+        "description": "Schiva un attacco in questo turno. Se attivato, esegui un attacco Corpo a Corpo con 50 Potenza, cura te stesso del 13% dei tuoi HP massimi e rimuovi gli effetti negativi su di te."
       },
       {
         "name": "PUGNO DEL TUONO II",
@@ -121,7 +121,7 @@
       },
       {
         "name": "ONDA IMPETUOSA II",
-        "description": "Effettua un attacco a distanza ad alta priorità di 70 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
+        "description": "Effettua un attacco a distanza ad alta priorità di 55 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
       },
       {
         "name": "SBARCO DI CORRENTE III",
@@ -134,12 +134,12 @@
     "element": "terra",
     "skills": [
       {
-        "name": "COLPO ENERGETICO I",
-        "description": "La tua Difesa diminuisce di 1 stadio per 2 turni."
+        "name": "CALCIO DI ADRENALINA II",
+        "description": "Esegui un attacco Corpo a Corpo di 20 Potenza. Se colpisce, guadagna 3 Hype."
       },
       {
-        "name": "RIVESTIMENTO SPESSO I",
-        "description": "Aumenta la tua Difesa di 2 livelli per 2 turni."
+        "name": "RIFLESSI FORTUNATI II",
+        "description": "Schiva e poi esegui un Contrattacco di 50 Potenza se sei attaccato da un attacco Corpo a Corpo in questa azione di turno. Se attivato, riduci la Difesa dell'avversario di 1 livello per 2 turni."
       },
       {
         "name": "MAREA PURIFICANTE I",
@@ -191,7 +191,7 @@
       },
       {
         "name": "SCOPPIO DI GERMALI II",
-        "description": "Esegui un attacco corpo a corpo di Potenza 35."
+        "description": "Esegui un attacco corpo a corpo di Potenza 50."
       },
       {
         "name": "STRATO DI SPEZIE II",
@@ -212,8 +212,8 @@
     "element": "fuoco",
     "skills": [
       {
-        "name": "RITUALE DI SUCCHIAVITA I",
-        "description": "Auto-attacco di Potenza 10."
+        "name": "STATO DI PICCO I",
+        "description": "Genera Hype proporzionale ai tuoi HP: 4 alla salute massima, scendendo a 1 quando è criticamente bassa."
       },
       {
         "name": "IRA DI AURANY II",
@@ -224,8 +224,8 @@
         "description": "Schiva una volta e esegui un Contrattacco di Potenza 40 se sei bersagliato da un attacco questa azione."
       },
       {
-        "name": "RAGGIO INFUOCATO II",
-        "description": "Esegui un attacco a distanza di Potenza 70. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, infliggi danni doppi."
+        "name": "BRILLANTE ARDENTE II",
+        "description": "Esegui un attacco a distanza proporzionale ai tuoi HP: 60 Potenza alla salute massima, aumentando a 130 Potenza quando è criticamente bassa."
       },
       {
         "name": "TERREMOTO I",
@@ -269,7 +269,7 @@
       },
       {
         "name": "RESISTENZA II",
-        "description": "Difletti il 45% dei danni subiti da un attacco questa azione. Se attivato, guadagna 2 Hype."
+        "description": "Difletti il 55% dei danni subiti da un attacco questa azione. Se attivato, guadagna 2 Hype."
       },
       {
         "name": "SCINTILLA FOCOSA I",
@@ -343,22 +343,22 @@
     "skills": [
       {
         "name": "COLPO ENERGETICO I",
-        "description": "Esegui un attacco corpo a corpo di Potenza 20."
+        "description": "Esegui un attacco corpo a corpo con Potenza 20."
       },
       {
         "name": "FRECCIA D'ACQUA I",
-        "description": "Esegui un attacco a distanza di Potenza 30."
+        "description": "Esegui un attacco a distanza con Potenza 30."
       },
       {
-        "name": "PROTEZIONE DI ZEPHYR I",
-        "description": "La tua Difesa aumenta di 2 stadi per 3 turni."
+        "name": "PROTEZIONE DI ZEPHYRA I",
+        "description": "Alza uno Scudo pari al 20% dei tuoi HP massimi e proteggiti dagli effetti di stato in arrivo per 2 turni."
       },
       {
-        "name": "FIATO GELIDO II",
-        "description": "Probabilità del 70% di Congelamento per 2 turni."
+        "name": "VENTO FRANTUMANTE II",
+        "description": "Rimuovi lo Scudo dell'avversario, poi esegui un attacco a distanza con Potenza 110."
       },
       {
-        "name": "FURIA DELLA FENICE II",
+        "name": "CAMBIO DI EQUILIBRIO II",
         "description": "Aumenta il tuo Attacco e Difesa di 1 per 3 turni. Riduci l'Attacco e Difesa del tuo avversario di 1 per 3 turni."
       }
     ]
@@ -437,7 +437,7 @@
       },
       {
         "name": "FIORE VAMPIRICO III",
-        "description": "Effettua un attacco a distanza di 110 Potenza. Se sei attualmente Avvelenato, assorbi il 50% dei danni inflitti."
+        "description": "Effettua un attacco a distanza di 110 Potenza. Se sei attualmente Avvelenato, assorbi il 40% dei danni inflitti."
       }
     ]
   },
@@ -485,7 +485,7 @@
       },
       {
         "name": "ONDA IMPETUOSA II",
-        "description": "Effettua un attacco a distanza ad alta priorità di 70 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
+        "description": "Effettua un attacco a distanza ad alta priorità di 55 Potenza. Questo attacco precede Riflessi, Contrattacchi e Schivate e va quasi sempre per primo."
       },
       {
         "name": "MORENTE GENEROSO II",
@@ -525,11 +525,11 @@
     "skills": [
       {
         "name": "IMPOLLINARE I",
-        "description": "Curati del 7% dei tuoi HP massimi."
+        "description": "Cura te stesso proporzionalmente ai tuoi HP: 7% degli HP massimi con salute piena, aumentando al 15% quando è criticamente bassa."
       },
       {
         "name": "DANZA RONZANTE II",
-        "description": "Devia il 40% dei danni inflitti da un attacco in questa azione di turno, indipendentemente dalla priorità dell'attacco. Se attivato, aumenta la tua Velocità di 1 per 2 turni e guadagna 1 Hype."
+        "description": "Devia il 55% dei danni inflitti da un attacco in questa azione di turno, indipendentemente dalla priorità dell'attacco. Se attivato, aumenta la tua Velocità di 1 per 2 turni e guadagna 1 Hype."
       },
       {
         "name": "RIPOSTA SPINOSA II",
@@ -567,7 +567,7 @@
       },
       {
         "name": "COLPO CORAZZATO III",
-        "description": "Esegui un attacco corpo a corpo a bassa priorità di 150 Potenza utilizzando la tua Difesa al posto dell'Attacco. Poi, riduci la tua Difesa di 5 stadi per 3 turni. Questo attacco va quasi sempre per ultimo."
+        "description": "Esegui un attacco Corpo a Corpo a Bassa Priorità con 150 di Potenza, utilizzando la tua Difesa invece del tuo Attacco. Subisci il 20% del danno come contraccolpo. Questo attacco agisce quasi sempre per ultimo."
       }
     ]
   },
@@ -598,28 +598,28 @@
     ]
   },
   "dinotusk": {
-    "description": "I Dinotusk usano le loro code uniche per radicarsi a Tokane, generando energia e permettendo loro di sopravvivere in ambienti ostili.",
-    "element": "lightning",
+    "description": "I Dinotusk usano le loro code uniche per connettersi a Tokane, generando energia e sopravvivendo in ambienti ostili.",
+    "element": "fulmine",
     "skills": [
       {
-        "name": "FLUSSO INDEBOLENTE I",
-        "description": "Il tuo Attacco è ridotto di 1 livello per 2 turni."
+        "name": "STATO DI PICCO I",
+        "description": "Genera Hype proporzionale ai tuoi HP: 4 alla salute massima, scendendo a 1 quando è criticamente bassa."
       },
       {
         "name": "RIMBALZO DISPERATO III",
-        "description": "Esegui un attacco in mischia con 40 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, guadagna 3 Hype aggiuntivi, ma riduci la tua Difesa di 1 livello per 4 turni."
+        "description": "Esegui un attacco Corpo a Corpo di 40 Potenza. Se i tuoi HP attuali sono inferiori a quelli dell'avversario, guadagna 2 Hype aggiuntivi."
       },
       {
-        "name": "NESSUN DOLORE, NESSUN GUADAGNO I",
-        "description": "Attacco personale di 60 Potenza. Aumenta la tua Difesa di 2 livelli per 3 turni."
+        "name": "NIENTE DOLORE, NIENTE GUADAGNO I",
+        "description": "Auto-attacco di 60 Potenza. Aumenta la tua Difesa di 2 livelli per 3 turni."
       },
       {
         "name": "DESTINO CONDIVISO III",
-        "description": "Infliggi Maledizione a te stesso e all'avversario. Dopo un conto alla rovescia di 3 turni, la Maledizione infligge danni pari al 40% degli HP massimi di entrambi."
+        "description": "Infliggi Maledizione a te stesso e all'avversario. Dopo 3 turni, la Maledizione infligge il 40% degli HP massimi tuoi e dell'avversario."
       },
       {
-        "name": "SURGE DI VOLT III",
-        "description": "Effettua un attacco a distanza di 115 Potenza."
+        "name": "SCOSSA VOLT III",
+        "description": "Esegui un attacco a distanza di 115 Potenza."
       }
     ]
   },
@@ -628,8 +628,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "COLPO FLUIDO I",
-        "description": "Effettua un attacco a distanza di 20 Potenza."
+        "name": "STATO DI PICCO I",
+        "description": "Genera Hype proporzionale ai tuoi HP: 4 alla salute massima, scendendo a 1 quando è criticamente bassa."
       },
       {
         "name": "GUARDIA D'ETERE II",

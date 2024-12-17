@@ -12,8 +12,8 @@
         "description": "Weiche in dieser Runde einem Angriff aus. Falls ausgelöst, erhöhe deine Geschwindigkeit für 2 Runden um 1 Stufe."
       },
       {
-        "name": "VERDERBLICHE REBE I",
-        "description": "Verursacht für 2 Runden Gift beim Gegner. Am Ende jeder Runde verursacht Gift Schaden in Höhe von 10% der maximalen HP."
+        "name": "VERSCHLINGEN III",
+        "description": "Entkomme in dieser Runde einem Angriff. Falls ausgelöst, führe einen Nahkampfangriff mit 50 Stärke aus, heile dich um 13% deiner maximalen HP und entferne Status-Effekte von dir."
       },
       {
         "name": "DONNERPUNCH II",
@@ -121,7 +121,7 @@
       },
       {
         "name": "BRECHENDE WELLE II",
-        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 70 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 55 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
       },
       {
         "name": "BLITZSCHLAG III",
@@ -134,12 +134,12 @@
     "element": "earth",
     "skills": [
       {
-        "name": "ENERGETISCHER SCHLAG I",
-        "description": "Deine Verteidigung wird für 2 Runden um 1 Stufe verringert."
+        "name": "ADRENALINSCHUB II",
+        "description": "Führe einen Nahkampfangriff mit 20 Stärke aus. Wenn er trifft, erhalte 3 Hype."
       },
       {
-        "name": "DICKES FELL I",
-        "description": "Erhöht deine Verteidigung für 2 Runden um 2 Stufen."
+        "name": "GLÜCKSREFLEXE II",
+        "description": "Weiche aus und führe dann einen Gegenangriff mit 50 Stärke aus, falls du in dieser Runde von einem Nahkampfangriff getroffen wirst. Falls ausgelöst, verringere die Verteidigung des Gegners für 2 Runden um 1 Stufe."
       },
       {
         "name": "REINIGENDE FLUT I",
@@ -191,7 +191,7 @@
       },
       {
         "name": "SAEULENSMACK II",
-        "description": "Führe einen Nahkampfangriff mit 35 Stärke aus."
+        "description": "Führe einen Nahkampfangriff mit 50 Stärke aus."
       },
       {
         "name": "GEWÜRZSCHICHT II",
@@ -212,8 +212,8 @@
     "element": "fire",
     "skills": [
       {
-        "name": "LEBENSZAPFRITUAL I",
-        "description": "Selbstangriff mit 10 Stärke."
+        "name": "HÖCHSTZUSTAND I",
+        "description": "Erzeuge Hype proportional zu deiner HP: 4 bei voller Gesundheit, abfallend auf 1, wenn sie kritisch niedrig ist."
       },
       {
         "name": "AURANY'S WUT II",
@@ -224,8 +224,8 @@
         "description": "Weiche einmal aus und führe einen Gegenangriff mit 40 Stärke aus, wenn du in dieser Runde angegriffen wirst."
       },
       {
-        "name": "FEUERIGE TOLLWUT II",
-        "description": "Führe einen Fernkampfangriff mit 70 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, verursache doppelten Schaden."
+        "name": "HELLER BRAND II",
+        "description": "Führe einen Fernangriff proportional zu deiner HP aus: 60 Stärke bei voller Gesundheit, ansteigend auf 130 Stärke, wenn sie kritisch niedrig ist."
       },
       {
         "name": "ERDBEBEN I",
@@ -269,7 +269,7 @@
       },
       {
         "name": "AUSHALTEN II",
-        "description": "Deflektiere 45% des Schadens eines Angriffs in dieser Runde. Wenn ausgelöst, erhalte 2 Hype."
+        "description": "Deflektiere 55% des Schadens eines Angriffs in dieser Runde. Wenn ausgelöst, erhalte 2 Hype."
       },
       {
         "name": "FLAMMENFUNKEN I",
@@ -351,11 +351,11 @@
       },
       {
         "name": "ZEPHYRA'S SCHUTZ I",
-        "description": "Erhöhe für 2 Runden ein Schild, das 20% deiner maximalen HP entspricht."
+        "description": "Errichte einen Schild, der 20% deiner maximalen HP entspricht, und schütze dich für 2 Runden vor eintreffenden Statuseffekten."
       },
       {
         "name": "ZERSPLITTERNDER WIND II",
-        "description": "Reinige das Schild des Gegners und führe dann einen Fernkampfangriff mit 105 Stärke aus."
+        "description": "Reinige das Schild des Gegners und führe dann einen Fernkampfangriff mit 110 Stärke aus."
       },
       {
         "name": "GLEICHGEWICHTS-SCHWANKUNG II",
@@ -437,7 +437,7 @@
       },
       {
         "name": "VAMPIRISCHE BLÜTE III",
-        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus. Wenn du derzeit vergiftet bist, raube 50% des verursachten Schadens als Leben."
+        "description": "Führe einen Fernkampfangriff mit 110 Stärke aus. Wenn du derzeit vergiftet bist, raube 40% des verursachten Schadens als Leben."
       }
     ]
   },
@@ -485,7 +485,7 @@
       },
       {
         "name": "BRECHENDE WELLE II",
-        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 70 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
+        "description": "Führe einen Fernkampfangriff mit hoher Priorität und 55 Stärke aus. Dieser Angriff geht vor Reflexen, Gegenangriffen und Ausweichen und geht fast immer zuerst."
       },
       {
         "name": "GROSSZÜGIGER BISS II",
@@ -525,11 +525,11 @@
     "skills": [
       {
         "name": "POLLENISIEREN I",
-        "description": "Heile dich um 7% deiner maximalen HP."
+        "description": "Heile dich proportional zu deiner HP: 7% der maximalen HP bei voller Gesundheit, steigend auf 15%, wenn sie kritisch niedrig ist."
       },
       {
         "name": "SUMMENDER TANZ II",
-        "description": "Deflektiere 40% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs. Wenn ausgelöst, wird deine Geschwindigkeit für 2 Runden um 1 Stufe erhöht und erhalte 1 Hype."
+        "description": "Deflektiere 55% des Schadens eines Angriffs in dieser Runde, unabhängig von der Priorität des Angriffs. Wenn ausgelöst, wird deine Geschwindigkeit für 2 Runden um 1 Stufe erhöht und erhalte 1 Hype."
       },
       {
         "name": "DORNIGER KONTER II",
@@ -567,7 +567,7 @@
       },
       {
         "name": "GEPANZERTER SCHLAG III",
-        "description": "Führe einen Nahkampfangriff mit niedriger Priorität und 150 Stärke aus, wobei du deine Verteidigung anstelle des Angriffs verwendest. Verringere dann deine Verteidigung um 5 Stufen für 3 Runden. Dieser Angriff erfolgt fast immer zuletzt."
+        "description": "Führe einen Nahkampfangriff mit niedriger Priorität und 150 Stärke aus, wobei deine Verteidigung anstelle des Angriffs verwendet wird. Erleide 20% des Schadens als Rückstoß. Dieser Angriff geht fast immer zuletzt."
       }
     ]
   },
@@ -598,28 +598,28 @@
     ]
   },
   "dinotusk": {
-    "description": "Dinotusks nutzen ihre einzigartigen Schwänze, um sich mit Tokane zu verbinden, Energie zu erzeugen und das Überleben in rauen Umgebungen zu ermöglichen.",
-    "element": "lightning",
+    "description": "Dinotusks nutzen ihre einzigartigen Schwänze, um sich mit Tokane zu verbinden, Energie zu erzeugen und in rauen Umgebungen zu überleben.",
+    "element": "blitz",
     "skills": [
       {
-        "name": "SCHWÄCHENDE FLUT I",
-        "description": "Dein Angriff wird für 2 Runden um 1 Stufe verringert."
+        "name": "HÖCHSTZUSTAND I",
+        "description": "Erzeuge Hype proportional zu deinen HP: 4 bei voller Gesundheit, abfallend auf 1 bei kritischem Stand."
       },
       {
-        "name": "VERZWEIFELTES ZURÜCKSCHLAGEN III",
-        "description": "Führe einen Nahkampfangriff mit 40 Stärke aus. Wenn dein aktuelles HP niedriger ist als das des Gegners, erhalte zusätzlich 3 Hype, aber reduziere deine Verteidigung um 1 Stufe für 4 Runden."
+        "name": "VERZWEIFELTER RÜCKSCHLAG III",
+        "description": "Führe einen Nahkampfangriff mit 40 Stärke aus. Wenn deine aktuellen HP niedriger sind als die des Gegners, erhalte 2 zusätzliche Hype."
       },
       {
         "name": "KEIN SCHMERZ, KEIN GEWINN I",
-        "description": "Selbstangriff mit 60 Stärke. Erhöht deine Verteidigung für 2 Runden um 3 Stufen."
+        "description": "Selbstangriff mit 60 Stärke. Erhöhe deine Verteidigung um 2 Stufen für 3 Runden."
       },
       {
         "name": "GETEILTES SCHICKSAL III",
-        "description": "Verursacht Fluch bei dir und dem Gegner. Nach einem Countdown von 3 Runden verursacht der Fluch 40% der maximalen HP von dir und dem Gegner als Schaden."
+        "description": "Belege dich selbst und den Gegner mit einem Fluch. Nach einem Countdown von 3 Runden verursacht der Fluch 40% der maximalen HP von dir und dem Gegner."
       },
       {
-        "name": "BLITZSCHLAG III",
-        "description": "Führe einen Fernkampfangriff mit 115 Stärke aus."
+        "name": "BLITZSCHUB III",
+        "description": "Führe einen Fernangriff mit 115 Stärke aus."
       }
     ]
   },
@@ -628,8 +628,8 @@
     "element": "air",
     "skills": [
       {
-        "name": "FLIESSENDER SCHLAG I",
-        "description": "Führe einen Fernkampfangriff mit 20 Stärke aus."
+        "name": "HÖCHSTZUSTAND I",
+        "description": "Erzeuge Hype proportional zu deinen HP: 4 bei voller Gesundheit, abfallend auf 1 bei kritischem Stand."
       },
       {
         "name": "ÄTHERWACHE II",
