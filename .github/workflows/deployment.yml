@@ -34,6 +34,7 @@ jobs:
           DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
           DISCORD_SECRET: ${{ secrets.DISCORD_SECRET }}
           NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+          NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
           NEXT_PUBLIC_ENVIRONMENT: ${{ secrets.NEXT_PUBLIC_ENVIRONMENT }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
@@ -58,6 +59,7 @@ jobs:
             -e DISCORD_CLIENT_ID=${{ secrets.DISCORD_CLIENT_ID }} \
             -e DISCORD_SECRET=${{ secrets.DISCORD_SECRET }} \
             -e NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }} \
+            -e NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }} \
             -e NEXT_PUBLIC_ENVIRONMENT=${{ secrets.NEXT_PUBLIC_ENVIRONMENT }} \
             -e YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
             bbugraa/neftie-gg:latest
