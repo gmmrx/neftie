@@ -2,11 +2,18 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useSession } from "next-auth/react";
 
-import { GraduationCap, LayoutDashboard, Play } from "lucide-react";
+import {
+  Download,
+  DownloadIcon,
+  GraduationCap,
+  LayoutDashboard,
+  Play,
+} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
+import { Button } from "../ui/button";
 
 const Sidebar = ({
   isTopBar = false,
@@ -85,7 +92,41 @@ const Sidebar = ({
               </div>
             </div>
           )}
+          <div className="mb-2 border-b pb-4 border-[#151515] w-full">
+            <div
+              className={`font-inter flex items-center gap-4 ${isSidebarOpen ? 'w-[12.8125rem]' : 'w-[3.3rem]'} h-[3rem] cursor-pointer mt-0 justify-center p-[2px] rounded-md bg-gradient-to-r from-[#E9213D] to-[#8B0034] group relative z-[10]`}
+            >
+              <div className="flex items-center gap-4 w-full h-full justify-center group-hover:bg-black rounded-md text-[1rem] bg-transparent">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="group-hover:stroke-white transition-colors duration-300"
+                >
+                  <defs>
+                    <linearGradient
+                      id="gradient-stroke"
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="0%"
+                    >
+                      <stop offset="0%" stopColor="#E9213D" />
+                      <stop offset="100%" stopColor="#8B0034" />
+                    </linearGradient>
+                  </defs>
 
+                  <DownloadIcon
+                    stroke="url(#gradient-stroke)"
+                    size={22}
+                    className=" stroke-white group-hover:stroke-[#8B0034] transition-colors duration-300"
+                  />
+                </svg>
+                {isSidebarOpen ? "Download Now" : ""}
+              </div>
+            </div>
+          </div>
           <div className="flex flex-col items-start justify-between gap-4 w-full">
             <Link
               onClick={() => {

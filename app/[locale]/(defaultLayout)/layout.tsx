@@ -41,6 +41,10 @@ export default async function RootLayout({
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         <TranslationProvider
@@ -53,11 +57,11 @@ export default async function RootLayout({
               <div className="bg-page-bg">
                 {/* <div className="bg-secondary">MENU</div> */}
                 <div className="mr-auto ml-auto">
-                  <div className="bg-page-bg">
+                  <div className="bg-page-bg bg-homeBg bg-cover">
                     <Topbar />
                     <div className="flex flex-row">
                       <Sidebar />
-                      <div className="bg-transparent w-full lg:w-[calc(100%-240px)] pb-24 md:pb-0 mx-auto">
+                      <div className=" w-full lg:max-w-[77rem] pb-24 md:pb-0 mx-auto">
                         {children}
                       </div>
                     </div>

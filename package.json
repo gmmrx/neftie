@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@electron-forge/publisher-base": "^7.6.0",
     "@hookform/resolvers": "^3.3.4",
     "@lexical/react": "^0.15.0",
     "@radix-ui/react-dialog": "^1.0.5",
@@ -35,6 +36,7 @@
     "next-auth": "^4.24.7",
     "next-i18n-router": "^5.4.0",
     "next-nprogress-bar": "^2.3.11",
+    "node-ssh": "^13.2.0",
     "pg": "^8.11.3",
     "prettier": "^3.2.5",
     "react": "^18",

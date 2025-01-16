@@ -55,6 +55,8 @@ const config = {
       },
       fontFamily: {
         ibmplex: "IBM Plex Sans, sans-serif",
+        dosis: "Dosis, sans-serif",
+        inter: "Inter, sans-serif",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -77,6 +79,8 @@ const config = {
       },
       backgroundImage: {
         whatsNeftieBg: "url(/images/sot_bg.jpeg)",
+        homeBg: "url(/images/page-bg.png)",
+        downloadBoxBg: "url(/images/download-box-bg.png)",
         plantGradient: "linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)",
         waterGradient: "linear-gradient(to top, #4481eb 0%, #04befe 100%)",
         airGradient: "linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%)",
