@@ -1,45 +1,62 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { Neftie } from "@/lib/data/nefties";
 import { VideoAttributes } from "@/models/Videos";
-import Link from "next/link";
+import React, { FC, useState } from "react";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import React, { useState, FC } from "react";
-import { useTranslation } from "react-i18next";
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const VideoBox: FC<{ video: VideoAttributes }> = ({ video }) => {
-  const { t } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+
   if (!video) return null;
 
   return (
-    <Card
-      className="max-w-[300px] !p-0 cursor-pointer"
-      onClick={() => window.open(`https://youtube.com/watch?v=${video.yt_url}`)}
-    >
-      <CardHeader className="p-0 bg-transparent border-0">
-        <div className="flex flex-col items-start gap-0 relative">
-          <img src={video.thumbnail} alt={video.name} className="max-w-full" />
-          <div
-            className="text-center absolute bottom-4 bg-grey w-full"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 45%)",
-            }}
-          >
-            <CardTitle className="text-center text-md max-w-[80%] mx-auto">
-              {video.name}
-            </CardTitle>
+    <>
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogTrigger asChild>
+          <div className="max-w-[300px] cursor-pointer">
+            <div className="flex flex-col items-start gap-0 relative">
+              <img
+                src={video.thumbnail}
+                alt={video.name}
+                className="max-w-full"
+              />
+              <div
+                className="text-center absolute bottom-4 bg-grey w-full"
+                style={{
+                  background:
+                    "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 45%)",
+                }}
+              >
+                <div className="text-center text-md max-w-[80%] mx-auto text-white">
+                  {video.name}
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </CardHeader>
-    </Card>
+        </DialogTrigger>
+        <DialogContent className="!max-w-[800px] !h-[500px]">
+          <DialogHeader>
+            <h3 className="text-lg font-semibold">{video.name}</h3>
+          </DialogHeader>
+          <div className="flex justify-center items-center w-full h-[400px]">
+            <iframe
+              width="100%"
+              height="100%"
+              src={`https://www.youtube.com/embed/${video.yt_url}`}
+              title={video.name}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </DialogContent>
+      </Dialog>
+    </>
   );
 };
 

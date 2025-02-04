@@ -1,6 +1,5 @@
 import * as Sequelize from "sequelize";
 import { DataTypes, Model } from "sequelize";
-
 export interface NeftiesAttributes {
   id: number;
   name: string;
@@ -9,6 +8,8 @@ export interface NeftiesAttributes {
   image: string;
   slug: string;
   skills: { icon: string; name: string; description: string }[];
+  role: string | null;
+  difficulty: string | null; // Added difficulty field
   createdAt: Date;
   updatedAt: Date;
 }
@@ -24,6 +25,8 @@ export class Nefties
   image!: string;
   slug!: string;
   skills!: { icon: string; name: string; description: string; hype: string }[];
+  role!: string | null;
+  difficulty!: string | null; // Added difficulty field
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -61,6 +64,14 @@ export class Nefties
           type: DataTypes.JSON,
           allowNull: false,
         },
+        role: {
+          type: DataTypes.STRING,
+          allowNull: true,
+        },
+        difficulty: {
+          type: DataTypes.ENUM("EASY", "NORMAL", "HARD", "HARDEST"),
+          allowNull: true,
+        },
         createdAt: {
           type: DataTypes.DATE,
           allowNull: false,
@@ -75,7 +86,7 @@ export class Nefties
         tableName: "nefties",
         modelName: "Nefties",
         schema: "public",
-        timestamps: true, // Automatically uses createdAt and updatedAt
+        timestamps: true,
       }
     );
   }

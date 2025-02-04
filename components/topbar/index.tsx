@@ -90,14 +90,14 @@ const Topbar = () => {
           {!session ? (
             <div
               onClick={() => signIn("discord")}
-              className="bg-[#5d6af3] p-2 w-full flex items-center gap-3 font-ibmplex justify-center font-semibold cursor-pointer rounded-sm text-xs h-[46px]"
+              className="bg-[#5d6af3] p-2 w-full flex items-center gap-3 font-ibmplex justify-center font-semibold cursor-pointer rounded-sm text-xs h-[35px]"
             >
               <img src="/images/discord_logo.png" className="w-[20px]" />{" "}
               {t("translation:login_with_discord")}
             </div>
           ) : (
             <div
-              className="bg-destructive p-2 flex w-full items-center gap-3 font-ibmplex justify-center rounded-sm h-[46px] font-semibold text-xs cursor-pointer font-semibold"
+              className="bg-destructive p-2 flex w-full items-center gap-3 font-ibmplex justify-center rounded-sm h-[35px] font-semibold text-xs cursor-pointer font-semibold"
               onClick={() => signOut()}
             >
               {t("translation:logout")}

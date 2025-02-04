@@ -7,6 +7,7 @@ import { Select } from "@/components/ui/select";
 import { ElementList } from "@/lib/data/elements";
 import { useNefties } from "@/providers/NeftiesProvider";
 import { NextPage } from "next";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -40,10 +41,8 @@ const ListNefties: NextPage = () => {
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] mx-auto max-w-[70rem]">
       <div className="rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
-          <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
-            <strong className="">
-              {t("translation:nefties")}
-            </strong>
+          <h2 className="scroll-m-20 pb-2 text-[36px] font-normal tracking-tight first:mt-0">
+            <strong className="">{t("translation:nefties")}</strong>
           </h2>
         </div>
 
@@ -51,7 +50,7 @@ const ListNefties: NextPage = () => {
           {t("translation:nefties_page_desc")}
         </h3>
       </div>
-      <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 pb-2 items-center">
+      {/* <div className="filter-area flex flex-col lg:flex-row gap-6 mb-4 mt-6 pb-2 items-center">
         <Input
           placeholder={t("translation:search_nefties")}
           className="rounded-none w-full lg:max-w-[150px] transition-all lg:focus:max-w-[250px]"
@@ -84,8 +83,17 @@ const ListNefties: NextPage = () => {
             );
           })}
         </div>
+      </div> */}
+      <div className="mt-12 flex gap-4">
+        <div className="pb-1 border-b-[3px] border-[#d0364f] cursor-pointer font-bold text-[#d0364f]">
+          Nefties
+        </div>
+        <div className="cursor-pointer pb-1 hover:border-b-[3px] border-[#d0364f]  font-bold">
+          {" "}
+          <Link href="/neftie-leaderboards/bitebit">Leaderboards</Link>
+        </div>
       </div>
-      <div className="py-6 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 rounded-md gap-6 justify-center">
+      <div className="py-6 mt-4 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-10 rounded-md gap-6 justify-center p-4 bg-white/5">
         {filteredAndSortedNefties &&
           filteredAndSortedNefties.length > 0 &&
           filteredAndSortedNefties.map((neftie) => {

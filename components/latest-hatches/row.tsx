@@ -24,7 +24,7 @@ const LatestHatchRow: FC<LatestHatchRowProps> = ({ hatch }) => {
     <div className="w-full mt-[0.75rem] bg-white/5 h-[5.25rem] rounded-[1rem] flex items-center px-4 gap-[0.875rem] relative cursor-pointer hover:bg-white/10 transition-all">
       <div className="absolute w-[4px] h-[29px] bg-[#2db70f] left-0 top-[50%] -translate-y-[50%] rounded-tr-[0.5rem] rounded-br-[0.5rem]" />
       <img
-        src={`http://localhost:3000/images/nefties/${hatch.neftie_name.toLowerCase().replace(/\s+/g, "-")}.png`}
+        src={`/images/nefties/${hatch.neftie_name.toLowerCase().replace(/\s+/g, "-")}.png`}
         alt={hatch.neftie_name}
         className="max-w-[56px]"
       />

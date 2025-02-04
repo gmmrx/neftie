@@ -10,6 +10,10 @@ import { VideoCategoryList } from "./VideoCategoryList";
 import { Events } from "./Events";
 import { EventDetails } from "./EventDetails";
 import { Bosses } from "./Bosses";
+import { Tier } from "./Tier";
+import { TierItem } from "./TierItem";
+import { TierListVote } from "./TierListVote";
+import { TierListComment } from "./TierListComment";
 
 export function initModels(sequelize: Sequelize) {
   Nefties.initModel(sequelize);
@@ -23,6 +27,10 @@ export function initModels(sequelize: Sequelize) {
   Events.initModel(sequelize);
   EventDetails.initModel(sequelize);
   Bosses.initModel(sequelize);
+  Tier.initModel(sequelize);
+  TierItem.initModel(sequelize);
+  TierListVote.initModel(sequelize);
+  TierListComment.initModel(sequelize);
 
   Nefties.belongsToMany(Eggs, {
     through: EggsNefties,
@@ -39,32 +47,44 @@ export function initModels(sequelize: Sequelize) {
   User.hasMany(UserTierList, { foreignKey: "userId" });
   UserTierList.belongsTo(User, { foreignKey: "userId" });
 
-  Video.belongsToMany(VideoCategory, {
-    through: VideoCategoryList,
-    foreignKey: "video_id",
-    otherKey: "category_id",
-  });
-  User.hasMany(Video, { foreignKey: "user_id" });
-  Video.belongsTo(User, { foreignKey: "user_id" });
-  VideoCategory.belongsToMany(Video, {
-    through: VideoCategoryList,
-    foreignKey: "category_id",
-    otherKey: "video_id",
-  });
-  EventDetails.belongsTo(Events, { foreignKey: "eventId", as: "event" });
-  Events.hasOne(EventDetails, { foreignKey: "eventId", as: "details" });
+  UserTierList.hasMany(Tier, { foreignKey: "tierListId", as: "tiers" });
+  Tier.belongsTo(UserTierList, { foreignKey: "tierListId" });
 
+  UserTierList.hasMany(TierListVote, { foreignKey: "tierListId", as: "votes" });
+  TierListVote.belongsTo(UserTierList, { foreignKey: "tierListId" });
+
+  UserTierList.hasMany(TierListComment, {
+    foreignKey: "tierListId",
+    as: "comments",
+  });
+  TierListComment.belongsTo(UserTierList, { foreignKey: "tierListId" });
+
+  Tier.hasMany(TierItem, { foreignKey: "tierId", as: "items" });
+  TierItem.belongsTo(Tier, { foreignKey: "tierId" });
+
+  User.hasMany(TierListVote, { foreignKey: "userId", as: "tierListVotes" });
+  TierListVote.belongsTo(User, { foreignKey: "userId" });
+
+  User.hasMany(TierListComment, {
+    foreignKey: "userId",
+    as: "tierListComments",
+  });
+  TierListComment.belongsTo(User, { foreignKey: "userId" });
+
+  TierListComment.hasMany(TierListComment, {
+    foreignKey: "parentCommentId",
+    as: "replies",
+  });
+  TierListComment.belongsTo(TierListComment, {
+    foreignKey: "parentCommentId",
+    as: "parentComment",
+  });
   return {
     Nefties: sequelize.models.Nefties,
     Eggs: sequelize.models.Eggs,
     EggsNefties: sequelize.models.EggsNefties,
     User: sequelize.models.User,
     UserTierList: sequelize.models.UserTierList,
-    Video: sequelize.models.Video,
-    VideoCategory: sequelize.models.VideoCategory,
-    VideoCategoryList: sequelize.models.VideoCategoryList,
-    Events: sequelize.models.Events,
-    EventDetails: sequelize.models.EventDetails,
     Bosses: sequelize.models.Bosses,
   };
 }

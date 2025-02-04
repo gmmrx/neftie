@@ -5,12 +5,10 @@ export interface UserTierListAttributes {
   id: number;
   userId: number;
   patchVersionId: number;
-  sTier: number[];
-  aTier: number[];
-  bTier: number[];
-  cTier: number[];
-  dTier: number[];
+  title: string;
+  description: string;
   slug: string;
+  voteCount: number;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -22,12 +20,10 @@ export class UserTierList
   id!: number;
   userId!: number;
   patchVersionId!: number;
-  sTier!: number[];
-  aTier!: number[];
-  bTier!: number[];
-  cTier!: number[];
-  dTier!: number[];
+  title!: string;
+  description!: string;
   slug!: string;
+  voteCount!: number;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -44,37 +40,30 @@ export class UserTierList
           type: DataTypes.INTEGER,
           allowNull: false,
           references: {
-            model: "users", // Assuming your User model's tableName is 'users'
+            model: "users",
             key: "id",
           },
         },
         patchVersionId: {
+          type: DataTypes.INTEGER,
+          allowNull: false,
+        },
+        title: {
+          type: DataTypes.STRING,
+          allowNull: false,
+        },
+        description: {
           type: DataTypes.TEXT,
-          allowNull: false,
-        },
-        sTier: {
-          type: DataTypes.ARRAY(DataTypes.INTEGER), // Adjust based on your DB's support for array types
-          allowNull: false,
-        },
-        aTier: {
-          type: DataTypes.ARRAY(DataTypes.INTEGER),
-          allowNull: false,
-        },
-        bTier: {
-          type: DataTypes.ARRAY(DataTypes.INTEGER),
-          allowNull: false,
-        },
-        cTier: {
-          type: DataTypes.ARRAY(DataTypes.INTEGER),
-          allowNull: false,
-        },
-        dTier: {
-          type: DataTypes.ARRAY(DataTypes.INTEGER),
           allowNull: false,
         },
         slug: {
           type: DataTypes.STRING,
           allowNull: false,
+        },
+        voteCount: {
+          type: DataTypes.INTEGER,
+          allowNull: false,
+          defaultValue: 0,
         },
         createdAt: {
           type: DataTypes.DATE,
@@ -87,7 +76,7 @@ export class UserTierList
       },
       {
         sequelize,
-        tableName: "user_tier_lists", // Name the table as you see fit
+        tableName: "user_tier_lists",
         modelName: "UserTierList",
         timestamps: true,
       }

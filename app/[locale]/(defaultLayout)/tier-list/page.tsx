@@ -5,11 +5,14 @@ import TierListNefties from "./view";
 import axios from "axios";
 import getApiUrl from "@/lib/get-api-url";
 import { useTranslation } from "@/app/i18n";
+import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
 
 export const fetchCache = "force-no-store";
+const statApi = process.env.NEFTIE_STAT_API;
 
 export default async function Page() {
   const tierListData = await getServerSideProps();
+
   return <TierListNefties data={tierListData} />;
 }
 export async function generateMetadata(
@@ -26,6 +29,8 @@ export async function generateMetadata(
 
 async function getServerSideProps() {
   const apiUrl = getApiUrl();
-  const tierListData = await axios.get(`${apiUrl}/tier-list`);
-  return tierListData.data.data;
+  const tierListData = await axios.get(
+    `${statApi}/tierlist/patch?patch_number=${CURRENT_PATCH_VERSION}`
+  );
+  return tierListData.data.tierList;
 }

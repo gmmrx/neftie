@@ -7,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { Suspense } from "react";
 import VideosProvider from "@/providers/VideosProvider";
 import EventsProvider from "@/providers/EventsProvider";
+import BossesProvider from "@/providers/BossesProvider";
 
 const Providers = ({ locale, children }) => {
   return (
@@ -14,7 +15,7 @@ const Providers = ({ locale, children }) => {
       <Suspense>
         <ProgressBar
           height="4px"
-          color="rgb(68, 0, 123)"
+          color="#d0364f"
           options={{ showSpinner: false }}
           shallowRouting
         />
@@ -22,9 +23,11 @@ const Providers = ({ locale, children }) => {
         <SessionProvider>
           <EventsProvider locale={locale}>
             <VideosProvider locale={locale}>
-              <NeftiesProvider>
-                <EggsProvider>{children}</EggsProvider>
-              </NeftiesProvider>
+              <BossesProvider>
+                <NeftiesProvider>
+                  <EggsProvider>{children}</EggsProvider>
+                </NeftiesProvider>
+              </BossesProvider>
             </VideosProvider>
           </EventsProvider>
         </SessionProvider>

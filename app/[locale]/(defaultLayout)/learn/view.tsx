@@ -8,10 +8,18 @@ import { NextPage } from "next";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const tutorialCategories = [
   {
     category: "Getting Started",
+    description:
+      "Start learning basics like creating an account and hatching your first egg.",
     tutorials: [
       {
         id: 1,
@@ -41,6 +49,8 @@ const tutorialCategories = [
   },
   {
     category: "Gameplay Basics",
+    description:
+      "Learn the basics of gameplay like sending items, using consumables, and more.",
     tutorials: [
       {
         id: 11,
@@ -118,6 +128,8 @@ const tutorialCategories = [
   },
   {
     category: "Special Events",
+    description:
+      "Learn how to participate in special events and earn exclusive rewards.",
     tutorials: [
       {
         id: 7,
@@ -135,6 +147,8 @@ const tutorialCategories = [
   },
   {
     category: "Customization",
+    description:
+      "Learn how to customize your Nefties with skins and other items.",
     tutorials: [
       {
         id: 7,
@@ -152,6 +166,7 @@ const tutorialCategories = [
   },
   {
     category: "In-Game Currency & Transactions",
+    description: "Learn how to deposit, withdraw, and use $AURY and $USDC.",
     tutorials: [
       {
         id: 3,
@@ -174,10 +189,10 @@ const TutorialsPage: NextPage = () => {
   const { t, i18n } = useTranslation();
   const { data: session } = useSession();
   return (
-    <div className="text-left pt-10 text-xl font-semibold px-6  mx-auto max-w-[70rem] overflow-y-scroll no-scrollbar">
-      <div className="p-4 rounded-sm w-full text-left">
+    <div className="text-left pt-10 text-xl font-semibold px-6  mx-auto max-w-[70rem] overflow-y-scroll no-scrollbar min-h-[84vh]">
+      <div className="mb-12 rounded-sm w-full text-left">
         <div className="flex justify-between items-center">
-          <h2 className="scroll-m-20 pb-2 text-2xl font-normal tracking-tight first:mt-0">
+          <h2 className="scroll-m-20 pb-2 text-[36px] font-normal font-inter first:mt-0">
             <strong className="">
               {t("translation:video_categories.tutorials.title")}
             </strong>
@@ -191,18 +206,33 @@ const TutorialsPage: NextPage = () => {
       <div className="pl-4 flex flex-col lg:flex-row justify-between mt-4 flex-wrap"></div>
 
       <div className="w-full flex gap-4 flex-wrap flex-col">
-        {tutorialCategories.map((category) => (
-          <div key={category.category} className="mt-6">
-            <h4 className="scroll-m-20 text-[1.5rem] font-semibold mb-4 pl-4">
-              {category.category}
-            </h4>
-            <div className="w-full ml-4 flex gap-4 flex-wrap">
-              {category.tutorials.map((video) => (
-                <VideoBox video={video} key={video.id} />
-              ))}
-            </div>
-          </div>
-        ))}
+        <Accordion type="single" collapsible className="">
+          {tutorialCategories.map((category) => (
+            <AccordionItem
+              value={category.category}
+              key={category.category}
+              className="border my-4 px-4 rounded-[0.5rem] bg-white/5"
+            >
+              <AccordionTrigger className="hover:no-underline justify-between">
+                <div className="flex items-start flex-col">
+                  <h4 className="scroll-m-20 text-[1.5rem] font-semibold mb-2">
+                    {category.category}
+                  </h4>
+                  <div className="text-xs text-white/50 font-inter">
+                    {category.description}
+                  </div>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent>
+                <div className="w-full flex gap-4 flex-wrap">
+                  {category.tutorials.map((video) => (
+                    <VideoBox video={video} key={video.id} />
+                  ))}
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
     </div>
   );

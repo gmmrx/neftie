@@ -308,7 +308,7 @@ const Sidebar = ({
                 {isSidebarOpen ? t("translation:tier_list") : ""}
               </div>
             </Link>
-            <Link
+            {/* <Link
               onClick={() => {
                 if (isTopBar) toggleTopBar(false);
               }}
@@ -319,12 +319,12 @@ const Sidebar = ({
                 <Play className={`w-[1.5625rem]`} />
                 {isSidebarOpen ? t("translation:videos") : ""}
               </div>
-            </Link>
+            </Link> */}
             <Link
               onClick={() => {
                 if (isTopBar) toggleTopBar(false);
               }}
-              href="/tutorials"
+              href="/learn"
               className="w-full"
             >
               <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">

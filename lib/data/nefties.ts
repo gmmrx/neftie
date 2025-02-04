@@ -6,6 +6,8 @@ export interface Neftie {
   releaseDate?: string;
   image: string;
   slug: string;
+  role: string;
+  difficulty: string;
   skills: {
     icon: string;
     name: string;
@@ -84,5 +86,4 @@ export const NeftieList: Neftie[] = [
       },
     ],
   },
- 
 ];

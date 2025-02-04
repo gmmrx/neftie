@@ -14,91 +14,141 @@ const TierListNefties: NextPage = ({ data }) => {
   const { nefties } = useNefties();
   const { data: session } = useSession();
 
-  const TierList = (tierName: string, rgb: string) => {
-    const items = data[tierName];
+  // Ensure Nefties array is unique by `name`
+  const uniqueNefties = [
+    ...new Map(nefties.map((item) => [item.name, item])).values(),
+  ];
 
-    if (!items) return null;
+  // Create a map of Tier List data
+  const tierListMap = new Map(data.map((item) => [item.neftie_name, item]));
 
-    return (
-      <div className="flex w-full h-full gap-2">
-        {items.map((item, index) => {
-          const opacityValue = 1 - index * 0.1;
+  // Merge Nefties with Tier List Data
+  const mergedData = uniqueNefties.map((neftie) => {
+    const tierData = tierListMap.get(neftie.name); // Match by `name`
+    return {
+      neftie_name: neftie.name,
+      avgDamageDealt: tierData?.avgDamageDealt || null,
+      kdRatio: tierData?.kdRatio || null,
+      survivalRate: tierData?.survivalRate || null,
+      pickRate: tierData?.pickRate || null,
+      performanceScore: tierData?.performanceScore || null, // Use a low value for missing data
+      image: neftie.image, // Include Neftie image for display if needed
+      slug: neftie.slug, // Include slug for linking
+    };
+  });
 
-          const selectedNeftie = nefties.find((neftie) => neftie.id === item);
-          const neftieImageUrl = selectedNeftie?.image;
-          return (
-            <Link href={`/neftie/${selectedNeftie?.slug}`} key={item.id}>
-              <div className={`flex gap-2 items-center p-3  h-full`}>
-                <div
-                  style={{ backgroundImage: `url(${neftieImageUrl})` }}
-                  className={`rounded-full w-[40px] h-[40px] object-cover bg-center bg-[length:170%_180%]`}
-                />
-                <div>
-                  <div className="text-sm">{selectedNeftie?.name}</div>
-                  <div className="font-thin text-xs uppercase whitespace-nowrap">
-                    {t("translation:element")}:{" "}
-                    <span className="font-normal">
-                      {t(
-                        `translation:elements.${selectedNeftie?.element}`
-                      ).toUpperCase()}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
-    );
-  };
+  // Sort by performanceScore
+  const sortedData = mergedData.sort(
+    (a, b) => b.performanceScore - a.performanceScore
+  );
+
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto">
       <WhatIsTierListBox />
-      <div className="my-2 text-sm ml-4 max-w-fit p-2 rounded-sm bg-secondary text-xs font-normal uppercase">
-        {t("translation:current_patch")}:
-        <span className="font-semibold">{CURRENT_PATCH_VERSION}</span>
-      </div>
+
       {session && session.user && session.user.isAuroryMember && (
         <TierListVote />
       )}
-      <div className="flex h-[100px] mt-6">
-        <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[#28a745] rounded-tl-sm rounded-bl-sm">
-          S
+      <div className="mt-12 flex gap-4">
+        <div className="pb-1 border-b-[3px] border-[#d0364f] cursor-pointer font-bold text-[#d0364f]">
+          All
         </div>
-        <div className="w-[calc(100%-100px)] h-[100px] flex overflow-scroll no-scrollbar bg-[#242424] rounded-tr-sm rounded-br-sm">
-          {nefties && nefties.length > 0 && TierList("sTier", "40, 167, 69")}
+        <div className="cursor-pointer pb-1 hover:border-b-[3px] border-[#d0364f]  font-bold">
+          {" "}
+          <Link href="/tier-list/pvp">PvP</Link>
         </div>
-      </div>
-      <div className="flex h-[100px] mt-6">
-        <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[#8bc34a] rounded-tl-sm rounded-bl-sm">
-          A
+        <div className="cursor-pointer pb-1 hover:border-b-[3px] border-[#d0364f]  font-bold">
+          {" "}
+          <Link href="/tier-list/pve">PvE</Link>
         </div>
-        <div className="w-[calc(100%-100px)] h-[100px] flex overflow-scroll no-scrollbar bg-[#242424] rounded-tr-sm rounded-br-sm">
-          {nefties && nefties.length > 0 && TierList("aTier", "40, 167, 69")}
-        </div>
-      </div>
-      <div className="flex h-[100px] mt-6">
-        <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[rgb(208,186,0,1)] rounded-tl-sm rounded-bl-sm">
-          B
-        </div>
-        <div className="w-[calc(100%-100px)] h-[100px] flex overflow-scroll no-scrollbar bg-[#242424] rounded-tr-sm rounded-br-sm">
-          {nefties && nefties.length > 0 && TierList("bTier", "40, 167, 69")}
+        <div className="cursor-pointer pb-1 hover:border-b-[3px] border-[#d0364f]  font-bold">
+          {" "}
+          <Link href="/tier-list/community">Community</Link>
         </div>
       </div>
-      <div className="flex h-[100px] mt-6">
-        <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[#ff9800] rounded-tl-sm rounded-bl-sm">
-          C
-        </div>
-        <div className="w-[calc(100%-100px)] h-[100px] flex overflow-scroll no-scrollbar bg-[#242424] rounded-tr-sm rounded-br-sm">
-          {nefties && nefties.length > 0 && TierList("cTier", "40, 167, 69")}
-        </div>
-      </div>
-      <div className="flex h-[100px] mt-6">
-        <div className="w-[100px] text-center h-[100px] leading-[100px] bg-[#f44336] rounded-tl-sm rounded-bl-sm">
-          D
-        </div>
-        <div className="w-[calc(100%-100px)] h-[100px] flex overflow-scroll no-scrollbar bg-[#242424] rounded-tr-sm rounded-br-sm">
-          {nefties && nefties.length > 0 && TierList("dTier", "40, 167, 69")}
+      <div className="lg:max-h-[100%] overflow-y-auto no-scrollbar mt-8 mb-4">
+        <table className="min-w-full bg-white/5 ">
+          <thead className="sticky top-0 bg-[#717378]/10">
+            <tr>
+              <th className="py-4 px-4 text-left text-[#717378] font-inter font-bold text-[14px] w-[250px]">
+                Neftie
+              </th>
+              <th className="py-4 px-4 text-left text-[#717378] font-inter font-bold text-[12px]">
+                Overall Score
+              </th>
+              <th className="py-4 px-4 text-left text-[#717378] font-inter font-bold text-[12px]">
+                KD Ratio
+              </th>
+              <th className="py-4 px-4 text-left text-[#717378] font-inter font-bold text-[12px]">
+                Avg. Damage
+              </th>
+              <th className="py-4 px-4 text-left text-[#717378] font-inter font-bold text-[12px]">
+                Pick Rate
+              </th>
+              <th className="py-4 px-1 text-left text-[#717378] font-inter font-bold text-[12px]">
+                Survival Rate
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedData.map((data, index) => {
+              if (data.performanceScore) {
+                // Render row with valid data
+                return (
+                  <tr key={index}>
+                    <td className="flex items-center gap-2 pl-2 py-4 font-inter text-white text-[14px] font-semibold">
+                      <div
+                        style={{
+                          backgroundImage: `url(/images/nefties/${data?.neftie_name.toLowerCase().replace(" ", "-")}.png)`,
+                        }}
+                        className="w-[30px] h-[30px] bg-center bg-cover rounded-md"
+                      />
+                      {data.neftie_name}
+                    </td>
+                    <td className="font-inter text-white text-[12px] font-bold text-left px-4">
+                      {data.performanceScore}
+                    </td>
+                    <td className="font-inter text-white text-[12px] font-bold text-left px-4">
+                      {data.kdRatio}
+                    </td>
+                    <td className="font-inter text-white text-[12px] font-bold text-left px-4">
+                      {parseFloat(data.avgDamageDealt).toFixed(2)}
+                    </td>
+                    <td className="font-inter text-white text-[12px] font-bold text-left px-4">
+                      {data.pickRate}
+                    </td>
+                    <td className="font-inter text-white text-[12px] font-bold text-left px-4">
+                      {data.survivalRate}
+                    </td>
+                  </tr>
+                );
+              } else {
+                // Render "Not sufficient data" row
+                return (
+                  <tr key={index}>
+                    <td className="flex items-center gap-2 pl-2 py-4 font-inter text-white text-[14px] font-semibold">
+                      <div
+                        style={{
+                          backgroundImage: `url(/images/nefties/${data?.neftie_name.toLowerCase().replace(" ", "-")}.png)`,
+                        }}
+                        className="w-[30px] h-[30px] bg-center bg-cover rounded-md"
+                      />
+                      {data.neftie_name}
+                    </td>
+                    <td
+                      colSpan={6} // Span across all columns
+                      className="font-inter text-white/50 text-[10px] font-bold text-center px-4 uppercase"
+                    >
+                      Not sufficient data
+                    </td>
+                  </tr>
+                );
+              }
+            })}
+          </tbody>
+        </table>
+        <div className="mx-auto text-center text-xs font-inter my-4 text-white/40 italic">
+          All Tier List data based on NeftieGG Desktop App data.
         </div>
       </div>
     </div>

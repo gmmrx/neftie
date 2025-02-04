@@ -33,18 +33,28 @@ const NeftieBox: FC<{
   return (
     <Link href={`/neftie/${neftie.slug}`}>
       <div
-        className={`p-4 max-w-[135px] bg-[#000] rounded-sm w-full text-center cursor-pointer hover:scale-[1.2] transition-all relative ${className}`}
+        className={`max-w-[85px] rounded-sm w-full text-center cursor-pointer hover:scale-[1.2] transition-all relative ${className}`}
       >
-        <div className="flex flex-col relative">
-          <div
-            style={{
-              backgroundImage: `url('/images/nefties/${neftie.slug}.png')`,
-            }}
-            className={`rounded-sm w-[80px] h-[80px] p-2 object-cover mr-auto mx-auto bg-center bg-[length:100%_100%] bg-no-repeat `}
-          />
+        <div className="flex flex-col relative box-border">
+          <div className="p-4 box-border bg-white/5 rounded-sm">
+            <div
+              style={{
+                backgroundImage: `url('/images/nefties/${neftie.slug}.png')`,
+              }}
+              className={`rounded-sm w-[55px] h-[55px] object-contain mr-auto mx-auto bg-center bg-[length:100%_100%] bg-no-repeat`}
+            />
+          </div>
         </div>
         {!hideName && (
-          <div className="font-medium text-sm mt-3">{neftie.name}</div>
+          <>
+            {" "}
+            <div className="font-medium text-sm mt-1">{neftie.name}</div>
+            {/* <div className="text-[10px]">
+              <div className="text-[#999999] whitespace-nowrap">
+                {neftie.role.replace("_", " ")}
+              </div>
+            </div> */}
+          </>
         )}
       </div>
     </Link>

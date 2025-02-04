@@ -3,14 +3,27 @@
   "eggs": "Eggs",
   "nefties": "Nefties",
   "nefties_page_desc": "Dive into the vibrant world of Nefties, where each character brings its unique flair to the adventure. Our Nefties page is designed to showcase the full spectrum of these captivating characters, offering you an in-depth look at their strengths, elements.",
-  "tier_list": "Tier List",
+  "elites": "Elites",
+  "elites_desc": "Learn more about Elites and their stats.",
+  "bosses": "Bosses",
+  "bosses_desc": "Learn more about Bosses and their stats.",
+  "neftie_leaderboards": "Best {{ slug }} Players in the World",
+  "neftie_leaderboard_desc": "Discover the top {{ slug }} players in the world of Seekers of Tokane. Explore their stats, Nefties, and strategies to stay ahead in the game.",
+  "tier_list": "Tier Lists",
   "explore_all": "Explore All",
   "what_is_a_neftie": "What is a <Neftie>Neftie?</Neftie>",
   "neftie_desc": "Nefties are the natural inhabitants of Tokane, magical creatures that roam free in its wilderness. You can own & use them in <bold><sotlink>Seekers of Tokané</sotlink></bold> game by <bold><aurorylink>Aurory</aurorylink></bold>.",
   "what_is_an_egg": "What is an <Neftie>Egg?</Neftie>",
   "egg_desc": "Eggs are where Nefties are coming from. You get the Egg, you hatch it, you get your new Neftie! Eggs can be found at Marketplace, Expeditions or Lands in Seekers of Tokané.",
-  "what_is_a_tier_list": "What is a <Neftie>Tier List?</Neftie>",
-  "tier_list_desc": "A tier list is a ranking system that categorizes Nefties based on their effectiveness, strength, or popularity. These rankings are divided into tiers, with the highest performers placed in the S-tier, followed by A and B.",
+  "what_is_a_tier_list": "<bold>Seekers of Tokane (SoT) Tier List</bold>",
+  "tier_list_desc": "A tier list is a ranking system that categorizes Nefties based on their effectiveness, strength, or popularity.",
+  "what_is_a_tier_list_pvp": "<bold>Seekers of Tokane (SoT) PvP Tier List</bold>",
+  "tier_list_desc_pvp": "The PvP tier list ranks Nefties specifically for player-versus-player combat scenarios. S-tier represents the most dominant arena fighters, while lower tiers indicate Nefties that may need specific team compositions to shine in competitive play. Use this ranking to build your ultimate battle team and climb the competitive ladder.",
+
+  "what_is_a_tier_list_pve": "<bold>Seekers of Tokane (SoT) PvE Tier List</bold>",
+  "tier_list_desc_pve": "The PvE tier list focuses on ranking Nefties based on their performance in campaign missions, world exploration, and monster hunting. S-tier Nefties excel at conquering environmental challenges, while lower tiers may be more situation-specific. This ranking helps you build the perfect team for tackling game content and completing quests.",
+  "what_is_a_tier_list_community": "<bold>Seekers of Tokane (SoT) Community Tier Lists</bold>",
+  "tier_list_desc_community": "The Community tier list is where creativity meets ranking! Here, you can create your own categories and rank Nefties based on anything from battle prowess to best dance moves. S-tier could mean 'Supreme Goofball' or 'Simply Adorable' - it's all up to you! Share your unique perspectives and have fun with fellow Neftie enthusiasts.",
   "videos": "Videos",
   "videos_page_desc": "Discover top moments from Seekers of Tokane! Explore tutorials, funny clips, and user content, all capturing the best of the game. Join the community and share your adventures!",
   "events": "Events",
@@ -32,7 +45,7 @@
   "post_your_tier_list": "Post Your Tier List",
   "tier_list_voting": "Tier List Voting",
   "type_and_choose": "Type and choose Nefties for each Tier List. Please do remember that you can vote only for once for each Patch.",
-  "current_patch": "Current Patch",
+  "current_patch": "Patch",
   "post": "Post",
   "select_x_tier_neftie": "Select {{ x }} TIER Nefties",
   "select_neftie_for_each_tier": "Please select a Neftie for each Tier",
@@ -120,7 +133,7 @@
   },
   "video_categories": {
     "tutorials": {
-      "title": "Tutorials",
+      "title": "Learn",
       "desc": "This is where tutorials will be added"
     },
     "official_stream_recordings": {
@@ -189,9 +202,25 @@
       "title": "Neftie GG - Meet Your Nefties: Dive into Elements, Moves, and Strategies!",
       "description": "Discover and learn about all the Nefties available in Seekers of Tokané. Organize them by type, explore their strengths, weaknesses, moves, and strategize your way to victory!"
     },
+    "bosses": {
+      "title": "Neftie GG - Meet Elites and Bosses: Face the Ultimate Challenges!",
+      "description": "Uncover the formidable Elites and Bosses that await in Seekers of Tokané. Study their powerful abilities, understand their patterns, and prepare your strategies to overcome these challenging encounters!"
+    },
     "tier_list": {
-      "title": "Neftie GG - Ascend the Ranks: Explore the Definitive Neftie Tier List",
-      "description": "Explore the Nefties' tier list and ascend through the ranks. Discover which creatures reign supreme based on their effectiveness, strength, and popularity."
+      "title": "Neftie GG - Master Collection: The Complete Neftie Power Rankings",
+      "description": "Access the definitive compilation of all Nefties ranked across every aspect of gameplay. From battle prowess to utility, discover where each creature stands in the complete ecosystem."
+    },
+    "tier_list_pvp": {
+      "title": "Neftie GG - Seekers of Tokane Battle Arena: PvP Combat Rankings",
+      "description": "Dominate player battles with strategic insight into the most formidable Nefties in competitive play. Learn which Nefties excel in arena combat and climb the PvP ladder."
+    },
+    "tier_list_pve": {
+      "title": "Neftie GG - Seekers of Tokane Adventure Rankings: PvE Excellence Guide",
+      "description": "Master environmental challenges with the most effective Nefties for quest completion and monster hunting. Discover which creatures excel in campaign missions and world exploration."
+    },
+    "tier_list_community": {
+      "title": "Neftie GG - Seekers of Tokane Community Chronicles: Create Your Own Rankings",
+      "description": "Express yourself in this player-driven space! Create custom categories, share funny moments, and rank Nefties your way. From 'Best Dance Moves' to 'Most Likely to Be a Superstar' - let your imagination run wild and share your unique perspectives with the Seekers of Tokane community."
     },
     "videos": {
       "title": "Neftie GG - Explore the World of Tokané: Dive into in-depth tutorials and user-generated clips!",
@@ -216,6 +245,14 @@
     "tutorials": {
       "title": "Neftie GG - Seekers of Tokane Tutorials, Master the Game quickly!",
       "description": "Watch our Seekers of Tokane tutorial series. Learn from the ground up with beginner tips, advanced strategies, and expert insights to dominate the game."
+    },
+    "player_profile": {
+      "title": "{{ username }}'s Seekers of Tokane Profile, Latest Battles, Nefties and more...",
+      "description": "Explore {{ username }}'s Seekers of Tokane profile. Discover their latest battles, Nefties, and more. Stay updated with their progress and strategies."
+    },
+    "neftie_leaderboard": {
+      "title": "Best {{ slug }} Players in the World",
+      "description": "Discover the top {{ slug }} players in the world of Seekers of Tokane. Explore their stats, Nefties, and strategies to stay ahead in the game."
     }
   },
   "recently_added_videos": "Recently Added Videos",

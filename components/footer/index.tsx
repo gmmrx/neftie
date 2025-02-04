@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-black mt-8 lg:h-[80px] lg:pl-[11rem] py-4 lg:py-0 lg:pr-[4rem] flex flex-col lg:flex-row justify-center lg:justify-start items-center gap-8">
       <div>
-        <img src={"/images/footer-logo.png"} className="max-w-[100px]" />
+        <img src={"/images/logo-black.png"} className="max-w-[50px]" />
       </div>
       <div className="flex flex-col lg:flex-row items-center gap-8 w-full">
         <div className="uppercase text-xs text-[#9e9e9e] cursor-pointer hover:text-white transition-all">

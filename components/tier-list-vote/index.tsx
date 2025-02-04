@@ -171,7 +171,7 @@ const TierListVote: NextPage = () => {
   };
   return (
     <DragDropContext onDragEnd={onDragEnd}>
-      <div className="pt-4 text-xl font-semibold px-4 max-w-[70rem] w-full">
+      <div className="pt-4 text-xl font-semibold max-w-[70rem] w-full">
         <Dialog>
           <DialogTrigger asChild>
             <Button variant="outline" className="ml-0 text-left mr-0">

@@ -1,15 +1,15 @@
 import * as Sequelize from "sequelize";
 import { DataTypes, Model } from "sequelize";
-
 export interface BossesAttributes {
   id: number;
   name: string;
   image: string;
-  description: string; 
+  description: string;
   hp: number;
   atk: number;
   def: number;
   sp: number;
+  type: string; // New field
   lang: string;
   createdAt: Date;
   updatedAt: Date;
@@ -27,6 +27,7 @@ export class Bosses
   atk!: number;
   def!: number;
   sp!: number;
+  type!: string; // New field
   lang!: string;
   createdAt!: Date;
   updatedAt!: Date;
@@ -67,6 +68,11 @@ export class Bosses
         sp: {
           type: DataTypes.INTEGER,
           allowNull: false,
+        },
+        type: {
+          type: DataTypes.ENUM("ELITE", "BOSS"),
+          allowNull: false,
+          defaultValue: "BOSS",
         },
         lang: {
           type: DataTypes.STRING,
