@@ -86,5 +86,9 @@ export function initModels(sequelize: Sequelize) {
     User: sequelize.models.User,
     UserTierList: sequelize.models.UserTierList,
     Bosses: sequelize.models.Bosses,
+    Tier: sequelize.models.Tier,
+    TierItem: sequelize.models.TierItem,
+    TierListComment: sequelize.models.TierListComment,
+    TierListVote: sequelize.models.TierListVote,
   };
 }

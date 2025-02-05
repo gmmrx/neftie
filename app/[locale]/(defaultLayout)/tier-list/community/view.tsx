@@ -1,7 +1,6 @@
 "use client";
 
 import CommunityTierListBox from "@/components/community-tier-list-box";
-import TierListVote from "@/components/tier-list-vote";
 import WhatIsTierListBox from "@/components/what-is-tier-list";
 import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
 import { useNefties } from "@/providers/NeftiesProvider";
@@ -19,9 +18,10 @@ const TierListNefties: NextPage = ({ data }) => {
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto">
       <WhatIsTierListBox type="community" />
 
-      {session && session.user && session.user.isAuroryMember && (
-        <TierListVote />
-      )}
+      {session &&
+        session.user &&
+        session.user.isAuroryMember &&
+        "Create a Tier List"}
       <div className="mt-12 flex gap-4">
         <div className="pb-1 hover:border-b-[3px]  border-[#d0364f] cursor-pointer font-bold ">
           <Link href="/tier-list">All</Link>

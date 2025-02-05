@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import { useSession } from "next-auth/react";
-import {
-  Github,
-  Twitter,
-} from "lucide-react";
+import { Github, Twitter } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";

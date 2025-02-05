@@ -53,7 +53,7 @@ export const authOptions: NextAuthOptions = {
             }
           });
         const adminsArr = process.env.ADMINS?.split(",");
-
+        console.log(token);
         token.username = user.name;
         token.id = dbUser?.dataValues.id;
         token.isAuroryMember = isUserMemberOfAuroryDiscord;

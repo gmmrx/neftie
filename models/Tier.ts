@@ -4,8 +4,7 @@ export interface TierAttributes {
   id: number;
   tierListId: number;
   name: string;
-  description: string;
-  order: number;
+  color: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -14,8 +13,7 @@ export class Tier extends Model<TierAttributes> implements TierAttributes {
   id!: number;
   tierListId!: number;
   name!: string;
-  description!: string;
-  order!: number;
+  color!: string;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -40,12 +38,8 @@ export class Tier extends Model<TierAttributes> implements TierAttributes {
           type: DataTypes.STRING,
           allowNull: false,
         },
-        description: {
+        color: {
           type: DataTypes.TEXT,
-          allowNull: false,
-        },
-        order: {
-          type: DataTypes.INTEGER,
           allowNull: false,
         },
         createdAt: {

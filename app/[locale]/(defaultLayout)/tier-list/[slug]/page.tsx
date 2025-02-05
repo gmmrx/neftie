@@ -24,10 +24,11 @@ export async function generateMetadata(
 
   return {
     title: t("translation:page_information:single_tier_list.title", {
-      username: tierListData.User.username,
-      patch: CURRENT_PATCH_VERSION,
+      title: tierListData.title,
     }),
-    description: t("translation:page_information:tier_list.description"),
+    description: t("translation:page_information:tier_list.description", {
+      description: tierListData.description,
+    }),
   };
 }
 

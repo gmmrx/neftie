@@ -42,7 +42,9 @@ export async function syncAndForceDB() {
     // for (const egg of example_eggs) {
     //   await models.Eggs.create({ ...egg });
     // }
-    await models.Bosses.sync({ force: true, alter: true });
+    // await models.Bosses.sync({ force: true, alter: true });
+    await models.UserTierList.sync({ force: true, alter: true });
+    await models.Tier.sync({ force: true, alter: true });
 
   } catch (e) {
     console.log("Error Syncing ---> ", e);

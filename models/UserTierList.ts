@@ -9,6 +9,7 @@ export interface UserTierListAttributes {
   description: string;
   slug: string;
   voteCount: number;
+  viewCount: number;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -24,6 +25,7 @@ export class UserTierList
   description!: string;
   slug!: string;
   voteCount!: number;
+  viewCount!: number;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -45,7 +47,7 @@ export class UserTierList
           },
         },
         patchVersionId: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           allowNull: false,
         },
         title: {
@@ -64,6 +66,11 @@ export class UserTierList
           type: DataTypes.INTEGER,
           allowNull: false,
           defaultValue: 0,
+        },
+        viewCount: {
+          type: DataTypes.INTEGER,
+          allowNull: false,
+          defaultValue: 1,
         },
         createdAt: {
           type: DataTypes.DATE,

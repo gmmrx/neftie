@@ -239,8 +239,8 @@
       "description": "Explore our comprehensive guide for {{ neftie }} in Patch {{ patch }}. Learn about the best strategies to counter {{ neftie }} and discover the characters or elements where {{ neftie }} excels. Stay updated and ahead in your Seekers of Tokane game."
     },
     "single_tier_list": {
-      "title": "{{username}} Tier List for Patch: {{ patch }}",
-      "description": "See which Nefties {{username}} thinks the strongest and the weakest.."
+      "title": "{{ title }} | Tier List for Seekers of Tokane",
+      "description": "{{ description }}"
     },
     "tutorials": {
       "title": "Neftie GG - Seekers of Tokane Tutorials, Master the Game quickly!",
