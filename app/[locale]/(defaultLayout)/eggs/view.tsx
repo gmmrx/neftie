@@ -1,9 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import EggBox from "@/components/egg-box";
-import WhatIsEgg from "@/components/what-is-egg";
 import { useEggs } from "@/providers/EggsProvider";
-import { useNefties } from "@/providers/NeftiesProvider";
 import { NextPage } from "next";
 import { useTranslation } from "react-i18next";
 
@@ -14,15 +12,28 @@ const ListNefties: NextPage = () => {
   useEffect(() => {
     if (eggs.length > 0 && !selectedEgg) setSelectedEgg(eggs[0]);
   }, [eggs, selectedEgg]);
+
+  console.log(selectedEgg)
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto overflow-y-scroll no-scrollbar pb-6 flex flex-col">
-      <aside className="bg-[#121212] flex overflow-y-hidden overflow-x-scroll rounded-md flex-row no-scrollbar flex-grow w-[100%] max-h-[100px]">
+      <div className="rounded-sm w-full text-left">
+        <div className="flex justify-between items-center">
+          <h2 className="scroll-m-20 pb-2 text-[36px] font-normal tracking-tight first:mt-0">
+            <strong className="">{t("translation:eggs")}</strong>
+          </h2>
+        </div>
+
+        <h3 className="scroll-m-20 text-xl font-thin mt-3 mb-8">
+          {t("translation:egg_desc")}
+        </h3>
+      </div>
+      <aside className="bg-white/5 flex overflow-y-hidden overflow-x-scroll rounded-md flex-row no-scrollbar flex-grow w-[100%] max-h-[100px] border border-[#212121]">
         {eggs &&
           eggs.length > 0 &&
           eggs.map((egg) => {
             return (
               <div
-                className={`flex flex-col items-center gap-2 justify-center cursor-pointer p-4 max-h-[100px] px-6 group hover:bg-black ${selectedEgg?.name === egg?.name && "bg-black"}`}
+                className={`flex flex-col items-center gap-2 justify-center cursor-pointer p-4 max-h-[100px] px-6 group hover:bg-black ${selectedEgg?.name === egg?.name && "bg-black/50"}`}
                 key={egg.name}
                 onClick={() => setSelectedEgg(egg)}
               >

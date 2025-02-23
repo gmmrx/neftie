@@ -1,9 +1,8 @@
 "use client";
 
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import React, { FC } from "react";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { DownloadIcon } from "lucide-react";
 
 const HomeDownloadBox: FC = () => {
@@ -11,8 +10,8 @@ const HomeDownloadBox: FC = () => {
   return (
     <>
       <div className="bg-black border border-#FFF/26 rounded-[0.5rem] h-[323px] relative px-[2.1875rem] py-[1.5rem] mt-4 w-[46.125rem]">
-        <h1 className="font-inter font-bold text-[2rem] max-w-[19rem]">
-          Rise to the Top Earn Bigger Rewards
+        <h1 className="font-inter font-bold text-[2rem] max-w-[20rem]">
+          Rise to the Top <br /> Earn Bigger Rewards
         </h1>
         <h2 className="font-inter text-[#768192] font-normal text-[0.875rem] max-w-[15rem] mt-4">
           Level up your gameplay and maximize your rewards with the ultimate

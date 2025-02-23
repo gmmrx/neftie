@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
+import { useRouter } from "next/navigation";
 import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
 import { useNefties } from "@/providers/NeftiesProvider";
 import axios from "axios";
@@ -50,11 +51,14 @@ const DraggableItem = ({ item, index, containerId }) => (
 );
 
 const NewTierList: NextPage = () => {
+  const router = useRouter();
+
   const { t } = useTranslation();
   const { nefties } = useNefties();
   const { toast } = useToast();
   const { data: session } = useSession();
 
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [tiers, setTiers] = useState([
@@ -125,6 +129,7 @@ const NewTierList: NextPage = () => {
   };
 
   const handlePost = async () => {
+    if (isLoading) return;
     if (!title.trim() || !description.trim()) {
       return toast({ description: "Title and Description are required." });
     }
@@ -142,10 +147,15 @@ const NewTierList: NextPage = () => {
     };
 
     try {
-      await axios.post("/api/tier-list", formData);
+      setIsLoading(true);
+      const result = await axios.post("/api/tier-list", formData);
       toast({ description: "Tier list posted successfully!" });
+      router.push(`/tier-list/${result.data.data.slug}`);
     } catch (error) {
+      setIsLoading(false);
       toast({ description: "An error occurred." });
+    } finally {
+      setIsLoading(false);
     }
   };
   if (!session) return "Login";
@@ -270,7 +280,7 @@ const NewTierList: NextPage = () => {
       </DragDropContext>
 
       <Button onClick={handlePost} className="mt-4">
-        Submit Tier List
+        {isLoading ? "Submitting.." : "Submit Tier List"}
       </Button>
     </div>
   );

@@ -1,5 +1,8 @@
 import { type NextRequest, NextResponse as Response } from "next/server";
 import { models } from "@/lib/db";
+import axios from "axios";
+
+const statUrl = process.env.NEFTIE_STAT_API;
 
 async function handleGet(req: NextRequest) {
   try {
@@ -16,31 +19,39 @@ async function handleGet(req: NextRequest) {
       });
     }
 
+    // Fetch latest battles for each boss
+    const bossesWithBattles = await Promise.all(
+      bosses.map(async (boss) => {
+        const neftieKey =
+          boss.type === "BOSS"
+            ? boss.neftie
+            : boss.name
+                .toLowerCase()
+                .replace(/\belite\b/, "")
+                .trim();
+        console.log("neftieKey --> ", neftieKey);
+        const formattedType = boss.type === "BOSS" ? "Boss" : "Elite";
+        const url = `${statUrl}/battles/get-boss-battles/${formattedType}/${neftieKey}`;
+        try {
+          const response = await axios.get(url);
+          return { ...boss.toJSON(), latestBattles: response.data };
+        } catch (error) {
+          console.error(`Error fetching battles for ${boss.name}:`, error);
+          return { ...boss.toJSON(), latestBattles: [] };
+        }
+      })
+    );
+
     // Group bosses by type
-    const groupedBosses = bosses.reduce(
+    const groupedBosses = bossesWithBattles.reduce(
       (acc, boss) => {
-        // Initialize the array for this type if it doesn't exist
         if (!acc[boss.type]) {
           acc[boss.type] = [];
         }
-
-        // Add the boss to its type array
-        acc[boss.type].push({
-          id: boss.id,
-          name: boss.name,
-          image: boss.image,
-          description: boss.description,
-          hp: boss.hp,
-          atk: boss.atk,
-          def: boss.def,
-          sp: boss.sp,
-          lang: boss.lang,
-          type: boss.type,
-        });
-
+        acc[boss.type].push(boss);
         return acc;
       },
-      {} as { [key: string]: typeof bosses }
+      {} as { [key: string]: typeof bossesWithBattles }
     );
 
     return Response.json({

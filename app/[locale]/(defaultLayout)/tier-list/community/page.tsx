@@ -23,14 +23,14 @@ export async function generateMetadata(
   const { t } = await useTranslation(params.locale, "translation", {});
   return {
     title: t("translation:page_information:tier_list_community.title"),
-    description: t("translation:page_information:tier_list_community.description"),
+    description: t(
+      "translation:page_information:tier_list_community.description"
+    ),
   };
 }
 
 async function getServerSideProps() {
   const apiUrl = getApiUrl();
-  const tierListData = await axios.get(
-    `${statApi}/tierlist/type?patch_number=${CURRENT_PATCH_VERSION}&match_type=PvP`
-  );
-  return tierListData.data.tierList;
+  const tierListData = await axios.get(`${apiUrl}/tier-list/community`);
+  return tierListData.data.data;
 }

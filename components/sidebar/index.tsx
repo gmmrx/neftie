@@ -84,7 +84,9 @@ const Sidebar = ({
                     className="max-w-[50px] rounded-[100%]"
                   />
                   {isSidebarOpen ? (
-                    <span className="text-[1.1rem] font-bold">NEFTIE</span>
+                    <span className="text-[1.2rem] font-dosis">
+                      <strong>NEFTIE</strong>.GG
+                    </span>
                   ) : (
                     ""
                   )}
@@ -94,7 +96,7 @@ const Sidebar = ({
           )}
           <div className="mb-2 border-b pb-4 border-[#151515] w-full">
             <div
-              className={`font-inter flex items-center gap-4 ${isSidebarOpen ? 'w-[12.8125rem]' : 'w-[3.3rem]'} h-[3rem] cursor-pointer mt-0 justify-center p-[2px] rounded-md bg-gradient-to-r from-[#E9213D] to-[#8B0034] group relative z-[10]`}
+              className={`font-inter flex items-center gap-4 ${isSidebarOpen ? "w-[12.8125rem]" : "w-[3.3rem]"} h-[3rem] cursor-pointer mt-0 justify-center p-[2px] rounded-md bg-gradient-to-r from-[#E9213D] to-[#8B0034] group relative z-[10]`}
             >
               <div className="flex items-center gap-4 w-full h-full justify-center group-hover:bg-black rounded-md text-[1rem] bg-transparent">
                 <svg
@@ -216,71 +218,21 @@ const Sidebar = ({
               </div>
             </Link>
 
-            {/* <Link onClick={() => { if(isTopBar) toggleTopBar(false); }} href="/bosses" className="w-full">
+            <Link
+              onClick={() => {
+                if (isTopBar) toggleTopBar(false);
+              }}
+              href="/bosses"
+              className="w-full"
+            >
               <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <svg
-                  width={isSidebarOpen ? "25px" : "100%"}
-                  height={"25px"}
-                  fill="currentColor"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6.11243 20.037L5.80571 19.0094L6.14861 15.4802L8.16195 10.2256L13.3683 6.95785L18.3136 7.42752L18.2271 6.76299L19.8834 5.802L16.0612 4.73108L9.20322 6.51816L4.6968 12.3341L4 19.8205L5.19542 22.9416L6.11243 20.037Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M26.9631 15.6351L25.9139 15.5685L26.12 17.7386L22.6643 25.0701L16.0612 27.9148L13.8339 27.2653L13.1166 27.9764L10.1706 28.2446L13.6153 30L20.0642 29.3271L25.4688 25.1051L28.2387 17.2923L27.7338 14.0679L26.9631 15.6351Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M7.8568 18.0168L8.31609 17.8619L9.36366 16.9492L7.77973 16.9325L7.8568 18.0168Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M11.9464 12.5523L10.784 10.8418L9.62162 11.5013L11.2276 12.8687L11.8237 12.867L11.9464 12.5523Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M16.3002 10.9067L16.4245 10.5903L16.7344 8.36187L15.3895 8.55506L15.5798 10.5903L16.0014 11.0367L16.3002 10.9067Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M15.3329 26.1527L15.4886 25.668L16.3694 24.5771L16.3553 26.2526L15.3329 26.1527Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M20.5691 21.924L22.1625 23.1865L21.5176 24.4039L20.2577 22.6785L20.2687 22.0489L20.5691 21.924Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M22.205 17.3456L22.5054 17.2206L24.6147 16.9325L24.4071 18.3548L22.4897 18.1133L22.076 17.6587L22.205 17.3456Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M20.3238 10.3388L14.2743 15.1937L16.0344 16.0898L12.7911 16.6044L7.24494 21.0396L4.94061 27.9764L12.1635 26.3809L23.1755 13.7014L21.277 12.509L20.3238 10.3388Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M23.6536 9.18296L21.4657 7.35591L19.9746 7.56076L22.2364 11.5696L25.7881 14.1511L26.3119 13.0019L24.5848 10.2322L23.6536 9.18296Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M26.5824 6.53148L23.5042 9.4461C23.5042 9.4461 22.9741 9.99572 23.4256 10.4637C23.844 10.8968 24.3001 10.6353 24.3001 10.6353L26.5966 8.49844L27.6253 7.60573L27.9807 7.30927L28.278 7.11108L28.5155 6.71136L29 6.12011L28.0562 5.18243L27.4774 5.44391L27.4098 5.68874L26.5808 6.52982L26.5824 6.53148Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M26.8593 7.18269C26.8593 7.18269 26.6611 6.97284 26.4786 7.01614C24.8333 7.41253 23.8691 7.24432 23.424 6.71802C23.0103 6.22836 23.3894 5.12914 23.3925 4.82935C23.3957 4.52956 23.6552 4.4746 23.6552 4.4746C23.6552 4.4746 23.6348 4.58285 23.7024 4.68112C23.7716 4.77938 23.7732 4.88597 24.146 5.42393C24.5187 5.96355 24.9953 6.24169 25.3901 6.41823C25.6969 6.55647 26.4613 6.57978 26.79 6.58478C26.79 6.58478 26.9552 6.49151 26.9945 6.61476C27.0338 6.73801 27.0637 6.84959 27.015 6.94453C26.9662 7.03946 27.0024 7.22933 26.8593 7.18103V7.18269Z"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M27.9745 6.05682C27.9745 6.05682 27.7149 5.69374 27.479 5.44558C26.5761 4.49458 25.6166 4.20479 25.3241 3.73678C25.0331 3.26878 24.7877 2.58759 25.0897 2.01466C24.6037 1.90973 24.0374 2.39772 24.0422 2.53929C24.0469 2.68086 23.8613 3.43366 24.4527 4.19479C25.0457 4.95592 26.0744 5.34898 26.5321 5.55051C26.7806 5.66043 26.8797 5.92524 26.9206 6.11511C26.9206 6.11511 26.908 6.37826 27.177 6.40657C27.177 6.40657 27.339 6.54481 27.5372 6.47652C27.7354 6.40824 27.9776 6.20172 27.9745 6.05682Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-                {isSidebarOpen ? "Bosses" : ""}
+                <img
+                  src={"/images/bosses-icon.png"}
+                  className={`w-[1rem] ${isSidebarOpen ? "ml-1 mr-1" : "mx-auto"}`}
+                />
+                {isSidebarOpen ? "Elites & Bosses" : ""}
               </div>
-            </Link> */}
+            </Link>
             <Link
               onClick={() => {
                 if (isTopBar) toggleTopBar(false);
@@ -308,18 +260,7 @@ const Sidebar = ({
                 {isSidebarOpen ? t("translation:tier_list") : ""}
               </div>
             </Link>
-            {/* <Link
-              onClick={() => {
-                if (isTopBar) toggleTopBar(false);
-              }}
-              href="/videos"
-              className="w-full"
-            >
-              <div className="text-xl lg:text-base font-normal flex items-center gap-3 cursor-pointer hover:bg-secondary py-2 px-2 rounded-sm">
-                <Play className={`w-[1.5625rem]`} />
-                {isSidebarOpen ? t("translation:videos") : ""}
-              </div>
-            </Link> */}
+
             <Link
               onClick={() => {
                 if (isTopBar) toggleTopBar(false);

@@ -13,15 +13,16 @@ const TierListNefties: NextPage = ({ data }) => {
   const { t } = useTranslation();
   const { nefties } = useNefties();
   const { data: session } = useSession();
-
+  console.log(data.items);
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto">
       <WhatIsTierListBox type="community" />
 
-      {session &&
-        session.user &&
-        session.user.isAuroryMember &&
-        "Create a Tier List"}
+      {session && session.user && session.user.isAuroryMember && (
+        <Link href="/tier-list/new">
+          <div className="mt-4 ml-auto">Create Your Tier List</div>
+        </Link>
+      )}
       <div className="mt-12 flex gap-4">
         <div className="pb-1 hover:border-b-[3px]  border-[#d0364f] cursor-pointer font-bold ">
           <Link href="/tier-list">All</Link>
@@ -40,16 +41,17 @@ const TierListNefties: NextPage = ({ data }) => {
         </div>
       </div>
       <div className="lg:max-h-[100%] overflow-y-auto no-scrollbar mt-8 mb-4">
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
-        <CommunityTierListBox />
+        {data &&
+          data.items &&
+          data.items.length > 0 &&
+          data.items.map((communityTierList) => {
+            return (
+              <CommunityTierListBox
+                data={communityTierList}
+                key={communityTierList.id}
+              />
+            );
+          })}
       </div>
     </div>
   );

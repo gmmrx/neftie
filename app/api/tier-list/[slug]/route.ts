@@ -19,7 +19,7 @@ async function handleGet(
         {
           model: models.User,
           as: "User", // Assuming the alias for the user association is 'user'
-          attributes: ["id", "username"], // Include necessary user fields
+          attributes: ["id", "username", "picture"], // Include necessary user fields
         },
         {
           model: models.Tier,
@@ -37,7 +37,7 @@ async function handleGet(
     if (!userTierList) {
       return new Response("Tier list not found.", { status: 404 });
     }
-
+    userTierList.increment("viewCount");
     return new Response(
       JSON.stringify({
         status: 200,

@@ -20,7 +20,7 @@ export default async function Home() {
         </div>
       </div>
       <div className="w-[1px] my-auto h-[550px] bg-white bg-gradient-to-b from-[#000000] via-[#999999] to-[#000000]" />
-      <div className="flex flex-col w-[380px]">
+      <div className="flex flex-col flex-none w-[380px]">
         <HomeSearch />
         <RandomEgg />
         <LatestHatches />

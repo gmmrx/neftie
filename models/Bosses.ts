@@ -1,5 +1,6 @@
 import * as Sequelize from "sequelize";
 import { DataTypes, Model } from "sequelize";
+
 export interface BossesAttributes {
   id: number;
   name: string;
@@ -9,8 +10,9 @@ export interface BossesAttributes {
   atk: number;
   def: number;
   sp: number;
-  type: string; // New field
+  type: string; // ENUM("ELITE", "BOSS")
   lang: string;
+  neftie?: string; // New optional field
   createdAt: Date;
   updatedAt: Date;
 }
@@ -27,8 +29,9 @@ export class Bosses
   atk!: number;
   def!: number;
   sp!: number;
-  type!: string; // New field
+  type!: string;
   lang!: string;
+  neftie?: string;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -77,6 +80,10 @@ export class Bosses
         lang: {
           type: DataTypes.STRING,
           allowNull: false,
+        },
+        neftie: {
+          type: DataTypes.STRING,
+          allowNull: true,
         },
         createdAt: {
           type: DataTypes.DATE,

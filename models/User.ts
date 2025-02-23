@@ -4,6 +4,7 @@ import { DataTypes, Model } from "sequelize";
 export interface UserAttributes {
   id: number;
   username: string;
+  picture: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -11,6 +12,7 @@ export interface UserAttributes {
 export class User extends Model<UserAttributes> implements UserAttributes {
   id!: number;
   username!: string;
+  picture!: string;
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -26,6 +28,10 @@ export class User extends Model<UserAttributes> implements UserAttributes {
         username: {
           type: DataTypes.STRING,
           allowNull: false,
+        },
+        picture: {
+          type: DataTypes.STRING,
+          allowNull: true,
         },
         createdAt: {
           type: DataTypes.DATE,

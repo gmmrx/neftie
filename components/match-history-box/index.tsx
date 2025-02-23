@@ -1,6 +1,7 @@
 import React from "react";
 import { intervalToDuration, format } from "date-fns";
 import Link from "next/link";
+import { useBosses } from "@/providers/BossesProvider";
 
 function formatDuration(seconds) {
   const duration = intervalToDuration({ start: 0, end: seconds * 1000 });
@@ -10,6 +11,41 @@ function formatDuration(seconds) {
 }
 
 const MatchHistoryBox = ({ match }) => {
+  const { bosses } = useBosses();
+  console.log(match);
+  const generateOpponentImage = () => {
+    switch (match.type) {
+      case "Boss":
+        const findBoss = bosses.BOSS.find(
+          (boss) => boss.neftie === match.player2.team[0].type.toLowerCase()
+        );
+        return findBoss
+          ? `/images/bosses/${findBoss.name.toLowerCase().replace(/\s+/g, "-")}.png`
+          : "";
+      case "Elite":
+        return `/images/bosses/elite-${match.player2.team[0].type.toLowerCase().replace(/\s+/g, "-")}.png`;
+      default:
+        return `/images/nefties/${match.player2.team[0].type.toLowerCase().replace(/\s+/g, "-")}.png`;
+    }
+  };
+
+  const generateOpponentName = () => {
+    switch (match.type) {
+      case "Boss":
+        const findBoss = bosses.BOSS.find(
+          (boss) => boss.neftie === match.player2.team[0].type.toLowerCase()
+        );
+        return findBoss ? findBoss.name : "";
+
+      case "Elite":
+        return `Elite ${match.player2.team[0].type}`;
+      case "PvE":
+        return `Computer`;
+      default:
+        return match?.player2?.username;
+    }
+  };
+
   return (
     <div className="w-full mt-[1.625rem] bg-white/5 h-[7.5rem] flex relative justify-between items-center px-4 rounded-[0.5rem] relative ">
       <div
@@ -20,7 +56,7 @@ const MatchHistoryBox = ({ match }) => {
       />
       <div className="w-[9.25rem] flex flex-col gap-2">
         <Link href={`/player/${match?.player1?.slug}`}>
-          <span className="font-inter font-semibold text-[1.25rem]">
+          <span className="font-inter font-semibold text-[1rem]">
             {match?.player1?.username}
           </span>
         </Link>
@@ -54,15 +90,15 @@ const MatchHistoryBox = ({ match }) => {
       </div>
       <div className="w-[9.25rem] flex flex-col gap-2">
         <Link href={`/player/${match?.player2?.slug}`}>
-          <span className="font-inter font-semibold text-[1.25rem] overflow-hidden overflow-ellipsis whitespace-nowrap">
-            {match?.player2?.username}
+          <span className="font-inter font-semibold text-[1rem] overflow-hidden overflow-ellipsis whitespace-nowrap">
+            {generateOpponentName()}
           </span>
         </Link>
         <div className="flex items-center gap-2">
           {match?.player2?.team.map((neftie) => (
             <div key={neftie.id}>
               <img
-                src={`/images/nefties/${neftie.type.toLowerCase().replace(/\s+/g, "-")}.png`}
+                src={generateOpponentImage()}
                 alt={neftie.type}
                 className="w-[40px] h-[40px] p-1 bg-black/20 border rounded-sm border-white/20"
               />

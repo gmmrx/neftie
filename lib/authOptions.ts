@@ -17,10 +17,17 @@ export const authOptions: NextAuthOptions = {
         where: { username: user.name },
       });
 
-      if (dbUser) return true;
-      else {
+      if (dbUser) {
+        // Update existing user's picture
+        await dbUser.update({
+          picture: user.image, // Discord provides the avatar URL in user.image
+        });
+        return true;
+      } else {
+        // Create new user with picture
         const newUser = await models.User.create({
           username: user.name,
+          picture: user.image,
         });
         return true;
       }
@@ -53,16 +60,18 @@ export const authOptions: NextAuthOptions = {
             }
           });
         const adminsArr = process.env.ADMINS?.split(",");
-        console.log(token);
+
         token.username = user.name;
         token.id = dbUser?.dataValues.id;
         token.isAuroryMember = isUserMemberOfAuroryDiscord;
         token.isAdmin = adminsArr?.find((admin) => admin === user.name);
+        token.picture = user.image;
       }
       return token;
     },
     session: async ({ session, token, user }) => {
       if (token) {
+        session.user.picture = token.picture;
         session.user.username = token.username;
         session.user.id = token?.id;
         session.user.isAuroryMember = token.isAuroryMember;
