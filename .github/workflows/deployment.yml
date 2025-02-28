@@ -37,6 +37,7 @@ jobs:
           NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
           NEXT_PUBLIC_ENVIRONMENT: ${{ secrets.NEXT_PUBLIC_ENVIRONMENT }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          NEFTIE_STAT_API: ${{ secrets.NEFTIE_STAT_API }}
 
   deploy:
     needs: docker
@@ -62,4 +63,5 @@ jobs:
             -e NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }} \
             -e NEXT_PUBLIC_ENVIRONMENT=${{ secrets.NEXT_PUBLIC_ENVIRONMENT }} \
             -e YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
+            -e NEFTIE_STAT_API=${{ secrets.NEFTIE_STAT_API }} \
             bbugraa/neftie-gg:latest
