@@ -15,17 +15,17 @@ const BossCard: React.FC<BossCardProps> = ({ boss }) => {
   };
 
   return (
-    <div className="w-full h-auto bg-white/5 rounded-sm relative mt-4 px-2 flex items-center border border-[#212121]">
+    <div className="w-full h-auto bg-white/5 rounded-sm relative mt-4 px-2 flex flex-col lg:flex-row items-center border border-[#212121]">
       <img
         src={`/images/bosses/${boss.name.toLowerCase().replaceAll(" ", "-")}.png`}
         className=" max-w-[200px]"
         alt={boss.name}
       />
       <div className="w-full">
-        <div className="ml-[7rem] text-center relative mb-4 -mt-[1.5rem] text-[24px]">{boss.name}</div>
+        <div className="lg:ml-[7rem] text-center relative lg:mb-4 lg:-mt-[1.5rem] text-[24px]">{boss.name}</div>
 
         {/* Stats Container */}
-        <div className="ml-[7rem] flex flex-col gap-2 relative top-3 mt-2">
+        <div className="lg:ml-[7rem] flex flex-col gap-2 relative top-3 lg:mt-2 p-4 lg:p-0">
           {/* HP Bar */}
           <div className="flex items-center text-sm my-1">
             <span className="w-8">HP</span>

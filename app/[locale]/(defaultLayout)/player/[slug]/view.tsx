@@ -18,9 +18,9 @@ const SinglePlayerView: NextPage = ({ data }) => {
   const { data: session } = useSession();
   
   return (
-    <main className="flex min-h-[84.5vh] flex-row  gap-[4rem] items-start p-2 lg:p-10 lg:!pl-6 max-w-[77rem] min-h-[84.5vh] mx-auto font-ibmplex">
-      <div className="flex flex-col w-[46.125rem]">
-        <div className="flex gap-4">
+    <main className="flex min-h-[84.5vh] flex-col lg:flex-row  gap-[4rem] items-start p-2 lg:p-10 lg:!pl-6 max-w-[77rem] min-h-[84.5vh] mx-auto font-ibmplex">
+      <div className="flex flex-col w-[95%] lg:w-[46.125rem]">
+        <div className="flex gap-4 items-center">
           {data && data.selectedAurorian ? (
             <img
               src={`${auroryCdnUrl}${data.selectedAurorian.details.attributes.Sequence}.png`}
@@ -33,7 +33,7 @@ const SinglePlayerView: NextPage = ({ data }) => {
 
           <div className="font-dosis font-bold text-[46px]">
             {data?.username}
-            <div className="mt-2 font-inter flex gap-2">
+            <div className="mt-2 font-inter flex gap-2 flex-col lg:flex-row">
               <Badge variant="default">
                 {" "}
                 <span className="text-lg pr-2">{data.stats.totalBattles}</span>
@@ -68,7 +68,7 @@ const SinglePlayerView: NextPage = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="w-[1px] my-auto h-[550px] bg-white bg-gradient-to-b from-[#000000] via-[#999999] to-[#000000]" />
+      <div className="w-[1px] my-auto h-[550px] bg-white bg-gradient-to-b from-[#000000] via-[#999999] to-[#000000] hidden lg:block" />
       <div className="flex flex-col w-[380px]">
         <div className="w-full mt-[1.625rem]">
           <div className="font-inter font-medium text-base">

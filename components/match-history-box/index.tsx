@@ -12,7 +12,6 @@ function formatDuration(seconds) {
 
 const MatchHistoryBox = ({ match }) => {
   const { bosses } = useBosses();
-  console.log(match);
   const generateOpponentImage = () => {
     switch (match.type) {
       case "Boss":
@@ -55,24 +54,24 @@ const MatchHistoryBox = ({ match }) => {
         className={`absolute w-[4px] h-[54px] top-[50%] -translate-y-[50%] right-0 rounded-tl-md rounded-bl-md  ${match?.player2?.winner ? "bg-[#20C812]" : "bg-[#E9213D]"}`}
       />
       <div className="w-[9.25rem] flex flex-col gap-2">
-        <Link href={`/player/${match?.player1?.slug}`}>
-          <span className="font-inter font-semibold text-[1rem]">
+        <Link href={`/player/${match?.player1?.slug}`} className="max-w-[70px] lg:max-w-full  overflow-hidden overflow-ellipsis whitespace-nowrap">
+          <span className="font-inter font-semibold text-[1rem]  overflow-hidden overflow-ellipsis whitespace-nowrap">
             {match?.player1?.username}
           </span>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {match?.player1?.team.map((neftie) => (
             <div key={neftie.id}>
               <img
                 src={`/images/nefties/${neftie.type.toLowerCase().replace(/\s+/g, "-")}.png`}
                 alt={neftie.type}
-                className="w-[40px] h-[40px] p-1 bg-black/20 border rounded-sm border-white/20"
+                className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] p-1 bg-black/20 border rounded-sm border-white/20"
               />
             </div>
           ))}
         </div>
       </div>
-      <div className="flex items-center flex-col gap-1 relative">
+      <div className="flex items-center flex-col gap-1 relative flex-[0_0_150px]">
         <img
           src={"/images/battle-icon.svg"}
           alt="Battle Icon"
@@ -88,19 +87,19 @@ const MatchHistoryBox = ({ match }) => {
           {match.type}
         </div>
       </div>
-      <div className="w-[9.25rem] flex flex-col gap-2">
-        <Link href={`/player/${match?.player2?.slug}`}>
-          <span className="font-inter font-semibold text-[1rem] overflow-hidden overflow-ellipsis whitespace-nowrap">
+      <div className="w-[6.25rem] lg:w-[9.25rem] flex flex-col gap-2">
+        <Link href={`/player/${match?.player2?.slug}`} className="max-w-[70px] lg:max-w-full  overflow-hidden overflow-ellipsis whitespace-nowrap">
+          <span className="font-inter max-w-[25px] lg:max-w-full font-semibold text-[1rem] w-full overflow-hidden overflow-ellipsis whitespace-nowrap">
             {generateOpponentName()}
           </span>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {match?.player2?.team.map((neftie) => (
             <div key={neftie.id}>
               <img
                 src={generateOpponentImage()}
                 alt={neftie.type}
-                className="w-[40px] h-[40px] p-1 bg-black/20 border rounded-sm border-white/20"
+                className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] p-1 bg-black/20 border rounded-sm border-white/20"
               />
             </div>
           ))}

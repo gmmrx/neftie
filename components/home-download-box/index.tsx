@@ -9,7 +9,7 @@ const HomeDownloadBox: FC = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="bg-black border border-#FFF/26 rounded-[0.5rem] h-[323px] relative px-[2.1875rem] py-[1.5rem] mt-4 w-[46.125rem]">
+      <div className="bg-black border border-#FFF/26 rounded-[0.5rem] h-[323px] relative px-[2.1875rem] py-[1.5rem] mt-4 w-[46.125rem] lg:block hidden">
         <h1 className="font-inter font-bold text-[2rem] max-w-[20rem]">
           Rise to the Top <br /> Earn Bigger Rewards
         </h1>

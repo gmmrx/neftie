@@ -32,7 +32,7 @@ const EggBox: FC<{ egg: EggsAttributes }> = ({ egg }) => {
   const { t } = useTranslation();
   if (!egg) return null;
   const url = egg.image;
-  console.log("selectedegg ---> ", egg);
+
   const chartData = [
     { grade: "Standard", count: egg.stats.standardCount, fill: "#24aa0b" },
     { grade: "Prime", count: egg.stats.primeCount, fill: "#aa0b37" },
@@ -141,8 +141,8 @@ const EggBox: FC<{ egg: EggsAttributes }> = ({ egg }) => {
           </div>
         </div>
       </div>
-      <div className="my-4 w-full flex justify-between">
-        <div className="flex-none w-[49%]">
+      <div className="my-4 w-full flex flex-col lg:flex-row justify-between">
+        <div className="flex-none w-full lg:w-[49%]">
           <div className="bg-white/5 p-4 rounded-md border border-[#212121] w-full">
             {" "}
             <h2 className="font-inter mt-0 mb-4">Statistics</h2>
@@ -168,7 +168,7 @@ const EggBox: FC<{ egg: EggsAttributes }> = ({ egg }) => {
           </div>
         </div>
 
-        <div className="flex-none w-[49%]">
+        <div className="flex-none w-full lg:w-[49%]">
           <div className="bg-white/5 p-4 rounded-md border border border-[#212121] w-full">
             <h2 className="font-inter mt-0 mb-4">Latest Hatches</h2>
             {egg.recentHatches &&

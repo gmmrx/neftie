@@ -11,8 +11,8 @@ const WhatIsTierListBox: FC = ({ type = "all" }) => {
   const { t } = useTranslation();
   return (
     <div className="rounded-sm w-full text-left">
-      <div className="flex justify-between items-center">
-        <h2 className="scroll-m-20 pb-2 text-[36px] font-normal font-inter first:mt-0">
+      <div className="flex justify-between flex-col lg:flex-row items-start lg:items-center">
+        <h2 className=" pb-2 text-[36px] leading-[40px] font-normal font-inter first:mt-0">
           {type === "all" ? (
             <Trans
               i18nKey={t(`translation:what_is_a_tier_list`)}

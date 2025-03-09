@@ -12,7 +12,6 @@ const LatestBattleRow: FC = ({ battle }) => {
   const { t } = useTranslation();
   const player1 = battle.players[0];
   const player2 = battle.players[1];
-  console.log(battle);
   const player1Aurorian = player1.selected_aurorian || null;
   const player2Aurorian = player2.selected_aurorian || null;
 

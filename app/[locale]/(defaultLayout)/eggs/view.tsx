@@ -13,7 +13,6 @@ const ListNefties: NextPage = () => {
     if (eggs.length > 0 && !selectedEgg) setSelectedEgg(eggs[0]);
   }, [eggs, selectedEgg]);
 
-  console.log(selectedEgg)
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto overflow-y-scroll no-scrollbar pb-6 flex flex-col">
       <div className="rounded-sm w-full text-left">

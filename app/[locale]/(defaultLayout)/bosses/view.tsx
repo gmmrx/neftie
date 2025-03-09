@@ -28,13 +28,13 @@ const ListBosses: NextPage = () => {
   const [selectedElite, setSelectedElite] = useState(bosses.ELITE[0]);
 
   const [selectedBoss, setSelectedBoss] = useState(bosses.BOSS[0]);
-  console.log("bosses ---> ", bosses)
+
   useEffect(() => {
     if (bosses.ELITE.length > 0 && !selectedElite)
       setSelectedElite(bosses.ELITE[0]);
     if (bosses.BOSS.length > 0 && !selectedBoss)
       setSelectedBoss(bosses.BOSS[0]);
-  }, [bosses, selectedElite]);
+  }, [bosses, selectedElite, selectedBoss]);
 
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] mx-auto max-w-[70rem]">

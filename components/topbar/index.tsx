@@ -15,6 +15,7 @@ import { useRouter } from "next/navigation";
 import { LANGUAGE } from "@/lib/data/constants";
 import { usePathname } from "next/navigation";
 import Sidebar from "../sidebar";
+import HomeSearch from "../home-search";
 
 const Topbar = () => {
   const [isMobileSidebarOpened, setIsMobileSidebarOpened] =
@@ -23,7 +24,6 @@ const Topbar = () => {
   const { t, i18n } = useTranslation();
   const router = useRouter();
   const pathname = usePathname();
-
   return (
     <div className="w-full bg-black h-[80px] pl-2 pr-2 lg:pr-[4rem] flex justify-between lg:justify-end items-center gap-8 border border-b border-[#27272a]">
       <div className="lg:hidden">
@@ -41,6 +41,12 @@ const Topbar = () => {
           </div>
         </div>
       </div>
+      {pathname !== "/" && (
+        <div className="max-w-[69rem] absolute left-[50%] -translate-x-[50%] mt-1 rounded-md border border-white/20 w-full max-h-[40px] hidden lg:block">
+          <HomeSearch />{" "}
+        </div>
+      )}
+
       <div className="flex items-center gap-7">
         <div>
           <DropdownMenu>

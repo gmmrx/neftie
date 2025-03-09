@@ -12,15 +12,15 @@ import { Metadata, ResolvingMetadata } from "next";
 export default async function Home() {
   // await syncAndForceDB();
   return (
-    <main className="flex min-h-[84.5vh] flex-row  gap-[4rem] items-start p-2 lg:p-10 lg:!pl-6 max-w-[77rem] min-h-[84.5vh] mx-auto font-ibmplex">
-      <div className="flex flex-col w-[46.125rem]">
+    <main className="flex min-h-[84.5vh] flex-col-reverse lg:flex-row  gap-[4rem] items-start p-2 lg:p-10 lg:!pl-6 max-w-[77rem] min-h-[84.5vh] mx-auto font-ibmplex">
+      <div className="flex flex-col w-[95%] mx-auto lg:w-[46.125rem]">
         <HomeDownloadBox />
         <div className="flex justify-between w-full flex-col lg:flex-row">
           <LastNeftieSales />
         </div>
       </div>
-      <div className="w-[1px] my-auto h-[550px] bg-white bg-gradient-to-b from-[#000000] via-[#999999] to-[#000000]" />
-      <div className="flex flex-col flex-none w-[380px]">
+      <div className="w-[1px] my-auto h-[550px] bg-white bg-gradient-to-b from-[#000000] via-[#999999] to-[#000000] hidden lg:block" />
+      <div className="flex flex-col flex-none w-[95%] mx-auto lg:w-[380px]">
         <HomeSearch />
         <RandomEgg />
         <LatestHatches />

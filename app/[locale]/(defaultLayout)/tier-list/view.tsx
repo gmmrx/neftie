@@ -45,12 +45,6 @@ const TierListNefties: NextPage = ({ data }) => {
   return (
     <div className="text-left pt-10 text-xl font-semibold px-6 min-h-[84.5vh] max-w-[70rem] mx-auto">
       <WhatIsTierListBox />
-
-      {session && session.user && session.user.isAuroryMember && (
-        <Link href="/tier-list/new">
-          <div className="mt-4 ml-auto">Create Your Tier List</div>
-        </Link>
-      )}
       <div className="mt-12 flex gap-4">
         <div className="pb-1 border-b-[3px] border-[#d0364f] cursor-pointer font-bold text-[#d0364f]">
           All

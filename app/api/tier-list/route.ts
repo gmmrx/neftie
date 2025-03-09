@@ -19,19 +19,21 @@ async function generateUniqueSlug(title) {
   slug = `${baseSlug}-${nanoid()}`;
   return slug;
 }
+
 async function handlePost(req) {
   const session = await getServerSession(authOptions);
   if (!session || !session.user) {
-    return new Response("You do not have permission to do this action.", {
-      status: 403,
-    });
+    return Response.json(
+      { message: "You do not have permission to do this action." },
+      { status: 403 }
+    );
   }
 
   try {
     const { userId, title, description, tiers, patchVersion } =
       await req.json();
     if (!userId || !title || !tiers || !Array.isArray(tiers)) {
-      return new Response("Invalid input data.", { status: 400 });
+      return Response.json({ message: "Invalid input data." }, { status: 400 });
     }
 
     const generatedSlug = await generateUniqueSlug(title);
@@ -40,7 +42,7 @@ async function handlePost(req) {
     const transaction = await sequelize.transaction();
 
     try {
-      // Create UserTierList
+      // Create UserTierList with initial voteCount of 1
       const newTierList = await models.UserTierList.create(
         {
           userId,
@@ -48,6 +50,17 @@ async function handlePost(req) {
           description,
           patchVersionId: patchVersion,
           slug: generatedSlug,
+          voteCount: 1, // Initialize with 1 vote from the creator
+        },
+        { transaction }
+      );
+
+      // Create an automatic upvote for the creator
+      await models.TierListVote.create(
+        {
+          tierListId: newTierList.id,
+          userId: userId,
+          vote: true, // true for upvote
         },
         { transaction }
       );
@@ -73,23 +86,25 @@ async function handlePost(req) {
 
       await transaction.commit();
 
-      return new Response(
-        JSON.stringify({ status: 200, result: true, data: newTierList }),
-        {
-          status: 200,
-          headers: { "Content-Type": "application/json" },
-        }
+      return Response.json(
+        { status: 200, result: true, data: newTierList },
+        { status: 200 }
       );
     } catch (error) {
       await transaction.rollback();
       console.error("Transaction failed:", error);
-      return new Response("Failed to save tier list.", { status: 500 });
+      return Response.json(
+        { message: "Failed to save tier list.", error: error?.message },
+        { status: 500 }
+      );
     }
   } catch (e) {
-    console.error(e);
-    return new Response("Something went wrong.", { status: 500 });
+    console.error("Error in tier list creation:", e);
+    return Response.json(
+      { message: "Something went wrong.", error: e?.message },
+      { status: 500 }
+    );
   }
 }
-
 
 export { handlePost as POST };

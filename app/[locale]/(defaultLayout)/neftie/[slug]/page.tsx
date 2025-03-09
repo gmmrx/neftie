@@ -7,13 +7,24 @@ import { CURRENT_PATCH_VERSION } from "@/lib/data/constants";
 import { camelize } from "@/lib/utils";
 import path from "path";
 import fs from "fs";
+import axios from "axios";
 
 export const fetchCache = "force-no-store";
+const statApi = process.env.NEFTIE_STAT_API;
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const { slug, gifs, videos } = await getServerSideProps(params.slug);
+  const { slug, videos, counterData, skins } = await getServerSideProps(
+    params.slug
+  );
 
-  return <SingleNeftie slug={params.slug} gifs={gifs} videos={videos} />;
+  return (
+    <SingleNeftie
+      slug={params.slug}
+      videos={videos}
+      counterData={counterData}
+      skins={skins}
+    />
+  );
 }
 
 const capitalizeWords = (str: string) => {
@@ -78,9 +89,16 @@ async function getServerSideProps(slug: string) {
     console.error(`Error reading Videos for ${slug}:`, error);
   }
 
+  const counterData = await axios.get(
+    `${statApi}/tierlist/neftie-matchups?neftie_name=${capitalizeWords(slug)}&patch_number=${CURRENT_PATCH_VERSION}`
+  );
+  const skinsData = await axios.get(
+    `https://items-public-api.live.aurory.io/v1/items?items_with_price=true&best_listing_price_gte=0&attributes=Neftie%2CIN%2C${capitalizeWords(slug)}&attributes=Type%2CIN%2CSkin&page_size=12&page=0&order_by=best_listing_price%2CASC`
+  );
   return {
     slug,
-    gifs,
     videos,
+    counterData: counterData?.data,
+    skins: skinsData?.data?.data,
   };
 }

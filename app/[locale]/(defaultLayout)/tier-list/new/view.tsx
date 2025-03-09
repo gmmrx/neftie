@@ -130,8 +130,30 @@ const NewTierList: NextPage = () => {
 
   const handlePost = async () => {
     if (isLoading) return;
-    if (!title.trim() || !description.trim()) {
-      return toast({ description: "Title and Description are required." });
+
+    // Validate title and description
+    if (!title.trim()) {
+      return toast({ description: "Title is required." });
+    }
+
+    if (!description.trim()) {
+      return toast({ description: "Description is required." });
+    }
+
+    // Check if there are any empty tiers
+    const emptyTiers = tiers.filter((tier) => tier.items.length === 0);
+    if (emptyTiers.length > 0) {
+      return toast({
+        description: `Please add at least one Neftie to each tier. Empty tiers: ${emptyTiers.map((t) => t.name).join(", ")}`,
+      });
+    }
+
+    // Validate tier names
+    const invalidNameTiers = tiers.filter((tier) => !tier.name.trim());
+    if (invalidNameTiers.length > 0) {
+      return toast({
+        description: "All tiers must have a name.",
+      });
     }
 
     const formData = {
@@ -149,11 +171,16 @@ const NewTierList: NextPage = () => {
     try {
       setIsLoading(true);
       const result = await axios.post("/api/tier-list", formData);
-      toast({ description: "Tier list posted successfully!" });
+      toast({ description: "Tier list posted successfully! You are being redirected, please wait..." });
       router.push(`/tier-list/${result.data.data.slug}`);
     } catch (error) {
       setIsLoading(false);
-      toast({ description: "An error occurred." });
+      toast({
+        description:
+          error.response?.data?.message ||
+          "An error occurred while creating the tier list.",
+        variant: "destructive",
+      });
     } finally {
       setIsLoading(false);
     }

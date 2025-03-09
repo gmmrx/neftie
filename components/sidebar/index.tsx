@@ -94,7 +94,7 @@ const Sidebar = ({
               </div>
             </div>
           )}
-          <div className="mb-2 border-b pb-4 border-[#151515] w-full">
+          <div className="mb-2 border-b pb-4 border-[#151515] w-full hidden lg:block">
             <div
               className={`font-inter flex items-center gap-4 ${isSidebarOpen ? "w-[12.8125rem]" : "w-[3.3rem]"} h-[3rem] cursor-pointer mt-0 justify-center p-[2px] rounded-md bg-gradient-to-r from-[#E9213D] to-[#8B0034] group relative z-[10]`}
             >

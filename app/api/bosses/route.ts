@@ -29,7 +29,7 @@ async function handleGet(req: NextRequest) {
                 .toLowerCase()
                 .replace(/\belite\b/, "")
                 .trim();
-        console.log("neftieKey --> ", neftieKey);
+
         const formattedType = boss.type === "BOSS" ? "Boss" : "Elite";
         const url = `${statUrl}/battles/get-boss-battles/${formattedType}/${neftieKey}`;
         try {

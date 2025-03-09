@@ -6,13 +6,19 @@ async function handlePost(req: NextRequest) {
     const { userId, tierListId, vote } = await req.json();
 
     if (!userId || !tierListId) {
-      return new Response("Missing required parameters.", { status: 400 });
+      return Response.json(
+        { message: "Missing required parameters." },
+        { status: 400 }
+      );
     }
 
     const tierList = await models.UserTierList.findByPk(tierListId);
 
     if (!tierList) {
-      return new Response("Tier list not found.", { status: 404 });
+      return Response.json(
+        { message: "Tier list not found." },
+        { status: 404 }
+      );
     }
 
     const transaction = await sequelize.transaction();
@@ -23,38 +29,35 @@ async function handlePost(req: NextRequest) {
           tierListId,
           userId,
         },
+        transaction, // Add transaction to the query to prevent race conditions
       });
 
       if (existingVote) {
         // If vote hasn't changed, do nothing
         if (existingVote.vote === vote) {
           await transaction.rollback();
-          return new Response(
-            JSON.stringify({
-              status: 200,
-              result: true,
-              data: { voteCount: tierList.voteCount },
-            }),
-            {
-              status: 200,
-              headers: { "Content-Type": "application/json" },
-            }
-          );
+          return Response.json({
+            status: 200,
+            result: true,
+            message: "Vote unchanged",
+            data: { voteCount: tierList.voteCount },
+          });
         }
 
         // Update the vote record
         await existingVote.update({ vote }, { transaction });
 
-        // Update the vote count - just change by 2 to flip the vote
-        // If going from upvote to downvote: -2
-        // If going from downvote to upvote: +2
-        const changeAmount = vote ? 1 : -1;
+        // Calculate correct vote count change
+        // If flipping from upvote to downvote: -2
+        // If flipping from downvote to upvote: +2
+        const changeAmount = existingVote.vote !== vote ? (vote ? 2 : -2) : 0;
+
         await tierList.increment("voteCount", {
           by: changeAmount,
           transaction,
         });
       } else {
-        // Create new vote
+        // Create new vote with transaction
         await models.TierListVote.create(
           {
             tierListId,
@@ -64,7 +67,7 @@ async function handlePost(req: NextRequest) {
           { transaction }
         );
 
-        // For new votes, just add or subtract 1
+        // For new votes, add or subtract 1
         await tierList.increment("voteCount", {
           by: vote ? 1 : -1,
           transaction,
@@ -79,30 +82,27 @@ async function handlePost(req: NextRequest) {
 
       await transaction.commit();
 
+      // Reload after transaction is committed
       await tierList.reload();
 
-      return new Response(
-        JSON.stringify({
-          status: 200,
-          result: true,
-          data: {
-            voteCount: tierList.voteCount,
-          },
-        }),
-        {
-          status: 200,
-          headers: { "Content-Type": "application/json" },
-        }
-      );
+      return Response.json({
+        status: 200,
+        result: true,
+        data: {
+          voteCount: tierList.voteCount,
+        },
+      });
     } catch (error) {
       await transaction.rollback();
+      console.error("Vote transaction error:", error);
       throw error;
     }
   } catch (e) {
-    console.error(e);
-    return new Response("something_went_wrong", {
-      status: 500,
-    });
+    console.error("Vote handler error:", e);
+    return Response.json(
+      { message: "Something went wrong", error: e?.message },
+      { status: 500 }
+    );
   }
 }
 

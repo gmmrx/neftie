@@ -171,13 +171,13 @@ const NeftieLeaderboards: NextPage = ({ slug }) => {
                 <img
                   src={`/images/nefties/${selectedNeftie.name.toLowerCase().replace(/\s+/g, "-")}.png`}
                   alt={selectedNeftie.name}
-                  className="max-w-[200px] absolute right-0 -top-14"
+                  className="max-w-[50px] lg:max-w-[200px] absolute right-0 -top-14"
                 />
               )}
             </div>
           )}
 
-          <div className="grid grid-cols-3 mt-4 gap-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 mt-4 gap-2">
             {topPlayers.slice(1, 10).map((player, index) => (
               <div
                 key={player.player_id}
